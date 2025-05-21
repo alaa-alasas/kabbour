@@ -115,3 +115,20 @@
   color: var(--grey03);
   text-align: right;
 }
+
+@media(max-width: 992px){
+    .mate-arrive-row{
+        flex-wrap: wrap;
+        justify-content: start;
+
+    }
+
+    .mate-arrive-row .mate-arrive-card:nth-child(2)::after,
+    .mate-arrive-row .mate-arrive-card:nth-child(2)::before,
+    .mate-arrive-row:nth-child(even) .mate-arrive-card:nth-child(3)::before,
+    .mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card:nth-child(1)::before{
+        width: 0;
+        height: 0;
+    }
+
+}
