@@ -40,4 +40,8 @@
     .products-section .product-cards{
       overflow-x: scroll;
     }
+
+    .products-section .products-show-more{
+        display: none;
+    }
 }

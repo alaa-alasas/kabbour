@@ -81,3 +81,16 @@
     border-radius: 999px;
     background-color: var(--black17);
 }
+
+@media(max-width: 992px){
+    .card-about-factory{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-factory .card-about-factory .left-side .factory-image{
+        width: 100%;
+        max-width: 100%;
+    }
+}

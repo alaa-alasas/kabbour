@@ -56,3 +56,9 @@
     line-height: 21px;
     letter-spacing: 0;
 }
+
+@media(max-width:992px){
+    .event-card{
+        min-width: 256px;
+    }
+}

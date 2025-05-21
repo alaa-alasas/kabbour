@@ -59,7 +59,7 @@
 }
 
 @media(max-width: 992px){
-    .product-card{
-        max-width: 100%;
+    .product-card-border{
+        min-width: 200px;
     }
 }

@@ -12,3 +12,11 @@
     justify-content: stretch;
     align-items: stretch;
 }
+
+
+@media(max-width: 992px){
+    .study-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

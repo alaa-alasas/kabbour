@@ -25,3 +25,13 @@
     line-height: 38.4px;
     color: var(--grey03);
 }
+
+@media(max-width: 992px){
+    .info-about-section{
+    padding-top: 100px;
+    }
+
+    .info-cards{
+        flex-wrap: wrap;
+    }
+}
