@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+
+  --black17: #191917;
+  --black01: #1D1D1B;
+  --black15: #11110F;
+  
+  --gold26: #D39326;
+  --gold10: #D393261A;
+  
+  --grey01: #515061;
+  --greyb4: #A6A5B4;
+  --grey03: #F1F1F3;
+  --grey44: #464644;
+}
+
+#root{
+  background-color: var(--black17);
+}
+
+.px-50{
+  padding-left: 2.60416667%;
+  padding-right: 2.60416667%;
+}
+
+.px-64{
+  padding-left: 4.4444%;
+  padding-right: 4.4444%;
+}
+
+.mx-50{
+  margin-left: 2.60416667%;
+  margin-right: 2.60416667%;
+}
+
+.px-168 {
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+}
+
+.mb-200{
+  margin-bottom: 10.4166667%;
+}
+
+.mb-100{
+  margin-bottom: 5.208333333%;
+}
+
+.mb-80{
+  margin-bottom: 4.16666667%;
+}
+
+.mb-64{
+  padding-bottom: 4.4444%;
+}
+
+.mt-18{
+  margin-top: 0.9375%;
+}
+
+
+.fs-18{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-20{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-20-6{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-22{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-22-6{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-24{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-28{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-30{
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.fs-40{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-44{
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-48{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-54{
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-58{
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.fs-68{
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+
+.box-shadow-black{
+  box-shadow: 6px 6px 0px 2px var(--black05);
+}
+
+.border-grey-2{
+  border: 2px solid var(--grey15);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--orange70), var(--Orange75));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--Orange80) , var(--grey40));
+}
+
+/*Start Responsive*/
+@media (max-width: 1919px) {
+  
+  .px-168 {
+    padding-left: 5.55555556%;
+    padding-right: 5.55555556%;
+  }
+  
+  .mb-200{
+    margin-bottom: 10.4166667%;
+  }
+  
+  .mb-100{
+    margin-bottom: 5.55555556%;
+  }
+  
+  .mb-80{
+    margin-bottom: 4.16666667%;
+  }
+  
+  .mt-18{
+    margin-top: 1.1111111%;
+  }  
+}
+
+@media (max-width: 992px) {
+  .px-50{
+    padding-left: 4.1025641%;
+    padding-right: 4.1025641%;
+  }
+   
+  .mx-50{
+    margin-left: 4.1025641%;
+    margin-right: 4.1025641%;
+  }
+
+  .px-168 {
+    padding-left: 4.1025641%;
+    padding-right: 4.1025641%;
+  }
+  
+  .mb-200{
+    margin-bottom: 20.5128205%;
+  }
+  
+  .mb-100{
+    margin-bottom: 12.8205128%;
+  }
+  
+  .mb-80{
+    margin-bottom: 12.8205128%;
+  }
+  
+  .mt-18{
+    margin-top: 10.2564103%;
+  }  
+  .box-shadow-black{
+    box-shadow: 4px 4px 0px 1px var(--black05);
+  }
+}

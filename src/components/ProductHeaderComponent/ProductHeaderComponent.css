@@ -1,0 +1,74 @@
+/* ===========================
+   Section: Product Header Section
+   =========================== */
+.product-header-section {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  background-color: var(--black15);
+
+  /* ===========================
+     Subsection: Product Details
+     =========================== */
+  .product-details {
+    display: flex;
+    gap: 64px;
+
+    /* ===========================
+       Subsection: Product Header Description
+       =========================== */
+    .product-header-description {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+
+      /* ===========================
+         Subsection: Product Header Description Text
+         =========================== */
+      .product-header-description-text {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        h4 {
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 57.6px;
+          letter-spacing: 0;
+          color: var(--gold26);
+        }
+
+        p {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0;
+          color: var(--grey03);
+        }
+      }
+
+      /* ===========================
+         Subsection: Product Header Images
+         =========================== */
+      .product-header-images {
+        display: flex;
+        gap: 32px;
+
+        img {
+          width: 98px;
+          height: 98px;
+        }
+      }
+    }
+  }
+}
+
+/* ===========================
+   Media Query: Responsive Design for Tablets and Mobiles
+   =========================== */
+@media (max-width: 992px) {
+  .product-details {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,14 @@
+.study-section{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.study-cards{
+    display: flex;
+    gap: 50px;
+    justify-content: stretch;
+    align-items: stretch;
+}

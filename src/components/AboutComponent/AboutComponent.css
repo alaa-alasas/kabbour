@@ -1,0 +1,73 @@
+.about-factory{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.about-factory .card-about-factory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+}
+
+.about-factory > .card-about-factory:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.about-factory .card-about-factory .left-side{
+    position: relative; 
+}
+
+.about-factory .card-about-factory .left-side .factory-image{
+    height: 100%;
+    max-width: 770px;
+    border-radius: 28px;
+}
+
+.about-factory .card-about-factory .left-side .video-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-factory .card-about-factory .right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+}
+
+.about-factory .card-about-factory .right-side h4{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0;
+    color: var(--gold26);
+}
+
+.about-factory .card-about-factory .right-side p{
+    color: var(--greyb4);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+.about-factory .card-about-factory .right-side a{
+    color: var(--grey03);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    padding: 12px;
+    border: 1px solid var(--gold26);
+    border-radius: 999px;
+    background-color: var(--black17);
+}

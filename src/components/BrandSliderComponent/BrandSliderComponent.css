@@ -1,0 +1,41 @@
+.brands{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+
+.brands-overlay{
+    background-image: url(/Brands/background.jpeg);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.brands-overlay::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000CC;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.brands .AA-title{
+    z-index: 1;
+    position: relative;
+}
+
+.brands img{
+    width: 128px !important;
+    height: 128px;
+}

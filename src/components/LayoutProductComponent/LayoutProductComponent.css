@@ -1,0 +1,36 @@
+.layout-product{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 20px;
+}
+
+.layout-product .product-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+    justify-content: center;  
+    background-color: #191917;
+}
+
+.layout-product .product-cards-braadcrumb{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 1;
+}
+
+@media (max-width: 992px){
+    .layout-product{
+        flex-wrap: wrap;
+    }
+    .product-cards {
+        grid-template-columns: 100%;
+    }
+
+    .product-cards-braadcrumb{
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,53 @@
+.hero{
+    height: 100%;
+    position: relative;
+    top: 68px;
+    left: 0;
+    overflow: hidden;
+}
+
+.slick-slide{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    z-index: 10;
+    height: 100%;
+    width: 31.1111%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 26px;
+  }
+
+  .slick-slide .img-slide{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */

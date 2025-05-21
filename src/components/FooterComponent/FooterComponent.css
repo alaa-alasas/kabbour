@@ -1,0 +1,143 @@
+.footer-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    gap: 32px;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.footer-col{
+    flex-basis: calc(33.3% - 12px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+footer ul{
+    list-style: none;
+    position: relative;
+    padding-top: 16px;
+}
+
+footer ul:before,
+.footer-col form:before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    height: 2px;
+    width: 100%;
+    background: var(--grey01);
+}
+
+footer ul:after,
+.footer-col form:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: var(--gold26);
+    top: 0px;
+    left: 0;
+}
+
+
+.title-footer{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: var(--gold26);
+}
+
+.ul-site-map,
+.ul-contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+    justify-content: center;
+}
+
+.ul-site-map li,
+.ul-contact-info li{
+    display: flex;
+    gap: 8px;
+}
+
+.ul-site-map li span,
+.ul-contact-info li span,
+form label{
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    color: var(--grey03);
+}
+
+.ul-socail-link{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.footer-col form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 8px;
+} 
+
+.footer-col form label {
+    display: block;
+}
+  
+.footer-col form input,
+.footer-col form textarea {
+    background-color: var(--gold10);
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--gold26);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+  
+.footer-col form input:focus,
+.footer-col form textarea:focus {
+    outline: none;
+    border-color: var(--gold26); /* Brighter yellow on focus */
+  }
+  
+.footer-col form textarea {
+    resize: vertical;
+    min-height: 50px;
+  }
+  
+.footer-col form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--gold26);
+    color: var(--black-color);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0;
+    border: none;
+  }
+
+  @media(max-width: 992px){
+    .footer-container{
+        flex-wrap: wrap;
+    }
+
+    .footer-col{
+        flex-basis: 100%;
+    }
+  }
+  

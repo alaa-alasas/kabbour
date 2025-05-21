@@ -1,0 +1,36 @@
+.events-section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.events-section .AA-title{
+    text-align: start;
+}
+
+.events-section .event-cards{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.events-section .events-show-more{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    gap: 2px;
+}
+
+.events-show-more .line{
+    height: 2px;
+    width: 89.32892%;
+    background-color: var(--grey44);
+}
+
+.events-show-more .btn-comp{
+    width: 10.0609%;
+    text-align: center;
+}

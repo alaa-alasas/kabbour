@@ -1,0 +1,44 @@
+.mate-benifit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 64px;
+    padding-top: 64px;
+}
+
+.mate-benifit .left-side{
+    padding-left: 24px;
+}
+
+
+.mate-benifit .left-side img{
+    max-width: 491px;
+    max-height: 491px;
+}
+
+.mate-benifit .right-side{
+    text-align: right;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-right: 24px;
+}
+
+.mate-benifit .right-side h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0;
+    color: var(--gold26);
+}
+
+.mate-benifit .right-side li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: var(--grey03);
+    padding-bottom: 5px;
+}

@@ -1,0 +1,162 @@
+/* ===========================
+   Section: Product Description Section
+   =========================== */
+.product-description-section {
+  background-color: var(--black15); 
+  display: flex; 
+  flex-direction: column; 
+  gap: 64px;
+
+  /* ===========================
+     Subsection: AA Title
+     =========================== */
+  .AA-title {
+    padding-bottom: 0; 
+    align-items: start; 
+
+    /* ===========================
+       Subsection: AA Title Heading
+       =========================== */
+    .AA-title-heading {
+      text-align: start; 
+      font-weight: 400; 
+      font-size: 28px; 
+      line-height: 150%; 
+      letter-spacing: 0;
+      position: relative; 
+      width: 100%; 
+      padding-bottom: 16px; 
+    }
+
+    /* ===========================
+       Subsection: AA Title Heading Pseudo-elements
+       =========================== */
+    /* Add a gold-colored underline below the heading. */
+    .AA-title-heading::after {
+      position: absolute; 
+      content: ''; 
+      height: 2px; 
+      width: 15%; 
+      background: var(--gold26); 
+      bottom: 0px; 
+      left: 0; 
+    }
+
+    /* Add a light gray underline spanning the full width. */
+    .AA-title-heading::before {
+      position: absolute; 
+      content: ''; 
+      bottom: 0px; 
+      height: 2px; 
+      width: 100%; 
+      background: var(--grey01); 
+    }
+  }
+
+  /* ===========================
+     Subsection: Product Description Container
+     =========================== */
+  .product-description-container {
+    display: flex; 
+    gap: 64px; 
+
+    /* ===========================
+       Subsection: Product Description Column
+       =========================== */
+    .product-description-col {
+      display: flex;  
+      flex-direction: column;
+      gap: 64px; 
+      width: 50%; 
+      max-width: 624px; 
+
+      /* ===========================
+         Subsection: Individual Sections (Description, Usage, Ingredients)
+         =========================== */
+      .product-description,
+      .usage-instructions,
+      .product-ingredients {
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+      }
+
+      /* ===========================
+         Subsection: Typography Styling
+         =========================== */
+      /* Style headings and paragraphs consistently. */
+      .product-description h3,
+      .product-description p,
+      .product-ingredients h3,
+      .product-ingredients ul li,
+      .usage-instructions h3,
+      .usage-instructions p,
+      .product-specifications table td {
+        font-weight: 400; 
+        font-size: 20px;
+        line-height: 30px; 
+        letter-spacing: 0; 
+        color: var(--grey03); 
+      }
+
+      /* Style headings with bold font weight. */
+      .product-description h3,
+      .usage-instructions h3,
+      .product-ingredients h3 {
+        font-weight: 600; 
+      }
+
+      /* ===========================
+         Subsection: Ingredients List
+         =========================== */
+      .product-ingredients ul {
+        list-style: none; 
+      }
+
+      /* ===========================
+         Subsection: Ingredient Image
+         =========================== */
+      .product-ingredient-img {
+        max-width: 432px; 
+        max-height: 432px;
+        width: 100%; 
+        height: 100%; 
+      }
+
+      /* ===========================
+         Subsection: Specifications Table
+         =========================== */
+      .product-specifications {
+        table {
+          max-width: 560px; 
+          width: 100%; 
+          margin-bottom: 20px;
+          border-spacing: 16px; 
+
+          td {
+            padding: 8px; 
+            text-align: left; 
+            vertical-align: top; 
+            border-bottom: 1px solid #ff9800; 
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ===========================
+   Media Query: Responsive Design for Tablets and Mobiles
+   =========================== */
+@media (max-width: 992px) {
+  .product-description-section {
+    /* Adjust layout for smaller screens. */
+    .product-description-container {
+      flex-wrap: wrap; 
+
+      .product-description-col {
+        width: 100%; 
+      }
+    }
+  }
+}

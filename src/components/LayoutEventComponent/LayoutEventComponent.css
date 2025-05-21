@@ -1,0 +1,37 @@
+.layout-event{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 20px;
+}
+
+.event-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+    justify-content: center;  
+    background-color: #191917;
+}
+
+.event-cards-braadcrumb{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 1;
+}
+
+@media (max-width: 992px){
+    .layout-event{
+        flex-wrap: wrap;
+    }
+
+    .event-cards {
+        grid-template-columns: 100%;
+    }
+
+    .event-cards-braadcrumb{
+        padding-top: 0;
+    }
+}

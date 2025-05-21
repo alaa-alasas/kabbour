@@ -1,0 +1,29 @@
+.centers-section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.centers-section .centers-title-section{
+    padding-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+
+.centers-section .AA-title{
+    text-align: start;
+}
+
+.centers-section .center-cards{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+

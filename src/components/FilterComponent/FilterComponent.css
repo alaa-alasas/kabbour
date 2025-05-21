@@ -1,0 +1,72 @@
+.filters {
+  width: 23.54166%;
+  background-color: var(--black01);
+  padding-left: 64px;   
+  padding-top: 124px; 
+}
+
+.filters h3 {
+  color: var(--gold26);
+  margin-bottom: 10px;
+}
+
+.filters ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filters-option{
+    display: flex;
+    gap: 16px;
+}
+
+.filters-option span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    color: var(--white-color);
+}
+
+
+/* Reset the default appearance */
+.styled-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Custom size */
+  width: 20px;
+  height: 20px;
+  /* Border and background */
+  border: 2px solid var(--white-color);
+  border-radius: 4px;
+  background-color: var(--black01);
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Change the color when checked */
+.styled-checkbox:checked {
+  background-color: var(--gold26);
+  border-color: var(--gold26); 
+}
+
+/* Add a checkmark */
+.styled-checkbox:checked::after {
+  content: '✔';
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+}
+
+@media (max-width: 992px){
+    .filters{
+        width: 100%;
+        padding-left: 4.4444%;
+    }
+}

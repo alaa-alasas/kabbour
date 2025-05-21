@@ -1,0 +1,60 @@
+.study-card{
+    flex-basis: calc(33.3% - 30px);
+    width: 31.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.study-card p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: var(--greyb4);
+    text-align: end;
+}
+
+.study-card h3{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38.4px;
+    letter-spacing: 0;
+    color: var(--gold26);
+}
+
+.researcher-part{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.AA-line-study{
+    height: 3px;
+    width: 100%;
+    background-color: var(--gold26);
+}
+
+/**style icon container**/
+.AA-icon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.AA-icon-container .AA-icon {
+    width: 60px;
+    margin: 0 16px;
+}
+
+.AA-icon-container::before,
+.AA-icon-container::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid var(--gold26);
+    margin: auto;
+}

@@ -1,0 +1,83 @@
+.image-slider-container {
+  max-width: 638px;
+  width: 100%; 
+  margin: 0 auto; 
+
+  /* ===========================
+     Subsection: Main Image
+     =========================== */
+  .MainImage {
+    width: 100%; 
+    min-height: 470px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+  }
+
+  /* ===========================
+     Subsection: Thumbnails Container with Buttons
+     =========================== */
+  .Thumbnails-container-with-btn {
+    position: relative; 
+    margin: 0 25px; 
+
+    /* ===========================
+       Subsection: Thumbnails Container
+       =========================== */
+    .Thumbnails-container {
+      display: flex;
+      gap: 10px; 
+      overflow-x: hidden; 
+      margin: 0 25px; 
+
+      /* ===========================
+         Subsection: Thumbnail
+         =========================== */
+      .Thumbnail {
+        width: 80px; 
+        height: 80px; 
+        object-fit: cover; 
+        border-radius: 8px; 
+        cursor: pointer; 
+        transition: transform 0.3s ease-in-out; 
+      }
+
+      /* ===========================
+         Subsection: Active Thumbnail
+         =========================== */
+      .active {
+        border: 5px solid var(--gold26); 
+      }
+
+      /* ===========================
+         Subsection: Arrow Buttons
+         =========================== */
+      .arrow-prev,
+      .arrow-next {
+        position: absolute; 
+        top: 50%; 
+        transform: translateY(-50%);
+        background: transparent; 
+        border: none; 
+        color: #ccc; 
+        font-size: 24px; 
+        cursor: pointer;
+        z-index: 1; 
+      }
+
+      /* ===========================
+         Subsection: Previous Arrow
+         =========================== */
+      .arrow-prev {
+        left: -50px; 
+      }
+
+      /* ===========================
+         Subsection: Next Arrow
+         =========================== */
+      .arrow-next {
+        right: -50px; 
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.info-about-section{
+    background-color: var(--black15);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.info-about-section .info-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38.4px;
+    color: var(--grey03);
+}

@@ -1,0 +1,29 @@
+
+.breadcrumb .breadcrumb-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  color: var(--greyb4);
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: var(--gold26); /* Blue color for links */
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: var(--greyb4); /* Darker blue on hover */
+}
+
+.separator {
+  margin: 0 8px;
+  color: var(--greyb4); /* Gray color for separator */
+}
