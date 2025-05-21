@@ -109,7 +109,7 @@ const ProductDescriptionComponent = () => {
           */}
           <img
             className='product-ingredient-img'
-            src="/ProductDetails/product-ingredients.png"
+            src="/kabbour/ProductDetails/product-ingredients.png"
             alt="Product Ingredients"
           />
         </div>

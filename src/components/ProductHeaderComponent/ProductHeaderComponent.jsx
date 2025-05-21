@@ -63,15 +63,15 @@ const ProductHeaderComponent = ({breadcrumbItems, images}) => {
             {/* 
               - Illustrative image 1: Shows a specific feature or aspect of the product.
             */}
-            <img src="/ProductDetails/productDetails1.png" alt="" />
+            <img src="/kabbour/ProductDetails/productDetails1.png" alt="" />
             {/* 
               - Illustrative image 2: Shows another feature or angle of the product.
             */}
-            <img src="/ProductDetails/productDetails2.png" alt="" />
+            <img src="/kabbour/ProductDetails/productDetails2.png" alt="" />
             {/* 
               - Illustrative image 3: Highlights an additional feature or perspective of the product.
             */}
-            <img src="/ProductDetails/productDetails3.png" alt="" />
+            <img src="/kabbour/ProductDetails/productDetails3.png" alt="" />
           </div>
         </div>
       </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutComponent.css'
 import { AboutFactoryData } from './../../data/AboutFactoryData'
 import TitleComponent from '../TitleComponent/TitleComponent'
@@ -11,11 +10,11 @@ const AboutComponent = () => {
       
       {
         AboutFactoryData.map((item, index) => (
-          <div className='card-about-factory' key={index}>
+          <div className='card-about-factory' key={index} data-aos="flip-right">
             <div className='left-side'>
               <img src={item.src} alt={item.alt} className='factory-image'/>
-              <a href="#" className='video-link'>
-                <img src="/Icons/VideoPlay.svg" alt="video" />
+              <a href={item.url} className='video-link' target='_blank'>
+                <img src="/kabbour/Icons/VideoPlay.svg" alt="video" />
               </a>
             </div>
             <div className='right-side'>

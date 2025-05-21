@@ -9,32 +9,46 @@ const FooterComponent = () => {
             <h4 className='title-footer'>Site Map</h4>
             <ul className='ul-site-map'>
               <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>About Yerba mate</span>
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>About Yerba mate</span>
+                </a>
+              </li>
+              <li>                  
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>About Campo</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>About Campo</span>
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>Yerba mate Products</span>
+                </a>
+              </li>
+              <li>                  
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>Campo Products</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>Yerba mate Products</span>
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>Video</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>Campo Products</span>
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>Audio</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>Video</span>
-              </li>
-              <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>Audio</span>
-              </li>
-              <li>
-                <img src="/Icons/Vector.svg" alt="icon" />
-                <span>Image Gallery</span>
+                <img src="/kabbour/Icons/Vector.svg" alt="icon" />
+                <a href="#">
+                  <span>Image Gallery</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -42,28 +56,40 @@ const FooterComponent = () => {
             <h4 className='title-footer'>Address</h4>
             <ul className='ul-contact-info'>
               <li>
-                <img src="/Icons/location.svg" alt="icon" />
-                <span>Yabroud, Rural Damascus, Syria</span>
+                <img src="/kabbour/Icons/location.svg" alt="icon" />
+                <a href="#">
+                  <span>Yabroud, Rural Damascus, Syria</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/phone.svg" alt="icon" />
-                <span>+963 11 9493 / 9381</span>
+                <img src="/kabbour/Icons/phone.svg" alt="icon" />
+                <a href="#">
+                  <span>+963 11 9493 / 9381</span>
+                </a>
               </li>
               <li>
-                <img src="/Icons/email.svg" alt="icon" />
-                <span>info@kabourgroup.com</span>
+                <img src="/kabbour/Icons/email.svg" alt="icon" />
+                <a href="#">
+                  <span>info@kabourgroup.com</span>
+                </a>
               </li>
             </ul>
             <h4 className='title-footer'>Follow Us</h4>
             <ul className='ul-socail-link'>
               <li>
-                <img src="/Icons/facebook.svg" alt="icon" />
+                <a href="#">
+                  <img src="/kabbour/Icons/facebook.svg" alt="icon" />
+                </a>
               </li>
               <li>
-                <img src="/Icons/instagram.svg" alt="icon" />
+                <a href="#">
+                  <img src="/kabbour/Icons/instagram.svg" alt="icon" />
+                </a>
               </li>
               <li>
-                <img src="/Icons/youtube.svg" alt="icon" />
+                <a href="#">
+                  <img src="/kabbour/Icons/youtube.svg" alt="icon" />
+                </a>
               </li>
             </ul>
           </div>

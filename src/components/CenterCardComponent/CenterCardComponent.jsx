@@ -6,11 +6,11 @@ const CenterCardComponent = ({centerName,location,phone}) => {
       <h5>{centerName}</h5>
       <div className='center-desc'>
         <div className='center-info-row'>
-          <img src="/Icons/location.svg" alt="location" />
+          <img src="/kabbour/Icons/location.svg" alt="location" />
           <span>{location}</span>
         </div>
         <div className='center-info-row'>
-          <img src="/Icons/phone.svg" alt="phone" />
+          <img src="/kabbour/Icons/phone.svg" alt="phone" />
           <span>{phone}</span>
         </div>
       </div>

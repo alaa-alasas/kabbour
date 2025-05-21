@@ -23,6 +23,7 @@ const LayoutEventComponent = () => {
               eventDate={event.eventDate} 
               eventLocation={event.eventLocation} 
               eventName={event.eventName}
+              delay={index}
               />
           ))}
       </div>

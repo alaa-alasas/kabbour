@@ -18,10 +18,10 @@ const SubHeroComponent = () => {
     <section className='sub-hero px-64 mb-64'>
       <Slider {...settings}>
         <div>
-          <img src="/Hero/img2.png" alt="Slide 1" className='img-slide'/>        
+          <img src="/kabbour/Hero/img2.png" alt="Slide 1" className='img-slide'/>        
         </div>
         <div>
-          <img src="/Hero/img2.png" alt="Slide 2" className='img-slide'/>        
+          <img src="/kabbour/Hero/img2.png" alt="Slide 2" className='img-slide'/>        
         </div>
       </Slider>
       <TitleComponent 

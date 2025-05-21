@@ -1,9 +1,9 @@
 .hero{
     height: 100%;
-    position: relative;
-    top: 68px;
+    padding-top: 68px;
     left: 0;
     overflow: hidden;
+    background-color: var(--black15);
 }
 
 .slick-slide{

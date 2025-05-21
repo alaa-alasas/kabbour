@@ -28,7 +28,17 @@
     height: 100%;
     max-width: 770px;
     border-radius: 28px;
+    transition: transform 0.3s ease; 
 }
+
+  /* ===========================
+   Hover effect for the login button
+   =========================== */
+.quality-sec .card-quality-sec .left-side .factory-image:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 .quality-sec .card-quality-sec .right-side{

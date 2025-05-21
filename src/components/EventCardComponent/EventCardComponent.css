@@ -2,7 +2,14 @@
     background: linear-gradient(180deg, #D39326 0%, #515061 100%);
     border-radius: 16px;
     box-sizing: border-box;
-    padding: 1px; 
+    padding: 1px;
+    transition: all 0.3s ease;
+}
+
+ /* Increase shadow on hover effect */
+.event-card-border:hover{
+  border: 2px solid var(--blue01);
+  box-shadow: 0 8px 12px var(--gold26);
 }
 
 .event-card{
@@ -20,7 +27,14 @@
     width: 100%;
     max-width: 300px;
     border-radius: 8px;
+    transition: transform 0.3s ease; 
 }
+
+/* Hover Effect on Image */
+.event-card:hover .event-img {
+  transform: scale(1.05); /* Zoom in the image */
+}
+
 
 .event-card h5{
     color: var(--gold26);

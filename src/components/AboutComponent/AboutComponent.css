@@ -28,6 +28,15 @@
     height: 100%;
     max-width: 770px;
     border-radius: 28px;
+    transition: transform 0.3s ease; 
+}
+
+  /* ===========================
+   Hover effect for the login button
+   =========================== */
+.about-factory .card-about-factory .left-side .factory-image:hover {
+    border: 1px solid var(--gold26);
+    transform: scale(1.1);
 }
 
 .about-factory .card-about-factory .left-side .video-link{
@@ -35,6 +44,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: var(--gold26);
 }
 
 .about-factory .card-about-factory .right-side{

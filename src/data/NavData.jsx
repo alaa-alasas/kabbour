@@ -19,10 +19,9 @@ export const NavData = [
         title: "About",
         link: "/about"
     },
-    ,
-    {
-        title: "Contact Us",
-        link: "#contactUs"
-    },
+    // {
+    //     title: "Contact Us",
+    //     link: "#"
+    // },
     
 ]

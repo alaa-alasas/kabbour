@@ -12,12 +12,12 @@ const ProductDetails = () => {
   ];
 
   const images = [
-    "/ProductDetails/product1.jpg",
-    "/ProductDetails/product2.jpg",
-    "/ProductDetails/product3.jpg",
-    "/ProductDetails/product4.jpg",
-    "/ProductDetails/product5.png",
-    "/ProductDetails/product6.jpg",
+    "/kabbour/ProductDetails/product1.jpg",
+    "/kabbour/ProductDetails/product2.jpg",
+    "/kabbour/ProductDetails/product3.jpg",
+    "/kabbour/ProductDetails/product4.jpg",
+    "/kabbour/ProductDetails/product5.png",
+    "/kabbour/ProductDetails/product6.jpg",
   ];
 
   return (

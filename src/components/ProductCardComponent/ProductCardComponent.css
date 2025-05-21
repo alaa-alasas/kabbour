@@ -4,6 +4,13 @@
     box-sizing: border-box;
     padding: 1px; 
     max-width: 316px;
+    transition: all 0.3s ease;
+}
+
+ /* Increase shadow on hover effect */
+.product-card-border:hover{
+  border: 2px solid var(--blue01);
+  box-shadow: 0 8px 12px var(--gold26);
 }
 
 
@@ -19,6 +26,12 @@
 
 .product-card img{
     width: 100%;
+    transition: transform 0.3s ease; 
+}
+
+/* Hover Effect on Image */
+.product-card:hover img {
+  transform: scale(1.05); /* Zoom in the image */
 }
 
 .product-card .product-desc{

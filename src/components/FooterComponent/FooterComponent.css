@@ -63,6 +63,7 @@ footer ul:after,
 .ul-site-map li,
 .ul-contact-info li{
     display: flex;
+    align-items: center;
     gap: 8px;
 }
 
@@ -81,6 +82,53 @@ form label{
     display: flex;
     flex-direction: row;
     gap: 8px;
+}
+
+.ul-socail-link li a img{
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+}
+
+/* ===========================
+   Hover effect for anchor tags
+   =========================== */
+.ul-socail-link li a img:hover{
+  transform: translateY(-8px); 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--black01);
+    cursor: pointer;
+    position: relative;
+}
+
+.ul-contact-info li a,
+.ul-site-map li a{
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* =============
+    Hover Effect Links 
+   =============*/
+.ul-contact-info li a::after,
+.ul-site-map li a::after
+ {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: var(--gold26);
+    transition: width 0.3s ease;
+}
+
+.ul-contact-info li a:hover::after,
+.ul-site-map li a:hover::after{
+    width: 100%;
 }
 
 .footer-col form{
@@ -129,7 +177,18 @@ form label{
     line-height: 21px;
     letter-spacing: 0;
     border: none;
+    transition: transform 0.3s ease; 
   }
+
+  /* ===========================
+   Hover effect for the login button
+   =========================== */
+.footer-col form button:hover {
+    background-color: var(--black01);
+    color: var(--gold26);
+    border: 1px solid var(--gold26);
+    transform: scale(1.05);
+}
 
   @media(max-width: 992px){
     .footer-container{

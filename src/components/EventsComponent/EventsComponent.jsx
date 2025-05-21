@@ -18,6 +18,7 @@ const EventsComponent = () => {
             eventName={item.eventName} 
             eventLocation={item.eventLocation}
             eventDate={item.eventDate}
+            delay={index}
              />
           ))
         }

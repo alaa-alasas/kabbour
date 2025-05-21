@@ -186,12 +186,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--orange70), var(--Orange75));
+  background: linear-gradient(180deg, var(--gold26), var(--gold10));
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, var(--Orange80) , var(--grey40));
+  background: linear-gradient(180deg, var(--gold10) , var(--gold26));
 }
 
 /*Start Responsive*/

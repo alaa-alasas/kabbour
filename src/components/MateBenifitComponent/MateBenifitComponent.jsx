@@ -5,7 +5,7 @@ const MateBenifitComponent = () => {
     <section className='mate-benifit px-64 mb-64'>      
  
       <div className='left-side'>
-        <img src="/MateBenifit/img.png" alt="" />
+        <img src="/kabbour/MateBenifit/img.png" alt="" />
       </div>   
       <div className='right-side'>
         <h3>

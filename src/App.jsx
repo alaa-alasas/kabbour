@@ -20,7 +20,7 @@ function App() {
     <>
       <HandleLoadingComponent />
       <ScrollToTop />
-      <NavBarComponent img={"/Navbar/Logo.png"} navData={NavData}/>
+      <NavBarComponent img={"/kabbour/Navbar/Logo.png"} navData={NavData}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

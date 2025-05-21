@@ -21,7 +21,9 @@ const LayoutProductComponent = () => {
               key={index} 
               img={product.img} 
               productDesc={product.productDesc} 
-              productName={product.productName} />
+              productName={product.productName}
+              delay={index}
+            />
           ))}
       </div>
       </div>

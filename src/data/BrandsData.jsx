@@ -1,22 +1,22 @@
 export const BrandsData = [
     {
-        img: "/Brands/amanda.png",
+        img: "/kabbour/Brands/amanda.png",
         alt: "amanda"
     },
     {
-        img: "/Brands/campo.png",
+        img: "/kabbour/Brands/campo.png",
         alt: "campo"
     },
     {
-        img: "/Brands/karta.png",
+        img: "/kabbour/Brands/karta.png",
         alt: "karta"
     },
     {
-        img: "/Brands/soprina.png",
+        img: "/kabbour/Brands/soprina.png",
         alt: "soprina"
     },
     {
-        img: "/Brands/targui.png",
+        img: "/kabbour/Brands/targui.png",
         alt: "targui"
     }
 ]

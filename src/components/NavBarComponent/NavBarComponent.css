@@ -11,6 +11,10 @@
     height: 68px;
 }
 
+nav.scrolled {
+    border-bottom: 2px solid var(--gold26)
+}
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,16 @@
     color: var(--white-color);
     line-height: 21px;
 }
+
+/* ===========================
+   Active link styling
+   =========================== */
+.nav-menu li a.active {
+    border-bottom: 1px solid var(--gold26);
+    padding-bottom: 4px;
+    color: var(--gold26);
+}
+
 
 .nav-icons{
     display: flex;

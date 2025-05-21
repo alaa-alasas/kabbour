@@ -11,13 +11,13 @@ const ProductsComponent = ({title}) => {
       <div className='product-cards'>
         {
           ProductsData.map((item,index) => (
-            <ProductCardComponent key={index} img={item.img} productName={item.productName} productDesc={item.productDesc} />
+            <ProductCardComponent key={index} img={item.img} productName={item.productName} productDesc={item.productDesc} delay={index}/>
           ))
         }
       </div>
       <div className='products-show-more'>
         <div className='line'></div>
-        <BtnComponent title={"See More"} />
+        <BtnComponent title={"See More"} action={'/products'}/>
       </div>
     </section>
   )
