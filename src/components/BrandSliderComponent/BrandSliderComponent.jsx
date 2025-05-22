@@ -1,7 +1,6 @@
 import './BrandSliderComponent.css'
 import Slider from 'react-slick';
 import {BrandsData} from './../../data/BrandsData';
-import './BrandSliderComponent.css';
 import TitleComponent from '../TitleComponent/TitleComponent';
 
 const BrandSliderComponent = () => {
@@ -23,13 +22,19 @@ const BrandSliderComponent = () => {
       <div className='brands-overlay2'></div>
 
       <TitleComponent title={"Our Brands"} />
-      <Slider {...settings}>
+      {/* <Slider {...settings}>
       {
-        BrandsData.map((item, index) => (
-           <img key={index} src={item.img} alt={item.alt} />
-        ))
+        
       }
-    </Slider>
+    </Slider> */}
+    <div className='brands-cards'>
+        {
+          BrandsData.map((item, index) => (
+              <img key={index} src={item.img} alt={item.alt} />
+            ))
+        }
+    </div>
+    
     </section>
   )
 }

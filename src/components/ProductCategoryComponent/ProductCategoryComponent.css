@@ -7,6 +7,10 @@
     padding-bottom: 64px;
 }
 
+.product-category-section .AA-title{
+    align-items: start;
+}
+
 .product-category-cards{
     display: flex;
     gap: 64px;
@@ -34,8 +38,39 @@
 }
 
   /* ===========================
-   Hover effect for the login button
+   Hover effect for the product category card
    =========================== */
 .product-category-card:hover {
     transform: translateY(-10px);
+}
+
+@media(max-width: 992px){
+    .product-category-section{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 32px;
+    }
+
+    .product-category-card img{
+        min-width: 168px;
+        min-height: 100px;
+        width: 100%;
+    }
+
+    .product-category-card h5{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .product-category-cards{
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-category-card{
+        gap: 12px;
+        flex-basis: 0;
+        max-width: 168px;
+    }
 }

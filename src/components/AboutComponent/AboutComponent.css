@@ -4,7 +4,6 @@
     flex-direction: column;
     gap: 40px;
     padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .about-factory .card-about-factory{
@@ -32,7 +31,7 @@
 }
 
   /* ===========================
-   Hover effect for the login button
+   Hover effect for the factory-image
    =========================== */
 .about-factory .card-about-factory .left-side .factory-image:hover {
     border: 1px solid var(--gold26);
@@ -82,15 +81,55 @@
     background-color: var(--black17);
 }
 
-@media(max-width: 992px){
-    .card-about-factory{
+@media(max-width: 1200px){
+    
+    .about-factory .card-about-factory{
         flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 992px){
+
+    .about-factory{
+        gap: 0px;
+        padding-top: 32px;
+    }
+
+    .about-factory .AA-title{
+        padding-bottom: 0px;
+    }
+
+    .about-factory > .mb-64{
+        margin-bottom: 0;
+    }
+
+    .about-factory .card-about-factory{
         align-items: center;
         justify-content: center;
+        gap: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .about-factory .card-about-factory .left-side .factory-image{
         width: 100%;
         max-width: 100%;
+    }
+
+    .about-factory .card-about-factory .right-side h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about-factory .card-about-factory .right-side p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .about-factory .card-about-factory .right-side .btn-comp{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
     }
 }

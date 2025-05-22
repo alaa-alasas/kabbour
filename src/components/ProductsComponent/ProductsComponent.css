@@ -37,8 +37,24 @@
 }
 
 @media(max-width: 992px){
+    .products-section{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 32px;
+    }
+
+    .products-section .AA-title{
+        padding-bottom: 0px;
+        align-items: start;
+    }
+
     .products-section .product-cards{
       overflow-x: scroll;
+      padding: 20px 0;
+    }
+
+    .products-section .product-cards::-webkit-scrollbar {
+        display: none;
     }
 
     .products-section .products-show-more{

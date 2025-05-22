@@ -26,11 +26,11 @@
     .layout-product{
         flex-wrap: wrap;
     }
-    .product-cards {
+    .layout-product .product-cards {
         grid-template-columns: 100%;
     }
 
-    .product-cards-braadcrumb{
-        padding-top: 0;
+    .layout-product .product-cards-braadcrumb{
+            padding-top: 0;
     }
 }

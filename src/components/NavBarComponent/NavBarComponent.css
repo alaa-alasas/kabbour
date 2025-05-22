@@ -49,17 +49,51 @@ nav.scrolled {
     list-style: none;
 }
 
-.hamburger {
+.toggle-btn {
     display: none;
+    background: transparent;
+    border: none;
 }
 
 @media(max-width: 992px){
-   .hamburger {
+   .toggle-btn {
         display: block;
     }  
     
     .nav-menu,
     .nav-icons{
         display: none;
+    }
+
+    .navbar .logo{
+        width: 160px;
+        height: 53px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        position: absolute;
+        align-items: stretch;
+        top: 67px;
+        left: 0;
+        width: 100%;
+        background-color: var(--black15);
+        gap: 32px;
+        padding-top: 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease-in-out;
+        z-index: 999999999;
+        padding: 0 4.4444% 50px 4.4444%;
+    }
+
+    .responsiveNav {
+        display: flex;
+        padding-top: 32px;
+        max-height: 100vh;
+        opacity: 1;
+        visibility: visible;
     }
 }

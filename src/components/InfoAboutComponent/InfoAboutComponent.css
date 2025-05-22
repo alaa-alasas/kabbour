@@ -24,14 +24,25 @@
     font-size: 20px;
     line-height: 38.4px;
     color: var(--grey03);
+    text-align: center;
 }
 
 @media(max-width: 992px){
     .info-about-section{
-    padding-top: 100px;
+        padding-top: 100px;
     }
 
-    .info-cards{
-        flex-wrap: wrap;
+    .info-about-section .info-cards{
+        gap: 27px;
+    }
+
+    .info-card img{
+        width: 66px;
+        height: 66px;
+    }
+
+    .info-card p{
+        font-size: 12px;
+        line-height: 17px;
     }
 }

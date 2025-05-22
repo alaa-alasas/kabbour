@@ -61,4 +61,9 @@
     .event-card{
         min-width: 256px;
     }
+
+    .event-card .event-img{
+        width: 100%;
+        max-width: 100%;
+    }
 }

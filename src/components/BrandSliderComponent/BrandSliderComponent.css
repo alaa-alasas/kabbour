@@ -39,3 +39,18 @@
     width: 128px !important;
     height: 128px;
 }
+
+.brands-cards{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    gap: 64px;
+}
+
+@media(max-width: 992px)
+{
+    .brands-cards{
+        gap: 32px;
+    }
+}

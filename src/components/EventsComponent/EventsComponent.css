@@ -36,9 +36,26 @@
 }
 
 @media(max-width: 992px){
+    .events-section{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        gap: 32px;
+    }
+
+    .events-section .AA-title{
+        padding-bottom: 0px;
+        align-items: start;
+    }
+
     .events-section .event-cards{
       overflow-x: scroll;
+      padding: 20px 0;
     }
+
+    .events-section .event-cards::-webkit-scrollbar {
+        display: none;
+    }
+
     .events-section .events-show-more{
         display: none;
     }

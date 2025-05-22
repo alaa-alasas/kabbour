@@ -3,7 +3,7 @@ import './NavBarComponent.css';
 import { NavLink } from 'react-router-dom';
 
 const NavBarComponent = ({img,navData}) => {
-
+  const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu visibility
   const [scrolling, setScrolling] = useState(false); // State to track scroll position for navbar styling
 
 // ===========================
@@ -23,8 +23,9 @@ useEffect(() => {
 
   return (
     <nav  className={`navbar px-64 ${scrolling ? "scrolled" : ""}`} >
-      <img src={img} alt="logo" />
-      <ul className='nav-menu'>
+      <img className='logo' src={img} alt="logo" />
+
+      <ul className={`nav-menu ${isOpen ? "responsiveNav" : ""}`}>
         {
           navData.map((item,index) => (
             <li key={index}>
@@ -35,9 +36,16 @@ useEffect(() => {
           ))
         }
       </ul>
-      <div className="hamburger">
-        <img src="/kabbour/Icons/ion_menu.svg" alt="logo" />
-      </div>
+      <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
+        <img
+          src={
+            isOpen
+              ? "/kabbour/Icons/close.svg" // Show close icon when the menu is open
+              : "/kabbour/Icons/ion_menu.svg" // Show hamburger icon when the menu is closed
+          }
+          alt="menu toggle"
+        />
+      </button>
       <ul className='nav-icons'>
         <li>
           <NavLink className="">
