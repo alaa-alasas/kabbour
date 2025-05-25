@@ -12,6 +12,12 @@ const ProductDetails = () => {
   ];
 
   const images = [
+    "/kabbour/ProductDetails/22.png",
+    "/kabbour/ProductDetails/Minit.png",
+    "/kabbour/ProductDetails/Anise.png",
+    "/kabbour/ProductDetails/Hibiscus.png",
+    "/kabbour/ProductDetails/Moutain.png",
+    "/kabbour/ProductDetails/Rosemary.png",
     "/kabbour/ProductDetails/inflationAndGases.png",
     "/kabbour/ProductDetails/inflationAndGases-ar.png",
     "/kabbour/ProductDetails/product2.jpg",

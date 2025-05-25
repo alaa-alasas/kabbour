@@ -8,7 +8,7 @@
 }
 
 .products-section .AA-title{
-    text-align: start;
+    align-items: start;
 }
 
 .products-section .product-cards{
@@ -45,7 +45,6 @@
 
     .products-section .AA-title{
         padding-bottom: 0px;
-        align-items: start;
     }
 
     .products-section .product-cards{

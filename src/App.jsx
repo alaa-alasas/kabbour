@@ -13,6 +13,21 @@ import Products from './pages/Products'
 import HandleLoadingComponent from './components/HandleLoadingComponent/HandleLoadingComponent'
 import Events from './pages/Events'
 import ProductDetails from './pages/ProductDetails'
+// i18n.ts
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import en from "./locales/en.json";
+import ar from "./locales/ar.json";
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: en },
+    ar: { translation: ar },
+  },
+  lng: "en", // اللغة الافتراضية
+  fallbackLng: "en", // اللغة الاحتياطية
+  interpolation: { escapeValue: false }, // React handles escaping
+});
 
 function App() {
 

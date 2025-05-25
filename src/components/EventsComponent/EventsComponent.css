@@ -7,7 +7,7 @@
 }
 
 .events-section .AA-title{
-    text-align: start;
+    align-items: start;
 }
 
 .events-section .event-cards{
@@ -44,7 +44,6 @@
 
     .events-section .AA-title{
         padding-bottom: 0px;
-        align-items: start;
     }
 
     .events-section .event-cards{

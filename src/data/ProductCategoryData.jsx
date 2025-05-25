@@ -1,52 +1,52 @@
 export const ProductCategoryData = [
     {
         img: "/kabbour/ProductCategory/category1.png",
-        alt: "Black Tea",
-        name: "Black Tea"
+        alt: "productCategory.blackTea.alt", 
+        name: "productCategory.blackTea.name"
     },
     {
         img: "/kabbour/ProductCategory/category2.png",
-        alt: "campo",
-        name: "Green Tea"
+        alt: "productCategory.greenTea.alt", 
+        name: "productCategory.greenTea.name" 
     },
     {
         img: "/kabbour/ProductCategory/category3.png",
-        alt: "Natural Herbs",
-        name: "Natural Herbs"
+        alt: "productCategory.naturalHerbs.alt", 
+        name: "productCategory.naturalHerbs.name" 
     },
     {
         img: "/kabbour/ProductCategory/category4.png",
-        alt: "Coffee",
-        name: "Coffee"
+        alt: "productCategory.coffee.alt", 
+        name: "productCategory.coffee.name" 
     },
     {
         img: "/kabbour/ProductCategory/category5.png",
-        alt: "Medical Mixtures",
-        name: "Medical Mixtures"
+        alt: "productCategory.medicalMixtures.alt", 
+        name: "productCategory.medicalMixtures.name" 
     },
     {
         img: "/kabbour/ProductCategory/category6.png",
-        alt: "Hot Drinks",
-        name: "Hot Drinks"
+        alt: "productCategory.hotDrinks.alt", 
+        name: "productCategory.hotDrinks.name" 
     },
     {
         img: "/kabbour/ProductCategory/category7.png",
-        alt: "Milk",
-        name: "Milk"
+        alt: "productCategory.milk.alt",
+        name: "productCategory.milk.name" 
     },
     {
         img: "/kabbour/ProductCategory/category8.png",
-        alt: "Juice",
-        name: "Juice"
+        alt: "productCategory.juice.alt", 
+        name: "productCategory.juice.name"
     },
     {
         img: "/kabbour/ProductCategory/category9.png",
-        alt: "Biscuits",
-        name: "Biscuits"
+        alt: "productCategory.biscuits.alt", 
+        name: "productCategory.biscuits.name" 
     },
     {
         img: "/kabbour/ProductCategory/category10.png",
-        alt: "Yerba Mate",
-        name: "Yerba Mate"
+        alt: "productCategory.yerbaMate.alt", 
+        name: "productCategory.yerbaMate.name" 
     }
-]
+];

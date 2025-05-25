@@ -1,0 +1,40 @@
+/* language-dropdown.css */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-dropdown button {
+  background-color: transparent;
+  border: none;
+  color: white; /* Adjust based on your theme */
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}

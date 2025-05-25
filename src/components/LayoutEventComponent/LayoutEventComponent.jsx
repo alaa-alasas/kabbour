@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { EventsData } from '../../data/EventsData'
 import Breadcrumb from '../Breadcrumb/Breadcrumb'
 import EventCardComponent from '../EventCardComponent/EventCardComponent'
@@ -5,6 +6,8 @@ import FilterComponent from '../FilterComponent/FilterComponent'
 import './LayoutEventComponent.css'
 
 const LayoutEventComponent = () => {
+  const { t } = useTranslation(); // Hook لجلب الترجمات
+
    const breadcrumbItems = [
     { label: 'Home', path: '/' },
     { label: 'Events', path: null },
@@ -21,8 +24,8 @@ const LayoutEventComponent = () => {
               key={index} 
               img={event.img} 
               eventDate={event.eventDate} 
-              eventLocation={event.eventLocation} 
-              eventName={event.eventName}
+              eventLocation={t(event.eventLocation)} 
+              eventName={t(event.eventName)}
               delay={index}
               />
           ))}

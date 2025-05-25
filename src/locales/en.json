@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "centers": "Distribution Centers",
+    "media": "Media",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "about": {
+    "factory": {
+      "argentina": {
+        "alt": "Kabour International Group",
+        "title": "Kabour International Group",
+        "desc": "A leading company in the production, manufacture and distribution of mate in Syria and the Arab world. It has factories in Argentina and Syria and follows the highest levels of sterilization and uses technology to produce the best drink."
+      },
+      "syria": {
+        "alt": "Campo Company",
+        "title": "Campo Company",
+        "desc": "A leading company in the production, manufacture and distribution of mate in Syria and the Arab world. It has factories in Argentina and Syria and follows the highest levels of sterilization and uses technology to produce the best drink."
+      }
+    }
+  },
+  "productCategory": {
+    "blackTea": {
+      "alt": "Black Tea",
+      "name": "Black Tea"
+    },
+    "greenTea": {
+      "alt": "Green Tea",
+      "name": "Green Tea"
+    },
+    "naturalHerbs": {
+      "alt": "Natural Herbs",
+      "name": "Natural Herbs"
+    },
+    "coffee": {
+      "alt": "Coffee",
+      "name": "Coffee"
+    },
+    "medicalMixtures": {
+      "alt": "Medical Mixtures",
+      "name": "Medical Mixtures"
+    },
+    "hotDrinks": {
+      "alt": "Hot Drinks",
+      "name": "Hot Drinks"
+    },
+    "milk": {
+      "alt": "Milk",
+      "name": "Milk"
+    },
+    "juice": {
+      "alt": "Juice",
+      "name": "Juice"
+    },
+    "biscuits": {
+      "alt": "Biscuits",
+      "name": "Biscuits"
+    },
+    "yerbaMate": {
+      "alt": "Yerba Mate",
+      "name": "Yerba Mate"
+    }
+  },
+  "quality": {
+    "img": "Quality img",
+    "title": "Quality",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+  },
+  "laboratories": {
+    "img": "Our Laboratories img",
+    "title": "Our Laboratories",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+  },
+  "technology": {
+    "img": "Technology img",
+    "title": "Technology",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+  },
+  "product": {
+    "1": {
+      "name": "Product One",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "2": {
+      "name": "Product Two",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "3": {
+      "name": "Product Three",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "4": {
+      "name": "Product Four",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    }
+  },
+  "event": {
+    "1": {
+      "name": "Event One",
+      "location": "New York, USA"
+    },
+    "2": {
+      "name": "Event Two",
+      "location": "London, UK"
+    },
+    "3": {
+      "name": "Event Three",
+      "location": "Paris, France"
+    },
+    "4": {
+      "name": "Event Four",
+      "location": "Tokyo, Japan"
+    }
+  },
+  "siteMap": {
+    "title": "Site Map",
+    "about.yerbaMate": "About Yerba Mate",
+    "about.campo": "About Campo",
+    "yerbaMate.products": "Yerba Mate Products",
+    "campo.products": "Campo Products",
+    "video": "Video",
+    "audio": "Audio",
+    "image.gallery": "Image Gallery"
+  },
+  "address": {
+    "title": "Address",
+    "address.yabroud": "Yabroud, Rural Damascus, Syria",
+    "+963 11 9493 / 9381": "+963 11 9493 / 9381",
+    "info@kabourgroup.com": "info@kabourgroup.com"
+  },
+  "social": {
+    "title": "Follow Us"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subject": "Subject *",
+    "email": "Email *",
+    "message": "Message *",
+    "send": "Send"
+  }
+}

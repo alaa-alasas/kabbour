@@ -1,11 +1,12 @@
-import React from 'react'
 import './EventsComponent.css'
 import BtnComponent from '../BtnComponent/BtnComponent'
 import TitleComponent from '../TitleComponent/TitleComponent'
 import {EventsData} from '../../data/EventsData'
 import EventCardComponent from '../EventCardComponent/EventCardComponent'
+import { useTranslation } from 'react-i18next'
 
 const EventsComponent = () => {
+  const { t } = useTranslation(); // Hook لجلب الترجمات
 
   return (
     <section className='events-section px-64 mb-64'>
@@ -15,8 +16,8 @@ const EventsComponent = () => {
           EventsData.map((item,index) => (
             <EventCardComponent key={index} 
             img={item.img} 
-            eventName={item.eventName} 
-            eventLocation={item.eventLocation}
+            eventName={t(item.eventName)} 
+            eventLocation={t(item.eventLocation)}
             eventDate={item.eventDate}
             delay={index}
              />

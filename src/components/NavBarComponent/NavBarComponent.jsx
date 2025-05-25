@@ -1,11 +1,25 @@
 import { useEffect, useState } from 'react';
 import './NavBarComponent.css';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
 
 const NavBarComponent = ({img,navData}) => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu visibility
   const [scrolling, setScrolling] = useState(false); // State to track scroll position for navbar styling
+  const { t } = useTranslation();
 
+  //const { t, i18n } = useTranslation();
+  
+  //const [language, setLanguage] = useState("en");
+
+  // const toggleLanguage = () => {
+  //   const newLang = language === "en" ? "ar" : "en";
+  //   setLanguage(newLang);
+  //   i18n.changeLanguage(newLang); // Change the language in i18next
+  //   document.body.dir = newLang === "ar" ? "rtl" : "ltr"; // Update text direction
+  // };
+  
 // ===========================
 // Handle scroll event to add "scrolled" class to the navbar
 // ===========================
@@ -30,7 +44,7 @@ useEffect(() => {
           navData.map((item,index) => (
             <li key={index}>
               <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")}>
-                {item.title}
+                {t(item.title)}
               </NavLink>
             </li>
           ))
@@ -53,10 +67,15 @@ useEffect(() => {
           </NavLink>
         </li>
         <li>
-          <NavLink  className="">
+           <LanguageDropdown />
+          {/* <button onClick={toggleLanguage}>
+            {language === "en" ? "Arabic" : "English"}
+          </button> */}
+          {/* <NavLink  className="">
                 <img src="/kabbour/Navbar/language.png" alt="" />
-          </NavLink>
+          </NavLink> */}
         </li>
+        {/* <li></li> */}
       </ul>
     </nav>
   )
