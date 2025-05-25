@@ -1,3 +1,5 @@
+export const Logo = "Logo"
+
 export const NavData = [
     {
         title: "nav.home",

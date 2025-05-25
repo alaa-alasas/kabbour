@@ -5,7 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import {NavData} from './data/NavData'
+import {NavData , Logo} from './data/NavData'
 import Home from './pages/Home'
 import About from './pages/About'
 import Centers from './pages/Centers'
@@ -15,7 +15,7 @@ import Events from './pages/Events'
 import ProductDetails from './pages/ProductDetails'
 // i18n.ts
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import { initReactI18next, useTranslation } from "react-i18next";
 import en from "./locales/en.json";
 import ar from "./locales/ar.json";
 import GoToTop from './GoToTop'
@@ -30,13 +30,13 @@ i18n.use(initReactI18next).init({
 });
 
 function App() {
-
+const {t} = useTranslation();
   return (
     <>
       <GoToTop />
       <HandleLoadingComponent />
       <ScrollToTop />
-      <NavBarComponent img={"/kabbour/Navbar/Logo.png"} navData={NavData}/>
+      <NavBarComponent img={t(Logo)} navData={NavData}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
