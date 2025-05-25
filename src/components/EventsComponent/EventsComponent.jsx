@@ -10,7 +10,7 @@ const EventsComponent = () => {
 
   return (
     <section className='events-section px-64 mb-64'>
-      <TitleComponent title={"Events"} />
+      <TitleComponent title={t("EventsTitle")} />
       <div className='event-cards'>
         {
           EventsData.map((item,index) => (

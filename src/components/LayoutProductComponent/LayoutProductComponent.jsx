@@ -23,6 +23,7 @@ const LayoutProductComponent = () => {
             <ProductCardComponent 
               key={index} 
               img={product.img} 
+              productId={product.productId}
               productDesc={t(product.productDesc)} 
               productName={t(product.productName)}
               delay={index}

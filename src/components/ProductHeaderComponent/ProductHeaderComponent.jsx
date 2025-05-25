@@ -3,7 +3,13 @@ import ProductImageComponent from '../ProductImageComponent/ProductImageComponen
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 
-const ProductHeaderComponent = ({breadcrumbItems, images}) => {
+const ProductHeaderComponent = ({ images , productName}) => {
+
+const breadcrumbItems = [
+    { label: 'Home', path: '/' },
+    { label: 'Products', path: '/products' },
+    { label: productName , path: null },
+  ];
 
   return (
     <div className='product-header-section px-64 mb-64'>
@@ -43,7 +49,7 @@ const ProductHeaderComponent = ({breadcrumbItems, images}) => {
               - Product title (H4): Displays the product name.
               - Uses a large font size and a distinctive color to grab attention.
             */}
-            <h4>Natural Zhourat</h4>
+            <h4>{productName}</h4>
             {/* 
               - Product description (P): Provides detailed information about the product.
               - Uses a smaller font size and neutral colors for readability.

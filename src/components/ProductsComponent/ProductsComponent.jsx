@@ -10,11 +10,17 @@ const ProductsComponent = ({title}) => {
 
   return (
     <section className='products-section px-64 mb-64'>
-      <TitleComponent title={title} />
+      <TitleComponent title={t("OurProductsTitle")} />
       <div className='product-cards'>
         {
           ProductsData.map((item,index) => (
-            <ProductCardComponent key={index} img={item.img} productName={t(item.productName)} productDesc={t(item.productDesc)} delay={index}/>
+            <ProductCardComponent 
+            key={index} 
+            img={item.img} 
+            productId={item.productId}
+            productName={t(item.productName)} 
+            productDesc={t(item.productDesc)} 
+            delay={index}/>
           ))
         }
       </div>

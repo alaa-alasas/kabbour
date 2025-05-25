@@ -4,8 +4,8 @@ import './LanguageDropdown.css'
 
 // Define the available languages
 const LANGUAGES = [
-  { code: "ar", name: "Arabic", flag: "🇸🇾" },
-  { code: "en", name: "English", flag: "🇬🇧" },
+  { code: "ar", name: "Arabic", flag: "/kabbour/Languages/Syrian.png" },
+  { code: "en", name: "English", flag: "/kabbour/Languages/British.png" },
 ];
 
 const LanguageDropdown = () => {
@@ -30,11 +30,12 @@ const LanguageDropdown = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <ul className="dropdown-menu">
+        <ul className={`dropdown-menu`}>
           {LANGUAGES.map((lang) => (
             <li key={lang.code}>
               <a href="#" onClick={() => handleLanguageChange(lang.code)}>
-                {lang.flag} {lang.name}
+                <img src={lang.flag}  alt="" />
+                {lang.name}
               </a>
             </li>
           ))}

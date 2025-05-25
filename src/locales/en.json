@@ -80,15 +80,15 @@
   },
   "product": {
     "1": {
-      "name": "Product One",
+      "name": "Hibiscus",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "2": {
-      "name": "Product Two",
+      "name": "Green Tea",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "3": {
-      "name": "Product Three",
+      "name": "Mint",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "4": {
@@ -114,6 +114,27 @@
       "location": "Tokyo, Japan"
     }
   },
+  "studyData": [
+    {
+      "ResearchersStudy": "President of the International Society for Natural Food, based in Paris",
+      "ResearchersName": "Dr. A. Lenglet",
+      "desc": "The most notable observation regarding yerba mate's effect on natural organs..."
+    },
+    {
+      "ResearchersStudy": "From the University of Paris",
+      "ResearchersName": "Dr. M. Thévenard",
+      "desc": "Yerba Mate contains alkaloids which, through their immediate appearance and action on organ principles..."
+    },
+    {
+      "ResearchersStudy": "Published study in Presse Medical",
+      "ResearchersName": "Dr. J. Sehunk de Goldfian",
+      "desc": "We can conclude that yerba mate is a general stimulant (of plant origin), as well as a tonic..."
+    }
+  ],
+  "ReadMore": "Read More",
+  "SeeMore": "See More",
+  "OurProductsTitle" : "Our Products",
+  "EventsTitle" : "Events",
   "siteMap": {
     "title": "Site Map",
     "about.yerbaMate": "About Yerba Mate",

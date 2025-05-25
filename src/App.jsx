@@ -41,7 +41,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/centers" element={<Centers />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/productDetails" element={<ProductDetails />} />
+        <Route path="/productDetails/:productId" element={<ProductDetails />} />
         <Route path="/events" element={<Events />} />
       </Routes>
       <FooterComponent />

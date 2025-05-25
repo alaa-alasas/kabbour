@@ -1,7 +1,7 @@
 import TitleComponent from '../TitleComponent/TitleComponent';
 import './ProductDescriptionComponent.css';
 
-const ProductDescriptionComponent = () => {
+const ProductDescriptionComponent = ({imgFlower}) => {
   return (
     /* ===========================
        Section: Product Description Section
@@ -109,7 +109,7 @@ const ProductDescriptionComponent = () => {
           */}
           <img
             className='product-ingredient-img'
-            src="/kabbour/ProductDetails/product-ingredients.png"
+            src={imgFlower}
             alt="Product Ingredients"
           />
         </div>

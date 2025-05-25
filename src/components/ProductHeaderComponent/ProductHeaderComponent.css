@@ -19,6 +19,7 @@
        Subsection: Product Header Description
        =========================== */
     .product-header-description {
+      width: 50%;
       display: flex;
       flex-direction: column;
       gap: 100px;
@@ -68,7 +69,14 @@
    Media Query: Responsive Design for Tablets and Mobiles
    =========================== */
 @media (max-width: 992px) {
+  .product-header-section {
+
   .product-details {
     flex-wrap: wrap;
+
+    .product-header-description {
+      width: 100%;
+    }
   }
+}
 }
