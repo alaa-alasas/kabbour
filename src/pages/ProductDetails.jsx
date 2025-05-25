@@ -19,7 +19,6 @@ const ProductDetails = () => {
     "/kabbour/ProductDetails/Moutain.png",
     "/kabbour/ProductDetails/Rosemary.png",
     "/kabbour/ProductDetails/inflationAndGases.png",
-    "/kabbour/ProductDetails/inflationAndGases-ar.png",
     "/kabbour/ProductDetails/product2.jpg",
     "/kabbour/ProductDetails/product3.jpg",
     "/kabbour/ProductDetails/product4.jpg",
