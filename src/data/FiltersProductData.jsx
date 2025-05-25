@@ -2,34 +2,12 @@
 export const FiltersProductData = [
   {
     id: 'product-type',
-    title: 'Product Type',
-    options: [
-      "Yerba Mate",
-      "Black Tea",
-      "Green Tea",
-      "Natural Herbs",
-      "Medical Mixtures",
-      "Juice",
-      "Coffee",
-      "Hot Drinks",
-      "Biscuits",
-      "Milk"
-    ]
+    title: 'filters.product-type.title',
+    options: 'filters.product-type.options'
   },
   {
     id: 'trademark',
-    title: 'Trademark',
-    options: [
-      "Campo",
-      "Kharta",
-      "Sabrosa",
-      "Pipore",
-      "Cruz de Malta",
-      "Amanda",
-      "Sobrina",
-      "Campo Verde",
-      "Agua",
-      "Nopio"
-    ]
+    title: 'filters.trademark.title',
+    options: 'filters.trademark.options'
   }
 ];

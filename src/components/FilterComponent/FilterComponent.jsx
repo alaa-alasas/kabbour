@@ -1,19 +1,22 @@
+import { useTranslation } from 'react-i18next';
 import './FilterComponent.css'
 
 const FilterComponent = ({ FiltersData }) => {
+    const { t } = useTranslation();
+
   return (
     <div className="filters">
       <h3>Filters</h3>
       {FiltersData.map((item, index) => (
         <>
           <div className='filter' key={index}>
-            <h4>{item.title}</h4>
+            <h4>{t(item.title)}</h4>
             <ul>
               {
-                item.options.map((option, index1) => (
+                t(item.options,{ returnObjects: true }).map((option, index1) => (
                   <li className='filters-option' key={index1}>
                     <input className="styled-checkbox" type="checkbox" />
-                    <span>{option}</span>
+                    <span>{t(option)}</span>
                   </li>
                 ))
               }

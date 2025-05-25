@@ -135,6 +135,47 @@
   "SeeMore": "قراءة المزيد",
   "OurProductsTitle" : "منتجاتنا",
   "EventsTitle" : "فعاليات",
+    "filters": {
+    "event-type": {
+      "title": "نوع الحدث",
+      "options": [
+        "معارض",
+        "مؤتمرات طبية",
+        "فعاليات إنسانية",
+        "فعاليات اجتماعية"
+      ]
+    },
+    "product-type": {
+      "title": "نوع المنتج",
+      "options": [
+        "متة",
+        "شاي أسود",
+        "شاي أخضر",
+        "أعشاب طبيعية",
+        "خلطات طبية",
+        "عصير",
+        "قهوة",
+        "مشروبات ساخنة",
+        "بسكويت",
+        "حليب"
+      ]
+    },
+    "trademark": {
+      "title": "العلامة التجارية",
+      "options": [
+        "Campo",
+        "Kharta",
+        "Sabrosa",
+        "Pipore",
+        "Cruz de Malta",
+        "Amanda",
+        "Sobrina",
+        "Campo Verde",
+        "Agua",
+        "Nopio"
+      ]
+    }
+  },
   "siteMap": {
     "title": "خريطة الموقع",
     "about.yerbaMate": "عن المتة",

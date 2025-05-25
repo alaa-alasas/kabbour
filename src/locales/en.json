@@ -135,6 +135,47 @@
   "SeeMore": "See More",
   "OurProductsTitle" : "Our Products",
   "EventsTitle" : "Events",
+  "filters": {
+    "event-type": {
+      "title": "Event Type",
+      "options": [
+        "Exhibitions",
+        "Medical Conferences",
+        "Humanitarian Events",
+        "Social Events"
+      ]
+    },
+     "product-type": {
+      "title": "Product Type",
+      "options": [
+        "Yerba Mate",
+        "Black Tea",
+        "Green Tea",
+        "Natural Herbs",
+        "Medical Mixtures",
+        "Juice",
+        "Coffee",
+        "Hot Drinks",
+        "Biscuits",
+        "Milk"
+      ]
+    },
+    "trademark": {
+      "title": "Trademark",
+      "options": [
+        "Campo",
+        "Kharta",
+        "Sabrosa",
+        "Pipore",
+        "Cruz de Malta",
+        "Amanda",
+        "Sobrina",
+        "Campo Verde",
+        "Agua",
+        "Nopio"
+      ]
+    }
+  },
   "siteMap": {
     "title": "Site Map",
     "about.yerbaMate": "About Yerba Mate",
