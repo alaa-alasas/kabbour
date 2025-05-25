@@ -1,6 +1,6 @@
 .layout-product{
     display: flex;
-    align-items: stretch;
+    align-items: start;
     justify-content: stretch;
     gap: 20px;
 }

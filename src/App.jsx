@@ -27,7 +27,6 @@ i18n.use(initReactI18next).init({
   },
   lng: "en", // اللغة الافتراضية
   fallbackLng: "en", // اللغة الاحتياطية
-  interpolation: { escapeValue: false }, // React handles escaping
 });
 
 function App() {

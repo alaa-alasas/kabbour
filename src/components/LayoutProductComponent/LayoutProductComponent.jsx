@@ -4,6 +4,7 @@ import Breadcrumb from '../Breadcrumb/Breadcrumb'
 import FilterComponent from '../FilterComponent/FilterComponent'
 import ProductCardComponent from '../ProductCardComponent/ProductCardComponent'
 import './LayoutProductComponent.css'
+import { FiltersProductData } from '../../data/FiltersProductData'
 
 const LayoutProductComponent = () => {
   const { t } = useTranslation(); // Hook لجلب الترجمات
@@ -15,7 +16,7 @@ const LayoutProductComponent = () => {
 
   return (
      <div className="layout-product">
-      <FilterComponent />
+      <FilterComponent FiltersData={FiltersProductData}/>
       <div className='product-cards-braadcrumb px-64'>
         <Breadcrumb items={breadcrumbItems}/>
         <div className="product-cards mb-64">

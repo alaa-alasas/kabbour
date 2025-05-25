@@ -2,13 +2,37 @@
   width: 23.54166%;
   background-color: var(--black01);
   padding-left: 64px;   
-  padding-top: 124px; 
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+.filter{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.line-filter-sperater{
+  height: 1px;
+  width: 100%;
+  background-color: var(--grey88);
 }
 
 .filters h3 {
   color: var(--gold26);
   margin-bottom: 10px;
 }
+
+.filter h4{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--white-color);
+}
+
 
 .filters ul {
   list-style-type: none;

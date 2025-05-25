@@ -4,6 +4,7 @@ import Breadcrumb from '../Breadcrumb/Breadcrumb'
 import EventCardComponent from '../EventCardComponent/EventCardComponent'
 import FilterComponent from '../FilterComponent/FilterComponent'
 import './LayoutEventComponent.css'
+import { FiltersEventData } from '../../data/FiltersEventData'
 
 const LayoutEventComponent = () => {
   const { t } = useTranslation(); // Hook لجلب الترجمات
@@ -15,7 +16,7 @@ const LayoutEventComponent = () => {
 
   return (
      <div className="layout-event">
-      <FilterComponent />
+      <FilterComponent FiltersData={FiltersEventData} />
       <div className='event-cards-braadcrumb px-64'>
         <Breadcrumb items={breadcrumbItems}/>
         <div className="event-cards mb-64">

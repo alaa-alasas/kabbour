@@ -1,43 +1,27 @@
 import './FilterComponent.css'
 
-const FilterComponent = () => {
+const FilterComponent = ({ FiltersData }) => {
   return (
-     <div className="filters">
+    <div className="filters">
       <h3>Filters</h3>
-      <ul>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-        <li className='filters-option'>
-          <input className="styled-checkbox" type="checkbox" /> 
-          <span>Lorem ipsum</span>
-        </li>
-      </ul>
+      {FiltersData.map((item, index) => (
+        <>
+          <div className='filter' key={index}>
+            <h4>{item.title}</h4>
+            <ul>
+              {
+                item.options.map((option, index1) => (
+                  <li className='filters-option' key={index1}>
+                    <input className="styled-checkbox" type="checkbox" />
+                    <span>{option}</span>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+          <div className='line-filter-sperater'></div>
+        </>
+      ))}
     </div>
   )
 }
