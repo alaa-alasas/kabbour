@@ -44,5 +44,34 @@ export const ProductsData = [
             
         }
 
+    },
+    {
+        img: "/kabbour/ProductDetails/Anise.jpeg",
+        productId: 4,
+        productName: "product.4.name", 
+        productDesc: "product.4.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Anise.jpeg",
+                "/kabbour/ProductDetails/22.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/MinitFlower.png",
+            
+        }
+    },
+    {
+        img: "/kabbour/ProductDetails/jouriFlowers2.jpeg",
+        productId: 5,
+        productName: "product.5.name", 
+        productDesc: "product.5.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/jouriFlowers2.jpeg",
+                "/kabbour/ProductDetails/22.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/flower.png",
+            
+        }
+
     }
 ];

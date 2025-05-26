@@ -13,7 +13,7 @@ const ProductsComponent = ({title}) => {
       <TitleComponent title={t("OurProductsTitle")} />
       <div className='product-cards'>
         {
-          ProductsData.map((item,index) => (
+          ProductsData.slice(0, 4).map((item,index) => (
             <ProductCardComponent 
             key={index} 
             img={item.img} 

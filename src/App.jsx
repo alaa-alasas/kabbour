@@ -19,6 +19,7 @@ import { initReactI18next, useTranslation } from "react-i18next";
 import en from "./locales/en.json";
 import ar from "./locales/ar.json";
 import GoToTop from './GoToTop'
+import { useEffect } from 'react'
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -30,7 +31,18 @@ i18n.use(initReactI18next).init({
 });
 
 function App() {
-const {t} = useTranslation();
+  const {t} = useTranslation();
+
+  useEffect(() => {
+    const updateDirection = () => {
+      const dir =  localStorage.getItem('appLanguage') === 'ar' ? 'rtl' : 'ltr';
+      document.documentElement.dir = dir;
+      document.documentElement.setAttribute('lang', localStorage.getItem('appLanguage'));
+      document.body.classList.toggle('rtl', dir === 'rtl');
+    };
+     updateDirection();
+  }, [t.language]);
+
   return (
     <>
       <GoToTop />

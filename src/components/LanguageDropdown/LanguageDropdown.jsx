@@ -1,8 +1,7 @@
 import { useState } from "react";
-import i18n from "i18next"; // Import i18next for language switching
+import i18n from "i18next"; 
 import './LanguageDropdown.css'
 
-// Define the available languages
 const LANGUAGES = [
   { code: "ar", name: "Arabic", flag: "/kabbour/Languages/Syrian.png" },
   { code: "en", name: "English", flag: "/kabbour/Languages/British.png" },
@@ -17,6 +16,8 @@ const LanguageDropdown = () => {
     i18n.changeLanguage(languageCode); // Change the language using i18next
     setSelectedLanguage(languageCode); // Update the selected language state
     document.body.dir = languageCode === "ar" ? "rtl" : "ltr"; // Update text direction
+    localStorage.setItem('appLanguage', languageCode); // حفظ اللغة المحددة
+
     setIsOpen(false); // Close the dropdown after selection
   };
 
