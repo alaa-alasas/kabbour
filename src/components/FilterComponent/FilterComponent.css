@@ -1,11 +1,18 @@
 .filters {
   width: 23.54166%;
   background-color: var(--black01);
-  padding-left: 64px;   
   padding-top: 124px;
   display: flex;
   flex-direction: column;
   gap: 16px; 
+}
+
+.filters-padding{
+  padding-left: 64px;   
+}
+
+.filters-padding-rtl{
+  padding-right: 64px;   
 }
 
 .filter{
@@ -91,6 +98,13 @@
 @media (max-width: 992px){
     .filters{
         width: 100%;
-        padding-left: 4.4444%;
+    }
+
+    .filters-padding{
+      padding-left: 4.4444%;
+    }
+
+    .filters-padding-rtl{
+      padding-right: 4.4444%;
     }
 }

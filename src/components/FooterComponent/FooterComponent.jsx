@@ -1,23 +1,27 @@
+import { useContext } from 'react';
 import './FooterComponent.css';
-import { FooterData } from "./../../data/FooterData"; // استيراد البيانات
-import { useTranslation } from "react-i18next"; // لدعم الترجمة
+import { FooterData } from "./../../data/FooterData"; 
+import { useTranslation } from "react-i18next"; 
+import { LanguageDirectionContext } from './../../context/LanguageDirectionContext';
+import { Link } from 'react-router-dom';
 
 const FooterComponent = () => {
-  const { t } = useTranslation(); // استخدام i18next للترجمة
-
+  const { direction } = useContext(LanguageDirectionContext);
+  const { t } = useTranslation(); 
+  
   return (
     <footer>
       <div className="footer-container px-64 mb-64">
         {/* قسم خريطة الموقع */}
         <div className="footer-col">
           <h4 className="title-footer">{t("siteMap.title")}</h4>
-          <ul className="ul-site-map">
+          <ul className={`ul-site-map`} style={{ [direction === 'rtl' ? 'right' : 'left']: '0px',  }}>
             {FooterData.siteMap.map((item, index) => (
               <li key={index}>
-                <img src={item.icon} alt="icon" />
-                <a href={item.link}>
+                <img src={item.icon} alt="icon" style={{transform: direction === 'rtl' ? 'rotate(180deg)' : 'rotate(0deg)',}}/>
+                <Link target='_blank' href={item.link} className={`hover-link ${direction == 'rtl'? 'hover-link-right' : 'hover-link-left'}`}>
                   <span>{t(item.text)}</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -30,18 +34,19 @@ const FooterComponent = () => {
             {FooterData.address.map((item, index) => (
               <li key={index}>
                 <img src={item.icon} alt="icon" />
-                <a href={item.link}>
+                <a target='_blank' href={item.link} className={`hover-link ${direction == 'rtl'? 'hover-link-right' : 'hover-link-left'}`}>
                   <span>{t(item.text)}</span>
                 </a>
               </li>
             ))}
           </ul>
 
+          {/* قسم روابط وسائل التواصل الاجتماعي */}
           <h4 className="title-footer">{t("social.title")}</h4>
           <ul className="ul-socail-link">
             {FooterData.socialLinks.map((item, index) => (
               <li key={index}>
-                <a href={item.link}>
+                <a target='_blank' href={item.link}>
                   <img src={item.icon} alt="icon" />
                 </a>
               </li>

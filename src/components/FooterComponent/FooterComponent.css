@@ -3,7 +3,7 @@
     padding-bottom: 64px;
     display: flex;
     gap: 32px;
-    justify-content: stretch;
+    justify-content: space-between;
     align-items: stretch;
 }
 
@@ -39,7 +39,6 @@ footer ul:after,
     width: 15%;
     background: var(--gold26);
     top: 0px;
-    left: 0;
 }
 
 
@@ -111,14 +110,13 @@ form label{
 }
 
 /* =============
-    Hover Effect Links 
+    Hover Effect Links with respect left / right direction
    =============*/
-.ul-contact-info li a::after,
-.ul-site-map li a::after
+.ul-contact-info li .hover-link::after,
+.ul-site-map li .hover-link::after
  {
     content: '';
     position: absolute;
-    left: 0;
     bottom: -3px;
     width: 0;
     height: 2px;
@@ -126,8 +124,18 @@ form label{
     transition: width 0.3s ease;
 }
 
-.ul-contact-info li a:hover::after,
-.ul-site-map li a:hover::after{
+.ul-contact-info li .hover-link-right::after,
+.ul-site-map li .hover-link-right::after{
+    right: 0;
+}
+
+.ul-contact-info li .hover-link-left::after,
+.ul-site-map li .hover-link-left::after{
+    left: 0;
+}
+
+.ul-contact-info li .hover-link:hover::after,
+.ul-site-map li .hover-link:hover::after{
     width: 100%;
 }
 

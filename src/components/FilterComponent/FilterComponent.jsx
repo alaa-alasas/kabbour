@@ -1,15 +1,18 @@
 import { useTranslation } from 'react-i18next';
 import './FilterComponent.css'
+import { LanguageDirectionContext } from './../../context/LanguageDirectionContext';
+import { useContext } from 'react';
 
 const FilterComponent = ({ FiltersData }) => {
     const { t } = useTranslation();
+    const { direction } = useContext(LanguageDirectionContext);
 
   return (
-    <div className="filters">
-      <h3>Filters</h3>
+    <div className={`filters ${direction == 'rtl' ? 'filters-padding-rtl' : 'filters-padding'}`}>
+      <h3>{t("filters.filter-name")}</h3>
       {FiltersData.map((item, index) => (
         <>
-          <div className='filter' key={index}>
+          <div className={`filter`} key={index}>
             <h4>{t(item.title)}</h4>
             <ul>
               {

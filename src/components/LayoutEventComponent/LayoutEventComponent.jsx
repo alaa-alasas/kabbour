@@ -10,8 +10,8 @@ const LayoutEventComponent = () => {
   const { t } = useTranslation(); // Hook لجلب الترجمات
 
    const breadcrumbItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Events', path: null },
+    { label: t('nav.home'), path: '/' },
+    { label: t('nav.media'), path: null },
   ];
 
   return (

@@ -140,7 +140,8 @@
   "SeeMore": "قراءة المزيد",
   "OurProductsTitle" : "منتجاتنا",
   "EventsTitle" : "فعاليات",
-    "filters": {
+  "filters": {
+    "filter-name": "تصنيفات",
     "event-type": {
       "title": "نوع الحدث",
       "options": [
@@ -193,7 +194,7 @@
   },
   "address": {
     "title": "العنوان",
-    "address.yabroud": "يبرود، ريف دمشق، سوريا",
+    "yabroud": "يبرود، ريف دمشق، سوريا",
     "+963 11 9493 / 9381": "+963 11 9493 / 9381",
     "info@kabourgroup.com": "info@kabourgroup.com"
   },

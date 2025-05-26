@@ -141,6 +141,7 @@
   "OurProductsTitle" : "Our Products",
   "EventsTitle" : "Events",
   "filters": {
+    "filter-name": "Filters",
     "event-type": {
       "title": "Event Type",
       "options": [
@@ -193,7 +194,7 @@
   },
   "address": {
     "title": "Address",
-    "address.yabroud": "Yabroud, Rural Damascus, Syria",
+    "yabroud": "Yabroud, Rural Damascus, Syria",
     "+963 11 9493 / 9381": "+963 11 9493 / 9381",
     "info@kabourgroup.com": "info@kabourgroup.com"
   },
