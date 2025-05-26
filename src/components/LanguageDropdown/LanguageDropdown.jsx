@@ -1,6 +1,7 @@
 import { useState } from "react";
 import i18n from "i18next"; 
 import './LanguageDropdown.css'
+import { Link } from "react-router-dom";
 
 const LANGUAGES = [
   { code: "ar", name: "Arabic", flag: "/kabbour/Languages/Syrian.png" },
@@ -34,10 +35,10 @@ const LanguageDropdown = () => {
         <ul className={`dropdown-menu`}>
           {LANGUAGES.map((lang) => (
             <li key={lang.code}>
-              <a href="#" onClick={() => handleLanguageChange(lang.code)}>
+              <Link onClick={() => handleLanguageChange(lang.code)}>
                 <img src={lang.flag}  alt="" />
                 {lang.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
