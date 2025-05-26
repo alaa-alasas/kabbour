@@ -26,7 +26,7 @@ const EventsComponent = () => {
       </div>
       <div className='events-show-more'>
         <div className='line'></div>
-        <BtnComponent title={"See More"} />
+        <BtnComponent title={t("SeeMore")} action={'/events'}/>
       </div>
     </section>
   )

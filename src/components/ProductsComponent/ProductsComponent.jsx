@@ -26,7 +26,7 @@ const ProductsComponent = ({title}) => {
       </div>
       <div className='products-show-more'>
         <div className='line'></div>
-        <BtnComponent title={"See More"} action={'/products'}/>
+        <BtnComponent title={t("SeeMore")} action={'/products'} />
       </div>
     </section>
   )
