@@ -81,23 +81,39 @@
   },
   "product": {
     "1": {
-      "name": "Hibiscus",
+      "name": "kaharta Green",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "2": {
-      "name": "Green Tea",
+      "name": "kaharta white",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "3": {
-      "name": "Mint",
+      "name": "Taragui",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "4": {
-      "name": "Anise",
+      "name": "Amanda",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     },
     "5": {
       "name": "Jouri Flowers",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "6": {
+      "name": "Hibiscus",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "7": {
+      "name": "Green Tea",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "8": {
+      "name": "Mint",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+    },
+    "9": {
+      "name": "Anise",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
     }
   },
