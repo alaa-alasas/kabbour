@@ -10,8 +10,8 @@ const LayoutProductComponent = () => {
   const { t } = useTranslation(); // Hook لجلب الترجمات
   
    const breadcrumbItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Products', path: null },
+    { label: t('nav.home'), path: '/' },
+    { label: t('nav.products'), path: null },
   ];
 
   return (
