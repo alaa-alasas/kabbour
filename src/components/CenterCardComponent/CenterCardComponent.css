@@ -4,9 +4,7 @@
     gap: 16px;
     align-items: start;
     background-color: var(--black01);
-
 }
-
 
 .center-desc{
     display: flex;
@@ -18,8 +16,8 @@
 .center-card h5{
     color: var(--gold26);
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 33.6px;
     letter-spacing: 0;
     border-bottom: 1px solid #A6A5B4;
     width: 100%;
@@ -35,8 +33,8 @@
 .center-card span{
     color: var(--greyb4);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: 0;
 }
 
@@ -48,4 +46,14 @@
     .center-card:nth-child(odd){
         background-color: var(--black17);
     }
+
+    .center-card h5{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .center-card span{
+        font-size: 16px;
+        line-height: 24px;
+    }         
 }

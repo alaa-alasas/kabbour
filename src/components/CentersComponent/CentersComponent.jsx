@@ -12,7 +12,7 @@ const CentersComponent = () => {
           title={"مراكز التوزيع داخل سوريا"} 
           desc={"تصدر مجموعة كبور الدولية منتجاتها إلى مختلف المحافظات داخل سوريا، يمكنكم التواصل مع مراكزنا عن طريق الأرقام التالية"}
         />
-        <img src="/kabbour/Distribution/syria.png" alt="syria" />
+        <img src="/kabbour/Distribution/syria.png" alt="syria" className='map-syria'/>
       </div>
       
       <div className='center-cards'>
