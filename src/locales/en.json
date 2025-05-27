@@ -79,42 +79,475 @@
     "title": "Technology",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
   },
+  "productDetails": "Product Details",
   "product": {
     "1": {
       "name": "kaharta Green",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "2": {
       "name": "kaharta white",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "3": {
       "name": "Taragui",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "4": {
       "name": "Amanda",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "5": {
       "name": "Jouri Flowers",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "6": {
       "name": "Hibiscus",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "7": {
       "name": "Green Tea",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "8": {
       "name": "Mint",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     },
     "9": {
       "name": "Anise",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     }
   },
   "event": {

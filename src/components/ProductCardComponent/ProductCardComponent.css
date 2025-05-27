@@ -22,6 +22,8 @@
     background-color: var(--black01);
     padding: 16px;
     border-radius: 16px;
+    min-height: 355px;
+    height: 100%;
 }
 
 .product-card img{
@@ -40,6 +42,7 @@
     flex-direction: column;
     gap: 16px;
     align-items: start;
+    height: 100%;
 }
 
 .product-card h5{
@@ -57,6 +60,10 @@
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 0;
+}
+
+.product-card .btn-comp{
+    margin-top: auto
 }
 
 @media(max-width: 992px){

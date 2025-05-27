@@ -81,3 +81,16 @@
     }
   }
 }
+
+
+@media(max-width: 992px){
+  .image-slider-container {
+    .Thumbnails-container-with-btn{
+      .Thumbnails-container {
+        .arrow-prev {
+          left: -35px; 
+        }
+      }
+    }
+  }
+}

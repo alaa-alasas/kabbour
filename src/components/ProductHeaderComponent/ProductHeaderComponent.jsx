@@ -2,7 +2,7 @@ import './ProductHeaderComponent.css'
 import ProductImageComponent from '../ProductImageComponent/ProductImageComponent';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
-const ProductHeaderComponent = ({ breadcrumbItems, images , productName}) => {
+const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc}) => {
 
   return (
     <div className='product-header-section px-64 mb-64'>
@@ -48,7 +48,7 @@ const ProductHeaderComponent = ({ breadcrumbItems, images , productName}) => {
               - Uses a smaller font size and neutral colors for readability.
             */}
             <p>
-              Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at
+              {productDesc}
             </p>
           </div>
           {/* ===========================

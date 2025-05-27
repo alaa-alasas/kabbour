@@ -23,13 +23,14 @@ const ProductDetails = () => {
         breadcrumbItems={breadcrumbItems} 
         images={item.details.images} 
         productName={t(item.productName)}
+        productDesc={t(item.productDesc)}
       />
       <ProductDescriptionComponent 
         imgFlower={item.details.flowerImg} 
-        desc={item.details.desc}
-        usageInstructions={item.details.usageInstructions}
-        ingredients={item.details.ingredients} 
-        poductSpecifications={item.details.poductSpecifications} 
+        desc={t(item.details.desc,{ returnObjects: true })}
+        usageInstructions={t(item.details.usageInstructions,{ returnObjects: true })}
+        ingredients={t(item.details.ingredients,{ returnObjects: true })} 
+        poductSpecifications={t(item.details.poductSpecifications,{ returnObjects: true })} 
       />
       <ProductsComponent title={"You may also like"}/>
     </>
