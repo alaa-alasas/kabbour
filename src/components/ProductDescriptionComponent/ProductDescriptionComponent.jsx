@@ -2,6 +2,8 @@ import TitleComponent from '../TitleComponent/TitleComponent';
 import './ProductDescriptionComponent.css';
 
 const ProductDescriptionComponent = ({imgFlower}) => {
+  const { direction } = useContext(LanguageDirectionContex);
+  
   return (
     /* ===========================
        Section: Product Description Section

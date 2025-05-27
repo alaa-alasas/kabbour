@@ -1,6 +1,7 @@
 
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import './ProductImageComponent.css'
+import { LanguageDirectionContext } from '../../context/LanguageDirectionContext';
 
 const ProductImageComponent = ({images}) => {
   // ===========================
@@ -9,6 +10,8 @@ const ProductImageComponent = ({images}) => {
   // Tracks the index of the currently displayed image in the slider.
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const { direction } = useContext(LanguageDirectionContext);
+
   // ===========================
   // Function: handlePrev
   // ===========================
@@ -16,7 +19,10 @@ const ProductImageComponent = ({images}) => {
   // - Decrements the currentIndex if it's greater than 0.
   // - Loops back to the last image if currentIndex is already at 0.
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev > 0 ? prev - 1 : images.length - 1));
+    if(direction == 'rtl')
+      setCurrentIndex((prev) => (prev < images.length - 1 ? prev + 1 : 0));
+    else
+      setCurrentIndex((prev) => (prev > 0 ? prev - 1 : images.length - 1));
   };
 
   // ===========================
@@ -26,7 +32,10 @@ const ProductImageComponent = ({images}) => {
   // - Increments the currentIndex if it's less than the last index.
   // - Loops back to the first image if currentIndex is already at the last index.
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev < images.length - 1 ? prev + 1 : 0));
+    if(direction == 'rtl')
+      setCurrentIndex((prev) => (prev > 0 ? prev - 1 : images.length - 1));
+    else
+      setCurrentIndex((prev) => (prev < images.length - 1 ? prev + 1 : 0));
   };
 
   return (
@@ -65,9 +74,9 @@ const ProductImageComponent = ({images}) => {
               alt={`Thumbnail ${index}`}
               onClick={() => setCurrentIndex(index)}
               style={{
-                marginLeft: index === 0 ? "auto" : undefined,
-                marginRight: index === images.length - 1 ? "auto" : undefined,
-                transform: `translateX(-${currentIndex * 100}%)`,
+                [direction === 'rtl' ? 'marginLeftt' : 'marginRight']: index === 0 ? "auto" : undefined,
+                [direction === 'rtl' ? 'marginLeftt' : 'marginRight']: index === images.length - 1 ? "auto" : undefined,
+                transform: `translateX( ${direction == 'rtl' ? (currentIndex * 100) : (-currentIndex * 100)}%  )`,
               }}
             />
           ))}
