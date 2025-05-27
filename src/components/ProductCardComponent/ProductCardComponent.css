@@ -82,6 +82,8 @@
 @media(max-width: 992px){
     .product-card-border{
         min-width: 250px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .product-card h5{

@@ -8,7 +8,7 @@
 .layout-product .product-cards {
     display: flex;
     gap: 16px;
-    justify-content: center;  
+    justify-content: start;  
     background-color: #191917;
     flex-wrap: wrap;
 }
@@ -35,6 +35,7 @@
     .layout-product{
         flex-wrap: wrap;
     }
+    
     .layout-product .product-cards {
         flex-wrap: wrap;
     }
