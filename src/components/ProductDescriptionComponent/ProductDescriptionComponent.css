@@ -135,9 +135,8 @@
 
           td {
             padding: 8px; 
-            text-align: left; 
             vertical-align: top; 
-            border-bottom: 1px solid #ff9800; 
+            border-bottom: 1px solid var(--gold26); 
           }
         }
       }
@@ -151,11 +150,30 @@
 @media (max-width: 992px) {
   .product-description-section {
     /* Adjust layout for smaller screens. */
+    gap: 32px;
+    .AA-title {
+      .AA-title-heading {
+        font-size: 20px; 
+        line-height: 30px; 
+      }
+    }
+
     .product-description-container {
       flex-wrap: wrap; 
 
       .product-description-col {
         width: 100%; 
+        /* Style headings and paragraphs consistently. */
+        .product-description h3,
+        .product-description p,
+        .product-ingredients h3,
+        .product-ingredients ul li,
+        .usage-instructions h3,
+        .usage-instructions p,
+        .product-specifications table td {
+          font-size: 14px;
+          line-height: 21px;
+        }
       }
     }
   }

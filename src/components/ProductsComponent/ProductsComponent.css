@@ -18,6 +18,10 @@
     gap: 16px;
 }
 
+.products-section .product-cards .product-card-border {
+    flex-basis: calc(25% - 16px);
+}
+
 .products-section .products-show-more{
     display: flex;
     align-items: center;
