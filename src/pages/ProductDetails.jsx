@@ -11,10 +11,26 @@ const ProductDetails = () => {
   const item = ProductsData.find(item => item.productId == productId);
   const { t } = useTranslation();
 
+  const breadcrumbItems = [
+    { label: t('nav.home'), path: '/' },
+    { label: t('nav.products'), path: '/products' },
+    { label: t(item.productName) , path: null },
+  ];
+
   return (
     <>
-      <ProductHeaderComponent images={item.details.images} productName={t(item.productName)}/>
-      <ProductDescriptionComponent imgFlower={item.details.flowerImg}/>
+      <ProductHeaderComponent 
+        breadcrumbItems={breadcrumbItems} 
+        images={item.details.images} 
+        productName={t(item.productName)}
+      />
+      <ProductDescriptionComponent 
+        imgFlower={item.details.flowerImg} 
+        desc={item.details.desc}
+        usageInstructions={item.details.usageInstructions}
+        ingredients={item.details.ingredients} 
+        poductSpecifications={item.details.poductSpecifications} 
+      />
       <ProductsComponent title={"You may also like"}/>
     </>
   )

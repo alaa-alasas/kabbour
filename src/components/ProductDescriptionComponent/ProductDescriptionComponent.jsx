@@ -1,8 +1,10 @@
+import { useContext } from 'react';
+import { LanguageDirectionContext } from '../../context/LanguageDirectionContext';
 import TitleComponent from '../TitleComponent/TitleComponent';
 import './ProductDescriptionComponent.css';
 
-const ProductDescriptionComponent = ({imgFlower}) => {
-  const { direction } = useContext(LanguageDirectionContex);
+const ProductDescriptionComponent = ({imgFlower,desc,ingredients,usageInstructions,poductSpecifications}) => {
+  const { direction } = useContext(LanguageDirectionContext);
   
   return (
     /* ===========================
@@ -29,14 +31,10 @@ const ProductDescriptionComponent = ({imgFlower}) => {
           */}
           <div className="product-description">
             <h3>Description:</h3>
-            <p>
-              The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.
-            </p>
-            <p>
-              In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion.
-            </p>
+            {desc.map((item,index) => (
+              <p key={index}>{item}</p>
+            ))}
           </div>
-
           {/* 
             - Subsection: Product Ingredients
             - Includes a heading and an unordered list of ingredients.
@@ -44,13 +42,9 @@ const ProductDescriptionComponent = ({imgFlower}) => {
           <div className='product-ingredients'>
             <h3>Ingredients:</h3>
             <ul>
-              <li>Damask Rose</li>
-              <li>Lemon Balm</li>
-              <li>Peppermint</li>
-              <li>Yerba Mate</li>
-              <li>Primrose</li>
-              <li>Chamomile</li>
-              <li>Green Tea</li>
+              {ingredients.map((item,index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
 
@@ -60,12 +54,9 @@ const ProductDescriptionComponent = ({imgFlower}) => {
           */}
           <div className="usage-instructions">
             <h3>How To Use:</h3>
-            <p>
-              To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.
-            </p>
-            <p>
-              If you want a stronger taste, leave the bag in the water for 4 minutes.
-            </p>
+            {usageInstructions.map((item,index) => (
+              <p key={index}>{item}</p>
+            ))}
           </div>
         </div>
 
@@ -79,30 +70,12 @@ const ProductDescriptionComponent = ({imgFlower}) => {
           */}
           <div className="product-specifications">
             <table>
-              <tr>
-                <td>Net Weight</td>
-                <td>- 44g</td>
-              </tr>
-              <tr>
-                <td>Bags</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td>Hot Drink</td>
-              </tr>
-              <tr>
-                <td>Center</td>
-                <td>Center</td>
-              </tr>
-              <tr>
-                <td>Center</td>
-                <td>Center</td>
-              </tr>
-              <tr>
-                <td>Center</td>
-                <td>Center</td>
-              </tr>
+              {poductSpecifications.map((item,index) => (
+                <tr key={index}>
+                  <td>{item.title}</td>
+                  <td>{item.desc}</td>
+                </tr>
+              ))}
             </table>
           </div>
           {/* 

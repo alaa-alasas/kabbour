@@ -2,14 +2,7 @@ import './ProductHeaderComponent.css'
 import ProductImageComponent from '../ProductImageComponent/ProductImageComponent';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
-
-const ProductHeaderComponent = ({ images , productName}) => {
-
-const breadcrumbItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Products', path: '/products' },
-    { label: productName , path: null },
-  ];
+const ProductHeaderComponent = ({ breadcrumbItems, images , productName}) => {
 
   return (
     <div className='product-header-section px-64 mb-64'>
