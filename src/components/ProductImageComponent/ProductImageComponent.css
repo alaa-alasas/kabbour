@@ -90,6 +90,9 @@
         .arrow-prev {
           left: -35px; 
         }
+        .arrow-next {
+          right: -35px; 
+        }
       }
     }
   }
