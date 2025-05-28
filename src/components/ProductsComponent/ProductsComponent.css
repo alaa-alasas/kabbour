@@ -7,6 +7,18 @@
     gap: 58px;
 }
 
+.title-section-products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-section-products .btn-comp{
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
 .products-section .AA-title{
     align-items: start;
 }
@@ -62,5 +74,9 @@
 
     .products-section .products-show-more{
         display: none;
+    }
+
+    .title-section-products .btn-comp{
+        display: block;
     }
 }

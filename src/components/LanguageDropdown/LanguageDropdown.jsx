@@ -16,18 +16,6 @@ const LanguageDropdown = ({isMobile}) => {
   const dropdownRef = useRef(null);
   const { t } = useTranslation();
 
-  // Function to handle language selection
-  const handleLanguageChange = (languageCode) => {
-    i18n.changeLanguage(languageCode); // Change the language using i18next
-    setSelectedLanguage(languageCode); // Update the selected language state
-    document.body.dir = languageCode === "ar" ? "rtl" : "ltr"; // Update text direction
-    localStorage.setItem('appLanguage', languageCode); // حفظ اللغة المحددة
-
-    setIsOpen(false); // Close the dropdown after selection
-  };
-
-
-
   useEffect(() => {
     if (dropdownRef.current) {
       if (isOpen) {
@@ -37,6 +25,15 @@ const LanguageDropdown = ({isMobile}) => {
       }
     }
   }, [isOpen]);
+
+ // Function to handle language selection
+  const handleLanguageChange = (languageCode) => {
+    i18n.changeLanguage(languageCode); // Change the language using i18next
+    setSelectedLanguage(languageCode); // Update the selected language state
+    document.body.dir = languageCode === "ar" ? "rtl" : "ltr"; // Update text direction
+    localStorage.setItem('appLanguage', languageCode); // حفظ اللغة المحددة
+    setIsOpen(false); // Close the dropdown after selection
+  };
 
   return (
     <div className="language-dropdown">

@@ -23,6 +23,8 @@
     padding: 8px;
     margin: 0;
     box-shadow: 0 2px 4px rgba(211, 147, 38, 0.5);
+    transition: max-height 0.4s ease-out;
+
 }
 
 .dropdown-menu-mobile{
@@ -33,6 +35,7 @@
   margin-top: 20px;
   box-shadow: 0 2px 4px rgba(211, 147, 38, 0.5);
   width: 100%;
+  transition: max-height 0.4s ease-out;
 }
 
 .dropdown-menu .arabic ,

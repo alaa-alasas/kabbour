@@ -5,6 +5,7 @@
     padding: 1px;
     transition: all 0.3s ease;
     max-width: 316px;
+    min-height: 260px;
 }
 
  /* Increase shadow on hover effect */
@@ -21,6 +22,7 @@
     background-color: var(--black01);
     padding: 16px;
     border-radius: 16px;
+    height: 100%;
 }
 
 

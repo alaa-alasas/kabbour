@@ -6,6 +6,18 @@
     gap: 58px;
 }
 
+.title-section-events{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-section-events .btn-comp{
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
 .events-section .AA-title{
     align-items: start;
 }
@@ -57,5 +69,9 @@
 
     .events-section .events-show-more{
         display: none;
+    }
+
+    .title-section-events .btn-comp{
+        display: inline-block;
     }
 }

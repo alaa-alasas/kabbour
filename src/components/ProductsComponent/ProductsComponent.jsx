@@ -10,7 +10,10 @@ const ProductsComponent = ({title}) => {
 
   return (
     <section className='products-section px-64 mb-64'>
-      <TitleComponent title={t("OurProductsTitle")} />
+      <div className='title-section-products'>
+          <TitleComponent title={t("OurProductsTitle")} />
+          <BtnComponent title={t("SeeMore")} action={'/products'} />
+      </div>
       <div className='product-cards'>
         {
           ProductsData.slice(0, 4).map((item,index) => (

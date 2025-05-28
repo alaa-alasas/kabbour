@@ -10,7 +10,10 @@ const EventsComponent = () => {
 
   return (
     <section className='events-section px-64 mb-64'>
+      <div className='title-section-events'>
       <TitleComponent title={t("EventsTitle")} />
+          <BtnComponent title={t("SeeMore")} action={'/products'} />
+      </div>
       <div className='event-cards'>
         {
           EventsData.map((item,index) => (
