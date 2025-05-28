@@ -8,6 +8,14 @@
     "about": "حول",
     "contact": "اتصل بنا"
   },
+  "companyInfo": {
+    "established": "تأسست عام 1960",
+    "memberDamascusChamber": "عضو في غرفة تجارة دمشق",
+    "operatingInAllProvinces": "تعمل في جميع المحافظات السورية"
+  },
+  "ProductsCollectionsTitle": "مجموعات المواد",
+  "AboutTitle": "عن الشركة",
+  "StudiesOnMateTitle" : "دراسات عن المتة",
   "language": "اللغة",
   "about": {
     "factory": {

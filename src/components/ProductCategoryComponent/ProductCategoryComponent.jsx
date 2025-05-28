@@ -8,7 +8,7 @@ const ProductCategoryComponent = () => {
 
   return (
     <section className='product-category-section px-64 mb-64'>
-      <TitleComponent title={"Products Collections"} />
+      <TitleComponent title={t("ProductsCollectionsTitle")} />
       <div className='product-category-cards'>
         {ProductCategoryData.map((item,index) => (
           <div className='product-category-card' key={index} data-aos="zoom-in" data-aos-duration="1500" data-aos-delay={index * 300}>

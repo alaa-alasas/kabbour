@@ -8,7 +8,7 @@ const QualityComponent = () => {
 
   return (
     <section className='quality-sec px-64 mb-64'>
-      <TitleComponent title={"Studies on mate"} />
+      <TitleComponent title={t("StudiesOnMateTitle")} />
       
       {
         QualityData.map((item, index) => (

@@ -1,14 +1,14 @@
 export const InfoAboutCompany = [ 
     {
         img: "/kabbour/CompanyInfo/date-image.png",
-        info: "تأسست عام 1960",
+        info: "companyInfo.established",
     },
     {
         img: "/kabbour/CompanyInfo/date-image.png",
-        info: "عضو في غرفة تجارة دمشق",
+        info: "companyInfo.memberDamascusChamber",
     },
     {
         img: "/kabbour/CompanyInfo/date-image.png",
-        info: "تأسست عام 1960",    
+        info: "companyInfo.operatingInAllProvinces",    
     }
 ];

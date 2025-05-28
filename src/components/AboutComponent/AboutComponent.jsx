@@ -9,7 +9,7 @@ const AboutComponent = () => {
 
   return (
     <section className='about-factory px-64 mb-64'>
-      <TitleComponent title={"About Our Company"} />
+      <TitleComponent title={t("AboutTitle")} />
       
       {
         AboutFactoryData.map((item, index) => (
@@ -23,7 +23,7 @@ const AboutComponent = () => {
             <div className='right-side'>
               <h4>{t(item.title)}</h4>
               <p>{t(item.desc)}</p>
-              <BtnComponent title={"Read More"}/>
+              <BtnComponent title={t("ReadMore")}/>
             </div>
           </div>
         ))

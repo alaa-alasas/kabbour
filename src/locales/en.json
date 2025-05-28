@@ -8,6 +8,14 @@
     "about": "About",
     "contact": "Contact Us"
   },
+  "companyInfo": {
+    "established": "Established in 1960",
+    "memberDamascusChamber": "Member of Damascus Chamber of Commerce",
+    "operatingInAllProvinces": "Operating in all Syrian provinces"
+  },
+  "ProductsCollectionsTitle": "Products Collections",
+  "AboutTitle":"About Our Company",
+  "StudiesOnMateTitle" : "Studies on mate",
   "language": "Languages",
   "about": {
     "factory": {

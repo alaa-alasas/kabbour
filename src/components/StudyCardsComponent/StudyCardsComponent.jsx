@@ -9,7 +9,7 @@ const StudyCardsComponent = () => {
 
   return (
     <section className='study-section px-64 mb-64'>
-      <TitleComponent title={"Studies on mate"} />
+      <TitleComponent title={t("StudiesOnMateTitle")} />
       <div className='study-cards'>
         {studyData.map((item,index) => (
           <StudyCardComponent desc={item.desc} ResearchersName={item.ResearchersName} ResearchersStudy={item.ResearchersStudy}  key={index}/> 

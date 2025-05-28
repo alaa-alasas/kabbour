@@ -90,4 +90,12 @@
     min-height: 350px;
   }
 
+  .slider-content h3 {
+    text-align: center;
+  }
+
+  .slider-content p {
+    text-align: center;
+  }
+
 }
