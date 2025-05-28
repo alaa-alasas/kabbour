@@ -1,26 +1,27 @@
 import './CentersComponent.css'
 import TitleComponent from '../TitleComponent/TitleComponent'
-import { CentersData } from '../../data/CentersData'
 import CenterCardComponent from '../CenterCardComponent/CenterCardComponent'
+import { useTranslation } from 'react-i18next'
 
 const CentersComponent = () => {
+  const { t } = useTranslation();
 
   return (
     <section className='centers-section px-64 mb-64'>
       <div className='centers-title-section'>
         <TitleComponent 
-          title={"مراكز التوزيع داخل سوريا"} 
-          desc={"تصدر مجموعة كبور الدولية منتجاتها إلى مختلف المحافظات داخل سوريا، يمكنكم التواصل مع مراكزنا عن طريق الأرقام التالية"}
+          title={t("centerTitle")} 
+          desc={t("centerDesc")}
         />
         <img src="/kabbour/Distribution/syria.png" alt="syria" className='map-syria'/>
       </div>
       
       <div className='center-cards'>
         {
-          CentersData.map((item,index) => (
+          t("centers",{ returnObjects: true }).map((item,index) => (
             <CenterCardComponent key={index} 
-              centerName={item.centerName}
-              location={item.location}
+              centerName={t(item.name)}
+              location={t(item.location)}
               phone={item.phone}
             />
           ))

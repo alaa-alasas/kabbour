@@ -79,6 +79,80 @@
     "title": "Technology",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
   },
+  "centerTitle": "Distribution centers within Syria",
+  "centerDesc": "Kabour International Group exports its products to various provinces across Syria. You can contact our distribution centers using the following numbers.",
+  "centers": [
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    },
+    {
+      "name": "Damascus Center",
+      "location": "Yabroud, Rural Damascus, Syria",
+      "phone": "+963 11 9493 / 9381"
+    }
+  ],
   "productDetails": "Product Details",
   "product": {
     "1": {
