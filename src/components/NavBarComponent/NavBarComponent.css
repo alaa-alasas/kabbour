@@ -55,6 +55,16 @@ nav.scrolled {
     border: none;
 }
 
+.mobileLanguageWrapper {
+    display: none;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.mobileLanguageWrapper .language-dropdown{
+    display: none;
+}
+
 @media(max-width: 992px){
    .toggle-btn {
         display: block;
@@ -95,5 +105,31 @@ nav.scrolled {
         max-height: 100vh;
         opacity: 1;
         visibility: visible;
+    }
+
+    .mobileLanguageWrapper {
+        display: flex;
+    }
+
+    .mobileLanguageWrapper .language-dropdown{
+        display: block;
+    }
+
+    .mobileLanguageWrapper .language-dropdown .dropdown-menu {
+        position: absolute;
+        top: 40px;
+        z-index: 9999999999;
+        padding: 10px 0;
+        min-width: 150px;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: max-height 0.4s ease-out;
+    }
+
+    .mobileLanguageWrapper .language-dropdown.open .dropdown-menu {
+        max-height: 200px; /* يمكن تعديله حسب عدد العناصر */
+        transition: max-height 0.4s ease-in;
     }
 }

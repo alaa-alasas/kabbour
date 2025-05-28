@@ -9,17 +9,6 @@ const NavBarComponent = ({img,navData}) => {
   const [scrolling, setScrolling] = useState(false); // State to track scroll position for navbar styling
   const { t } = useTranslation();
 
-  //const { t, i18n } = useTranslation();
-  
-  //const [language, setLanguage] = useState("en");
-
-  // const toggleLanguage = () => {
-  //   const newLang = language === "en" ? "ar" : "en";
-  //   setLanguage(newLang);
-  //   i18n.changeLanguage(newLang); // Change the language in i18next
-  //   document.body.dir = newLang === "ar" ? "rtl" : "ltr"; // Update text direction
-  // };
-  
 // ===========================
 // Handle scroll event to add "scrolled" class to the navbar
 // ===========================
@@ -49,6 +38,9 @@ useEffect(() => {
             </li>
           ))
         }
+        <li className="mobileLanguageWrapper">
+           <LanguageDropdown isMobile={true} />
+        </li>
       </ul>
       <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
         <img
