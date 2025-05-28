@@ -1,59 +1,93 @@
-.hero{
-    height: 100%;
-    padding-top: 68px;
-    left: 0;
-    overflow: hidden;
-    background-color: var(--black15);
+.hero {
+  height: 100%;
+  padding-top: 68px;
+  left: 0;
+  overflow: hidden;
+  background-color: var(--black15);
 }
 
-.slick-slide{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.slick-slide {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.slider-content {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    color: white;
-    z-index: 10;
-    height: 100%;
-    width: 31.1111%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 26px;
+.hero .slider-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  z-index: 10;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  padding-top: 68px;
+}
+
+.slider-content h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: var(--gold26);
+}
+
+.slider-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--greyb4);
+}
+
+
+.slick-slide .img-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.hero .logo {
+  margin-bottom: 10px;
+}
+
+@media(max-width: 1919px) {
+  .hero .slider-content {
+    padding-top: 3%;
+    gap: 15px;
+    width: 60%;
   }
 
-  .slick-slide .img-slide{
-    width: 100%;
-    height: 100%;
+  .slider-content h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
   }
-  
+
+  .slider-content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
   .hero .logo {
-    width: 50px; /* Adjust as needed */
-    margin-bottom: 10px;
-  }
-  
-  /* button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  } */
+    width: 128px;
+  } 
+}
 
-  @media(max-width: 992px){
-    .hero{
-        display: none;
-    }
+@media(max-width: 992px) {
+  .hero{
+    padding-bottom: 0;
+  }
+
+  .hero .slider-content {
+    position: static;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 16px;
+    min-height: 350px;
+  }
+
 }

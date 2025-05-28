@@ -1,4 +1,3 @@
-import React from 'react'
 import './StudyCardComponent.css'
 
 const StudyCardComponent = ({ ResearchersName, desc, ResearchersStudy }) => {
