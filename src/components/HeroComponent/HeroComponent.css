@@ -13,30 +13,48 @@
   align-items: center;
 }
 
-.hero .slider-content {
+.hero .slider-content-right,
+.hero .slider-content-left {
   position: absolute;
   top: 0px;
-  left: 0px;
   color: white;
   z-index: 10;
   height: 100%;
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: start;
   gap: 20px;
   padding-top: 68px;
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0) 24.82%, rgba(0, 0, 0, 0.85) 72.02%);
+  background-blend-mode: multiply;
+
 }
 
-.slider-content h3 {
+.hero .slider-content-right{
+  right: 0;
+  align-items: end;
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0) 24.82%, rgba(0, 0, 0, 0.85) 72.02%);
+  background-blend-mode: multiply;
+}
+
+.hero .slider-content-left{
+  left: 0;
+  align-items: start;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 24.82%, rgba(0, 0, 0, 0.85) 72.02%);
+  background-blend-mode: multiply;
+}
+
+.slider-content-left h3,
+.slider-content-right h3 {
   font-weight: 700;
   font-size: 48px;
   line-height: 57.6px;
   color: var(--gold26);
 }
 
-.slider-content p {
+.slider-content-left p,
+.slider-content-right p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -54,19 +72,20 @@
 }
 
 @media(max-width: 1919px) {
-  .hero .slider-content {
+  .hero .slider-content-left {
     padding-top: 3%;
     gap: 15px;
-    width: 60%;
   }
 
-  .slider-content h3 {
+  .slider-content-left h3,
+  .slider-content-right h3 {
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
   }
 
-  .slider-content p {
+  .slider-content-left p,
+  .slider-content-right p {
     font-size: 14px;
     line-height: 18px;
   }
@@ -81,20 +100,24 @@
     padding-bottom: 0;
   }
 
-  .hero .slider-content {
+  .hero .slider-content-left,
+  .hero .slider-content-right
+   {
     position: static;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding-bottom: 16px;
-    min-height: 350px;
+    min-height: 395px;
+    background: transparent;
   }
 
-  .slider-content h3 {
+  .slider-content-left h3,
+  .slider-content-right h3 {
     text-align: center;
   }
 
-  .slider-content p {
+  .slider-content-left p,
+  .slider-content-right p {
     text-align: center;
   }
 

@@ -13,6 +13,21 @@
     "memberDamascusChamber": "عضو في غرفة تجارة دمشق",
     "operatingInAllProvinces": "تعمل في جميع المحافظات السورية"
   },
+   "hero": {
+    "slider1": {
+      "logoAlt": "شعار التداول",
+      "title": "مجموعة كبور الدولية",
+      "description": "هذا النص هو نموذج لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربي.",
+      "buttonText": "اقرأ المزيد"
+    },
+    "slider2": {
+      "logoAlt": "شعار Campo",
+      "title": "مجموعة كبور الدولية",
+      "description": "هذا النص هو نموذج لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربي.",
+      "buttonText": "اقرأ المزيد"
+    }
+  },
+  "BrandTitle":"ماركاتنا",
   "ProductsCollectionsTitle": "مجموعات المواد",
   "AboutTitle": "عن الشركة",
   "StudiesOnMateTitle" : "دراسات عن المتة",

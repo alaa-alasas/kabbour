@@ -1,9 +1,11 @@
 import './BrandSliderComponent.css'
-import Slider from 'react-slick';
 import {BrandsData} from './../../data/BrandsData';
 import TitleComponent from '../TitleComponent/TitleComponent';
+import { useTranslation } from 'react-i18next';
 
 const BrandSliderComponent = () => {
+  const { t } = useTranslation(); 
+  
   const settings = {
     dots: false, 
     infinite: true, 
@@ -21,7 +23,7 @@ const BrandSliderComponent = () => {
       <div className='brands-overlay'></div>
       <div className='brands-overlay2'></div>
 
-      <TitleComponent title={"Our Brands"} />
+      <TitleComponent title={t("BrandTitle")} />
       {/* <Slider {...settings}>
       {
         

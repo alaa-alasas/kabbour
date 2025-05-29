@@ -1,8 +1,15 @@
 import Slider from 'react-slick';
 import './HeroComponent.css'
 import BtnComponent from '../BtnComponent/BtnComponent';
+import { useTranslation } from 'react-i18next';
+import { getHeroSliderData } from '../../data/HeroData';
+import { useContext } from 'react';
+import { LanguageDirectionContext } from '../../context/LanguageDirectionContext';
 
 const HeroComponent = () => {
+  const { t } = useTranslation();
+  const sliderData = getHeroSliderData(t);
+  const { direction } = useContext(LanguageDirectionContext);
 
   const settings = {
     dots: false,
@@ -23,24 +30,17 @@ const HeroComponent = () => {
   return (
     <section className='hero mb-64'>
       <Slider {...settings}>
-        <div>
-          <div className="slider-content px-64">
-            <img src="/kabbour/Hero/Trades.png" alt="Logo" className="logo" />
-            <h3>Kabour International Group</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat libero et velit interdum, ac dictum.</p>
-            <BtnComponent title={"Read More"}/>
+        {sliderData.map((slide, index) => (
+          <div key={index} className="hero-slide">
+            <div className={`${direction === 'rtl' ? 'slider-content-right' : 'slider-content-left' } px-64`} >
+              <img src={slide.logo} alt={slide.logoAlt} className="logo" />
+              <h3>{slide.title}</h3>
+              <p>{slide.description}</p>
+              <BtnComponent title={slide.buttonText} />
+            </div>
+            <img src={slide.image} alt={slide.imageAlt} className="img-slide" />
           </div>
-          <img src="/kabbour/Hero/img2.png" alt="Slide 1" className='img-slide'/>
-        </div>
-        <div>
-          <div className="slider-content px-64">
-            <img src="/kabbour/Hero/campo-logo.png" alt="Logo" className="logo" />
-            <h3>Kabour International Group</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat libero et velit interdum, ac dictum.</p>
-            <BtnComponent title={"Read More"}/>
-          </div>
-          <img src="/kabbour/Hero/img3.png" alt="Slide 2" className='img-slide'/>
-        </div>
+        ))}
       </Slider>
     </section>
   )

@@ -13,6 +13,21 @@
     "memberDamascusChamber": "Member of Damascus Chamber of Commerce",
     "operatingInAllProvinces": "Operating in all Syrian provinces"
   },
+  "hero": {
+    "slider1": {
+      "logoAlt": "Trades Logo",
+      "title": "Kabour International Group",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat libero et velit interdum, ac dictum.",
+      "buttonText": "Read More"
+    },
+    "slider2": {
+      "logoAlt": "Campo Logo",
+      "title": "Kabour International Group",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat libero et velit interdum, ac dictum.",
+      "buttonText": "Read More"
+    }
+  },
+  "BrandTitle":"Our Brands",
   "ProductsCollectionsTitle": "Products Collections",
   "AboutTitle":"About Our Company",
   "StudiesOnMateTitle" : "Studies on mate",
