@@ -1,15 +1,22 @@
+import { useTranslation } from 'react-i18next';
+import { getHistoryData } from '../../data/HistoryData';
 import './HistoryComponent.css'
-import TitleComponent from '../TitleComponent/TitleComponent'
-import { HistoryData } from '../../data/HistoryData'
+import { useContext } from 'react';
+import { LanguageDirectionContext } from '../../context/LanguageDirectionContext';
 
 const HistoryComponent = () => {
+  const { t } = useTranslation();
+  const historyData = getHistoryData(t);
+  const { direction } = useContext(LanguageDirectionContext);
+
   return (
     <section className='history-sec px-64 mb-64'>
-        <div className="timeline">
+        <div className={`${direction == 'rtl' ? 'timeline-right' : 'timeline-left'}`}>
           {
-            HistoryData.map((item, index) => (
-              <div className={`timeline-item ${item.position}`} key={index} style={{animationDelay: `${index}s`}}>
-                <div className="timeline-icon">
+            historyData.map((item, index) => (
+              <div className={`${direction == 'rtl' ? 'timeline-item-right' : 'timeline-item-left'} ${item.position} ${direction == 'rtl' ? item.position+'right' : item.position+'left' }`} 
+              key={index} style={{animationDelay: `${index}s`}}>
+                <div className={`${direction == 'rtl' ? 'timeline-icon-right' : 'timeline-icon-left'}`}>
                   <h2>{item.date}</h2>
                   <img src={item.img} alt="icon" />
                 </div>

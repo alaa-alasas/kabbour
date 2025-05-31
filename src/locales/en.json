@@ -27,10 +27,14 @@
       "buttonText": "Read More"
     }
   },
+  "subHeroTitle": "Kabour International Group",
+  "subHeroDesc": "A leading company in the production, manufacturing, and distribution of yerba mate across Syria and the Arab world. It operates factories in both Argentina and Syria, follows the highest hygiene standards, and uses advanced technology to produce the finest quality beverage.",
   "BrandTitle":"Our Brands",
   "ProductsCollectionsTitle": "Products Collections",
   "AboutTitle":"About Our Company",
   "StudiesOnMateTitle" : "Studies on mate",
+  "mateArriveTitle": "How does yerba mate reach you?",
+  "mateArriveDesc": "Yerba mate goes through a long series of stages — from its cultivation and harvesting to its delivery to the consumer — resulting in the final product that makes the best drink.",
   "language": "Languages",
   "about": {
     "factory": {
@@ -754,5 +758,78 @@
     "email": "Email *",
     "message": "Message *",
     "send": "Send"
+  },
+  "mateProcess": {
+    "phase1": {
+      "title": "Kbour International Farms",
+      "desc": "The lands of Kbour International Group are located in the north of the Misiones region in Argentina, near the town of Comandante Andresito."
+    },
+    "phase2": {
+      "title": "Harvesting Yerba Mate",
+      "desc": "The harvested yerba mate leaves are dried in several stages to achieve low moisture content, preserving their quality and properties."
+    },
+    "phase3": {
+      "title": "Sapeco Process",
+      "desc": "Green leaves enter the Sapeco unit where they are exposed to high heat (up to 400°C) for one minute to stop fermentation enzymes."
+    },
+    "phase4": {
+      "title": "Piresco Process",
+      "desc": "In this stage, the leaves go through a process similar to Sapeco but with 30% less heat."
+    },
+    "phase5": {
+      "title": "Cinta 1 & 2",
+      "desc": "After Piresco, yerba mate passes through Cinta chambers at 80–100°C for 10 hours to dry the leaves and stems completely."
+    },
+    "phase6": {
+      "title": "Kenchadora & Nuki",
+      "desc": "Leaves enter Kenchadora and are coarsely cut into 'kenchada'. Then, stems are separated from leaves in Nuki and stored for a year in aging warehouses."
+    },
+    "phase7": {
+      "title": "Warehouses",
+      "desc": "After drying, yerba mate is stored in aging warehouses for one year."
+    },
+    "phase8": {
+      "title": "Milling",
+      "desc": "After aging, the dried yerba mate is milled and packaged."
+    },
+    "phase9": {
+      "title": "Packaging & Shipping",
+      "desc": "Yerba Mate is shipped by sea to Syria, going through several stages before reaching the consumer."
+    },
+    "phase11": {
+      "title": "Container Arrival",
+      "desc": "Bulk yerba mate bags arrive at the warehouse inside sealed metal containers."
+    },
+    "phase12": {
+      "title": "Sorting Yerba Mate",
+      "desc": "Yerba Mate is packed into moisture- and odor-resistant paper containers. The packaging is fully automated without human contact, following all hygiene standards."
+    },
+    "phase13": {
+      "title": "Packaging",
+      "desc": "Yerba Mate is packed into moisture- and odor-resistant paper containers. The packaging is fully automated without human contact, following all hygiene standards."
+    }
+  },
+  "history": {
+    "phase1": {
+      "desc": "A yerba mate processing and packaging factory was established in Syria - Yabroud area."
+    },
+    "phase2": {
+      "desc": "A facility for packaging various types of imported tea from Sri Lanka, India, China, and Kenya was established."
+    },
+    "phase3": {
+      "desc": "Preparations were made to launch a strategic project in Argentina for growing, drying, milling, and exporting yerba mate to Syria. It is now one of the leading companies in Argentina."
+    },
+    "phase4": {
+      "desc": "In 2009, Kbour International Group started producing and packaging medicinal herbs under the brand name 'Campo' after sterilization and purification."
+    },
+    "phase5": {
+      "desc": "Our product line expanded in 2012 to include various types of instant hot drinks (powders)."
+    },
+    "phase6": {
+      "desc": "In 2016, our product line expanded to include licensed medical mixtures approved by the Syrian Ministry of Health. These mixtures were developed under scientific supervision using numerous medical references."
+    },
+    "phase7": {
+      "desc": "Coffee was added to Kbour Company's product family in 2021."
+    }
   }
 }

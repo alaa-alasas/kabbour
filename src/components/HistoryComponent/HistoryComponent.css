@@ -4,13 +4,15 @@
   padding-top: 64px;
 }
 
-.timeline {
+.timeline-right,
+.timeline-left{
   max-width: 1200px;
   position: relative;
   margin: 0 auto;
 }
 
-.timeline::after{
+.timeline-right::after,
+.timeline-left::after{
     content: '';
     position: absolute;
     width: 6px;
@@ -33,7 +35,8 @@
     }
 }
 
-.timeline-item {
+.timeline-item-left,
+.timeline-item-right {
   position: relative;
   display: flex;
   align-items: end;
@@ -44,6 +47,10 @@
   max-width: 580px;
   animation: movedown 1s linear forwards;
   opacity: 0;
+}
+
+.timeline-item-right{
+  align-items: start;
 }
 
 @keyframes movedown{
@@ -58,19 +65,27 @@
     }
 }
 
-.timeline-icon {
+.timeline-icon-right,
+.timeline-icon-left {
     width: 100%;
     display: flex;
-    justify-content: end;
+    flex-direction: row-reverse;
+
+    justify-content: start;
     align-items: center;
     gap: 20px;
     border-bottom: 3px solid var(--grey03);
     padding-bottom: 20px;
-    padding-right: 50px;
+    padding-left: 50px;
     position: relative;
 }
 
-.timeline-icon h2 {
+.timeline-icon-right{
+    padding-right: 50px;
+}
+
+.timeline-icon-left h2,
+.timeline-icon-right h2 {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 0;
@@ -89,10 +104,13 @@
   font-weight: 400;
   letter-spacing: 0;
   color: var(--grey03);
-  text-align: right;
 }
 
-.right-container .timeline-icon::before{
+.right-containerleft .timeline-icon-right::before,
+.right-containerleft .timeline-icon-left::before,
+.right-containerright .timeline-icon-right::before,
+.right-containerright .timeline-icon-left::before
+{
     content: '';
     position: absolute;
     right: -15px;
@@ -104,7 +122,23 @@
     background: var(--grey03);
 }
 
-.left-container .timeline-icon::after{
+.right-containerleft .timeline-icon-right::before,
+.right-containerleft .timeline-icon-left::before{
+    right: -15px; 
+    /* right: unset; */
+}
+
+.right-containerright .timeline-icon-right::before,
+.right-containerright .timeline-icon-left::before{
+    left: -15px; 
+    right: unset;
+}
+
+.left-containerleft .timeline-icon-left::after,
+.left-containerleft .timeline-icon-right::after,
+.left-containerright .timeline-icon-left::after,
+.left-containerright .timeline-icon-right::after
+{
     content: '';
     position: absolute;
     left: -15px;
@@ -116,35 +150,91 @@
     background: var(--grey03);
 }
 
-.right-container{
+.left-containerleft .timeline-icon-left::after,
+.left-containerleft .timeline-icon-right::after
+{
+    left: -15px;
+    /* left: unset; */
+}
+
+.left-containerright .timeline-icon-left::after,
+.left-containerright .timeline-icon-right::after{
+    right: -15px;
+    left: unset;
+}
+
+.right-containerleft{
     right: -20px;
 }
 
-.left-container{
+.right-containerright{
+    left: -20px;
+}
+
+.left-containerleft{
     left: 50%;
 }
 
+.left-containerright{
+    right: 50%;
+}
+
 @media (max-width: 992px){
-    .timeline::after{
+    .mate-arrive-sec .AA-title-desc{
+        padding: 0;
+    }
+
+    .mate-arrive-sec .AA-title {
+        gap: 16px;
+    }
+
+    .timeline-left::after{
         left: 10px;
     }
 
-    .timeline-item{
+    .timeline-right::after{
+        right: 10px;
+    }
+
+    .timeline-item-right,
+    .timeline-item-left{
         width: 100%;
         max-width: 100%;
         padding-bottom: 50px;
         padding-right: 4.4444%;
     }
 
-    .right-container{
+    .right-containerleft{
         left: 10px;
     }
 
-    .left-container{
+    .right-containerright{
+        right: 10px;
+    }
+
+    .left-containerleft{
         left: 10px;
     }
 
-    .right-container .timeline-icon::before{
+    .left-containerright{
+        right: 10px;
+    }
+
+    .right-container-left .timeline-icon-left::before,
+    .right-container-left .timeline-icon-right::before{
+        left: -25px;
+    }
+
+    .right-containerright .timeline-icon-left::before,
+    .right-containerright .timeline-icon-right::before
+    {
+        right: -25px;
+    }
+    .left-containerright .timeline-icon-left::after, .left-containerright .timeline-icon-right::after{
+        right: -25px;
+    }
+    .right-containerleft .timeline-icon-right::before, .right-containerleft .timeline-icon-left::before{
+        right: unset;
         left: -15px;
     }
 }

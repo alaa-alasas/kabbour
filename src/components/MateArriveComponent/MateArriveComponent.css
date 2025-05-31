@@ -1,8 +1,6 @@
-
 .mate-arrive-sec{
   padding-top: 64px;
 }
-
 
 .mate-arrive-phases{
     display: flex;
@@ -17,9 +15,10 @@
     gap: 72px;
 }
 
-.mate-arrive-card{
+.mate-arrive-card-left,
+.mate-arrive-card-right{
     max-width: 290px;
-    min-height: 390px;
+    min-height: 190px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -27,13 +26,18 @@
     position: relative;
 }
 
-.left-line,
-.right-line{
+.mate-arrive-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+}
+
+.line{
     width: 100%;
 }
 
-.left-line::after,
-.right-line::after{
+.line::after{
     content: '';
     position: absolute;
     top: 50px;
@@ -41,35 +45,57 @@
     border-top: 4px dashed var(--gold26);
 }
 
-.mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card:nth-child(1)::before {
+.mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-left:nth-child(1)::before,
+.mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-right:nth-child(1)::before {
     content: '';
     position: absolute;
+    top: 50px;
+    height: 120.8%;
+    width: 50px;
+    border-top: 5px dashed var(--gold26);
+    border-bottom: 5px dashed var(--gold26);
+    border-radius: 8px;
+}
+
+.mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-left:nth-child(1)::before {
+    border-left: 5px dashed var(--gold26); 
     left: -50px;
-    top: 50px;
-    height: 115%;
-    width: 50px;
-    border-left: 5px dashed var(--gold26);
-    border-top: 5px dashed var(--gold26);
-    border-bottom: 5px dashed var(--gold26);
-    border-radius: 8px;
 }
 
+.mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-right:nth-child(1)::before {
+    border-right: 5px dashed var(--gold26);
+    right: -50px;
+}
 
-.mate-arrive-row:nth-child(even) .mate-arrive-card:nth-child(3)::before {
+.mate-arrive-row:nth-child(even) .mate-arrive-card-left:nth-child(3)::before,
+.mate-arrive-row:nth-child(even) .mate-arrive-card-right:nth-child(3)::before {
     content: '';
     position: absolute;
-    right: -50px;
     top: 50px;
     height: 115%;
     width: 50px;
-    border-right: 5px dashed var(--gold26);
     border-top: 5px dashed var(--gold26);
     border-bottom: 5px dashed var(--gold26);
     border-radius: 8px;
 }
 
+.mate-arrive-row:nth-child(even) .mate-arrive-card-left:nth-child(3)::before{
+    right: -50px;
+    border-right: 5px dashed var(--gold26);
+}
 
-.mate-arrive-row .mate-arrive-card:nth-child(2)::before{
+.mate-arrive-row:nth-child(even) .mate-arrive-card-right:nth-child(3)::before{
+    left: -50px;
+    border-left: 5px dashed var(--gold26);
+}
+
+.mate-arrive-row:nth-child(4) .mate-arrive-card-left:nth-child(3)::before,
+.mate-arrive-row:nth-child(4) .mate-arrive-card-right:nth-child(3)::before {
+    height: 135%;
+}
+
+.mate-arrive-row .mate-arrive-card-left:nth-child(2)::before,
+.mate-arrive-row .mate-arrive-card-right:nth-child(2)::before{
     content: '';
     position: absolute;
     right: -70px;
@@ -80,8 +106,8 @@
 
 }
 
-
-.mate-arrive-row .mate-arrive-card:nth-child(2)::after{
+.mate-arrive-row .mate-arrive-card-left:nth-child(2)::after,
+.mate-arrive-row .mate-arrive-card-right:nth-child(2)::after{
     content: '';
     position: absolute;
     left: -70px;
@@ -90,7 +116,8 @@
     border-top: 4px dashed var(--gold26);
 }
 
-.mate-arrive-card img{
+.mate-arrive-card-left img,
+.mate-arrive-card-right img{
     width: 100%;
     max-width: 290px;
     max-height: 168px;
@@ -98,37 +125,108 @@
     border-radius: 16px;
 }
 
-.mate-arrive-card h4{
+.mate-arrive-card-left h4,
+.mate-arrive-card-right h4{
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 38.4px;
   color: var(--gold26);
-  text-align: right;
 }
 
-.mate-arrive-card p{
+.mate-arrive-card-left p,
+.mate-arrive-card-right p{
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 24px;
   color: var(--grey03);
-  text-align: right;
+}
+.mate-arrive-row:nth-child(3):not(:last-child) .mate-arrive-card-left:nth-child(1)::before{
+    height: 128.8%;
+}   
+.mate-arrive-row:nth-child(3):not(:last-child) .mate-arrive-card-right:nth-child(1)::before{
+    height: 120%;
 }
 
-@media(max-width: 992px){
+@media(max-width: 1200px){
+    
+      
     .mate-arrive-row{
         flex-wrap: wrap;
         justify-content: start;
+        gap: 24px;
+    }
+
+    .mate-arrive-row .mate-arrive-card-left:nth-child(2)::after,
+    .mate-arrive-row .mate-arrive-card-left:nth-child(2)::before,
+    .mate-arrive-row:nth-child(even) .mate-arrive-card-left:nth-child(3)::before,
+    .mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-left:nth-child(1)::before,
+    .mate-arrive-row .mate-arrive-card-right:nth-child(2)::after,
+    .mate-arrive-row .mate-arrive-card-right:nth-child(2)::before,
+    .mate-arrive-row:nth-child(even) .mate-arrive-card-right:nth-child(3)::before,
+    .mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card-right:nth-child(1)::before{
+        width: 0px;
+        height: 0%;
+        left: -50px;
+        top: 0px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 0px;
+    }
+
+    .mate-arrive-row  .mate-arrive-card-left,
+    .mate-arrive-row  .mate-arrive-card-right{
+        width: 100%;
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+    }
+
+    .mate-arrive-row .mate-arrive-card-left::before,
+    .mate-arrive-row .mate-arrive-card-right::before{
+        content: '';
+        position: absolute;
+        width: 1px !important;
+        height: 50% !important;
+        transform: translateX(-50%);
+        top: 95.5% !important;
+        border-left: 5px dashed var(--gold26) !important;
+    }
+
+    .mate-arrive-row .mate-arrive-card-left::before{
+        left: 20% !important;
+        right: 0 !important;
 
     }
 
-    .mate-arrive-row .mate-arrive-card:nth-child(2)::after,
-    .mate-arrive-row .mate-arrive-card:nth-child(2)::before,
-    .mate-arrive-row:nth-child(even) .mate-arrive-card:nth-child(3)::before,
-    .mate-arrive-row:nth-child(odd):not(:last-child) .mate-arrive-card:nth-child(1)::before{
-        width: 0;
-        height: 0;
+     .mate-arrive-row .mate-arrive-card-right::before{
+        right: 10% !important;
+        left: 0 !important;
     }
 
+    .mate-arrive-row:nth-child(5) .mate-arrive-card-left:nth-child(3):before,
+    .mate-arrive-row:nth-child(5) .mate-arrive-card-right:nth-child(3):before{
+        width: 0px !important;
+        height: 0px !important;
+    }
+
+    .mate-arrive-desc{
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .line{
+        height: 0 !important;
+        width: 0 !important;
+        display: none;
+    } 
+
+    .line::after{
+        width:  0% !important;
+    }
 }

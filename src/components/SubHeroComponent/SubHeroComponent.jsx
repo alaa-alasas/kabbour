@@ -1,8 +1,10 @@
 import Slider from 'react-slick';
 import './SubHeroComponent.css'
 import TitleComponent from '../TitleComponent/TitleComponent';
+import { useTranslation } from 'react-i18next';
 
 const SubHeroComponent = () => {
+  const { t } = useTranslation();
 
   const settings = {
     dots: false,
@@ -33,8 +35,8 @@ const SubHeroComponent = () => {
         </div>
       </Slider>
       <TitleComponent 
-        title={"مجموعة كبور الدولية"}
-        desc={"شركة رائدة في إنتاج وتصنيع وتوزيع المتة على مستوى سوريا والوطن العربي، لها معامل في الأرجنتين وسوريا وتتبع أعلى درجات التعقيم وتستخدم التكنولوجيا لإنتاج أفضل مشروب"}
+        title={t("subHeroTitle")}
+        desc={t("subHeroDesc")}
       />
     </section>
   )
