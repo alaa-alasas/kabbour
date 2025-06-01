@@ -5,16 +5,25 @@ import FilterComponent from '../FilterComponent/FilterComponent'
 import ProductCardComponent from '../ProductCardComponent/ProductCardComponent'
 import './LayoutProductComponent.css'
 import { FiltersProductData } from '../../data/FiltersProductData'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 
-const LayoutProductComponent = () => {
+const LayoutProductComponent = ({ initialFilters = {} }) => {
   const { t } = useTranslation();
 
   const [selectedFilters, setSelectedFilters] = useState({
     'product-type': [],
     'trademark': []
   });
+
+ useEffect(() => {
+    if (Object.keys(initialFilters).length > 0) {
+      setSelectedFilters(prev => ({
+        ...prev,
+        ...initialFilters
+      }));
+    }
+  }, [initialFilters]);
 
   const breadcrumbItems = [
     { label: t('nav.home'), path: '/' },
