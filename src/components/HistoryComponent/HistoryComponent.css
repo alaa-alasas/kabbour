@@ -180,6 +180,17 @@
 }
 
 @media (max-width: 992px){
+    .timeline-icon-left h2,
+    .timeline-icon-right h2 {
+        font-size: 28px;
+        line-height: 38.4px;
+    }
+
+    .timeline-content p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
     .mate-arrive-sec .AA-title-desc{
         padding: 0;
     }

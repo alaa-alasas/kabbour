@@ -218,6 +218,9 @@
     .mate-arrive-desc{
         justify-content: center;
         gap: 16px;
+        min-width: 45%;
+        width: 45%
+
     }
 
     .mate-arrive-sec .line{
@@ -228,5 +231,58 @@
 
     .mate-arrive-sec .line::after{
         width:  0% !important;
+    }
+
+    .mate-arrive-card-left img,
+    .mate-arrive-card-right img{
+        min-width: 116px;
+        min-height: 80px;
+        max-width: 45%;
+        max-height: 100% ;
+        width: 45%
+    }
+
+    .mate-arrive-card-left h4,
+    .mate-arrive-card-right h4{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+}
+
+@media(max-width: 540px){
+    .mate-arrive-phases {
+        gap: 24px;
+    }   
+
+    .mate-arrive-desc{
+        min-width: 65%;
+    }
+
+    .mate-arrive-card-left img,
+    .mate-arrive-card-right img{
+        width: 25%
+    }
+
+    .mate-arrive-row .mate-arrive-card-left::before, .mate-arrive-row .mate-arrive-card-right::before {
+        height: 50% !important;
+        top: 90% !important;
+    }
+
+    .mate-arrive-card-left, .mate-arrive-card-right{
+        min-height: 110px;
+    }
+
+    .mate-arrive-card-left h4,
+    .mate-arrive-card-right h4{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+    .mate-arrive-card-left p,
+    .mate-arrive-card-right p{
+        font-size: 12px;
+        line-height: 18px;
     }
 }
