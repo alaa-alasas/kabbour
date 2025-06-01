@@ -3,7 +3,7 @@ import './FilterComponent.css'
 import { LanguageDirectionContext } from './../../context/LanguageDirectionContext';
 import { useContext } from 'react';
 
-const FilterComponent = ({ FiltersData }) => {
+const FilterComponent = ({ FiltersData , onFilterChange, selectedFilters}) => {
     const { t } = useTranslation();
     const { direction } = useContext(LanguageDirectionContext);
 
@@ -18,8 +18,10 @@ const FilterComponent = ({ FiltersData }) => {
               {
                 t(item.options,{ returnObjects: true }).map((option, index1) => (
                   <li className='filters-option' key={index1}>
-                    <input className="styled-checkbox" type="checkbox" />
-                    <span>{t(option)}</span>
+                    <input className="styled-checkbox" type="checkbox" 
+                    checked={selectedFilters[item.id]?.includes(option.id) || false}
+                    onChange={() => onFilterChange(item.id, option.id)}/>
+                    <span>{t(option.name)}</span>
                   </li>
                 ))
               }

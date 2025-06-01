@@ -1788,41 +1788,108 @@
     "filter-name": "Filters",
     "event-type": {
       "title": "Event Type",
-      "options": [
-        "Exhibitions",
-        "Medical Conferences",
-        "Humanitarian Events",
-        "Social Events"
+        "options": [
+        {
+          "id" : "1",
+          "name": "Exhibitions"
+        },
+        {
+          "id" : "2",
+          "name": "Medical Conferences"
+        },
+        {
+          "id" : "3",
+          "name": "Humanitarian Events"
+        },
+        {
+          "id" : "4",
+          "name": "Social Events"
+        }
       ]
     },
      "product-type": {
       "title": "Product Type",
       "options": [
-        "Yerba Mate",
-        "Black Tea",
-        "Green Tea",
-        "Natural Herbs",
-        "Medical Mixtures",
-        "Juice",
-        "Coffee",
-        "Hot Drinks",
-        "Biscuits",
-        "Milk"
+        {
+          "id" : "1",
+          "name": "Yerba Mate"
+        },
+        {
+          "id" : "2",
+          "name": "Black Tea"
+        },
+        {
+          "id" : "3",
+          "name": "Green Tea"
+        },
+        {
+          "id" : "4",
+          "name": "Natural Herbs"
+        }
+        ,{
+          "id" : "5",
+          "name": "Medical Mixtures"
+        },{
+          "id" : "6",
+          "name": "Juice"
+        },{
+          "id" : "7",
+          "name": "Coffee"
+        },{
+          "id" : "8",
+          "name": "Hot Drinks"
+        },{
+          "id" : "9",
+          "name": "Biscuits"
+        },{
+          "id" : "10",
+          "name": "Milk"
+        }
       ]
     },
     "trademark": {
       "title": "Trademark",
       "options": [
-        "Campo",
-        "Kharta",
-        "Sabrosa",
-        "Pipore",
-        "Cruz de Malta",
-        "Amanda",
-        "Sobrina",
-        "Campo Verde",
-        "Agua",
-        "Nopio"
+        {
+          "id" : "1",
+          "name": "Campo"
+        },
+        {
+          "id" : "2",
+          "name": "Kharta"
+        },
+        {
+          "id" : "3",
+          "name": "Sabrosa"
+        },
+        {
+          "id" : "4",
+          "name": "Pipore"
+        },
+        {
+          "id" : "5",
+          "name": "Cruz de Malta"
+        },
+        {
+          "id" : "6",
+          "name": "Amanda"
+        },
+        {
+          "id" : "7",
+          "name": "Sobrina"
+        },
+        {
+          "id" : "8",
+          "name": "Campo Verde"
+        },
+        {
+          "id" : "9",
+          "name": "Agua"
+        },
+        {
+          "id" : "10",
+          "name": "Nopio"
+        }
       ]
     }
   },
