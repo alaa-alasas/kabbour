@@ -33,11 +33,11 @@
     gap: 16px;
 }
 
-.line{
+.mate-arrive-sec .line{
     width: 100%;
 }
 
-.line::after{
+.mate-arrive-sec .line::after{
     content: '';
     position: absolute;
     top: 50px;
@@ -220,13 +220,13 @@
         gap: 16px;
     }
 
-    .line{
+    .mate-arrive-sec .line{
         height: 0 !important;
         width: 0 !important;
         display: none;
     } 
 
-    .line::after{
+    .mate-arrive-sec .line::after{
         width:  0% !important;
     }
 }
