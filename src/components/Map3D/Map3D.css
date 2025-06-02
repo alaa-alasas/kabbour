@@ -1,0 +1,9 @@
+.map-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.map-container svg{
+    width: 50%;
+}

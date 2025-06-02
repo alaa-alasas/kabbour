@@ -3,7 +3,7 @@ import MateBenifitComponent from "../components/MateBenifitComponent/MateBenifit
 import ProductCategoryComponent from "../components/ProductCategoryComponent/ProductCategoryComponent"
 import SubHeroComponent from "../components/SubHeroComponent/SubHeroComponent"
 import MateArriveComponent from '../components/MateArriveComponent/MateArriveComponent'
-import IraqMapWithGoogleMaps from "../components/Map3D/Map3D"
+import Map3D from "../components/Map3D/Map3D"
 
 const About = () => {
 
@@ -14,7 +14,7 @@ const About = () => {
       <MateBenifitComponent />
       <ProductCategoryComponent />
       <MateArriveComponent />
-      <IraqMapWithGoogleMaps />
+      <Map3D />
     </>
   )
 }

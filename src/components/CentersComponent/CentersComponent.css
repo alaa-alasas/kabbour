@@ -9,10 +9,18 @@
 .centers-section .centers-title-section{
     padding-top: 64px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 32px;
     align-items: center;
+}
+
+.centers-title-section .map-container{
+    width: 50%;
+}
+
+.centers-title-section .map-container svg{
+    width: 100%;
 }
 
 .centers-section .AA-title{
@@ -40,9 +48,18 @@
 
 @media(max-width: 992px){
     .centers-section .AA-title{
-    text-align: center;
-    width: 100%;
-}
+        text-align: center;
+        width: 100%;
+    }
+
+    .centers-title-section .map-container{
+        width: 75%;
+    }
+
+    .centers-section .centers-title-section{
+        flex-wrap: wrap;
+    }
+
     .centers-section .AA-title-heading{
         font-size: 24px;
     }
