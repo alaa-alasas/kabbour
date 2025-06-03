@@ -3,6 +3,7 @@ import TitleComponent from '../TitleComponent/TitleComponent'
 import CenterCardComponent from '../CenterCardComponent/CenterCardComponent'
 import { useTranslation } from 'react-i18next'
 import Map3D from '../Map3D/Map3D'
+import SyriaMap from '../SyriaMap/SyriaMap'
 
 const CentersComponent = () => {
   const { t } = useTranslation();
@@ -14,7 +15,7 @@ const CentersComponent = () => {
           title={t("centerTitle")} 
           desc={t("centerDesc")}
         />
-        <Map3D />
+        <SyriaMap />
       </div>
       
       <div className='center-cards'>

@@ -1,5 +1,6 @@
 .mate-arrive-sec{
-  padding-top: 64px;
+    padding-top: 64px;
+    background-color: var(--black15);
 }
 
 .mate-arrive-phases{

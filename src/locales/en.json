@@ -1,5 +1,5 @@
 {
-  "Logo" : "/kabbour/Navbar/Logo.png",
+  "Logo" : "Kabour Group",
   "nav": {
     "home": "Home",
     "products": "Products",
@@ -2094,5 +2094,19 @@
     "phase7": {
       "desc": "Coffee was added to Kbour Company's product family in 2021."
     }
-  }
+  },
+  "MateBenifitTitle": "Mate",
+  "MateBenifit": {
+    "1": "Boosts the immune system in general",
+    "2": "Cholesterol-lowering and anti-inflammatory properties",
+    "3": "High content of antioxidants — even more than green tea — as well as stimulants and nutrients",
+    "4": "Helps lower blood sugar levels",
+    "5": "Enhances metabolism, thus supporting weight loss",
+    "6": "May help protect against heart diseases",
+    "7": "May help prevent infections from fungi, parasites, and bacteria",
+    "8": "Boosts energy, improves focus, and enhances alertness",
+    "9": "Contains almost all the vitamins, minerals, and amino acids the human body needs"
+  },
+  "expotTitle": "Distribution and Export",
+  "exportDesc": "Kbour International Group exports its products to various provinces across Syria and several countries worldwide, with a strong distribution network covering multiple countries around the globe."
 }

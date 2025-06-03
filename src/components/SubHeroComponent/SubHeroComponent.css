@@ -5,6 +5,11 @@
     left: 0;
     overflow: hidden;
     padding-top: 64px;
+    background-color: var(--black15);
+}
+
+.sub-hero .AA-title{
+     margin-bottom: 64px;
 }
 
 .sub-hero .slick-slide{
@@ -36,6 +41,7 @@
   @media(max-width: 992px){
     .sub-hero .AA-title{
       gap: 16px;
+      margin-bottom: 32px;
     }
     
     .sub-hero .AA-title-desc{

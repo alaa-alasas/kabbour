@@ -48,7 +48,7 @@ function App() {
       <GoToTop />
       <HandleLoadingComponent />
       <ScrollToTop />
-      <NavBarComponent img={t(Logo)} navData={NavData}/>
+      <NavBarComponent img={"/kabbour/Navbar/logoK.png"} navData={NavData}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

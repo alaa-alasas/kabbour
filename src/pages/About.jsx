@@ -11,8 +11,8 @@ const About = () => {
     <>
       <SubHeroComponent />
       <HistoryComponent />
-      <MateBenifitComponent />
       <ProductCategoryComponent />
+      <MateBenifitComponent />
       <MateArriveComponent />
       <Map3D />
     </>

@@ -1,11 +1,16 @@
+.map-section{
+	padding-top: 64px;
+}
+
 .map-container{
-    display: flex;
-    gap: 10px;
+	display: flex;
+    /* gap: 10px; */
     flex-wrap: wrap;
 }
 
-.map-container svg{
-    width: 50%;
+.map-container #Syria_1_{
+    width: 40%;
+	height: 50%;
 }
 
 

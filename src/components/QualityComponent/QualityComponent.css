@@ -7,29 +7,29 @@
     padding-bottom: 64px;
 }
 
-.quality-sec .card-quality-sec{
+.quality-sec .card-quality-sec {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 110px;
 }
 
-.quality-sec > .card-quality-sec:nth-child(even){
+.quality-sec>.card-quality-sec:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-.quality-sec .card-quality-sec .left-side{
-    position: relative; 
+.quality-sec .card-quality-sec .left-side {
+    position: relative;
 }
 
-.quality-sec .card-quality-sec .left-side .factory-image{
+.quality-sec .card-quality-sec .left-side .factory-image {
     height: 100%;
     max-width: 770px;
     border-radius: 28px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
-  /* ===========================
+/* ===========================
    Hover effect for the login button
    =========================== */
 .quality-sec .card-quality-sec .left-side .factory-image:hover {
@@ -37,16 +37,14 @@
 }
 
 
-
-
-.quality-sec .card-quality-sec .right-side{
+.quality-sec .card-quality-sec .right-side {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 32px;
 }
 
-.quality-sec .card-quality-sec .right-side h4{
+.quality-sec .card-quality-sec .right-side h4 {
     font-size: 32px;
     font-weight: 600;
     line-height: 38px;
@@ -54,7 +52,7 @@
     color: var(--gold26);
 }
 
-.quality-sec .card-quality-sec .right-side p{
+.quality-sec .card-quality-sec .right-side p {
     color: var(--greyb4);
     font-size: 20px;
     font-weight: 400;
@@ -62,7 +60,7 @@
     letter-spacing: 0;
 }
 
-.quality-sec .card-quality-sec .right-side a{
+.quality-sec .card-quality-sec .right-side a {
     color: var(--grfaey03);
     font-size: 20px;
     font-weight: 400;
@@ -74,33 +72,55 @@
     background-color: var(--black17);
 }
 
-@media(max-width: 992px){
+@media (max-width: 1919px) {
+    .quality-sec .card-quality-sec .right-side p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 992px) {
     .quality-sec {
         gap: 16px;
         padding-top: 32px;
         padding-bottom: 32px;
     }
 
-    .quality-sec .card-quality-sec{
+    .quality-sec .AA-title{
+        padding-bottom: 0;
+    }
+
+    .quality-sec .card-quality-sec {
         flex-wrap: wrap;
         align-items: start;
         justify-content: start;
         gap: 24px;
     }
 
-    .quality-sec .card-quality-sec .left-side{
+    .quality-sec .card-quality-sec .left-side {
         height: 100%;
         max-width: 100%;
         width: 100%;
     }
 
-    .quality-sec > .card-quality-sec:nth-child(even){
+    .quality-sec>.card-quality-sec:nth-child(even) {
         flex-direction: column;
     }
 
-    .quality-sec .card-quality-sec .left-side .factory-image{
+    .quality-sec .card-quality-sec .left-side .factory-image {
         height: 100%;
         max-width: 100%;
         width: 100%;
+    }
+
+    .quality-sec .card-quality-sec .right-side h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .quality-sec .card-quality-sec .right-side p {
+        font-size: 14px;
+        line-height: 21px;
     }
 }
