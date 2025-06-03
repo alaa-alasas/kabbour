@@ -184,7 +184,7 @@
   "productDetails": "Product Details",
   "product": {
     "1": {
-      "name": "kaharta Green",
+      "name": "kaharta",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
       "details":{
         "descTitle": "Description",
@@ -236,7 +236,7 @@
       }
     },
     "2": {
-      "name": "kaharta white",
+      "name": "Pipore",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
       "details":{
         "descTitle": "Description",
@@ -1742,8 +1742,111 @@
           }
         ]
       }
+    },
+    "31": {
+      "name": "Sabrosa",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
+    },
+    "32": {
+      "name": "Sakhra",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
+          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Damask Rose",
+          "Lemon Balm",
+          "Peppermint",
+          "Yerba Mate",
+          "Primrose",
+          "Chamomile",
+          "Green Tea"
+        ],
+        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "- 44g"
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          },
+          {
+              "title": "center",
+              "desc": "center"
+          }
+        ]
+      }
     }
-
   },
   "event": {
     "1": {
