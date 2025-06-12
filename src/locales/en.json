@@ -39,14 +39,19 @@
   "about": {
     "factory": {
       "argentina": {
-        "alt": "Kabour International Group",
-        "title": "Kabour International Group",
-        "desc": "A leading company in the production, manufacture and distribution of mate in Syria and the Arab world. It has factories in Argentina and Syria and follows the highest levels of sterilization and uses technology to produce the best drink."
+        "alt": "Kabour International Group – Our Factory in Syria",
+        "title": "Kabour International Group – Our Factory in Syria",
+        "desc": "Kabour International Group is a family-owned company began its journey in 1960 as the first importer and specialist in importing yerba mate from Argentina to the Syrian market. With decades of experience and a solid reputation, Kabour became widely known for selecting the finest types of yerba mate, catering to diverse consumer tastes. Through this longstanding expertise, the company earned the trust of international suppliers and solidified its position as a leading name in the yerba mate sector in Syria. We have secured official agencies and packing licenses in Syria from leading brands such as Piporí and Taragüi. In 1985 the factory has been established for preparing and packaging yerba mate In Syria (Yabroud – Rural Damascus). This specialization has led to the creation of our own brand, Khareta Al khadra, which has become a symbol of quality and trust in the market."
       },
       "syria": {
+        "alt": "Grupo Kabour – Our Factory in Argentina",
+        "title": "Grupo Kabour – Our Factory in Argentina",
+        "desc": "In 2007 the company started to expand the strategic business and established a big factory in Argentina with our own farms for planting yerba mate, drying, blending then exporting to Syria and packaging according to each kind. It is now one of the leading companies in Argentina which keep the best quality with suitable prices for the exported Yerba Mate to Syria."
+      },
+      "campo": {
         "alt": "Campo Company",
         "title": "Campo Company",
-        "desc": "A leading company in the production, manufacture and distribution of mate in Syria and the Arab world. It has factories in Argentina and Syria and follows the highest levels of sterilization and uses technology to produce the best drink."
+        "desc": "Meanwhile, Campo Company expanded its operations to offer a broad range of products. It entered the field of importing and packing black tea, followed by the establishment of a dedicated facility for green tea, herbal blends, and medicinal infusions. Campo's commitment to scientific research and high-quality standards has made its herbal and wellness products reliable and effective. As part of its growth, Campo also launched a line of roasted coffee packed in vacuum-sealed bags and built a state-of-the-art coffee processing facility equipped with advanced machinery. The company further extended its portfolio to include instant hot drinks and powdered milk, providing a rich and diverse selection to meet the needs of Syrian consumers. This clear distinction—Kabour as the expert in yerba mate and Campo as the innovator behind a wider beverage range—reflects a well-integrated strategy that combines specialization with innovation, always aiming to deliver the highest quality in every product category."
       }
     }
   },
@@ -94,13 +99,13 @@
   },
   "quality": {
     "img": "Quality img",
-    "title": "Quality",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    "title": "Professional Yerba Mate Tasting Sessions",
+    "desc": "Our tasting sessions are a fundamental part of the product development process for our yerba mate. We gather a team of experts and specialists, along with a group of interested customers, to taste and discuss various new and improved blends to refine products according to their preferences"
   },
   "laboratories": {
     "img": "Our Laboratories img",
-    "title": "Our Laboratories",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+    "title": "Advanced Modern Machinery in Our Facility – A Quantum Leap in Production Quality",
+    "desc": "We take pride in utilizing the latest advanced technologies and equipment in our facility, ensuring the highest levels of hygiene and precision at every step of production. Our production lines are fully automated, meaning products never come into contact with workers' hands during preparation and packaging stages. This greatly reduces contamination risks and guarantees the safety and quality of the final product. With these advanced technologies, we are committed to delivering products that meet the highest standards of quality and safety."
   },
   "technology": {
     "img": "Technology img",
@@ -108,7 +113,7 @@
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
   },
   "centerTitle": "Distribution centers within Syria",
-  "centerDesc": "Kabour International Group exports its products to various provinces across Syria. You can contact our distribution centers using the following numbers.",
+  "centerDesc": "Our company boasts an extensive network of distribution centers spread across all Syrian governorates, enabling us to efficiently and swiftly meet the demands of local markets.",
   "centers": [
     {
       "name": "Damascus Center",
@@ -185,7 +190,7 @@
   "product": {
     "1": {
       "name": "kaharta",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "We have long-standing expertise in yerba mate packaging, This specialization has led to the creation of our own brand, Kharta Al khadra, which has become a symbol of quality and trust in the market.",
       "details":{
         "descTitle": "Description",
         "desc" : [
@@ -237,7 +242,7 @@
     },
     "2": {
       "name": "Pipore",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "We are an agent and representative for Pipore brand, one of the leading imported yerba mate labels in the Syrian market, known for its high quality and diverse blends. our strong relationships with suppliers and partners in Argentina led to have secured the official rights to package and distribute this brand in Syria, a testament to the trust our international partners place in our expertise and capabilities.",
       "details":{
         "descTitle": "Description",
         "desc" : [
@@ -289,7 +294,7 @@
     },
     "3": {
       "name": "Taragui",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "We are honoured to hold the exclusive license for the Taragüi brand, one of the most renowned yerba mate names worldwide. This partnership reflects global recognition of our expertise and market presence, granting us the official rights to package and distribute Taragüi products in Syria, while maintaining the original quality under the direct supervision of the parent company.",
       "details":{
         "descTitle": "Description",
         "desc" : [
@@ -757,32 +762,26 @@
     },
     "12": {
       "name": "Chamomile",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Conforming to the Syrian Standard Specification No: 3240/2010",
+          "keep in dry cold place"
         ],
         "IngredientsTitle": "Ingredients",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Dried chamomile flowers"
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To preserve the whole delicate flavor, put a bag of campo (Chamomile) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": "44g"
           },
           {
               "title": "Bags",
@@ -791,18 +790,6 @@
           {
               "title": "Type",
               "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
           }
         ]
       }
@@ -870,15 +857,9 @@
         ],
         "IngredientsTitle": "Ingredients",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Dried Wild Thyme Leaves"
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
           "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
@@ -1868,19 +1849,24 @@
   },
   "studyData": [
     {
-      "ResearchersStudy": "President of the International Society for Natural Food, based in Paris",
-      "ResearchersName": "Dr. A. Lenglet",
-      "desc": "The most notable observation regarding yerba mate's effect on natural organs..."
+      "ResearchersStudy": "Nutrition Specialist",
+      "ResearchersName": "Dr. Richard Weisman",
+      "desc": "Yerba mate contains natural compounds that boost energy and focus, while also supporting the immune system and fighting inflammation"
     },
     {
-      "ResearchersStudy": "From the University of Paris",
-      "ResearchersName": "Dr. M. Thévenard",
-      "desc": "Yerba Mate contains alkaloids which, through their immediate appearance and action on organ principles..."
+      "ResearchersStudy": "Medical Herbalist",
+      "ResearchersName": "Professor Juan Perez",
+      "desc": "Many studies have shown that yerba mate helps improve digestion, reduce joint inflammation, and regulate blood sugar levels."
+    },
+    {
+      "ResearchersStudy": "Alternative Medicine Physician",
+      "ResearchersName": "Dr. Thomas Miller",
+      "desc": "Yerba mate tea offers a natural stimulant effect without causing stress, making it an excellent coffee alternative with additional health benefits such as improving cardiovascular health"
     },
     {
       "ResearchersStudy": "Published study in Presse Medical",
-      "ResearchersName": "Dr. J. Sehunk de Goldfian",
-      "desc": "We can conclude that yerba mate is a general stimulant (of plant origin), as well as a tonic..."
+      "ResearchersName": "Dr. Emily Roberts",
+      "desc": "Yerba mate is rich in antioxidants that combat aging and improve brain function, while also boosting metabolism and aiding in weight loss."
     }
   ],
   "ReadMore": "Read More",
@@ -2108,5 +2094,5 @@
     "9": "Contains almost all the vitamins, minerals, and amino acids the human body needs"
   },
   "expotTitle": "Distribution and Export",
-  "exportDesc": "Kbour International Group exports its products to various provinces across Syria and several countries worldwide, with a strong distribution network covering multiple countries around the globe."
+  "exportDesc": "We are also is one of the leading exporters of packaged yerba mate to various parts of the world. We possess extensive experience in meeting the demands of international markets with high quality."
 }

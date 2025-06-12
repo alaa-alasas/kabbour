@@ -5,7 +5,7 @@ import TitleComponent from '../TitleComponent/TitleComponent'
 import { useNavigate } from 'react-router-dom';
 
 const ProductCategoryComponent = () => {
-    const { t } = useTranslation(); // Hook لجلب الترجمات
+    const { t } = useTranslation(); 
     const navigate = useNavigate();
 
     const handleCategoryClick = (categor) => {

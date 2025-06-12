@@ -11,10 +11,10 @@ export const QualityData = [
         title: "laboratories.title", 
         desc: "laboratories.desc" 
     },
-    {
-        src: "/kabbour/Quality/Technology.png",
-        alt: "technology.img",
-        title: "technology.title", 
-        desc: "technology.desc"
-    }
+    // {
+    //     src: "/kabbour/Quality/Technology.png",
+    //     alt: "technology.img",
+    //     title: "technology.title", 
+    //     desc: "technology.desc"
+    // }
 ];

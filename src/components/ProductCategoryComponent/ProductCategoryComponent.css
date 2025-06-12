@@ -30,6 +30,10 @@
     transition: transform 0.3s ease; 
 }
 
+.product-category-card img{
+    border-radius: 16px;
+}
+
 .product-category-card h5{
     font-size: 28px;
     line-height: 33px;
