@@ -93,8 +93,8 @@
       .usage-instructions p,
       .product-specifications table td {
         font-weight: 400; 
-        font-size: 20px;
-        line-height: 30px; 
+        font-size: 18px;
+        line-height: 25px; 
         letter-spacing: 0; 
         color: var(--grey03); 
       }
@@ -104,13 +104,14 @@
       .usage-instructions h3,
       .product-ingredients h3 {
         font-weight: 600; 
+        color: var(--gold26);
       }
 
       /* ===========================
          Subsection: Ingredients List
          =========================== */
       .product-ingredients ul {
-        list-style: none; 
+        padding: 20px;
       }
 
       /* ===========================

@@ -588,7 +588,413 @@ export const ProductsData = [
             usageInstructions: 'product.30.details.usageInstructions',
             poductSpecifications: 'product.30.details.poductSpecifications'
         }
+    },{
+        img: "/kabbour/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
+        productId: 33,
+        category: "5",
+        productName: "product.33.name", 
+        productDesc: "product.33.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.33.details.desc',
+            ingredients: 'product.33.details.Ingredients',
+            usageInstructions: 'product.33.details.usageInstructions',
+            poductSpecifications: 'product.33.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.png",
+        productId: 34,
+        category: "5",
+        productName: "product.34.name", 
+        productDesc: "product.34.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.34.details.desc',
+            ingredients: 'product.34.details.Ingredients',
+            usageInstructions: 'product.34.details.usageInstructions',
+            poductSpecifications: 'product.34.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.png",
+        productId: 35,
+        category: "5",
+        productName: "product.35.name", 
+        productDesc: "product.35.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.35.details.desc',
+            ingredients: 'product.35.details.Ingredients',
+            usageInstructions: 'product.35.details.usageInstructions',
+            poductSpecifications: 'product.35.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/MixtureColon/MixtureColon.png",
+        productId: 36,
+        category: "5",
+        productName: "product.36.name", 
+        productDesc: "product.36.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/MixtureColon/MixtureColon.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.36.details.desc',
+            ingredients: 'product.36.details.Ingredients',
+            usageInstructions: 'product.36.details.usageInstructions',
+            poductSpecifications: 'product.36.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Lithotripsy/Lithotripsy.png",
+        productId: 37,
+        category: "5",
+        productName: "product.37.name", 
+        productDesc: "product.37.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Lithotripsy/Lithotripsy.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.37.details.desc',
+            ingredients: 'product.37.details.Ingredients',
+            usageInstructions: 'product.37.details.usageInstructions',
+            poductSpecifications: 'product.37.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Gases/Gases.png",
+        productId: 38,
+        category: "5",
+        productName: "product.38.name", 
+        productDesc: "product.38.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Gases/Gases.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.38.details.desc',
+            ingredients: 'product.38.details.Ingredients',
+            usageInstructions: 'product.38.details.usageInstructions',
+            poductSpecifications: 'product.38.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Energy/Energy.png",
+        productId: 39,
+        category: "5",
+        productName: "product.39.name", 
+        productDesc: "product.39.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Energy/Energy.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.39.details.desc',
+            ingredients: 'product.39.details.Ingredients',
+            usageInstructions: 'product.39.details.usageInstructions',
+            poductSpecifications: 'product.39.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Headache/Headache.png",
+        productId: 40,
+        category: "5",
+        productName: "product.40.name", 
+        productDesc: "product.40.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Headache/Headache.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.40.details.desc',
+            ingredients: 'product.40.details.Ingredients',
+            usageInstructions: 'product.40.details.usageInstructions',
+            poductSpecifications: 'product.40.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/sedative/sedative.png",
+        productId: 41,
+        category: "5",
+        productName: "product.41.name", 
+        productDesc: "product.41.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/sedative/sedative.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.41.details.desc',
+            ingredients: 'product.41.details.Ingredients',
+            usageInstructions: 'product.41.details.usageInstructions',
+            poductSpecifications: 'product.41.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Memory/Memory.png",
+        productId: 42,
+        category: "5",
+        productName: "product.42.name", 
+        productDesc: "product.42.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Memory/Memory.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.42.details.desc',
+            ingredients: 'product.42.details.Ingredients',
+            usageInstructions: 'product.42.details.usageInstructions',
+            poductSpecifications: 'product.42.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Ulcer/Ulcer.png",
+        productId: 43,
+        category: "5",
+        productName: "product.43.name", 
+        productDesc: "product.43.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Ulcer/Ulcer.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.43.details.desc',
+            ingredients: 'product.43.details.Ingredients',
+            usageInstructions: 'product.43.details.usageInstructions',
+            poductSpecifications: 'product.43.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/coughs/coughs.png",
+        productId: 44,
+        category: "5",
+        productName: "product.44.name", 
+        productDesc: "product.44.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/coughs/coughs.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.44.details.desc',
+            ingredients: 'product.44.details.Ingredients',
+            usageInstructions: 'product.44.details.usageInstructions',
+            poductSpecifications: 'product.44.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Rheumatism/Rheumatism.png",
+        productId: 45,
+        category: "5",
+        productName: "product.45.name", 
+        productDesc: "product.45.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Rheumatism/Rheumatism.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.45.details.desc',
+            ingredients: 'product.45.details.Ingredients',
+            usageInstructions: 'product.45.details.usageInstructions',
+            poductSpecifications: 'product.45.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/ExtraCold/ExtraCold.png",
+        productId: 46,
+        category: "5",
+        productName: "product.46.name", 
+        productDesc: "product.46.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/ExtraCold/ExtraCold.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.46.details.desc',
+            ingredients: 'product.46.details.Ingredients',
+            usageInstructions: 'product.46.details.usageInstructions',
+            poductSpecifications: 'product.46.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Cold/Cold.png",
+        productId: 47,
+        category: "5",
+        productName: "product.47.name", 
+        productDesc: "product.47.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Cold/Cold.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.47.details.desc',
+            ingredients: 'product.47.details.Ingredients',
+            usageInstructions: 'product.47.details.usageInstructions',
+            poductSpecifications: 'product.47.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Fitness/Fitness.png",
+        productId: 48,
+        category: "5",
+        productName: "product.48.name", 
+        productDesc: "product.48.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Fitness/Fitness.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.48.details.desc',
+            ingredients: 'product.48.details.Ingredients',
+            usageInstructions: 'product.48.details.usageInstructions',
+            poductSpecifications: 'product.48.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.png",
+        productId: 49,
+        category: "5",
+        productName: "product.49.name", 
+        productDesc: "product.49.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.49.details.desc',
+            ingredients: 'product.49.details.Ingredients',
+            usageInstructions: 'product.49.details.usageInstructions',
+            poductSpecifications: 'product.49.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/migraine/migraine.png",
+        productId: 50,
+        category: "5",
+        productName: "product.50.name", 
+        productDesc: "product.50.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/migraine/migraine.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.50.details.desc',
+            ingredients: 'product.50.details.Ingredients',
+            usageInstructions: 'product.50.details.usageInstructions',
+            poductSpecifications: 'product.50.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Calming/Calming.png",
+        productId: 51,
+        category: "5",
+        productName: "product.51.name", 
+        productDesc: "product.51.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Calming/Calming.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.51.details.desc',
+            ingredients: 'product.51.details.Ingredients',
+            usageInstructions: 'product.51.details.usageInstructions',
+            poductSpecifications: 'product.51.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.png",
+        productId: 52,
+        category: "5",
+        productName: "product.52.name", 
+        productDesc: "product.52.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.52.details.desc',
+            ingredients: 'product.52.details.Ingredients',
+            usageInstructions: 'product.52.details.usageInstructions',
+            poductSpecifications: 'product.52.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Laxative/Laxative.png",
+        productId: 53,
+        category: "5",
+        productName: "product.53.name", 
+        productDesc: "product.53.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Laxative/Laxative.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.53.details.desc',
+            ingredients: 'product.53.details.Ingredients',
+            usageInstructions: 'product.53.details.usageInstructions',
+            poductSpecifications: 'product.53.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.png",
+        productId: 54,
+        category: "5",
+        productName: "product.54.name", 
+        productDesc: "product.54.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.54.details.desc',
+            ingredients: 'product.54.details.Ingredients',
+            usageInstructions: 'product.54.details.usageInstructions',
+            poductSpecifications: 'product.54.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/Appetite/Appetite.png",
+        productId: 55,
+        category: "5",
+        productName: "product.55.name", 
+        productDesc: "product.55.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/Appetite/Appetite.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.55.details.desc',
+            ingredients: 'product.55.details.Ingredients',
+            usageInstructions: 'product.55.details.usageInstructions',
+            poductSpecifications: 'product.55.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Medical/milkSecretion/milkSecretion.png",
+        productId: 56,
+        category: "5",
+        productName: "product.56.name", 
+        productDesc: "product.56.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Medical/milkSecretion/milkSecretion.png",
+                "/kabbour/ProductDetails/Herbs/100%.png",
+            ],
+            flowerImg: "",
+            desc:'product.56.details.desc',
+            ingredients: 'product.56.details.Ingredients',
+            usageInstructions: 'product.56.details.usageInstructions',
+            poductSpecifications: 'product.56.details.poductSpecifications'
+        }
     }
-
-    
 ];

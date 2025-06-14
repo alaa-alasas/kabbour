@@ -22,16 +22,19 @@ const SubHeroComponent = () => {
     <section className='sub-hero px-64 mb-64'>
       <Slider {...settings}>
         <div>
-          <img src="/kabbour/SubHero/1.png" alt="Slide 1" className='img-slide'/>        
+          <img src="/kabbour/SubHero/7.png" alt="Slide 1" className='img-slide'/>        
         </div>
         <div>
-          <img src="/kabbour/SubHero/2.png" alt="Slide 2" className='img-slide'/>        
+          <img src="/kabbour/SubHero/8.png" alt="Slide 2" className='img-slide'/>        
         </div>
         <div>
-          <img src="/kabbour/SubHero/3.png" alt="Slide 3" className='img-slide'/>        
+          <img src="/kabbour/SubHero/6.png" alt="Slide 3" className='img-slide'/>        
         </div>
         <div>
-          <img src="/kabbour/SubHero/4.png" alt="Slide 4" className='img-slide'/>        
+          <img src="/kabbour/SubHero/1.png" alt="Slide 4" className='img-slide'/>        
+        </div>
+        <div>
+          <img src="/kabbour/SubHero/2.png" alt="Slide 5" className='img-slide'/>        
         </div>
       </Slider>
       <TitleComponent 

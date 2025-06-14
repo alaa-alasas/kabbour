@@ -207,7 +207,7 @@
           "Chamomile",
           "Green Tea"
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
           "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
@@ -1827,6 +1827,907 @@
           }
         ]
       }
+    },
+    "33": {
+      "name": "Campo immune support mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Ginger root 25%",
+          "green tea leaves 25%",
+          "milk thistle 20%",
+          "chamomile flowers-15% ",
+          "peppermint 15%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "An auxiliary medical mixture that supports the immune system because it contains green tea as a powerful antioxidant, which helps to protect the cells of the body from oxidation and damage. It also contains Milk thistle, which helps maintain the health of the liver, and it contains chamomile, ginger and mint which helps maintain the health of the digestive system.",
+          "the herbs that make up the mixture are rich in vitamin C and minerals that support the health of the immune system."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "34": {
+      "name": "Mixture Helps in hypertension cases",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Green tea leaves 20%",
+          "olive leaves 30%",
+          "ginkgo leaves 10%",
+          "linden leaves and flowers 10%",
+          "hibiscus flowers 30%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "It help s in lowering blood pressure through its diuretic effect. Olive leaves, hibiscus and green tea help in obtaining this effect. ",
+          "Ginkgo also helps in preventing the formation of blood clots. Olive leaves and green tea help in regulating the levels of fats and cholesterol in the blood."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "35": {
+      "name": "Campo Hot Flashes and Menopause Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Saliva officinalis 35% ",
+          "Rosmarinus officinalis dried leaves 25% ",
+          "Lavandula officinlis dried 20%",
+          "Glycyrhihiza glabra dried roots 10% ",
+          "foeniculum vulgare fruits 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture helps to alleviate the symptoms associated with the age of menopause Such as hot flashes and excessive sweating, helps protecting against sweating, tension, insomnia, and psychological distress associated with this age. ",
+          "helps preventing hypertension, which is likely to occur in the age of menopause due to the lack of estrogen. it also regulates the blood circulatory disorders, as well as improving memory and brain function."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "36": {
+      "name": "Campo Mixture for Colon disorders",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Plantago ovata 40%",
+          "Linum ucitassinum 20%",
+          "matricaria recutita 20%",
+          "fennel valgare 10%",
+          "peppermint 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Herbal mixture rich in plantago ovata and linum  ",
+          "which helps in chronic intestines disorders and infections."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "37": {
+      "name": "Campo Kidney Lithotripsy and Urinary Antiseptic Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Betula species leaves extract %15 ",
+          "Arctostaphylos uva-ursi leaves extract %15",
+          "Hibiscus sabdariffa flowers extract %20",
+          "Equisetum arvense leaves extract %25 ",
+          "Urtica dioica leaves extract %25"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture helps to fragmentize the stones, reduces the accumulation of sand and stones in the urinary tract.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "38": {
+      "name": "Campo For Inflation & Gases",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Mentha Piperita dried leaves 20%",
+          "Matricaria recutita dried flowers 20%",
+          "Salvia Officinalis dried leaves 25% ",
+          "foeniculum Vulgare dried fruits 25% ",
+          "Cinnamomum aromaticum dried barks 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "This mixture is rich in herbs that have a carminative effect.",
+          "it helps to treat flatulence and expels the accumulated gases."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "39": {
+      "name": "Campo Energy and Vitality Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Cardamomum dried fruits 20%",
+          "Cinnamomum zeylanicum barks 20%",
+          "Hibiscus flowers 25%",
+          "Ginseng rhizomes 25%",
+          "Zingiber rhizomes 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture helps in Strengthening and energizing athletes.",
+          "Anti-oxidant, sweeps the free radicals Relieving the effects of fatigue, it also contains vitamin C."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "40": {
+      "name": "Campo Mixture Of Headache Relieving",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Rosmarinus officinalis dried leaves 10%",
+          "Viola Odorata dried flowers 20%",
+          "Melissa Officinalis dried leaves 20%",
+          "lavandula officinalis dried flowers40%",
+          "origanum Vulgare dried leaves 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "The mixture is rich in herbs that stimulate the peripheral circulatory system, thus, helps alleviating the symptoms of headache. ",
+          "It can be used with a herbal mixture that alleviate the symptoms of migraine, it also reduces the dyspeptic complaints associated with headache."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "41": {
+      "name": "Campo sedative mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "valeriana officinalis roots %25",
+          "mentha piperita dried leaves 40%",
+          "melissa officinalis %35"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "A natural mixture helps to relieve nervousness and insomnia.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "42": {
+      "name": "Campo Memory Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Ginkgo biloba dried leaves 40% ",
+          "Rosmarinus officinalis dried leaves 20% ",
+          "salvia officinalis dried leaves 20%",
+          "Cinnamomum - aromaticum dried barks 20%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural herbal mixture rich in ginkgo leaves which increases the blood circulation in the brain ",
+          "and helps in cases of memory dysfunction and lack of concentration, it also helps in cases of intermittent claudication and vertigo."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "43": {
+      "name": "Campo Ulcer Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Matricaria Chamomile dried flowers 20%",
+          "Mentha piperita folia dried leaves 25%",
+          "Melissa officianlis dreid leaves 15%",
+          "Althaea officinalis dried flowers 40%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture helps protecting the stomach from gastric ulcers, and gives its best effect at the beginning of the ulcer formation. ",
+          "It covers the stomach; protecting it against irritations and gastric infections. It also helps to relieves from dyspeptic complaints and mental distress which is one of the most important causes of ulcers."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "44": {
+      "name": "Campo coughs Mixture - Expectorant",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Salvia officinalis 22%",
+          "peppermint 23%",
+          "Thymus serpyllum 19%",
+          "mallow sylvestris 18%",
+          "viola odorata 18%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Expectorant, facilitates the excretion of the bronchial and mucosal secretions.",
+          "Reduces the symptoms of dry cough, and helps in cases of inflammation of the mouth, larynx and pharynx."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "45": {
+      "name": "Campo Rheumatism Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Equisetum arvense leaves and shoots %35",
+          "Betula species leaves % 25",
+          "Taraxacum officinale roots %15",
+          "Urtica dioica leaves %25"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture helps in reducing joints and rheumatic pains and inflammation. Reduces joints pain accompanied with rheumatism, it has an anti-inflammatory effect on joints, and it reduces edemas.",
+          "Helps in the excretion of uric acid in urine, hence, reduces its blood concentrations and the symptoms of its accumulation in joints accompanied with Gout disease."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "46": {
+      "name": "Campo Extra Mixture For cold",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Elettaria cardamomum %20 ",
+          "cinnamomum cassia %20",
+          "mentha piperita 30% ",
+          "eucalyptus globulus %20 ",
+          "glycyrrhiza glabra %10"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural aiding mixture helps to alleviate the symptoms of cold and to relieve nasal congestion due to the occurrence eucalyptus leaves",
+          ", it also enhances immunity and protects against respiratory infections, and helps in cases of mouth and throat infections."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "47": {
+      "name": "Campo for cold Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Plantago lanceolata ",
+          "Matricaria recutita ",
+          "Pinus Silvestris  ",
+          "Pimpinell Anisum"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Herbal mixture for Cold & flu cases and respiratory infections.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "48": {
+      "name": "Campo Fitness Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Coffea arabica Seeds %25",
+          "Camellia sinensis Leaves %20",
+          "Hibiscus sabdariffa flowers %35",
+          "Mentha piperita Leaves %15",
+          "Cassia species Leaves %5"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural tonic mixture; helps in burning the accumulating fats and controlling your weight. Helps in controlling the appetite, stimulating the blood circulation, lowering cholesterol levels and raising the metabolic rate in the body, this helps in burning fats and controlling weight. Helps in cases of constipation (may also helps in chronic constipation) because of the hibiscus and Senna moderate laxative effect. Helps controlling your weight by its bulking and laxative properties. (gives you a sense of fullness).",
+          "The Green coffee and the green tea reduce the appetite and rinse the free radicals and increase lipolysis; this lowers the LDL, TG, TCH levels. It has a mild diuretic, tonic and antioxidant effects (due to the hibiscus, green tea, green coffee existence). It also helps in dyspeptic complaints. This mixture can be used along with campo laxative mixture when patient is suffering sever or chronic constipation."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "49": {
+      "name": "Mixture Helps In Hyperuricemia",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Nettle leaves 30% ",
+          "celery seeds 40% ",
+          "thyme leaves 30%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Helps reduce uric acid in the body",
+          "Antioxidant and helps relieve symptoms of gouty arthritis (high uric acid)"
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "50": {
+      "name": "Campo mixture for helping in migraine cases",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Valeriana officinalis roots %15 ",
+          "mentha piperita leaves %15 ",
+          "melissa officinalis leaves %40",
+          "lavandula angustifolia flowers %30"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "A natural mixture that helps to relive headaches.",
+          "It is also used in cases of insomnia, sleeping disorders, and irritable bowel syndrome."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "51": {
+      "name": "Campo Calming Baby Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Matricaria recutita %45 ",
+          "Melissa officinalis %20 ",
+          "pimpinella anise %15",
+          "ocimum basilicum %10 ",
+          "thymus vulgaris %10"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture rich in sedative herbals such as Mellissa, chamomile and myrtle.",
+          "Helps to reduce the child 's activity during the day and helps him to sleep comfortably."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "52": {
+      "name": "Campo Extra Laxative Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Senna leaves powder %35 ",
+          "Rhubarb roots powder %15",
+          "malva leaves powder %10",
+          "chamomile flowers powder %15",
+          "fennel fruits powder %25"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural laxative, it helps in constipation cases and chronic constipation because it contains Senna and Rhubarb which gives the laxative effect. it helps in cases of indigestion and glut caused by heavy meals because it contains fennel. ",
+          "It also accelerates the movement of the intestines, it also contains malva and chamomile which protect the mucous membranes of the digestive system from irritation."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "53": {
+      "name": "Campo Laxative Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Foeniculum vulgare dried fruits 35% ",
+          "cassia senna fried leaves 35% ",
+          "anisum vulgare dried fruits 25% ",
+          "glycyrrhiza glabra dried roots 5%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural laxative mixture, helps in case of constipation because it contains Senna, and helps in cases of dyspeptic complaints after heavy meals because it contains fennel and anise.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "54": {
+      "name": "Campo Hypocholesterolemia Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Green tea leaves 15%",
+          "rosemary leaves 20%",
+          "nettle leaves 25%",
+          "dandelion roots 15%",
+          "fenugreek seeds 25%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "A natural mixture that helps reduce cholesterol and fats, by enhancing the liver function and excretion of the bile, which helps remove toxins. It is an antioxidant and free radical mixture that helps reduce and control weight.",
+          "This mixture helps to increase the excretion of cholesterol with bile, and it also has a laxative effect if taken with sufficient amounts of water. It also has a diuretic effect that accelerates the removal of toxins from the body."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "55": {
+      "name": "Campo Appetite Mixture",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Angelica Archangelica 25% ",
+          "Cnicus Benedictus 25%",
+          "Lavandula officinalis 20%",
+          "Elettaria Cardamomum 20%",
+          "Mentha Piperita 10%"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Natural mixture rich in herbs that help to improve digestion and increase appetite due to stimulating the gastrointestinal secretions and the secretion of saliva, it also has a sedative effect because it contains lavender.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
+    },
+    "56": {
+      "name": "Campo Mixture helps in milk secretion",
+      "desc": "We proudly present high-quality natural herbal medicinal blends, carefully prepared and packed in tea bags, each individually sealed within a special envelope to preserve the freshness of flavor and maintain the therapeutic properties of the herbs.These blends are designed to effectively assist in relieving various pains and improving overall health, using carefully selected natural ingredients, based on the latest scientific research, and supervised by our scientific team and a qualified pharmacist.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each box of our blends contains an approved medical prescription (Inner Leaflet) certified by the Syrian Ministry of Health. This is the result of extensive research and efforts by our scientific team, under the supervision of a licensed pharmacist, ensuring the highest standards of quality and safety.",
+          ""
+        ],
+        "IngredientsTitle": "Ingredients",
+        "Ingredients": [
+          "Trigonella foenum graecum seeds %20 ",
+          "Melissa officinalis leaves%15 ",
+          "Althea officinalis %15 ",
+          "Foeniculum vulgare %50"
+        ],
+        "usageInstructionsTitle": "Mixture usage",
+        "usageInstructions": [
+          "Helps to increase the secretion milk and to alleviate the mother's digestive disorders, it can be also used as a carminative and an appetite stimulant.",
+          ""
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbal Medicinal mixture"
+          }
+        ]
+      }
     }
   },
   "event": {
@@ -1871,6 +2772,7 @@
   ],
   "ReadMore": "Read More",
   "SeeMore": "See More",
+  "SeeLess": "See Less",
   "OurProductsTitle" : "Our Products",
   "EventsTitle" : "Events",
   "filters": {

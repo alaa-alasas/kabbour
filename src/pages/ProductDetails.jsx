@@ -26,6 +26,7 @@ const ProductDetails = () => {
         productDesc={t(item.productDesc)}
       />
       <ProductDescriptionComponent 
+        productId= {productId}
         imgFlower={item.details.flowerImg} 
         desc={t(item.details.desc,{ returnObjects: true })}
         usageInstructions={t(item.details.usageInstructions,{ returnObjects: true })}
