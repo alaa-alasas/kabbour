@@ -362,7 +362,7 @@ export const ProductsData = [
         productDesc: "product.18.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/MountainZhourat.png",
+                "/kabbour/ProductDetails/Herbs/GreenTeaWithGinger.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100%.png",
             ],

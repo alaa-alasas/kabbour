@@ -433,33 +433,29 @@
       }
     },
     "6": {
-      "name": "Hibiscus",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "name": "Original Green Tea ",
+      "desc": "A pure and refreshing experience of classic green tea. Each box contains 20 cellulose teabags, individually sealed to ensure lasting flavor and optimal freshness. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Perfect for daily consumption, it delivers a smooth, earthy taste with natural health benefits for a balanced lifestyle.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Rich in antioxidants that combat free radicals.",
+          "Enhances metabolism and supports weight management.",
+          "Promotes heart health by improving cholesterol levels."
         ],
         "usageInstructionsTitle": "usageInstructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -467,19 +463,7 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
@@ -886,26 +870,22 @@
     },
     "18": {
       "name": "Green Tea with Ginger",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "A bold, invigorating blend of green tea and pure ginger, crafted for those who enjoy a spicy kick with health benefits. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Each box includes 20 cellulose teabags, individually sealed to lock in flavor and active compounds. Great after meals or during cold seasons.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Relieves digestive discomfort and promotes gut movement.",
+          "Provides anti-inflammatory effects, beneficial for joints and lungs.",
+          "Supports the immune system with bioactive ginger compounds."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Natural Ginger) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
@@ -938,32 +918,28 @@
     },
     "19": {
       "name": "Green Tea with Ginger and Lemon",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "An energizing blend of green tea with spicy ginger and tangy lemon, crafted to awaken your senses and support your health. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Each box contains 20 individually wrapped cellulose teabags to retain freshness and flavor. Perfect for immune support and digestive comfort.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Boosts the immune system with vitamin C and ginger.",
+          "Aids digestion and helps reduce nausea.",
+          "Supports detoxification and increases vitality."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Ginger & Lemon) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -971,51 +947,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "20": {
       "name": "Green Tea with Lemon",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "This citrusy infusion blends the mild taste of green tea with real lemon for a refreshing, detoxifying experience. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "The box contains 20 teabags, each individually sealed to maintain taste and freshness. Ideal for mornings or post-meal refreshment.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Supports liver health and aids detoxification.",
+          "Enhances iron absorption and antioxidant activity.",
+          "Refreshes the body and reduces fatigue."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Natural Lemon) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1023,51 +983,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "21": {
       "name": "Green Tea with Lemon Balm",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "This soothing blend of green tea and lemon balm promotes calmness and inner balance. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "The 20 teabags are individually wrapped to preserve aroma and calming properties. Ideal before sleep or during stressful days.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Naturally reduces anxiety and stress.",
+          "Improves sleep quality and relaxation.",
+          "Supports digestion and relieves bloating."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Natural Lemon Balm) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1075,51 +1019,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "22": {
       "name": "Green Tea with Mint",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "Cool and refreshing, this blend of green tea and real mint leaves is perfect for calming the senses.",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "The 20 teabags are individually wrapped to lock in essential oils and flavor.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Soothes digestive issues and relieves cramps.",
+          "Freshens breath and supports oral hygiene.",
+          "Reduces nervous tension and improves mood."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Natural Mint) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1127,51 +1055,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "23": {
       "name": "Green Tea with Ginseng",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "A revitalizing blend of green tea and natural ginseng, designed to boost physical and mental performance. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Each of the 20 teabags is individually sealed for optimal potency and freshness.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Naturally enhances physical and mental energy.",
+          "Improves memory and concentration.",
+          "Strengthens immunity and reduces stress."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Ginseng) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1179,51 +1091,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "24": {
       "name": "Green Tea with Cinnamon and Ginger",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "A comforting fusion of green tea, spicy cinnamon, and fresh ginger – the perfect cup for warmth and vitality. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Each box includes 20 cellulose teabags, individually wrapped to preserve flavor. Ideal for mornings or after meals, this tea energizes the body while soothing the senses.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Helps regulate blood sugar levels with the natural effects of cinnamon.",
+          "Supports digestion and reduces bloating thanks to ginger",
+          "Boosts circulation and provides a warming effect."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Cinnamon & Ginger) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1231,51 +1127,35 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
     },
     "25": {
       "name": "Green Tea with Natural Cardamom",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "An exotic blend of aromatic cardamom and green tea offers a refined and luxurious tea moment. ",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Individually wrapped for optimal freshness and lasting flavor. Great for post-meal relaxation.",
+          ""
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "Benefits",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          "Aids digestion and reduces bloating.",
+          "Has antibacterial properties beneficial for oral health.",
+          "Stimulates circulation and provides warmth."
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Green Tea with Natural Cardamom) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
            {
               "title": "Net Weight",
-              "desc": "- 44g"
+              "desc": ""
           },
           {
               "title": "Bags",
@@ -1283,19 +1163,7 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
