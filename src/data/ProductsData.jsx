@@ -156,7 +156,7 @@ export const ProductsData = [
         productDesc: "product.7.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Minit.png",
+                "/kabbour/ProductDetails/Herbs/Mint.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/MinitCup.png",
                 "/kabbour/ProductDetails/Herbs/100%.png",
@@ -271,7 +271,7 @@ export const ProductsData = [
         productDesc: "product.13.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Chamomile.png",
+                "/kabbour/ProductDetails/Herbs/ChamomileAndMint.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100%.png",
             ],
