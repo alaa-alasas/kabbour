@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import './FooterComponent.css';
 import { FooterData } from "./../../data/FooterData"; 
 import { useTranslation } from "react-i18next"; 
@@ -8,7 +8,55 @@ import { Link } from 'react-router-dom';
 const FooterComponent = () => {
   const { direction } = useContext(LanguageDirectionContext);
   const { t } = useTranslation(); 
-  
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  // Handle form input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('https://formspree.io/f/mjkrrrek',  {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '', message: '' }); // Reset form
+        alert('sent sucessfully!!!!!');
+
+      } else {
+        setError('حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة لاحقًا.');
+      }
+    } catch (err) {
+      setError('حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة لاحقًا.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <footer>
       <div className="footer-container px-64 mb-64">
@@ -57,20 +105,21 @@ const FooterComponent = () => {
         {/* قسم نموذج الاتصال */}
         <div className="footer-col">
           <h4 className="title-footer">{t("contactUs.title")}</h4>
-          <form action="" id="contactUs">
+          <form onSubmit={handleSubmit} id="contactUs">
             <div>
               <label htmlFor="subject">{t("contactUs.subject")}</label>
-              <input type="text" id="subject" name="subject" required />
+              <input type="text" id="name" name="name" required value={formData.name} onChange={handleChange}/>
             </div>
             <div>
               <label htmlFor="email">{t("contactUs.email")}</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange}/>
             </div>
             <div>
               <label htmlFor="message">{t("contactUs.message")}</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea id="message" name="message" required value={formData.message} onChange={handleChange}></textarea>
             </div>
-            <button type="submit">{t("contactUs.send")}</button>
+             {error && <p className="error-message">{error}</p>}
+            <button type="submit" disabled={isLoading}> {isLoading ? 'جارٍ الإرسال...' : t("contactUs.send")}</button>
           </form>
         </div>
       </div>

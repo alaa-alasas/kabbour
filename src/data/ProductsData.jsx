@@ -129,19 +129,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/GreenTea.png",
+        img: "/kabbour/ProductDetails/Herbs/GreenTea/GreenTea.png",
         productId: 6,
         category: "3",
         productName: "product.6.name",
         productDesc: "product.6.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/GreenTea.png",
+                "/kabbour/ProductDetails/Herbs//GreenTea/GreenTea.png",
+                "/kabbour/ProductDetails/Herbs/GreenTea/1.png",
                 "/kabbour/ProductDetails/22.png",
-                "/kabbour/ProductDetails/greenTeaCup.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/greenTeaFlower.png",
+            flowerImg: "/kabbour/ProductDetails//Herbs/GreenTea/2.png",
             desc:'product.6.details.desc',
             ingredients: 'product.6.details.Ingredients',
             usageInstructions: 'product.6.details.usageInstructions',
@@ -188,18 +188,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/JouriFlowers.png",
+        img: "/kabbour/ProductDetails/Herbs/JouriFlowers/JouriFlowers.png",
         productId: 9,
         category: "4",
         productName: "product.9.name", 
         productDesc: "product.9.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/JouriFlowers.png",
+                "/kabbour/ProductDetails/Herbs/JouriFlowers/JouriFlowers.png",
+                "/kabbour/ProductDetails/Herbs/JouriFlowers/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/JouriFlowers/2.png",
             desc:'product.9.details.desc',
             ingredients: 'product.9.details.Ingredients',
             usageInstructions: 'product.9.details.usageInstructions',
@@ -245,18 +246,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/Chamomile.png",
+        img: "/kabbour/ProductDetails/Herbs/Chamomile/Chamomile.png",
         productId: 12,
         category: "4",
         productName: "product.12.name", 
         productDesc: "product.12.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Chamomile.png",
+                "/kabbour/ProductDetails/Herbs/Chamomile/Chamomile.png",
+                "/kabbour/ProductDetails/Herbs/Chamomile/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/Chamomile/2.png",
             desc:'product.12.details.desc',
             ingredients: 'product.12.details.Ingredients',
             usageInstructions: 'product.12.details.usageInstructions',
@@ -319,18 +321,19 @@ export const ProductsData = [
             poductSpecifications: 'product.15.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/NaturalZhourat.png",
+        img: "/kabbour/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.png",
         productId: 16,
         category: "4",
         productName: "product.16.name", 
         productDesc: "product.16.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/NaturalZhourat.png",
+                "/kabbour/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.png",
+                "/kabbour/ProductDetails/Herbs/NaturalZhourat/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/product-ingredients.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/NaturalZhourat/2.png",
             desc:'product.16.details.desc',
             ingredients: 'product.16.details.Ingredients',
             usageInstructions: 'product.16.details.usageInstructions',

@@ -203,6 +203,17 @@ form label{
     transform: scale(1.05);
 }
 
+.success-message {
+  color: green;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
 @media(max-width: 1919px){
     .ul-site-map,
     .ul-contact-info{
