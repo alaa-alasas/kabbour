@@ -169,18 +169,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/Anise.png",
+        img: "/kabbour/ProductDetails/Herbs/Anise/Anise.png",
         productId: 8,
         category: "4",
         productName: "product.8.name", 
         productDesc: "product.8.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Anise.png",
+                "/kabbour/ProductDetails/Herbs/Anise/Anise.png",
+                "/kabbour/ProductDetails/Herbs/Anise/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/MinitFlower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/Anise/2.png",
             desc:'product.8.details.desc',
             ingredients: 'product.8.details.Ingredients',
             usageInstructions: 'product.8.details.usageInstructions',
@@ -208,18 +209,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/Rosemary.png",
+        img: "/kabbour/ProductDetails/Herbs/Rosemary/Rosemary.png",
         productId: 10,
         category: "4",
         productName: "product.10.name", 
         productDesc: "product.10.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Rosemary.png",
+                "/kabbour/ProductDetails/Herbs/Rosemary/Rosemary.png",
+                "/kabbour/ProductDetails/Herbs/Rosemary/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/Rosemary/2.png",
             desc:'product.10.details.desc',
             ingredients: 'product.10.details.Ingredients',
             usageInstructions: 'product.10.details.usageInstructions',
@@ -561,18 +563,19 @@ export const ProductsData = [
             poductSpecifications: 'product.28.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/CuminAndLemon.png",
+        img: "/kabbour/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.png",
         productId: 29,
         category: "4",
         productName: "product.29.name", 
         productDesc: "product.29.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/CuminAndLemon.png",
+                "/kabbour/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.png",
+                "/kabbour/ProductDetails/Herbs/CuminAndLemon/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/CuminAndLemon/2.png",
             desc:'product.29.details.desc',
             ingredients: 'product.29.details.Ingredients',
             usageInstructions: 'product.29.details.usageInstructions',
