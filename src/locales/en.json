@@ -2352,6 +2352,78 @@
           }
         ]
       }
+    },
+    "57": {
+      "name": "Ginger with Lemon ",
+      "desc": "A zesty fusion of spicy ginger and tangy lemon, this tea supports digestion and immunity.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Teabags are individually sealed for optimal freshness.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Boosts immunity and fights infections.",
+          "Eases digestion and relieves nausea.",
+          "Soothes sore throat and reduces inflammation."
+        ],
+        "usageInstructionsTitle": "usage Instructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Ginger with Lemon) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbs"
+          }
+        ]
+      }
+    },
+    "58": {
+      "name": "Hyssop",
+      "desc": "An aromatic herbal infusion, hyssop tea is prized for its traditional use in respiratory and digestive support.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each teabag is individually wrapped to preserve its rich flavor and health benefits.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Cleanses the respiratory tract and soothes cough.",
+          "Reduces intestinal spasms and gas.",
+          "Boosts the body’s natural defenses."
+        ],
+        "usageInstructionsTitle": "usage Instructions",
+        "usageInstructions": [
+          "To Preserve the whole delicate flavor, put a bag of campo (Hyssop) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "20"
+          },
+          {
+              "title": "Type",
+              "desc": "Herbs"
+          }
+        ]
+      }
     }
   },
   "event": {

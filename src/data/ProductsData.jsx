@@ -149,19 +149,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/Mint.png",
+        img: "/kabbour/ProductDetails/Herbs/Mint/Mint.png",
         productId: 7,
         category: "4",
         productName: "product.7.name", 
         productDesc: "product.7.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Mint.png",
+                "/kabbour/ProductDetails/Herbs/Mint/Mint.png",
+                "/kabbour/ProductDetails/Herbs/Mint/1.png",
                 "/kabbour/ProductDetails/22.png",
-                "/kabbour/ProductDetails/MinitCup.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/MinitFlower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/Mint/2.png",
             desc:'product.7.details.desc',
             ingredients: 'product.7.details.Ingredients',
             usageInstructions: 'product.7.details.usageInstructions',
@@ -266,18 +266,19 @@ export const ProductsData = [
         }
     },
     {
-        img: "/kabbour/ProductDetails/Herbs/ChamomileAndMint.png",
+        img: "/kabbour/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.png",
         productId: 13,
         category: "4",
         productName: "product.13.name", 
         productDesc: "product.13.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/ChamomileAndMint.png",
+                "/kabbour/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.png",
+                "/kabbour/ProductDetails/Herbs/ChamomileAndMint/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/ChamomileAndMint/2.png",
             desc:'product.13.details.desc',
             ingredients: 'product.13.details.Ingredients',
             usageInstructions: 'product.13.details.usageInstructions',
@@ -502,18 +503,19 @@ export const ProductsData = [
             poductSpecifications: 'product.25.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/CinnamomAndGinger.png",
+        img: "/kabbour/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.png",
         productId: 26,
         category: "4",
         productName: "product.26.name", 
         productDesc: "product.26.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/CinnamomAndGinger.png",
+                "/kabbour/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.png",
+                "/kabbour/ProductDetails/Herbs/CinnamomAndGinger/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/CinnamomAndGinger/2.png",
             desc:'product.26.details.desc',
             ingredients: 'product.26.details.Ingredients',
             usageInstructions: 'product.26.details.usageInstructions',
@@ -574,24 +576,64 @@ export const ProductsData = [
             poductSpecifications: 'product.29.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/LemonBalm.png",
+        img: "/kabbour/ProductDetails/Herbs/LemonBalm/LemonBalm.png",
         productId: 30,
         category: "4",
         productName: "product.30.name", 
         productDesc: "product.30.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/LemonBalm.png",
+                "/kabbour/ProductDetails/Herbs/LemonBalm/LemonBalm.png",
+                "/kabbour/ProductDetails/Herbs/LemonBalm/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/LemonBalm/2.png",
             desc:'product.30.details.desc',
             ingredients: 'product.30.details.Ingredients',
             usageInstructions: 'product.30.details.usageInstructions',
             poductSpecifications: 'product.30.details.poductSpecifications'
         }
     },{
+        img: "/kabbour/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.png",
+        productId: 57,
+        category: "4",
+        productName: "product.57.name", 
+        productDesc: "product.57.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.png",
+                "/kabbour/ProductDetails/Herbs/GingerAndLemon/1.png",
+                "/kabbour/ProductDetails/22.png",
+                "/kabbour/ProductDetails/Herbs/100.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Herbs/GingerAndLemon/2.png",
+            desc:'product.57.details.desc',
+            ingredients: 'product.57.details.Ingredients',
+            usageInstructions: 'product.57.details.usageInstructions',
+            poductSpecifications: 'product.57.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Herbs/Hyssop/Hyssop.png",
+        productId: 58,
+        category: "4",
+        productName: "product.58.name", 
+        productDesc: "product.58.desc",
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Herbs/Hyssop/Hyssop.png",
+                "/kabbour/ProductDetails/Herbs/Hyssop/1.png",
+                "/kabbour/ProductDetails/22.png",
+                "/kabbour/ProductDetails/Herbs/100.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Herbs/Hyssop/2.png",
+            desc:'product.58.details.desc',
+            ingredients: 'product.58.details.Ingredients',
+            usageInstructions: 'product.58.details.usageInstructions',
+            poductSpecifications: 'product.58.details.poductSpecifications'
+        }
+    },
+    {
         img: "/kabbour/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
         productId: 33,
         category: "5",
