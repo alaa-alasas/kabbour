@@ -341,18 +341,19 @@ export const ProductsData = [
             poductSpecifications: 'product.16.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/MountainZhourat.png",
+        img: "/kabbour/ProductDetails/Herbs/MountainZhourat/MountainZhourat.png",
         productId: 17,
         category: "4",
         productName: "product.17.name", 
         productDesc: "product.17.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/MountainZhourat.png",
+                "/kabbour/ProductDetails/Herbs/MountainZhourat/MountainZhourat.png",
+                "/kabbour/ProductDetails/Herbs/MountainZhourat/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/MountainZhourat/2.png",
             desc:'product.17.details.desc',
             ingredients: 'product.17.details.Ingredients',
             usageInstructions: 'product.17.details.usageInstructions',
