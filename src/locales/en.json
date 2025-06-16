@@ -2620,16 +2620,16 @@
       "desc": "Green leaves enter the Sapeco unit where they are exposed to high heat (up to 400°C) for one minute to stop fermentation enzymes."
     },
     "phase4": {
-      "title": "Piresco Process",
+      "title": "Preseco Process",
       "desc": "In this stage, the leaves go through a process similar to Sapeco but with 30% less heat."
     },
     "phase5": {
       "title": "Cinta 1 & 2",
-      "desc": "After Piresco, yerba mate passes through Cinta chambers at 80–100°C for 10 hours to dry the leaves and stems completely."
+      "desc": "After Preseco, yerba mate passes through Cinta chambers at 80–100°C for 10 hours to dry the leaves and stems completely."
     },
     "phase6": {
-      "title": "Kenchadora & Nuki",
-      "desc": "Leaves enter Kenchadora and are coarsely cut into 'kenchada'. Then, stems are separated from leaves in Nuki and stored for a year in aging warehouses."
+      "title": "Canchadora & Nuki",
+      "desc": "Leaves enter Canchadora and are coarsely cut into 'kenchada'. Then, stems are separated from leaves in Nuki and stored for a year in aging warehouses."
     },
     "phase7": {
       "title": "Warehouses",

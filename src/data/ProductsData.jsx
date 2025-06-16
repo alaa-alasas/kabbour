@@ -523,36 +523,38 @@ export const ProductsData = [
             poductSpecifications: 'product.26.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers.png",
+        img: "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.png",
         productId: 27,
         category: "4",
         productName: "product.27.name", 
         productDesc: "product.27.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers.png",
+                "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.png",
+                "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/HibiscusWithJouriFlowers/2.png",
             desc:'product.27.details.desc',
             ingredients: 'product.27.details.Ingredients',
             usageInstructions: 'product.27.details.usageInstructions',
             poductSpecifications: 'product.27.details.poductSpecifications'
         }
     },{
-        img: "/kabbour/ProductDetails/Herbs/Cumin.png",
+        img: "/kabbour/ProductDetails/Herbs/Cumin/Cumin.png",
         productId: 28,
         category: "4",
         productName: "product.28.name", 
         productDesc: "product.28.desc",
         details:{
             images: [ 
-                "/kabbour/ProductDetails/Herbs/Cumin.png",
+                "/kabbour/ProductDetails/Herbs/Cumin/Cumin.png",
+                "/kabbour/ProductDetails/Herbs/Cumin/1.png",
                 "/kabbour/ProductDetails/22.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "/kabbour/ProductDetails/flower.png",
+            flowerImg: "/kabbour/ProductDetails/Herbs/Cumin/2.png",
             desc:'product.28.details.desc',
             ingredients: 'product.28.details.Ingredients',
             usageInstructions: 'product.28.details.usageInstructions',
