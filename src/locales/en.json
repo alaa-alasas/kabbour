@@ -899,19 +899,7 @@
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Green Tea"
           }
         ]
       }
@@ -2628,7 +2616,7 @@
       "desc": "After Preseco, yerba mate passes through Cinta chambers at 80–100°C for 10 hours to dry the leaves and stems completely."
     },
     "phase6": {
-      "title": "Canchadora & Nuki",
+      "title": "Canchadora and noke",
       "desc": "Leaves enter Canchadora and are coarsely cut into 'kenchada'. Then, stems are separated from leaves in Nuki and stored for a year in aging warehouses."
     },
     "phase7": {
