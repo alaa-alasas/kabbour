@@ -2557,15 +2557,11 @@
         },
         {
           "id" : "2",
-          "name": "Medical Conferences"
+          "name": "Sporting Events"
         },
         {
           "id" : "3",
           "name": "Humanitarian Events"
-        },
-        {
-          "id" : "4",
-          "name": "Social Events"
         }
       ]
     },
