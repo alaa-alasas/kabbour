@@ -2,7 +2,7 @@ import './ProductHeaderComponent.css'
 import ProductImageComponent from '../ProductImageComponent/ProductImageComponent';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
-const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc}) => {
+const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc,imagesDes}) => {
 
   return (
     <div className='product-header-section px-64 mb-64'>
@@ -59,18 +59,11 @@ const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc
             - Images are displayed side by side using Flexbox.
           */}
           <div className="product-header-images">
-            {/* 
-              - Illustrative image 1: Shows a specific feature or aspect of the product.
-            */}
-            <img src="/kabbour/ProductDetails/productDetails1.png" alt="" />
-            {/* 
-              - Illustrative image 2: Shows another feature or angle of the product.
-            */}
-            <img src="/kabbour/ProductDetails/productDetails2.png" alt="" />
-            {/* 
-              - Illustrative image 3: Highlights an additional feature or perspective of the product.
-            */}
-            <img src="/kabbour/ProductDetails/productDetails3.png" alt="" />
+            {
+              imagesDes.map((img, index) => (
+                <img src={img} alt="" key={index} />
+              ))
+            }
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ function App() {
   }, [t.language]);
 
   return (
-    <>
+    <div className="white-mode">
       <GoToTop />
       <HandleLoadingComponent />
       <ScrollToTop />
@@ -58,7 +58,7 @@ function App() {
         <Route path="/events" element={<Events />} />
       </Routes>
       <FooterComponent />
-    </>
+    </div>
   )
 }
 

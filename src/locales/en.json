@@ -2412,6 +2412,139 @@
           }
         ]
       }
+    },
+    "59": {
+      "name": "Cocoa with Milk ",
+      "desc": "the flavor of childhood with creamy cocoa with milk, a delicious blend of smooth cocoa and rich milk.A perfect drink for winter nights or relaxing moments, offering a soothing warmth in every sip.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "",
+          ""
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": ""
+          },
+          {
+              "title": "Bags",
+              "desc": "10"
+          },
+          {
+              "title": "Type",
+              "desc": "Hot Drink"
+          }
+        ]
+      }
+    },
+    "60": {
+      "name": "Loose Orange Tea ",
+      "desc": "Experience the unique taste of high-quality loose orange tea, imported from Sri Lanka, Origin to some of the world’s finest teas. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Carefully packed in a sealed tin to preserve the freshness and quality. Each tea leaf is carefully selected to deliver a rich, deep, and heritage-filled flavor.",
+          ""
+        ],
+        "IngredientsTitle": "Features",
+        "Ingredients": [
+          "Airtight tin packaging preserves the freshness and rich heritage flavor",
+          "Full control over the amount of tea for the perfect brew tailored to your taste"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+           {
+              "title": "Net Weight",
+              "desc": "90,200,400 g"
+          },
+          {
+              "title": "Type",
+              "desc": "Tea"
+          }
+        ]
+      }
+    },
+    "61": {
+      "name": "Loose Black Tea ",
+      "desc": "Rich Heritage and Authenticity from the Heart of Sri Lanka",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Experience the unique taste of high-quality loose black tea, imported from Sri Lanka, Origin to some of the world’s finest teas. ",
+          "Carefully packed in a sealed tin to preserve the freshness and quality. Each tea leaf is carefully selected to deliver a rich, deep, and heritage-filled flavor."
+        ],
+        "IngredientsTitle": "Features",
+        "Ingredients": [
+          "Airtight tin packaging preserves the freshness and rich heritage flavor",
+          "Full control over the amount of tea for the perfect brew tailored to your taste"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "400 g"
+          },
+          {
+            "title": "Bags",
+            "desc": "20,25"
+          },
+          {
+            "title": "Type",
+            "desc": "Tea"
+          }
+        ]
+      }
+    },
+    "62": {
+      "name": "Black Tea in Tea Bags ",
+      "desc": "Enjoy a cup of premium black tea preserved inside a tea bag, each individually sealed within a special envelope that locks in freshness and flavor for maximum taste retention.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each tea bag is carefully protected to deliver a rich, aromatic flavor that reflects the tea’s authenticity and quality.",
+          "Our black tea features a bold and deep taste, with a fragrant aroma that embraces you with every sip — all while ensuring the flavor stays fresh from packing to brewing."
+        ],
+        "IngredientsTitle": "Features",
+        "Ingredients": [
+          "Carefully selected high-quality tea leaves",
+          "Special envelope preserves freshness and flavor",
+          "Convenient and quick-to-brew tea bags",
+          "Balanced flavor"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20,25"
+          },
+          {
+            "title": "Type",
+            "desc": "Tea"
+          }
+        ]
+      }
     }
   },
   "event": {

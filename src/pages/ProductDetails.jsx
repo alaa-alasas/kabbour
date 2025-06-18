@@ -22,6 +22,7 @@ const ProductDetails = () => {
       <ProductHeaderComponent 
         breadcrumbItems={breadcrumbItems} 
         images={item.details.images} 
+        imagesDes={item.images}
         productName={t(item.productName)}
         productDesc={t(item.productDesc)}
       />

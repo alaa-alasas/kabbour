@@ -32,7 +32,9 @@ const ProductDescriptionComponent = ({productId,imgFlower,desc,ingredients,usage
             - Includes a heading and paragraphs describing the product.
           */}
           <div className="product-description">
+            {t('product.'+productId+'.details.descTitle') && 
             <h3>{t('product.'+productId+'.details.descTitle')}:</h3>
+            }
             {desc.map((item,index) => (
               <p key={index}>{item}</p>
             ))}
@@ -42,7 +44,10 @@ const ProductDescriptionComponent = ({productId,imgFlower,desc,ingredients,usage
             - Includes a heading and an unordered list of ingredients.
           */}
           <div className='product-ingredients'>
-            <h3>{t('product.'+productId+'.details.IngredientsTitle')}:</h3>
+            {t('product.'+productId+'.details.IngredientsTitle') &&
+              <h3>{t('product.'+productId+'.details.IngredientsTitle')}:</h3>
+            }
+            
             <ul>
               {ingredients.map((item,index) => (
                 <li key={index}>{item}</li>
@@ -55,7 +60,11 @@ const ProductDescriptionComponent = ({productId,imgFlower,desc,ingredients,usage
             - Includes a heading and paragraphs explaining how to use the product.
           */}
           <div className="usage-instructions">
-            <h3>{t('product.'+productId+'.details.usageInstructionsTitle')}:</h3>
+            {
+              t('product.'+productId+'.details.usageInstructionsTitle') &&
+              <h3>{t('product.'+productId+'.details.usageInstructionsTitle')}:</h3>
+            }
+            
             {usageInstructions.map((item,index) => (
               <p key={index}>{item}</p>
             ))}

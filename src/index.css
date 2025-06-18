@@ -24,6 +24,16 @@
   --grey44: #464644;
   --grey88 : #727088
 }
+/* 
+.white-mode{
+  --gold26: #AD1A18;
+  --gold10: #AD1A181A;
+
+  --grey03: #1D1D1B;
+  --black15: #F1F1F3;
+  --black01: #DDDDE2;
+  --black17: #DDDDE2;
+} */
 
 #root{
   background-color: var(--black17);
