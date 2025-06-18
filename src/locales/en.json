@@ -2482,23 +2482,43 @@
     }
   },
   "event": {
-    "1": {
-      "name": "Event One",
-      "location": "New York, USA"
-    },
-    "2": {
-      "name": "Event Two",
-      "location": "London, UK"
-    },
-    "3": {
-      "name": "Event Three",
-      "location": "Paris, France"
-    },
-    "4": {
-      "name": "Event Four",
-      "location": "Tokyo, Japan"
-    }
+  "1": {
+    "name": "Visit to Al-Masa'ee Al-Khairiyya Association - Orphanage House",
+    "location": "Latakia - Al-Salibiya"
   },
+  "2": {
+    "name": "Event at Mujla Orphanage Association",
+    "location": "Hama - Al-Dhahiya"
+  },
+  "3": {
+    "name": "Official Sponsor of the Victory Table Tennis Championship at Al-Assad Sports City",
+    "location": "Damascus - Al-Baramkeh"
+  },
+  "4": {
+    "name": "Sponsorship of Iftar Meal for Orphanage House on the Occasion of the Holy Month of Ramadan",
+    "location": "Damascus"
+  },
+  "5": {
+    "name": "Syrian Expo for Exports",
+    "location": "Damascus - Damascus International Exhibition City"
+  },
+  "6": {
+    "name": "Ramadan Iftar Banquet for Underprivileged Families and Orphans under the Title 'Comforting Hearts' on the Occasion of the Holy Month of Ramadan",
+    "location": "Damascus - Al-Baramkeh - Tishreen Stadium"
+  },
+  "7": {
+    "name": "Visit to the Headquarters of Basma Association Supporting Children with Cancer",
+    "location": "Damascus - Al-Baramkeh - Opposite the Faculty of Economics"
+  },
+  "8": {
+    "name": "Syria's Future Championship Event, Sponsored by the Ministry of Sports and the Football Union",
+    "location": "Damascus - Al-Fayhaa Sports City"
+  },
+  "9": {
+    "name": "Distribution of Food Portions to Orphaned Children on the Occasion of Eid al-Adha in Coordination with Sawaa Association",
+    "location": "Tartus - Al-Hamrat"
+  }
+},
   "studyData": [
     {
       "ResearchersStudy": "Nutrition Specialist",
