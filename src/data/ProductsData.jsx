@@ -1357,6 +1357,30 @@ export const ProductsData = [
             poductSpecifications: 'product.59.details.poductSpecifications'
         }
     },{
+        img: "/kabbour/ProductDetails/HotDrinks/3in1/3in1.png",
+        productId: 63,
+        category: "8",
+        productName: "product.63.name", 
+        productDesc: "product.63.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1.png",
+            "/kabbour/ProductDetails/productDetails2.png",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/HotDrinks/3in1/3in1.png",
+                "/kabbour/ProductDetails/HotDrinks/3in1/1.png",
+                "/kabbour/ProductDetails/HotDrinks/3in1/2.png",
+
+            ],
+            flowerImg: "/kabbour/ProductDetails/HotDrinks/3in1/3.png",
+            desc:'product.63.details.desc',
+            ingredients: 'product.63.details.Ingredients',
+            usageInstructions: 'product.63.details.usageInstructions',
+            poductSpecifications: 'product.63.details.poductSpecifications'
+        }
+    },
+    {
         img: "/kabbour/ProductDetails/Tea/orange/orange90.png",
         productId: 60,
         category: "2",
@@ -1420,6 +1444,104 @@ export const ProductsData = [
             ingredients: 'product.62.details.Ingredients',
             usageInstructions: 'product.62.details.usageInstructions',
             poductSpecifications: 'product.62.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Juice/Orange/Orange.png",
+        productId: 64,
+        category: "6",
+        productName: "product.64.name", 
+        productDesc: "product.64.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1.png",
+            "/kabbour/ProductDetails/productDetails2.png",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Juice/Orange/Orange.png",
+                "/kabbour/ProductDetails/Juice/fruit/fruit.png",
+                "/kabbour/ProductDetails/Juice/Pineapple/Pineapple.png",
+                "/kabbour/ProductDetails/Juice/Orange&Carrot/Orange&Carrot.png",
+                "/kabbour/ProductDetails/Juice/Tamarind/Tamarind.png",
+                "/kabbour/ProductDetails/Juice/Apple/Apple.png",
+                "/kabbour/ProductDetails/Juice/Berry/Berry.png",
+                "/kabbour/ProductDetails/Juice/Jallab/Jallab.png",
+                "/kabbour/ProductDetails/Juice/Strawberry/Strawberry.png",	 
+                "/kabbour/ProductDetails/Juice/Lemon&Mint/Lemon&Mint.png",
+                "/kabbour/ProductDetails/Juice/Mango/Mango.png",
+                "/kabbour/ProductDetails/Juice/Guava/Guava.png",
+                "/kabbour/ProductDetails/Juice/Lemon/Lemon.png",
+                "/kabbour/ProductDetails/Juice/Orange/1.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Juice/fruit/2.png",
+            desc:'product.64.details.desc',
+            ingredients: 'product.64.details.Ingredients',
+            usageInstructions: 'product.64.details.usageInstructions',
+            poductSpecifications: 'product.64.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Juice/Orange/Orange.png",
+        productId: 65,
+        category: "6",
+        productName: "product.65.name", 
+        productDesc: "product.65.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1.png",
+            "/kabbour/ProductDetails/productDetails2.png",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Juice/Orange/Orange.png",
+                "/kabbour/ProductDetails/Juice/Orange/1.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Juice/Orange/2.png",
+            desc:'product.65.details.desc',
+            ingredients: 'product.65.details.Ingredients',
+            usageInstructions: 'product.65.details.usageInstructions',
+            poductSpecifications: 'product.65.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Coffee/InstantCoffee/InstantCoffee.png",
+        productId: 66,
+        category: "7",
+        productName: "product.66.name", 
+        productDesc: "product.66.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1.png",
+            "/kabbour/ProductDetails/productDetails2.png",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Coffee/InstantCoffee/InstantCoffee.png",
+                "/kabbour/ProductDetails/Coffee/InstantCoffee/1.png",
+                "/kabbour/ProductDetails/Coffee/InstantCoffee/2.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Coffee/InstantCoffee/3.png",
+            desc:'product.66.details.desc',
+            ingredients: 'product.66.details.Ingredients',
+            usageInstructions: 'product.66.details.usageInstructions',
+            poductSpecifications: 'product.66.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.png",
+        productId: 67,
+        category: "7",
+        productName: "product.67.name", 
+        productDesc: "product.67.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1.png",
+            "/kabbour/ProductDetails/productDetails2.png",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.png",
+                "/kabbour/ProductDetails/Coffee/InstantCoffeeCardamom/1.png",
+                "/kabbour/ProductDetails/Coffee/InstantCoffeeCardamom/2.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/Coffee/InstantCoffeeCardamom/3.png",
+            desc:'product.67.details.desc',
+            ingredients: 'product.67.details.Ingredients',
+            usageInstructions: 'product.67.details.usageInstructions',
+            poductSpecifications: 'product.67.details.poductSpecifications'
         }
     }
 

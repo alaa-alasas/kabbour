@@ -2479,6 +2479,163 @@
           }
         ]
       }
+    },
+    "63": {
+      "name": "3 in 1 – Instant Coffee, Perfectly Balanced",
+      "desc": "If you love quick coffee with a smooth, balanced taste, then 3 in 1 is your go-to choice. A perfect blend of coffee, creamer, and sugar, ready in seconds.",
+      "details":{
+        "descTitle": "",
+        "desc" : [
+          "",
+          ""
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "24"
+          },
+          {
+            "title": "Type",
+            "desc": "Hot Drink"
+          }
+        ]
+      }
+    },
+    "64": {
+      "name": "Instant Powder Juice",
+      "desc": "The classic, beloved flavor that strikes the perfect balance between gentle sweetness and refreshing citrus acidity. This juice delivers a natural energy boost and immediate freshness.",
+      "details":{
+        "descTitle": "Natural refreshment... with rich fruity flavor",
+        "desc" : [
+          "Discover true refreshment with our instant powder juice. Conveniently packed in a small, easy-to-use sachet, it transforms in seconds into a delicious, revitalizing drink—just add water and stir.",
+          "Our balanced, fast-dissolving formula ensures a perfect experience every time, whether at home, at work, or on the go. We offer a wide variety of natural flavors, allowing you to enjoy rich, satisfying taste in every sip."
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "24"
+          },
+          {
+            "title": "Type",
+            "desc": "Juice"
+          }
+        ]
+      }
+    },
+    "65": {
+      "name": "Instant Powder Orange Juice",
+      "desc": "The Orange classic, beloved flavor that strikes the perfect balance between gentle sweetness and refreshing citrus acidity. This juice delivers a natural energy boost and immediate freshness.",
+      "details":{
+        "descTitle": "Natural refreshment... with rich fruity flavor",
+        "desc" : [
+          "Discover true refreshment with our instant powder juice. Conveniently packed in a small, easy-to-use sachet, it transforms in seconds into a delicious, revitalizing drink—just add water and stir.",
+          "Our balanced, fast-dissolving formula ensures a perfect experience every time, whether at home, at work, or on the go. We offer a wide variety of natural flavors, allowing you to enjoy rich, satisfying taste in every sip."
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "24"
+          },
+          {
+            "title": "Type",
+            "desc": "Juice"
+          }
+        ]
+      }
+    },
+    "66": {
+      "name": "Instant Coffee",
+      "desc": "Experience the true taste of coffee with instant coffee for those who crave bold flavor and convenience.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Fine granules that dissolve instantly, giving you a rich, real coffee cup in less than a minute.",
+          ""
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "67": {
+      "name": "Instant Coffee with Cardamom",
+      "desc": "Experience the true taste of coffee with instant coffee for those who crave bold flavor and convenience.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Fine granules that dissolve instantly, giving you a rich, real coffee cup in less than a minute.",
+          ""
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+          
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
     }
   },
   "event": {
