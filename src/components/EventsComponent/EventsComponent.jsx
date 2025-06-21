@@ -23,7 +23,7 @@ const EventsComponent = () => {
       </div>
       <div className='event-cards'>
         {
-          EventsData.map((item,index) => (
+          EventsData.slice(0, 4).map((item,index) => (
             <EventCardComponent key={index} 
             img={item.img} 
             eventName={t(item.eventName)} 

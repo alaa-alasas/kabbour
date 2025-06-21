@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.events-section .event-cards .event-card-border {
+    flex-basis: calc(25% - 16px);
+}
+
 .title-section-events .btn-comp{
     border: none;
     background-color: transparent;

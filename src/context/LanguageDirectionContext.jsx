@@ -12,7 +12,7 @@ export const LanguageDirectionProvider = ({ children }) => {
     const updateDirectionAndFont = () => {
       const isArabic = i18n.language === 'ar';
       const dir = isArabic ? 'rtl' : 'ltr';
-      const font = isArabic ? '"Tajawal", sans-serif' : '"Roboto", sans-serif';
+      const font = isArabic ? '"Noto Kufi Arabic", sans-serif' : '"Roboto", sans-serif';
       setDirection(dir);
       setFontFamily(font);
     };
