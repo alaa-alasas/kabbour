@@ -59,9 +59,10 @@ footer ul:after,
     justify-content: center;
 }
 
-.ul-site-map img{
+.ul-site-map svg{
     width: 30px;
     height: 30px;
+    color: var(--gold26);
 }
 
 .ul-site-map li,
@@ -88,15 +89,18 @@ form label{
     gap: 8px;
 }
 
-.ul-socail-link li a img{
-  cursor: pointer; 
-  transition: all 0.3s ease; 
+.ul-socail-link li a svg{
+    width: 26px;
+    height: 26px;
+    color: var(--grey-black);
+    cursor: pointer; 
+    transition: all 0.3s ease; 
 }
 
 /* ===========================
    Hover effect for anchor tags
    =========================== */
-.ul-socail-link li a img:hover{
+.ul-socail-link li a svg:hover{
   transform: translateY(-8px); 
 }
 
@@ -105,6 +109,12 @@ form label{
     color: var(--black01);
     cursor: pointer;
     position: relative;
+}
+
+.ul-contact-info li svg{
+    width: 18px;
+    height: 26px;
+    color: var(--gold26);
 }
 
 .ul-contact-info li a,
@@ -220,7 +230,7 @@ form label{
         gap: 8px;
     }
 
-    .ul-site-map img{
+    .ul-site-map svg{
         width: 20px;
         height: 20px;
     }

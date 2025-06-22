@@ -1,14 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import './NavBarComponent.css';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
+import { IoSunny } from "react-icons/io5";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { ThemeModeContext } from '../../context/ThemeModeContext';
+import { RiMoonClearFill } from "react-icons/ri";
 
 const NavBarComponent = ({img,navData}) => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu visibility
   const [scrolling, setScrolling] = useState(false); // State to track scroll position for navbar styling
   const { t } = useTranslation();
-
+  const { mode, toggleMode } = useContext(ThemeModeContext);
 // ===========================
 // Handle scroll event to add "scrolled" class to the navbar
 // ===========================
@@ -44,33 +48,32 @@ useEffect(() => {
         <li className="mobileLanguageWrapper">
            <LanguageDropdown isMobile={true} />
         </li>
+        <li>
+          <div class="theme-toggle">
+            <span>Theme</span>
+            <div className='btns'>
+              <IoSunny className={`mode-icon sun-icon ${mode === 'light' ? '' : 'active'}`} onClick={toggleMode} />
+              <RiMoonClearFill className={`mode-icon moon-icon ${mode === 'light' ? 'active' : ''}`} onClick={toggleMode} />
+            </div>
+          </div>
+        </li>
       </ul>
       <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
-        <img
-          src={
-            isOpen
-              ? "/kabbour/Icons/close.svg" // Show close icon when the menu is open
-              : "/kabbour/Icons/ion_menu.svg" // Show hamburger icon when the menu is closed
-          }
-          alt="menu toggle"
-        />
+        {
+          isOpen 
+          ? <AiOutlineClose className='mode-icon' /> // Show close icon when the menu is open
+          : <AiOutlineMenu className='mode-icon' /> // Show hamburger icon when the menu is closed
+        }
       </button>
       <ul className='nav-icons'>
         <li>
-          <NavLink className="">
-                <img src="/kabbour/Navbar/light-mode.png" alt="" />
+          <NavLink className="" onClick={toggleMode}>
+            { mode === 'light' ? <RiMoonClearFill className='mode-icon'/> : <IoSunny className='mode-icon'/> }
           </NavLink>
         </li>
         <li>
            <LanguageDropdown />
-          {/* <button onClick={toggleLanguage}>
-            {language === "en" ? "Arabic" : "English"}
-          </button> */}
-          {/* <NavLink  className="">
-                <img src="/kabbour/Navbar/language.png" alt="" />
-          </NavLink> */}
         </li>
-        {/* <li></li> */}
       </ul>
     </nav>
   )

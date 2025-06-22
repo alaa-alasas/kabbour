@@ -1,5 +1,5 @@
 .event-card-border{
-    background: linear-gradient(180deg, #D39326 0%, #515061 100%);
+    background: linear-gradient(180deg, var(--gold26) 0%, var(--grey01) 100%);
     border-radius: 16px;
     box-sizing: border-box;
     padding: 1px;
@@ -50,6 +50,10 @@
 .event-card .event-info-row{
     display: flex;
     gap: 8px;
+}
+
+.event-card .event-info-row svg{
+    color: var(--grey-black);
 }
 
 .event-card span{

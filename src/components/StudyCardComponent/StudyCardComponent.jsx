@@ -1,10 +1,12 @@
 import './StudyCardComponent.css'
+import { FaQuoteRight } from "react-icons/fa";
 
 const StudyCardComponent = ({ ResearchersName, desc, ResearchersStudy }) => {
   return (
     <div className='study-card'>
       <div className="AA-icon-container">
-        <img className="AA-icon" src={'/kabbour/Icons/icon-study.svg'} alt="icon" />
+        <FaQuoteRight className="AA-icon" />
+        {/* <img className="AA-icon" src={'/kabbour/Icons/icon-study.svg'} alt="icon" /> */}
       </div>
       <p>{desc}</p>
       <div className='AA-line-study'></div>

@@ -1,5 +1,5 @@
 .product-card-border{
-    background: linear-gradient(180deg, #D39326 0%, #515061 100%);
+    background: linear-gradient(180deg, var(--gold26) 0%, var(--grey01) 100%);
     border-radius: 16px;
     box-sizing: border-box;
     padding: 1px; 
@@ -30,6 +30,7 @@
     width: 100%;
     border-radius: 8px;
     transition: transform 0.3s ease; 
+    box-shadow: 0px 4px 8px 0px #1b1b1b7a;
 }
 
 /* Hover Effect on Image */

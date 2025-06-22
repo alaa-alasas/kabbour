@@ -8,12 +8,15 @@ import jsVectorMap from 'jsvectormap';
 import 'jsvectormap/dist/jsvectormap.css';
 import 'jsvectormap/dist/maps/world.js'; // Example: World map
 import { LanguageDirectionProvider } from './context/LanguageDirectionContext.jsx'
+import { ThemeModeProvider } from './context/ThemeModeContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
       <LanguageDirectionProvider>
-        <App />
+        <ThemeModeProvider>
+          <App />
+        </ThemeModeProvider>
       </LanguageDirectionProvider>
     </HashRouter>
   </StrictMode>,

@@ -1,26 +1,36 @@
-.container {
-    width: 100%;
-    /* margin: 50px auto; */
+.bg-color-primary{
+  background-color: var(--black17);
+}
+
+.box-shadow-black{
+  box-shadow: 6px 6px 0px 2px var(--black05);
+}
+
+.border-grey-2{
+  border: 2px solid var(--grey15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold26), var(--gold10));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--gold10) , var(--gold26));
+}
+
+/* Scrollbar style when white-mode is active */
+.white-mode ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gold26), var(--gold10));
+  border-radius: 10px;
+}
+
+.white-mode ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--gold10), var(--gold26));
+}
+
+@media (max-width: 992px) {
+  .box-shadow-black{
+    box-shadow: 4px 4px 0px 1px var(--black05);
   }
-  
-  .box {
-    position: relative;
-    padding-left: 20px;
-  }
-  
-  .box p {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 4px;
-    /* height: 100%; */
-    background-color: #007bff;
-  }
+}

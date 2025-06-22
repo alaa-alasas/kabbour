@@ -4,6 +4,8 @@ import { FooterData } from "./../../data/FooterData";
 import { useTranslation } from "react-i18next"; 
 import { LanguageDirectionContext } from './../../context/LanguageDirectionContext';
 import { Link } from 'react-router-dom';
+import { HiOutlineChevronRight } from "react-icons/hi";
+import { HiOutlineChevronLeft } from "react-icons/hi";
 
 const FooterComponent = () => {
   const { direction } = useContext(LanguageDirectionContext);
@@ -66,7 +68,9 @@ const FooterComponent = () => {
           <ul className={`ul-site-map`} style={{ [direction === 'rtl' ? 'right' : 'left']: '0px',  }}>
             {FooterData.siteMap.map((item, index) => (
               <li key={index}>
-                <img src={item.icon} alt="icon" style={{transform: direction === 'rtl' ? 'rotate(180deg)' : 'rotate(0deg)',}}/>
+                {
+                  direction != 'rtl'? <HiOutlineChevronRight /> : <HiOutlineChevronLeft />
+                }
                 <Link target='_blank' href={item.link} className={`hover-link ${direction == 'rtl'? 'hover-link-right' : 'hover-link-left'}`}>
                   <span>{t(item.text)}</span>
                 </Link>
@@ -81,7 +85,7 @@ const FooterComponent = () => {
           <ul className="ul-contact-info">
             {FooterData.address.map((item, index) => (
               <li key={index}>
-                <img src={item.icon} alt="icon" />
+                {item.icon}
                 <a target='_blank' href={item.link} className={`hover-link ${direction == 'rtl'? 'hover-link-right' : 'hover-link-left'}`}>
                   <span>{t(item.text)}</span>
                 </a>
@@ -95,7 +99,7 @@ const FooterComponent = () => {
             {FooterData.socialLinks.map((item, index) => (
               <li key={index}>
                 <a target='_blank' href={item.link}>
-                  <img src={item.icon} alt="icon" />
+                  {item.icon}
                 </a>
               </li>
             ))}

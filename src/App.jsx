@@ -36,6 +36,7 @@ function App() {
   useEffect(() => {
     const updateDirection = () => {
       const dir =  localStorage.getItem('appLanguage') === 'ar' ? 'rtl' : 'ltr';
+      document.body.style.fontFamily = localStorage.getItem('appLanguage') === "ar" ? '"Noto Kufi Arabic", sans-serif' : '"Roboto", sans-serif';
       document.documentElement.dir = dir;
       document.documentElement.setAttribute('lang', localStorage.getItem('appLanguage'));
       document.body.classList.toggle('rtl', dir === 'rtl');
@@ -44,7 +45,7 @@ function App() {
   }, [t.language]);
 
   return (
-    <div className="white-mode">
+    <div className="bg-color-primary">
       <GoToTop />
       <HandleLoadingComponent />
       <ScrollToTop />

@@ -9,7 +9,7 @@
     display: flex;
     gap: 16px;
     justify-content: start;  
-    background-color: #191917;
+    background-color: var(--black17);
     flex-wrap: wrap;
 }
 

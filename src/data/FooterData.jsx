@@ -1,3 +1,8 @@
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { IoLogoYoutube } from "react-icons/io";
 
 export const FooterData = {
   siteMap: [
@@ -8,13 +13,13 @@ export const FooterData = {
     { icon: "/kabbour/Icons/Vector.svg", link: "/about", text: "nav.about" }
   ],
   address: [
-    { icon: "/kabbour/Icons/location.svg", link: "#", text: "address.yabroud" },
-    { icon: "/kabbour/Icons/phone.svg", link: "#", text: "+963 11 9493 / 9381" },
-    { icon: "/kabbour/Icons/email.svg", link: "#", text: "info@kabourgroup.com" },
+    { icon: <FaLocationDot />, link: "#", text: "address.yabroud" },
+    { icon: <FaPhone />, link: "#", text: "+963 11 9493 / 9381" },
+    { icon: <MdEmail />, link: "#", text: "info@kabourgroup.com" },
   ],
   socialLinks: [
-    { icon: "/kabbour/Icons/facebook.svg", link: "https://www.facebook.com/kabour.international.group/" },
-    { icon: "/kabbour/Icons/instagram.svg", link: "https://www.instagram.com/campo.syria" },
-    { icon: "/kabbour/Icons/youtube.svg", link: "https://www.youtube.com/@emadkco" },
+    { icon: <FaFacebook />, link: "https://www.facebook.com/kabour.international.group/" },
+    { icon: <RiInstagramFill />, link: "https://www.instagram.com/campo.syria" },
+    { icon: <IoLogoYoutube />, link: "https://www.youtube.com/@emadkco" },
   ],
 };

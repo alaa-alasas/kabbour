@@ -27,9 +27,9 @@ export const LanguageDirectionProvider = ({ children }) => {
 
   return (
     <LanguageDirectionContext.Provider value={{ direction, fontFamily }}>
-      <div dir={direction} style={{ fontFamily }}>
+      {/* <div dir={direction} style={{ fontFamily }} > */}
         {children}
-      </div>
+      {/* </div> */}
     </LanguageDirectionContext.Provider>
   );
 };

@@ -4,6 +4,7 @@ import './LanguageDropdown.css'
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { IoLanguageSharp } from "react-icons/io5";
 
 const LANGUAGES = [
   { code: "ar", name: "Arabic", flag: "/kabbour/Languages/Syrian.png" },
@@ -31,7 +32,8 @@ const LanguageDropdown = ({isMobile}) => {
     i18n.changeLanguage(languageCode); // Change the language using i18next
     setSelectedLanguage(languageCode); // Update the selected language state
     document.body.dir = languageCode === "ar" ? "rtl" : "ltr"; // Update text direction
-    localStorage.setItem('appLanguage', languageCode); // حفظ اللغة المحددة
+    document.body.style.fontFamily = languageCode === "ar" ? '"Noto Kufi Arabic", sans-serif' : '"Roboto", sans-serif';
+    localStorage.setItem('appLanguage', languageCode) // حفظ اللغة المحددة
     setIsOpen(false); // Close the dropdown after selection
   };
 
@@ -41,7 +43,7 @@ const LanguageDropdown = ({isMobile}) => {
       <button onClick={() => setIsOpen(!isOpen)}>
         {/* Display the selected language with its flag */}
         {
-          isMobile ? <sapn>{t("language")}</sapn> : <img src="/kabbour/Navbar/language.png" alt="" />
+          isMobile ? <sapn className="language-span">{t("language")}</sapn> : <IoLanguageSharp className="lang-icon" />
         }
         
       </button>

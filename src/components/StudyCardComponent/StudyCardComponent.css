@@ -21,6 +21,7 @@
     line-height: 38.4px;
     letter-spacing: 0;
     color: var(--gold26);
+    text-align: center;
 }
 
 .researcher-part{
@@ -47,8 +48,10 @@
 }
 
 .AA-icon-container .AA-icon {
-    width: 60px;
+    width: 48px;
+    height: 39px;
     margin: 0 16px;
+    color: var(--gold26);
 }
 
 .AA-icon-container::before,
@@ -64,5 +67,8 @@
         min-width: 100%;
     }
 
-    
+    .AA-icon-container .AA-icon {
+        width: 32px;
+        height: 27px;
+    }  
 }
