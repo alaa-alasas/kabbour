@@ -822,9 +822,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
+                "/kabbour/ProductDetails/Medical/ImmuneSupport/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/ImmuneSupport/2.png",
             desc:'product.33.details.desc',
             ingredients: 'product.33.details.Ingredients',
             usageInstructions: 'product.33.details.usageInstructions',
@@ -844,9 +845,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.png",
+                "/kabbour/ProductDetails/Medical/HelpsHypertension/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/HelpsHypertension/2.png",
             desc:'product.34.details.desc',
             ingredients: 'product.34.details.Ingredients',
             usageInstructions: 'product.34.details.usageInstructions',
@@ -866,9 +868,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.png",
+                "/kabbour/ProductDetails/Medical/HotFlashesAndMenopause/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/HotFlashesAndMenopause/2.png",
             desc:'product.35.details.desc',
             ingredients: 'product.35.details.Ingredients',
             usageInstructions: 'product.35.details.usageInstructions',
@@ -888,9 +891,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/MixtureColon/MixtureColon.png",
+                "/kabbour/ProductDetails/Medical/MixtureColon/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/MixtureColon/2.png",
             desc:'product.36.details.desc',
             ingredients: 'product.36.details.Ingredients',
             usageInstructions: 'product.36.details.usageInstructions',
@@ -910,9 +914,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Lithotripsy/Lithotripsy.png",
+                "/kabbour/ProductDetails/Medical/Lithotripsy/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Lithotripsy/2.png",
             desc:'product.37.details.desc',
             ingredients: 'product.37.details.Ingredients',
             usageInstructions: 'product.37.details.usageInstructions',
@@ -932,9 +937,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Gases/Gases.png",
+                "/kabbour/ProductDetails/Medical/Gases/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Gases/2.png",
             desc:'product.38.details.desc',
             ingredients: 'product.38.details.Ingredients',
             usageInstructions: 'product.38.details.usageInstructions',
@@ -954,9 +960,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Energy/Energy.png",
+                "/kabbour/ProductDetails/Medical/Energy/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Energy/2.png",
             desc:'product.39.details.desc',
             ingredients: 'product.39.details.Ingredients',
             usageInstructions: 'product.39.details.usageInstructions',
@@ -976,35 +983,14 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Headache/Headache.png",
+                "/kabbour/ProductDetails/Medical/Headache/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Headache/2.png",
             desc:'product.40.details.desc',
             ingredients: 'product.40.details.Ingredients',
             usageInstructions: 'product.40.details.usageInstructions',
             poductSpecifications: 'product.40.details.poductSpecifications'
-        }
-    },{
-        img: "/kabbour/ProductDetails/Medical/sedative/sedative.png",
-        productId: 41,
-        category: "5",
-        productName: "product.41.name", 
-        productDesc: "product.41.desc",
-        images:[
-            "/kabbour/ProductDetails/productDetails1.png",
-            "/kabbour/ProductDetails/productDetails2.png",
-            "/kabbour/ProductDetails/productDetails3.png",
-        ],
-        details:{
-            images: [ 
-                "/kabbour/ProductDetails/Medical/sedative/sedative.png",
-                "/kabbour/ProductDetails/Herbs/100.png",
-            ],
-            flowerImg: "",
-            desc:'product.41.details.desc',
-            ingredients: 'product.41.details.Ingredients',
-            usageInstructions: 'product.41.details.usageInstructions',
-            poductSpecifications: 'product.41.details.poductSpecifications'
         }
     },{
         img: "/kabbour/ProductDetails/Medical/Memory/Memory.png",
@@ -1020,9 +1006,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Memory/Memory.png",
+                "/kabbour/ProductDetails/Medical/Memory/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Memory/2.png",
             desc:'product.42.details.desc',
             ingredients: 'product.42.details.Ingredients',
             usageInstructions: 'product.42.details.usageInstructions',
@@ -1042,9 +1029,10 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/kabbour/ProductDetails/Medical/Ulcer/Ulcer.png",
+                "/kabbour/ProductDetails/Medical/Ulcer/1.png",
                 "/kabbour/ProductDetails/Herbs/100.png",
             ],
-            flowerImg: "",
+            flowerImg: "/kabbour/ProductDetails/Medical/Ulcer/2.png",
             desc:'product.43.details.desc',
             ingredients: 'product.43.details.Ingredients',
             usageInstructions: 'product.43.details.usageInstructions',
