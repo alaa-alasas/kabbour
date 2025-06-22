@@ -80,6 +80,10 @@ nav.scrolled {
     display: none;
 }
 
+.theme-toggle{
+    display: none;
+}
+
 .mode-icon{
   width: 30px;
   height: 27px;
