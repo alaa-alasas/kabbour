@@ -39,20 +39,20 @@ useEffect(() => {
         {
           navData.map((item,index) => (
             <li key={index}>
-              <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")}>
+              <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")} onClick={() =>  setIsOpen(!isOpen)}>
                 {t(item.title)}
               </NavLink>
             </li>
           ))
         }
         <li className="mobileLanguageWrapper">
-           <LanguageDropdown isMobile={true} />
+           <LanguageDropdown isMobile={true} closeNav={() =>  setIsOpen(!isOpen)}/>
         </li>
         <li>
           <div class="theme-toggle">
-            <span>Theme</span>
+            <span>{t('theme')}</span>
             <div className='btns'>
-              <IoSunny className={`mode-icon sun-icon ${mode === 'light' ? '' : 'active'}`} onClick={toggleMode} />
+              <IoSunny className={`mode-icon sun-icon ${mode === 'light' ? '' : 'active'}`} onClick={() => {toggleMode();  setIsOpen(!isOpen);}} />
               <RiMoonClearFill className={`mode-icon moon-icon ${mode === 'light' ? 'active' : ''}`} onClick={toggleMode} />
             </div>
           </div>
@@ -72,7 +72,7 @@ useEffect(() => {
           </NavLink>
         </li>
         <li>
-           <LanguageDropdown />
+           <LanguageDropdown closeNav={() =>  setIsOpen(!isOpen)}/>
         </li>
       </ul>
     </nav>

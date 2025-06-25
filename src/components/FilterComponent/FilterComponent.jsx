@@ -2,14 +2,22 @@ import { useTranslation } from 'react-i18next';
 import './FilterComponent.css'
 import { LanguageDirectionContext } from './../../context/LanguageDirectionContext';
 import { useContext } from 'react';
+import { AiOutlineClose } from "react-icons/ai";
 
-const FilterComponent = ({ FiltersData , onFilterChange, selectedFilters}) => {
+const FilterComponent = ({ FiltersData , onFilterChange, selectedFilters,show,onClose,isMobile}) => {
     const { t } = useTranslation();
     const { direction } = useContext(LanguageDirectionContext);
 
   return (
-    <div className={`filters ${direction == 'rtl' ? 'filters-padding-rtl' : 'filters-padding'}`}>
-      <h3>{t("filters.filter-name")}</h3>
+    <div className={`filters ${!show ? 'hide-side' : 'show-side'} ${direction == 'rtl' ? 'filters-padding-rtl' : 'filters-padding'}`}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+        <h3>{t("filters.filter-name")}</h3>
+        {
+          isMobile &&
+        <AiOutlineClose className='mode-icon' onClick={onClose}/>
+}
+      </div>
+
       {FiltersData.map((item, index) => (
         <>
           <div className={`filter`} key={index}>

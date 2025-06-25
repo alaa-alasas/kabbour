@@ -1,58 +1,79 @@
-.pagination{
-    gap: 5px;
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+  font-family: sans-serif;
 }
 
-.pagination .page-item.active .page-link{
-    background-color: var(--orange00);
+.pagination-btn {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-.pagination .custom-ellipsis .page-link{
-    border-radius: 8px !important;  
-    border: 0; 
-    text-align: center;
+.pagination-btn:hover:not([disabled]) {
+  border: 1px solid var(--gold26);
 }
 
-.pagination .page-link{
-    border-color: var(--grey151) !important;
-    border-radius: 50% !important;
-    font-size: 13px;
-    line-height: 100%;
-    padding: 22px !important;
-    color: var(--black-color33);
-    height: 60px;
-    width: 60px;
-    text-align: center;
+.pagination-btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
-.pagination .page-item:hover .page-link {
-    border-color: var(--orange00) !important;
-    color: var(--orange00) !important;
+.pagination-pages {
+  display: flex;
+  gap: 4px;
 }
 
-.pagination .page-item.active:hover .page-link {
-    color: var(--white-color) !important;
+.pagination-item {
+  background: none;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  color: var(--white-color);
 }
 
-/**remove default design by bootstrap**/
-.pagination .page-item .page-link:hover,
-.pagination .page-item .page-link:focus {
-    color: none !important;
-    background-color: none !important;
-    outline: 0;
-    box-shadow: none !important;
+.pagination-item:hover:not(.active) {
+  border: 1px solid var(--gold26);
+}
+
+.pagination-item.active {
+  background-color: var(--gold26);
+  color: white;
+  font-weight: bold;
+}
+
+.pagination-ellipsis {
+  padding: 6px 6px;
+  font-size: 14px;
+  user-select: none;
+  color: #555;
+}
+
+
+@media (max-width: 1919px) {
+    .pagination-btn,
+    .pagination-item {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 992px) {
-    .pagination{
-        gap: 0px;
+    .pagination-btn,
+    .pagination-item {
+        font-size: 12px;
     }
 
-    .pagination .page-link{
-        font-size: 14px;
-        padding: 10px !important;
-        height: 40px;
-        width: 40px;
-        line-height: 1.5 !important;
+    .pagination-container{
+      flex-wrap: wrap;
     }
-    
 }

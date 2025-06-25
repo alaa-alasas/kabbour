@@ -1,6 +1,6 @@
 .map-tooltip {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -16,4 +16,8 @@
   /* pointer-events: none; */
   z-index: 1000;
   /* white-space: nowrap; */
+}
+
+.path-map{
+  fill: var(--greyb5);
 }

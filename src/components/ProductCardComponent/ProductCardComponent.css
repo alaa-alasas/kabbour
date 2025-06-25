@@ -84,7 +84,7 @@
     .product-card-border{
         min-width: 250px;
         width: 100%;
-        max-width: 100%;
+        max-width: 48%;
     }
 
     .product-card h5{
@@ -96,5 +96,11 @@
     .product-card .btn-comp{
         font-size: 12px;
         line-height: 18px;
+    }
+}
+
+@media(max-width: 570px){
+    .product-card-border{
+        max-width: 100%;
     }
 }

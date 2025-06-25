@@ -1,0 +1,24 @@
+.search-bar {
+    max-width: 100% !important;
+}
+
+.search-bar.form-control {
+    background-color: var(--black17);
+    border: 1px solid var(--gold26) !important;
+    border-radius: 5px;
+    padding: 12px 16px !important;
+    color: var(--greyb4) !important;
+    font-size: 18px !important;
+}
+
+.search-bar.form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid var(--gold26) !important;
+}
+
+
+@media(max-width: 1919px){
+    .search-bar.form-control {
+        font-size: 14px !important;
+    } 
+}

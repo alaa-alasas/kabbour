@@ -6,7 +6,7 @@ import ProductCardComponent from '../ProductCardComponent/ProductCardComponent'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 
-const ProductsComponent = ({title}) => {
+const ProductsComponent = ({category, productId}) => {
     const { t } = useTranslation();
     const navigate = useNavigate(); // Initialize the useNavigate hook
     
@@ -23,7 +23,15 @@ const ProductsComponent = ({title}) => {
       </div>
       <div className='product-cards'>
         {
-          ProductsData.slice(0, 4).map((item,index) => (
+          category?  ProductsData.filter(a => a.category == category && a.productId != productId).slice(0, 4).map((item,index) => (
+            <ProductCardComponent 
+            key={index} 
+            img={item.img} 
+            productId={item.productId}
+            productName={t(item.productName)} 
+            productDesc={t(item.productDesc)} 
+            delay={index}/>
+          )) : ProductsData.slice(0, 4).map((item,index) => (
             <ProductCardComponent 
             key={index} 
             img={item.img} 

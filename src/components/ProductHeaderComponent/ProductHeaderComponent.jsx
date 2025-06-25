@@ -1,8 +1,11 @@
 import './ProductHeaderComponent.css'
 import ProductImageComponent from '../ProductImageComponent/ProductImageComponent';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
+import { useContext } from 'react';
+import { ThemeModeContext } from '../../context/ThemeModeContext';
 
 const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc,imagesDes}) => {
+  const { mode } = useContext(ThemeModeContext);
 
   return (
     <div className='product-header-section px-64 mb-64'>
@@ -61,7 +64,7 @@ const ProductHeaderComponent = ({ breadcrumbItems,images,productName,productDesc
           <div className="product-header-images">
             {
               imagesDes.map((img, index) => (
-                <img src={img} alt="" key={index} />
+                <img src={`${img}${mode}.svg`} alt="" key={index} className='productDetails-img'/>
               ))
             }
           </div>

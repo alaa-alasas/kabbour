@@ -27,6 +27,18 @@
     flex: 1;
 }
 
+.event-cards-braadcrumb .btn-filters{
+    margin-top: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+}
+
+.event-cards-braadcrumb .btn-filters .btn-comp{
+    font-size: 14px;
+    padding: 8px;
+}
+
 @media (max-width: 1200px){
     .layout-event .event-cards .event-card-border{
         flex-basis: calc(50% - 16px);

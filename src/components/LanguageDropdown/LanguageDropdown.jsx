@@ -11,7 +11,7 @@ const LANGUAGES = [
   { code: "en", name: "English", flag: "/kabbour/Languages/British.png" },
 ];
 
-const LanguageDropdown = ({isMobile}) => {
+const LanguageDropdown = ({isMobile,closeNav}) => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle dropdown visibility
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language); // Current selected language
   const dropdownRef = useRef(null);
@@ -35,6 +35,7 @@ const LanguageDropdown = ({isMobile}) => {
     document.body.style.fontFamily = languageCode === "ar" ? '"Noto Kufi Arabic", sans-serif' : '"Roboto", sans-serif';
     localStorage.setItem('appLanguage', languageCode) // حفظ اللغة المحددة
     setIsOpen(false); // Close the dropdown after selection
+    closeNav();
   };
 
   return (

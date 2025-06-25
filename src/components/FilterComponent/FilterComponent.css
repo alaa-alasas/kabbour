@@ -95,9 +95,21 @@
   line-height: 20px;
 }
 
+.hide-side{
+  display: none;
+} 
+
+
 @media (max-width: 992px){
     .filters{
         width: 100%;
+        position: fixed;
+        height: 90vh;
+        top: 0px;
+        left: 0px;
+        z-index: 20;
+        scroll-behavior: smooth;
+        overflow-y : auto ;
     }
 
     .filters-padding{

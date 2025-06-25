@@ -34,7 +34,7 @@ const ProductDetails = () => {
         ingredients={t(item.details.ingredients,{ returnObjects: true })} 
         poductSpecifications={t(item.details.poductSpecifications,{ returnObjects: true })} 
       />
-      <ProductsComponent title={"You may also like"}/>
+      <ProductsComponent title={"You may also like"} category={item.category} productId={productId}/>
     </>
   )
 }
