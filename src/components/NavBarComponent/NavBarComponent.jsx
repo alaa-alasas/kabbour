@@ -32,7 +32,7 @@ useEffect(() => {
     <nav  className={`navbar px-64 ${scrolling ? "scrolled" : ""}`} >
       <div className='brand'>
         <img className='logo' src={img} alt="logo" />
-        <span>{t("Logo")}</span>
+        <NavLink to={"/"}>{t("Logo")}</NavLink>
       </div>
 
       <ul className={`nav-menu ${isOpen ? "responsiveNav" : ""}`}>

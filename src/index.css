@@ -17,10 +17,11 @@
   
   --gold26: #D39326;
   --gold10: #D393261A;
-  
+  --gold20: rgba(211, 147, 38, 0.5);
   --grey01: #515061;
   --greyb4: #A6A5B4;
   --greyb5: #A6A5B4;
+  --greyStatic: #A6A5B4;
   --grey03: #F1F1F3;
   --grey44: #464644;
   --grey88 : #727088;
@@ -32,6 +33,7 @@
   --black-color: #fff;
   --gold26: #AD1A18;
   --gold10: #AD1A181A;
+  --gold20: #AD1A18;
 
   --grey01: #8B8A9D;
   --greyb4: #1D1D1B;

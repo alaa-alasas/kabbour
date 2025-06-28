@@ -44,6 +44,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--gold26);
+    border: none;
+    background-color: transparent;
 }
 
 .about-factory .card-about-factory .right-side{
@@ -80,6 +82,59 @@
     border-radius: 999px;
     background-color: var(--black17);
 }
+
+/* VideoModal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* نسبة 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
 
 @media(max-width: 1200px){
     

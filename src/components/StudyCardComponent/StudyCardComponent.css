@@ -13,10 +13,11 @@
     letter-spacing: 0;
     color: var(--greyb4);
     text-align: center;
+    min-height: 120px;
 }
 
 .study-card h3{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 800;
     line-height: 38.4px;
     letter-spacing: 0;
@@ -62,6 +63,12 @@
     margin: auto;
 }
 
+@media (max-width: 1200px){
+    .study-card p{
+        min-height: 120px;
+    }
+}
+
 @media(max-width: 992px){
     .study-card{
         min-width: 100%;
@@ -71,4 +78,8 @@
         width: 32px;
         height: 27px;
     }  
+
+    .study-card p{
+        min-height: 20px;
+    }
 }

@@ -3,11 +3,13 @@ import { getHistoryData } from '../../data/HistoryData';
 import './HistoryComponent.css'
 import { useContext } from 'react';
 import { LanguageDirectionContext } from '../../context/LanguageDirectionContext';
+import { ThemeModeContext } from '../../context/ThemeModeContext';
 
 const HistoryComponent = () => {
   const { t } = useTranslation();
   const historyData = getHistoryData(t);
   const { direction } = useContext(LanguageDirectionContext);
+  const { mode } = useContext(ThemeModeContext);
 
   return (
     <section className='history-sec px-64 mb-64'>
@@ -18,7 +20,7 @@ const HistoryComponent = () => {
               key={index} style={{animationDelay: `${index}s`}}>
                 <div className={`${direction == 'rtl' ? 'timeline-icon-right' : 'timeline-icon-left'}`}>
                   <h2>{item.date}</h2>
-                  <img src={item.img} alt="icon" />
+                  <img src={`${item.img}${mode}.svg`} alt="icon" />
                 </div>
                 <div className="timeline-content">
                   <p>{item.desc}</p>

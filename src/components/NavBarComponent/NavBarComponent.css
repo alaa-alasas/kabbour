@@ -22,12 +22,14 @@ nav.scrolled {
     gap: 8px;
 }
 
-.navbar .brand span{
+.navbar .brand a{
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0;
     color: var(--white-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-menu{

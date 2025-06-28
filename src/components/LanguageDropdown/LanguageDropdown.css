@@ -5,7 +5,11 @@
 }
 
 .language-dropdown .language-span{
-  color: var(--grey-black);
+  /* color: var(--grey-black); */
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-color);
+    line-height: 21px;
 }
 
 .language-dropdown .lang-icon{
@@ -20,6 +24,10 @@
   color: white; /* Adjust based on your theme */
   font-size: 16px;
   cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white-color);
+  line-height: 21px;
 }
 
 .dropdown-menu {
@@ -32,7 +40,7 @@
     list-style-type: none;
     padding: 8px;
     margin: 0;
-    box-shadow: 0 2px 4px rgba(211, 147, 38, 0.5);
+    box-shadow: 0 2px 4px var(--gold20);
     transition: max-height 0.4s ease-out;
 
 }
