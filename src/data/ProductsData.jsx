@@ -69,74 +69,74 @@ export const ProductsData = [
             poductSpecifications: 'product.3.details.poductSpecifications'
         }
     },
-    {
-        img: "/kabbour/ProductDetails/Mate/amanda/amanda.png",
-        productId: 4,
-        category: "1",
-        brand: "6",
-        productName: "product.4.name",
-        productDesc: "product.4.desc",
-        images:[
-            "/kabbour/ProductDetails/productDetails1",
-            "/kabbour/ProductDetails/productDetails2",
-        ],
-        details:{
-            images: [ 
-                "/kabbour/ProductDetails/Mate/amanda/amanda.png",
-                "/kabbour/ProductDetails/Mate/amanda/2.png",
-            ],
-            flowerImg: "/kabbour/ProductDetails/amandaLogo.png",
-            desc:'product.4.details.desc',
-            ingredients: 'product.4.details.Ingredients',
-            usageInstructions: 'product.4.details.usageInstructions',
-            poductSpecifications: 'product.4.details.poductSpecifications'
-        }
-    },
-    {
-        img: "/kabbour/ProductDetails/Mate/sabrosa/sabrosa.png",
-        productId: 31,
-        category: "1",
-        brand: "3",
-        productName: "product.31.name",
-        productDesc: "product.31.desc",
-        images:[
-            "/kabbour/ProductDetails/productDetails1",
-            "/kabbour/ProductDetails/productDetails2",
-        ],
-        details:{
-            images: [ 
-                "/kabbour/ProductDetails/Mate/sabrosa/sabrosa.png",
-                "/kabbour/ProductDetails/Mate/sabrosa/2.png",
-            ],
-            flowerImg: "/kabbour/ProductDetails/sabrosaLogo.png",
-            desc:'product.31.details.desc',
-            ingredients: 'product.31.details.Ingredients',
-            usageInstructions: 'product.31.details.usageInstructions',
-            poductSpecifications: 'product.31.details.poductSpecifications'
-        }
-    },
-    {
-        img: "/kabbour/ProductDetails/Mate/sakhra/sakhra.png",
-        productId: 32,
-        category: "1",
-        productName: "product.32.name",
-        productDesc: "product.32.desc",
-        images:[
-            "/kabbour/ProductDetails/productDetails1",
-            "/kabbour/ProductDetails/productDetails2",
-        ],
-        details:{
-            images: [ 
-                "/kabbour/ProductDetails/Mate/sakhra/sakhra.png",
-                "/kabbour/ProductDetails/Mate/sakhra/2.png",
-            ],
-            flowerImg: "/kabbour/ProductDetails/Mate/sakhra/sakhraLogo.png",
-            desc:'product.32.details.desc',
-            ingredients: 'product.32.details.Ingredients',
-            usageInstructions: 'product.32.details.usageInstructions',
-            poductSpecifications: 'product.32.details.poductSpecifications'
-        }
-    },
+    // {
+    //     img: "/kabbour/ProductDetails/Mate/amanda/amanda.png",
+    //     productId: 4,
+    //     category: "1",
+    //     brand: "6",
+    //     productName: "product.4.name",
+    //     productDesc: "product.4.desc",
+    //     images:[
+    //         "/kabbour/ProductDetails/productDetails1",
+    //         "/kabbour/ProductDetails/productDetails2",
+    //     ],
+    //     details:{
+    //         images: [ 
+    //             "/kabbour/ProductDetails/Mate/amanda/amanda.png",
+    //             "/kabbour/ProductDetails/Mate/amanda/2.png",
+    //         ],
+    //         flowerImg: "/kabbour/ProductDetails/amandaLogo.png",
+    //         desc:'product.4.details.desc',
+    //         ingredients: 'product.4.details.Ingredients',
+    //         usageInstructions: 'product.4.details.usageInstructions',
+    //         poductSpecifications: 'product.4.details.poductSpecifications'
+    //     }
+    // },
+    // {
+    //     img: "/kabbour/ProductDetails/Mate/sabrosa/sabrosa.png",
+    //     productId: 31,
+    //     category: "1",
+    //     brand: "3",
+    //     productName: "product.31.name",
+    //     productDesc: "product.31.desc",
+    //     images:[
+    //         "/kabbour/ProductDetails/productDetails1",
+    //         "/kabbour/ProductDetails/productDetails2",
+    //     ],
+    //     details:{
+    //         images: [ 
+    //             "/kabbour/ProductDetails/Mate/sabrosa/sabrosa.png",
+    //             "/kabbour/ProductDetails/Mate/sabrosa/2.png",
+    //         ],
+    //         flowerImg: "/kabbour/ProductDetails/sabrosaLogo.png",
+    //         desc:'product.31.details.desc',
+    //         ingredients: 'product.31.details.Ingredients',
+    //         usageInstructions: 'product.31.details.usageInstructions',
+    //         poductSpecifications: 'product.31.details.poductSpecifications'
+    //     }
+    // },
+    // {
+    //     img: "/kabbour/ProductDetails/Mate/sakhra/sakhra.png",
+    //     productId: 32,
+    //     category: "1",
+    //     productName: "product.32.name",
+    //     productDesc: "product.32.desc",
+    //     images:[
+    //         "/kabbour/ProductDetails/productDetails1",
+    //         "/kabbour/ProductDetails/productDetails2",
+    //     ],
+    //     details:{
+    //         images: [ 
+    //             "/kabbour/ProductDetails/Mate/sakhra/sakhra.png",
+    //             "/kabbour/ProductDetails/Mate/sakhra/2.png",
+    //         ],
+    //         flowerImg: "/kabbour/ProductDetails/Mate/sakhra/sakhraLogo.png",
+    //         desc:'product.32.details.desc',
+    //         ingredients: 'product.32.details.Ingredients',
+    //         usageInstructions: 'product.32.details.usageInstructions',
+    //         poductSpecifications: 'product.32.details.poductSpecifications'
+    //     }
+    // },
     {
         img: "/kabbour/ProductDetails/Herbs/Hibiscus.png",
         productId: 5,
@@ -664,6 +664,30 @@ export const ProductsData = [
             ingredients: 'product.25.details.Ingredients',
             usageInstructions: 'product.25.details.usageInstructions',
             poductSpecifications: 'product.25.details.poductSpecifications'
+        }
+    },{
+        img: "/kabbour/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.png",
+        productId: 84,
+        category: "3",       
+        brand: "1",
+        productName: "product.84.name", 
+        productDesc: "product.84.desc",
+        images:[
+            "/kabbour/ProductDetails/productDetails1",
+            "/kabbour/ProductDetails/productDetails2",
+            "/kabbour/ProductDetails/productDetails3",
+        ],
+        details:{
+            images: [ 
+                "/kabbour/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.png",
+                "/kabbour/ProductDetails/GreenTea/GreenTeawithPeach/1.png",
+                "/kabbour/ProductDetails/Herbs/100.png",
+            ],
+            flowerImg: "/kabbour/ProductDetails/GreenTea/GreenTeawithPeach/2.png",
+            desc:'product.84.details.desc',
+            ingredients: 'product.84.details.Ingredients',
+            usageInstructions: 'product.84.details.usageInstructions',
+            poductSpecifications: 'product.84.details.poductSpecifications'
         }
     },{
         img: "/kabbour/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.png",

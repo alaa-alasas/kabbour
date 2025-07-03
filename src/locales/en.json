@@ -3128,6 +3128,42 @@
           }
         ]
       }
+    },
+    "84": {
+      "name": "Green Tea with Peach",
+      "desc": "This sweet, floral blend of green tea and natural peach flavor delivers a smooth and summery taste. Each of the 20 teabags is sealed for lasting freshness. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "A delightful choice for relaxation any time.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Supports skin health due to vitamin A.",
+          "Aids digestion",
+          "Provides a calming effect for relaxation."
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Green Tea with Peach) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Green Tea"
+          }
+        ]
+      }
     }
   },
   "event": {
