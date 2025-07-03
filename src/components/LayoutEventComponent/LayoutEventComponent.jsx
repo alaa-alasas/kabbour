@@ -5,17 +5,14 @@ import EventCardComponent from '../EventCardComponent/EventCardComponent'
 import FilterComponent from '../FilterComponent/FilterComponent'
 import './LayoutEventComponent.css'
 import { FiltersEventData } from '../../data/FiltersEventData'
-import { useState ,useEffect} from 'react'
-import BtnComponent from '../BtnComponent/BtnComponent'
+import { useState, useEffect } from 'react'
+import { useEventFilter } from '../../context/FilterEventContext';
 
 const LayoutEventComponent = () => {
   const { t } = useTranslation();
-  const [currentPage, setCurrentPage] = useState(1);
+  const { filters, updateFilter } = useEventFilter();
   const [showSidebar, setShowSidebar] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  const [selectedFilters, setSelectedFilters] = useState({
-    'event-type': []
-  });
 
   const breadcrumbItems = [
     { label: t('nav.home'), path: '/' },
@@ -35,26 +32,13 @@ const LayoutEventComponent = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  
-  
 
-  const handleFilterChange = (filterType, value) => {
-    setSelectedFilters(prev => {
-      const current = prev[filterType] || [];
-      return {
-        ...prev,
-        [filterType]: current.includes(value)
-          ? current.filter(v => v !== value)
-          : [...current, value]
-      };
-    });
-  };
 
   const filteredEvents = EventsData.filter(event => {
     const matches = [];
 
-    Object.keys(selectedFilters).forEach(filterType => {
-      const filterValues = selectedFilters[filterType];
+    Object.keys(filters).forEach(filterType => {
+      const filterValues = filters[filterType];
 
       if (filterValues.length === 0) return true;
 
@@ -70,15 +54,16 @@ const LayoutEventComponent = () => {
     return matches.every(match => match);
   });
 
+
   return (
     <div className="layout-event">
       {(showSidebar || !isMobile) && (
-      <FilterComponent FiltersData={FiltersEventData}
-        onFilterChange={handleFilterChange}
-        selectedFilters={selectedFilters} 
-        show={showSidebar} 
-        onClose={() => setShowSidebar(false)} 
-        isMobile={isMobile}
+        <FilterComponent FiltersData={FiltersEventData}
+          onFilterChange={updateFilter}
+          selectedFilters={filters}
+          show={showSidebar}
+          onClose={() => setShowSidebar(false)}
+          isMobile={isMobile}
         />
       )}
       <div className='event-cards-braadcrumb px-64'>
@@ -86,7 +71,7 @@ const LayoutEventComponent = () => {
         {isMobile && (
           <div className='btn-filters' >
             <a className='btn-comp' onClick={() => setShowSidebar(!showSidebar)} >{t('filters.filter-name')}</a>
-          </div>    
+          </div>
         )}
         <div className="event-cards mb-64">
           {filteredEvents.map((event, index) => (

@@ -5,21 +5,22 @@ import FilterComponent from '../FilterComponent/FilterComponent'
 import ProductCardComponent from '../ProductCardComponent/ProductCardComponent'
 import SearchInput from '../InputSearchCustom/InputSearchCustom'
 import { FiltersProductData } from '../../data/FiltersProductData'
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import PaginationCustom from '../PaginationCustom/PaginationCustom';
 import './LayoutProductComponent.css'
-import BtnComponent from '../BtnComponent/BtnComponent'
+import { useProductFilter } from '../../context/FilterProductContext';
 
 const LayoutProductComponent = ({ initialFilters }) => {
   const { t } = useTranslation();
+  const { filters, updateFilter } = useProductFilter();
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [showSidebar, setShowSidebar] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  const [selectedFilters, setSelectedFilters] = useState({
-    'product-type': [],
-    'trademark': []
-  });
+  const breadcrumbItems = [
+      { label: t('nav.home'), path: '/' },
+      { label: t('nav.products'), path: null },
+  ];
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,42 +36,21 @@ const LayoutProductComponent = ({ initialFilters }) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
  useEffect(() => {
-    if (Object.keys(initialFilters).length > 0) {
-      setSelectedFilters(prev => ({
-        ...prev,
-        ...initialFilters
-      }));
+    if (initialFilters && Object.keys(initialFilters).length > 0) {
+      for (const [key, values] of Object.entries(initialFilters)) {
+        values.forEach(value => updateFilter(key, value));
+      }
     }
-  }, [initialFilters]);
-
-  const breadcrumbItems = [
-    { label: t('nav.home'), path: '/' },
-    { label: t('nav.products'), path: null },
-  ];
-
-  
- const handleFilterChange = (filterType, value) => {
-    setSelectedFilters(prev => {
-      const current = prev[filterType] || [];
-      return {
-        ...prev,
-        [filterType]: current.includes(value)
-          ? current.filter(v => v !== value)
-          : [...current, value]
-      };
-    });
-  };
+  }, [initialFilters, updateFilter]);
 
   const filteredProducts = ProductsData.filter(product => {
     const matches = [];
 
-    Object.keys(selectedFilters).forEach(filterType => {
-      const filterValues = selectedFilters[filterType];
+    Object.keys(filters).forEach(filterType => {
+      const filterValues = filters[filterType];
 
-      if (filterValues.length === 0) return true; 
+      if (filterValues.length === 0) return true;
 
       let productValue;
 
@@ -79,8 +59,10 @@ const LayoutProductComponent = ({ initialFilters }) => {
       } else if (filterType === 'trademark') {
         productValue = product.brand;
       }
+
       matches.push(filterValues.includes(productValue));
     });
+
     const translatedProductName = t(product.productName).toLowerCase();
     const isMatchedSearch = translatedProductName.includes(searchQuery.toLowerCase());
 
@@ -110,8 +92,8 @@ const LayoutProductComponent = ({ initialFilters }) => {
       {(showSidebar || !isMobile) && (
         <FilterComponent
           FiltersData={FiltersProductData}
-          onFilterChange={handleFilterChange}
-          selectedFilters={selectedFilters}
+          onFilterChange={updateFilter}
+          selectedFilters={filters}
           show={showSidebar} 
           onClose={() => setShowSidebar(false)} 
           isMobile={isMobile}
