@@ -26,6 +26,7 @@ const EventsComponent = () => {
           EventsData.slice(0, 4).map((item,index) => (
             <EventCardComponent key={index} 
             img={item.img} 
+            images={item.images}
             eventName={t(item.eventName)} 
             eventLocation={t(item.eventLocation)}
             eventDate={item.eventDate}

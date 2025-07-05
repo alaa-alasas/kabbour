@@ -5,6 +5,7 @@ import BtnComponent from '../BtnComponent/BtnComponent'
 import { useTranslation } from "react-i18next";
 import { useState } from 'react';
 import Modal from 'react-modal'; 
+import { IoMdClose } from "react-icons/io";
 
 const AboutComponent = () => {
     const { t } = useTranslation(); 
@@ -47,9 +48,6 @@ const AboutComponent = () => {
                     <div className='card-about-factory' key={index} data-aos="flip-right">
                       <div className='left-side'>
                         <img src={item.src} alt={t(item.alt)} className='factory-image'/>
-                        {/* <a href={item.url} className='video-link' target='_blank'>
-                          <img src="/kabbour/Icons/VideoPlay.svg" alt="video" />
-                        </a> */}
                         <button 
                                 className='video-link' 
                                 onClick={() => openVideoModal(item.url)}
@@ -78,9 +76,8 @@ const AboutComponent = () => {
                 contentLabel="Video Modal"
                 className="modal-content"
                 overlayClassName="modal-overlay"
-                ariaHideApp={false}
-            >
-                <button className="close-btn" onClick={closeVideoModal}>✖️</button>
+                ariaHideApp={false}>
+                <button className="close-btn" onClick={closeVideoModal}><IoMdClose /></button>
                 <div className="video-wrapper">
                     <iframe
                         width="100%"

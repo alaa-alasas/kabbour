@@ -49,7 +49,7 @@ useEffect(() => {
            <LanguageDropdown isMobile={true} closeNav={() =>  setIsOpen(!isOpen)}/>
         </li>
         <li>
-          <div class="theme-toggle">
+          <div className="theme-toggle">
             <span>{t('theme')}</span>
             <div className='btns'>
               <IoSunny className={`mode-icon sun-icon ${mode === 'light' ? '' : 'active'}`} onClick={() => {toggleMode();  setIsOpen(!isOpen);}} />

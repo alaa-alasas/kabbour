@@ -78,6 +78,7 @@ const LayoutEventComponent = () => {
             <EventCardComponent
               key={index}
               img={event.img}
+              images={event.images}
               eventDate={event.eventDate}
               eventLocation={t(event.eventLocation)}
               eventName={t(event.eventName)}

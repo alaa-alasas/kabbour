@@ -44,7 +44,7 @@ const LanguageDropdown = ({isMobile,closeNav}) => {
       <button onClick={() => setIsOpen(!isOpen)}>
         {/* Display the selected language with its flag */}
         {
-          isMobile ? <sapn className="language-span">{t("language")}</sapn> : <IoLanguageSharp className="lang-icon" />
+          isMobile ? <span className="language-span">{t("language")}</span> : <IoLanguageSharp className="lang-icon" />
         }
         
       </button>

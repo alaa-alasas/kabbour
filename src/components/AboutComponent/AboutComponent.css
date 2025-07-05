@@ -95,18 +95,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 10000000;
 }
 
 .modal-content {
-  background: #fff;
+  background: var(--black01);
   padding: 10px;
   border-radius: 10px;
   position: relative;
   max-width: 800px;
   width: 90%;
-  max-height: 90vh;
-  overflow: auto;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .video-wrapper {
@@ -133,6 +133,10 @@
   border: none;
   cursor: pointer;
   z-index: 2;
+}
+
+.close-btn svg{
+    color: var(--gold26);
 }
 
 
