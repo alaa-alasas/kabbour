@@ -4,11 +4,11 @@ export const BrandsData = [
     //     alt: "amanda"
     // },
     {
-        img: "/kabbour/Brands/campo.png",
+        img: "/Brands/campo.png",
         alt: "campo"
     },
     {
-        img: "/kabbour/Brands/karta.png",
+        img: "/Brands/karta.png",
         alt: "karta"
     },
     // {

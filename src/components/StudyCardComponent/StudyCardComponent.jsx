@@ -6,7 +6,7 @@ const StudyCardComponent = ({ ResearchersName, desc, ResearchersStudy }) => {
     <div className='study-card'>
       <div className="AA-icon-container">
         <FaQuoteRight className="AA-icon" />
-        {/* <img className="AA-icon" src={'/kabbour/Icons/icon-study.svg'} alt="icon" /> */}
+        {/* <img className="AA-icon" src={'/Icons/icon-study.svg'} alt="icon" /> */}
       </div>
       <p>{desc}</p>
       <div className='AA-line-study'></div>

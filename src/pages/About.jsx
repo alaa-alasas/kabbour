@@ -8,14 +8,14 @@ import Map3D from "../components/Map3D/Map3D"
 const About = () => {
 
   return (
-    <>
+    <div className="Responsive">
       <SubHeroComponent />
       <HistoryComponent />
       <ProductCategoryComponent />
       <MateBenifitComponent />
       <MateArriveComponent />
       <Map3D />
-    </>
+    </div>
   )
 }
 

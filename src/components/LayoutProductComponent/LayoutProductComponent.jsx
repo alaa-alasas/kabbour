@@ -7,16 +7,17 @@ import SearchInput from '../InputSearchCustom/InputSearchCustom'
 import { FiltersProductData } from '../../data/FiltersProductData'
 import { useEffect, useState } from 'react'
 import PaginationCustom from '../PaginationCustom/PaginationCustom';
-import './LayoutProductComponent.css'
 import { useProductFilter } from '../../context/FilterProductContext';
+import './LayoutProductComponent.css'
 
-const LayoutProductComponent = ({ initialFilters }) => {
+const LayoutProductComponent = ({  }) => {
   const { t } = useTranslation();
   const { filters, updateFilter } = useProductFilter();
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [showSidebar, setShowSidebar] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
+
   const breadcrumbItems = [
       { label: t('nav.home'), path: '/' },
       { label: t('nav.products'), path: null },
@@ -36,13 +37,6 @@ const LayoutProductComponent = ({ initialFilters }) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
- useEffect(() => {
-    if (initialFilters && Object.keys(initialFilters).length > 0) {
-      for (const [key, values] of Object.entries(initialFilters)) {
-        values.forEach(value => updateFilter(key, value));
-      }
-    }
-  }, [initialFilters, updateFilter]);
 
   const filteredProducts = ProductsData.filter(product => {
     const matches = [];

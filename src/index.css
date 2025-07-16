@@ -198,6 +198,12 @@
   background: transparent;
 }
 
+@media(min-width: 1440px){
+  .Responsive{
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
 
 /*Start Responsive*/
 @media (max-width: 1919px) {

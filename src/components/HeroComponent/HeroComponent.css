@@ -32,6 +32,7 @@
 }
 
 .hero .slider-content-right{
+  top: -5px;
   right: 0;
   align-items: end;
   background: linear-gradient(130deg, rgba(0, 0, 0, 0) 24.82%, rgba(0, 0, 0, 0.85) 72.02%);
@@ -39,6 +40,7 @@
 }
 
 .hero .slider-content-left{
+  top: 0px;
   left: 0;
   align-items: start;
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 24.82%, rgba(0, 0, 0, 0.85) 72.02%);

@@ -26,10 +26,10 @@ const HeroComponent = () => {
     slidesToScroll: 1,
     arrows: true, // Ensure this is set to true
     // nextArrow: <div > 
-    //   <img src="/kabbour/Icons/right.svg" alt="right-arrow" />
+    //   <img src="/Icons/right.svg" alt="right-arrow" />
     // </div>,
     // prevArrow: <div >
-    //   <img src="/kabbour/Icons/left.svg" alt="left-arrow" />
+    //   <img src="/Icons/left.svg" alt="left-arrow" />
     // </div>,
   };
 
@@ -42,7 +42,7 @@ const HeroComponent = () => {
             <div className={`${direction === 'rtl' ? 'slider-content-right' : 'slider-content-left' } px-64`} >
               <img src={slide.logo} alt={slide.logoAlt} className="logo" />
               <h3>{slide.title}</h3>
-              <p>{slide.description}</p>
+              {/* <p>{slide.description}</p> */}
               <BtnComponent title={slide.buttonText}  handleClick={handleClick}/>
             </div>
             <img src={slide.image} alt={slide.imageAlt} className="img-slide" />

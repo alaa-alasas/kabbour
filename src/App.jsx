@@ -45,11 +45,11 @@ function App() {
   }, [t.language]);
 
   return (
-    <div className="bg-color-primary">
+    <div className="bg-color-primary ">
       <GoToTop />
       <HandleLoadingComponent />
       <ScrollToTop />
-      <NavBarComponent img={"/kabbour/Navbar/logoK.png"} navData={NavData}/>
+      <NavBarComponent img={"/Navbar/logoK.webp"} navData={NavData}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

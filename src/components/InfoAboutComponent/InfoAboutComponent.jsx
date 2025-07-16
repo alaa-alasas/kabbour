@@ -14,7 +14,7 @@ const InfoAboutComponent = () => {
         {
           InfoAboutCompany.map((item,index) => (
             <div className='info-card' key={index}>
-              <img src={`${item.img}${mode}.png`} alt="img" />
+              <img src={`${item.img}${mode}.webp`} alt="img" />
               <p>{t(item.info)}</p>
             </div>
           ))

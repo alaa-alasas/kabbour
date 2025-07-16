@@ -13,7 +13,7 @@ import InfoAboutComponent from '../components/InfoAboutComponent/InfoAboutCompon
 const Home = () => {
 
   return (
-    <>
+    <div className='Responsive'>
       <HeroComponent />
       <InfoAboutComponent />
       <AboutComponent />
@@ -23,7 +23,7 @@ const Home = () => {
       <StudyCardsComponent />
       <ProductsComponent title={"Our Products"}/>
       <EventsComponent />
-    </>
+    </div>
   )
 }
 

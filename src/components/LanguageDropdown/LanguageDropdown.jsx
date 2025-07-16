@@ -7,8 +7,8 @@ import { useTranslation } from "react-i18next";
 import { IoLanguageSharp } from "react-icons/io5";
 
 const LANGUAGES = [
-  { code: "ar", name: "Arabic", flag: "/kabbour/Languages/Syrian.png" },
-  { code: "en", name: "English", flag: "/kabbour/Languages/British.png" },
+  { code: "ar", name: "Arabic", flag: "/Languages/Syrian.png" },
+  { code: "en", name: "English", flag: "/Languages/British.png" },
 ];
 
 const LanguageDropdown = ({isMobile,closeNav}) => {

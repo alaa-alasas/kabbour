@@ -6,11 +6,11 @@ import { IoLogoYoutube } from "react-icons/io";
 
 export const FooterData = {
   siteMap: [
-    { icon: "/kabbour/Icons/Vector.svg", link: "/", text: "nav.home" },
-    { icon: "/kabbour/Icons/Vector.svg", link: "/products", text: "nav.products" },
-    { icon: "/kabbour/Icons/Vector.svg", link: "/centers", text: "nav.centers" },
-    { icon: "/kabbour/Icons/Vector.svg", link: "/events", text: "nav.media" },
-    { icon: "/kabbour/Icons/Vector.svg", link: "/about", text: "nav.about" }
+    { icon: "/Icons/Vector.svg", link: "/", text: "nav.home" },
+    { icon: "/Icons/Vector.svg", link: "/products", text: "nav.products" },
+    { icon: "/Icons/Vector.svg", link: "/centers", text: "nav.centers" },
+    { icon: "/Icons/Vector.svg", link: "/events", text: "nav.media" },
+    { icon: "/Icons/Vector.svg", link: "/about", text: "nav.about" }
   ],
   address: [
     { icon: <FaLocationDot />, link: "#", text: "address.yabroud" },

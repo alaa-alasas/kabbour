@@ -21,7 +21,7 @@ const MateBenifitComponent = () => {
         </ul>
       </div>  
       <div className='left-side'>
-        <img src="/kabbour/MateBenifit/img.png" alt="" />
+        <img src="/MateBenifit/img.webp" alt="" />
       </div>  
     </section>
   )

@@ -7,13 +7,23 @@
     /* gap: 10px; */
     flex-wrap: wrap;
 }
+.map-container .map-world-img{
+	width: 47.92%;
+	height: 100%;
+}
 
 .map-container #Syria_1_{
     width: 40%;
 	height: 50%;
 }
 
-
+@media (max-width: 992px){
+	.map-container #Syria_1_,
+	.map-container .map-world-img{
+		width: 100%;
+		height: 100%;
+	}
+}
 
 /*
  * Below are Cascading Style Sheet (CSS) definitions in use in this file,

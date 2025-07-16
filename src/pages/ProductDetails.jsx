@@ -18,7 +18,7 @@ const ProductDetails = () => {
   ];
 
   return (
-    <>
+    <div className='Responsive'>
       <ProductHeaderComponent 
         breadcrumbItems={breadcrumbItems} 
         images={item.details.images} 
@@ -35,7 +35,7 @@ const ProductDetails = () => {
         poductSpecifications={t(item.details.poductSpecifications,{ returnObjects: true })} 
       />
       <ProductsComponent title={"You may also like"} category={item.category} productId={productId}/>
-    </>
+    </div>
   )
 }
 

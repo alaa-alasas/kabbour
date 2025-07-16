@@ -60,7 +60,7 @@ const ProductImageComponent = ({images}) => {
                =========================== */}
           {/* Button to navigate to the previous image. */}
           <button className='arrow-prev' onClick={handlePrev}>
-            <img src="/kabbour/Icons/left.svg" alt="" />
+            <img src="/Icons/left.svg" alt="" />
           </button>
           {/* ===========================
                Thumbnails
@@ -85,7 +85,7 @@ const ProductImageComponent = ({images}) => {
                =========================== */}
           {/* Button to navigate to the next image. */}
           <button className='arrow-next' onClick={handleNext}>
-            <img src="/kabbour/Icons/right.svg" alt="" />
+            <img src="/Icons/right.svg" alt="" />
           </button>
         </div>
       </div>

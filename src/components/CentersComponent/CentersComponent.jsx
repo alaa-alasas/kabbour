@@ -2,7 +2,6 @@ import './CentersComponent.css'
 import TitleComponent from '../TitleComponent/TitleComponent'
 import CenterCardComponent from '../CenterCardComponent/CenterCardComponent'
 import { useTranslation } from 'react-i18next'
-import Map3D from '../Map3D/Map3D'
 import SyriaMap from '../SyriaMap/SyriaMap'
 
 const CentersComponent = () => {

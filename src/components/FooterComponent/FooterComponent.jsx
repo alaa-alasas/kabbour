@@ -61,7 +61,7 @@ const FooterComponent = () => {
 
   return (
     <footer>
-      <div className="footer-container px-64 mb-64">
+      <div className="Responsive footer-container px-64 mb-64">
         {/* قسم خريطة الموقع */}
         <div className="footer-col">
           <h4 className="title-footer">{t("siteMap.title")}</h4>

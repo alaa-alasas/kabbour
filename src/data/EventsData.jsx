@@ -1,11 +1,11 @@
 export const EventsData = [
     {
-        img: "/kabbour/Events/event1/3.jpg",
+        img: "/Events/event1/3.webp",
         images: [
-            "/kabbour/Events/event1/1.jpg",
-            "/kabbour/Events/event1/2.jpg",
-            "/kabbour/Events/event1/3.jpg",
-            "/kabbour/Events/event1/4.jpg"
+            "/Events/event1/1.webp",
+            "/Events/event1/2.webp",
+            "/Events/event1/3.webp",
+            "/Events/event1/4.webp"
         ],
         category: "3",
         eventName: "event.1.name",
@@ -13,12 +13,12 @@ export const EventsData = [
         eventDate: "28/03/2023" 
     },
     {
-        img: "/kabbour/Events/event2/1.jpg",
+        img: "/Events/event2/1.webp",
         images: [
-            "/kabbour/Events/event2/1.jpg",
-            "/kabbour/Events/event2/2.jpg",
-            "/kabbour/Events/event2/3.jpg",
-            "/kabbour/Events/event2/4.jpg"
+            "/Events/event2/1.webp",
+            "/Events/event2/2.webp",
+            "/Events/event2/3.webp",
+            "/Events/event2/4.webp"
         ],
         category: "3",
         eventName: "event.2.name", 
@@ -26,12 +26,12 @@ export const EventsData = [
         eventDate: "20/02/2025"
     },
     {
-        img: "/kabbour/Events/event3/1.jpg",
+        img: "/Events/event3/1.webp",
         images: [
-            "/kabbour/Events/event3/1.jpg",
-            "/kabbour/Events/event3/2.jpg",
-            "/kabbour/Events/event3/3.jpg",
-            "/kabbour/Events/event3/4.jpg"
+            "/Events/event3/1.webp",
+            "/Events/event3/2.webp",
+            "/Events/event3/3.webp",
+            "/Events/event3/4.webp"
         ],
         category: "2",
         eventName: "event.3.name",
@@ -39,12 +39,12 @@ export const EventsData = [
         eventDate: "20/02/2025"
     },
     {
-        img: "/kabbour/Events/event4/1.jpg",
+        img: "/Events/event4/1.webp",
         images: [
-            "/kabbour/Events/event4/1.jpg",
-            "/kabbour/Events/event4/2.jpg",
-            "/kabbour/Events/event4/3.jpg",
-            "/kabbour/Events/event4/4.jpg"
+            "/Events/event4/1.webp",
+            "/Events/event4/2.webp",
+            "/Events/event4/3.webp",
+            "/Events/event4/4.webp"
         ],
         category: "3",
         eventName: "event.4.name", 
@@ -52,12 +52,12 @@ export const EventsData = [
         eventDate: "19/03/2025"
     },
     {
-        img: "/kabbour/Events/event5/4.jpg",
+        img: "/Events/event5/4.webp",
         images: [
-            "/kabbour/Events/event5/1.jpg",
-            "/kabbour/Events/event5/2.jpg",
-            "/kabbour/Events/event5/3.jpg",
-            "/kabbour/Events/event5/4.jpg"
+            "/Events/event5/1.webp",
+            "/Events/event5/2.webp",
+            "/Events/event5/3.webp",
+            "/Events/event5/4.webp"
         ],
         category: "1",
         eventName: "event.5.name",
@@ -65,12 +65,12 @@ export const EventsData = [
         eventDate: "04/09/2024" 
     },
     {
-        img: "/kabbour/Events/event6/1.jpg",
+        img: "/Events/event6/1.webp",
         images: [
-            "/kabbour/Events/event6/1.jpg",
-            "/kabbour/Events/event6/2.jpg",
-            "/kabbour/Events/event6/3.jpg",
-            "/kabbour/Events/event6/4.jpg"
+            "/Events/event6/1.webp",
+            "/Events/event6/2.webp",
+            "/Events/event6/3.webp",
+            "/Events/event6/4.webp"
         ],
         category: "3",
         eventName: "event.6.name", 
@@ -78,10 +78,10 @@ export const EventsData = [
         eventDate: " 20/03/2025"
     },
     {
-        img: "/kabbour/Events/event7/1.jpg",
+        img: "/Events/event7/1.webp",
         images: [
-            "/kabbour/Events/event7/1.jpg",
-            "/kabbour/Events/event7/2.jpg"
+            "/Events/event7/1.webp",
+            "/Events/event7/2.webp"
         ],
         category: "3",
         eventName: "event.7.name",
@@ -89,12 +89,12 @@ export const EventsData = [
         eventDate: "18/01/2024"
     },
     {
-        img: "/kabbour/Events/event8/1.jpg",
+        img: "/Events/event8/1.webp",
         images: [
-            "/kabbour/Events/event8/1.jpg",
-            "/kabbour/Events/event8/2.jpg",
-            "/kabbour/Events/event8/3.jpg",
-            "/kabbour/Events/event8/4.jpg"
+            "/Events/event8/1.webp",
+            "/Events/event8/2.webp",
+            "/Events/event8/3.webp",
+            "/Events/event8/4.webp"
         ],
         category: "2",
         eventName: "event.8.name", 
@@ -102,11 +102,11 @@ export const EventsData = [
         eventDate: "21/04/2025"
     },
     {
-        img: "/kabbour/Events/event9/2.jpg",
+        img: "/Events/event9/2.webp",
         images: [
-            "/kabbour/Events/event9/1.jpg",
-            "/kabbour/Events/event9/2.jpg",
-            "/kabbour/Events/event9/3.jpg"
+            "/Events/event9/1.webp",
+            "/Events/event9/2.webp",
+            "/Events/event9/3.webp"
         ],
         category: "3",
         eventName: "event.9.name", 

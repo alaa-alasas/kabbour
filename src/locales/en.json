@@ -2946,7 +2946,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": "250g"
+            "desc": "50,100,200,250g"
           },
           {
             "title": "Type",
@@ -3161,6 +3161,150 @@
           {
             "title": "Type",
             "desc": "Green Tea"
+          }
+        ]
+      }
+    },
+    "85": {
+      "name": "Ginger with Honey & Lemon ",
+      "desc": "A triple-action infusion combining ginger, honey, and lemon for immune strength and clarity. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each of the 20 teabags is individually sealed to lock in fresh flavor and wellness benefits.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Supports immunity and fights colds.",
+          "Refreshes the body and reduces fatigue.",
+          "Clears the throat and improves breathing."
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Ginger with Honey & Lemon) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Herbs"
+          }
+        ]
+      }
+    },
+    "86": {
+      "name": "Green Tea with Strawberry",
+      "desc": "A naturally sweet infusion of green tea and strawberry flavor, crafted for those who enjoy fruity teas with health benefits. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "The 20 teabags are individually wrapped to preserve taste and ",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Rich in vitamin C and antioxidants.",
+          "Supports healthy skin and anti-aging.",
+          "Helps improve mood and relieve stress."
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Green Tea with Strawberry) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Green Tea"
+          }
+        ]
+      }
+    },
+    "87": {
+      "name": "Green Tea with Honey",
+      "desc": "A smooth and gentle blend of green tea and natural honey, offering warmth and wellness in every sip. Each teabag is sealed for freshness and full flavor. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Perfect for morning calm or a midday break.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Boosts immunity with natural antibacterial properties.",
+          "Soothes sore throat and reduces cough.",
+          "Provides a steady source of energy."
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Green Tea with Honey) in a 250 ml cup, then pour boiling water and leave it for 3 minutes. ",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Green Tea"
+          }
+        ]
+      }
+    },
+    "88": {
+      "name": "Sage ",
+      "desc": "Known for its calming and hormone-balancing properties, sage tea has a warm, earthy flavor and therapeutic benefits. ",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each teabag is sealed to retain its essential oils and healing potential.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Regulates hormonal balance.",
+          "Supports oral health due to antimicrobial action.",
+          "Calms the nerves and reduces stress."
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Sage) in a 250 ml cup, then pour boiling water and leave it for 3 minutes. ",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": ""
+          },
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Herbs"
           }
         ]
       }

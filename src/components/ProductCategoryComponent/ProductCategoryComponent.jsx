@@ -3,17 +3,19 @@ import './ProductCategoryComponent.css'
 import {ProductCategoryData} from './../../data/ProductCategoryData'
 import TitleComponent from '../TitleComponent/TitleComponent'
 import { useNavigate } from 'react-router-dom';
+import { useProductFilter } from "../../context/FilterProductContext";
 
 const ProductCategoryComponent = () => {
     const { t } = useTranslation(); 
     const navigate = useNavigate();
+    const { updateFilter } = useProductFilter();
 
     const handleCategoryClick = (categor) => {
       const filters = {
         'product-type': [categor]
       };
-
-      navigate('/products', { state: { selectedFilters: filters } });
+      updateFilter('product-type', categor); 
+      navigate('/products');
     };
 
   return (

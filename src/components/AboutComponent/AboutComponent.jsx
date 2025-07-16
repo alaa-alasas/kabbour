@@ -53,7 +53,7 @@ const AboutComponent = () => {
                                 onClick={() => openVideoModal(item.url)}
                                 aria-label="Watch video"
                             >
-                              <img src="/kabbour/Icons/VideoPlay.svg" alt="video" />
+                              <img src="/Icons/VideoPlay.svg" alt="video" />
                             </button>
                       </div>
                       <div className='right-side'>
