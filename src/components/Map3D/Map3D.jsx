@@ -13,7 +13,7 @@ const Map3D = () => {
       title={t("expotTitle")}
       desc={t("exportDesc")} />
       <div className="map-container">
-        <img className="map-world-img" src="/Distribution/world.png" alt="world"/>
+        <img className="map-world-img" src="/Distribution/world.webp" alt="world"/>
         <SyriaMap />
       </div>
       

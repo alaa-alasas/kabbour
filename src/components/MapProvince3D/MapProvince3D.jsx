@@ -22,7 +22,10 @@ const MapProvince3D = ({ id, d, color = '#e0e0e0', name, x, y}) => {
     <path className="path-map" id={id} d={d} stroke="#999" strokeWidth="1" onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)} onMouseMove={handleMouseMove} style={{ cursor: 'pointer' }} />
       {(x & y) && <circle cx={x} cy={y} r="10" fill="#FF5733" stroke="#fff"
-         strokeWidth="5" style={{ cursor: 'pointer',zIndex: 10 }} onClick={() => alert(`Clicked on ${name}`)} />
+         strokeWidth="5" style={{ cursor: 'pointer',zIndex: 10 }} 
+        //  onClick={() => alert(`Clicked on ${name}`)} 
+         
+         />
       }
       {isHovered && (
         <foreignObject x={position.x} y={position.y} width="100" height="60">

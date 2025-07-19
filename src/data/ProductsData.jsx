@@ -1,6 +1,6 @@
 export const ProductsData = [
     {
-        img: "/ProductDetails/Mate/kaharta/kaharta-green.png",
+        img: "/ProductDetails/Mate/kaharta/kaharta-green.webp",
         productId: 1,
         category: "1",
         brand: "2",
@@ -12,11 +12,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Mate/kaharta/kaharta-green.png",
-                "/ProductDetails/Mate/kaharta/kaharta-white.png",
-                "/ProductDetails/Mate/kaharta/2.png",
+                "/ProductDetails/Mate/kaharta/kaharta-green.webp",
+                "/ProductDetails/Mate/kaharta/kaharta-white.webp",
+                "/ProductDetails/Mate/kaharta/2.webp",
             ],
-            flowerImg: "/ProductDetails/Mate/kaharta/kahartaLogo.png",
+            flowerImg: "/ProductDetails/Mate/kaharta/kahartaLogo.webp",
             desc:'product.1.details.desc',
             ingredients: 'product.1.details.Ingredients',
             usageInstructions: 'product.1.details.usageInstructions',
@@ -24,7 +24,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Mate/pipore/pipore.png",
+        img: "/ProductDetails/Mate/pipore/pipore.webp",
         productId: 2,
         category: "1",
         brand: "4",
@@ -36,10 +36,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Mate/pipore/pipore.png",
-                "/ProductDetails/Mate/pipore/2.png",
+                "/ProductDetails/Mate/pipore/pipore.webp",
+                "/ProductDetails/Mate/pipore/2.webp",
             ],
-            flowerImg: "/ProductDetails/Mate/pipore/piporeLogo.png",
+            flowerImg: "/ProductDetails/Mate/pipore/piporeLogo.webp",
             desc:'product.2.details.desc',
             ingredients: 'product.2.details.Ingredients',
             usageInstructions: 'product.2.details.usageInstructions',
@@ -47,7 +47,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Mate/taragui/taragui.png",
+        img: "/ProductDetails/Mate/taragui/taragui.webp",
         productId: 3,
         category: "1",
         brand: "",
@@ -59,10 +59,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Mate/taragui/taragui.png",
-                "/ProductDetails/Mate/taragui/2.png",
+                "/ProductDetails/Mate/taragui/taragui.webp",
+                "/ProductDetails/Mate/taragui/2.webp",
             ],
-            flowerImg: "/ProductDetails/Mate/taragui/taraguiLogo.png",
+            flowerImg: "/ProductDetails/Mate/taragui/taraguiLogo.webp",
             desc:'product.3.details.desc',
             ingredients: 'product.3.details.Ingredients',
             usageInstructions: 'product.3.details.usageInstructions',
@@ -70,7 +70,7 @@ export const ProductsData = [
         }
     },
     // {
-    //     img: "/ProductDetails/Mate/amanda/amanda.png",
+    //     img: "/ProductDetails/Mate/amanda/amanda.webp",
     //     productId: 4,
     //     category: "1",
     //     brand: "6",
@@ -82,10 +82,10 @@ export const ProductsData = [
     //     ],
     //     details:{
     //         images: [ 
-    //             "/ProductDetails/Mate/amanda/amanda.png",
-    //             "/ProductDetails/Mate/amanda/2.png",
+    //             "/ProductDetails/Mate/amanda/amanda.webp",
+    //             "/ProductDetails/Mate/amanda/2.webp",
     //         ],
-    //         flowerImg: "/ProductDetails/amandaLogo.png",
+    //         flowerImg: "/ProductDetails/amandaLogo.webp",
     //         desc:'product.4.details.desc',
     //         ingredients: 'product.4.details.Ingredients',
     //         usageInstructions: 'product.4.details.usageInstructions',
@@ -93,7 +93,7 @@ export const ProductsData = [
     //     }
     // },
     // {
-    //     img: "/ProductDetails/Mate/sabrosa/sabrosa.png",
+    //     img: "/ProductDetails/Mate/sabrosa/sabrosa.webp",
     //     productId: 31,
     //     category: "1",
     //     brand: "3",
@@ -105,10 +105,10 @@ export const ProductsData = [
     //     ],
     //     details:{
     //         images: [ 
-    //             "/ProductDetails/Mate/sabrosa/sabrosa.png",
-    //             "/ProductDetails/Mate/sabrosa/2.png",
+    //             "/ProductDetails/Mate/sabrosa/sabrosa.webp",
+    //             "/ProductDetails/Mate/sabrosa/2.webp",
     //         ],
-    //         flowerImg: "/ProductDetails/sabrosaLogo.png",
+    //         flowerImg: "/ProductDetails/sabrosaLogo.webp",
     //         desc:'product.31.details.desc',
     //         ingredients: 'product.31.details.Ingredients',
     //         usageInstructions: 'product.31.details.usageInstructions',
@@ -116,7 +116,7 @@ export const ProductsData = [
     //     }
     // },
     // {
-    //     img: "/ProductDetails/Mate/sakhra/sakhra.png",
+    //     img: "/ProductDetails/Mate/sakhra/sakhra.webp",
     //     productId: 32,
     //     category: "1",
     //     productName: "product.32.name",
@@ -127,10 +127,10 @@ export const ProductsData = [
     //     ],
     //     details:{
     //         images: [ 
-    //             "/ProductDetails/Mate/sakhra/sakhra.png",
-    //             "/ProductDetails/Mate/sakhra/2.png",
+    //             "/ProductDetails/Mate/sakhra/sakhra.webp",
+    //             "/ProductDetails/Mate/sakhra/2.webp",
     //         ],
-    //         flowerImg: "/ProductDetails/Mate/sakhra/sakhraLogo.png",
+    //         flowerImg: "/ProductDetails/Mate/sakhra/sakhraLogo.webp",
     //         desc:'product.32.details.desc',
     //         ingredients: 'product.32.details.Ingredients',
     //         usageInstructions: 'product.32.details.usageInstructions',
@@ -138,7 +138,7 @@ export const ProductsData = [
     //     }
     // },
     {
-        img: "/ProductDetails/Herbs/Hibiscus.png",
+        img: "/ProductDetails/Herbs/Hibiscus.webp",
         productId: 5,
         category: "4",        
         brand: "1",
@@ -151,12 +151,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Hibiscus.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/cup.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Hibiscus.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/cup.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.5.details.desc',
             ingredients: 'product.5.details.Ingredients',
             usageInstructions: 'product.5.details.usageInstructions',
@@ -164,7 +164,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/GreenTea/GreenTea/GreenTea.png",
+        img: "/ProductDetails/GreenTea/GreenTea/GreenTea.webp",
         productId: 6,
         category: "3",       
         brand: "1",
@@ -177,12 +177,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea//GreenTea/GreenTea.png",
-                "/ProductDetails/GreenTea/GreenTea/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea//GreenTea/GreenTea.webp",
+                "/ProductDetails/GreenTea/GreenTea/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTea/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTea/2.webp",
             desc:'product.6.details.desc',
             ingredients: 'product.6.details.Ingredients',
             usageInstructions: 'product.6.details.usageInstructions',
@@ -190,7 +190,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/Mint/Mint.png",
+        img: "/ProductDetails/Herbs/Mint/Mint.webp",
         productId: 7,
         category: "4",       
         brand: "1",
@@ -203,12 +203,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Mint/Mint.png",
-                "/ProductDetails/Herbs/Mint/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Mint/Mint.webp",
+                "/ProductDetails/Herbs/Mint/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Mint/2.png",
+            flowerImg: "/ProductDetails/Herbs/Mint/2.webp",
             desc:'product.7.details.desc',
             ingredients: 'product.7.details.Ingredients',
             usageInstructions: 'product.7.details.usageInstructions',
@@ -216,7 +216,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/Anise/Anise.png",
+        img: "/ProductDetails/Herbs/Anise/Anise.webp",
         productId: 8,
         category: "4",       
         brand: "1",
@@ -229,12 +229,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Anise/Anise.png",
-                "/ProductDetails/Herbs/Anise/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Anise/Anise.webp",
+                "/ProductDetails/Herbs/Anise/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Anise/2.png",
+            flowerImg: "/ProductDetails/Herbs/Anise/2.webp",
             desc:'product.8.details.desc',
             ingredients: 'product.8.details.Ingredients',
             usageInstructions: 'product.8.details.usageInstructions',
@@ -242,7 +242,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/JouriFlowers/JouriFlowers.png",
+        img: "/ProductDetails/Herbs/JouriFlowers/JouriFlowers.webp",
         productId: 9,
         category: "4",       
         brand: "1",
@@ -255,12 +255,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/JouriFlowers/JouriFlowers.png",
-                "/ProductDetails/Herbs/JouriFlowers/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/JouriFlowers/JouriFlowers.webp",
+                "/ProductDetails/Herbs/JouriFlowers/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/JouriFlowers/2.png",
+            flowerImg: "/ProductDetails/Herbs/JouriFlowers/2.webp",
             desc:'product.9.details.desc',
             ingredients: 'product.9.details.Ingredients',
             usageInstructions: 'product.9.details.usageInstructions',
@@ -268,7 +268,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/Rosemary/Rosemary.png",
+        img: "/ProductDetails/Herbs/Rosemary/Rosemary.webp",
         productId: 10,
         category: "4",       
         brand: "1",
@@ -281,12 +281,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Rosemary/Rosemary.png",
-                "/ProductDetails/Herbs/Rosemary/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Rosemary/Rosemary.webp",
+                "/ProductDetails/Herbs/Rosemary/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Rosemary/2.png",
+            flowerImg: "/ProductDetails/Herbs/Rosemary/2.webp",
             desc:'product.10.details.desc',
             ingredients: 'product.10.details.Ingredients',
             usageInstructions: 'product.10.details.usageInstructions',
@@ -294,7 +294,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/EucalyptusLeaves.png",
+        img: "/ProductDetails/Herbs/EucalyptusLeaves.webp",
         productId: 11,
         category: "4",       
         brand: "1",
@@ -307,11 +307,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/EucalyptusLeaves.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/EucalyptusLeaves.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.11.details.desc',
             ingredients: 'product.11.details.Ingredients',
             usageInstructions: 'product.11.details.usageInstructions',
@@ -319,7 +319,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/Chamomile/Chamomile.png",
+        img: "/ProductDetails/Herbs/Chamomile/Chamomile.webp",
         productId: 12,
         category: "4",       
         brand: "1",
@@ -332,12 +332,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Chamomile/Chamomile.png",
-                "/ProductDetails/Herbs/Chamomile/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Chamomile/Chamomile.webp",
+                "/ProductDetails/Herbs/Chamomile/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Chamomile/2.png",
+            flowerImg: "/ProductDetails/Herbs/Chamomile/2.webp",
             desc:'product.12.details.desc',
             ingredients: 'product.12.details.Ingredients',
             usageInstructions: 'product.12.details.usageInstructions',
@@ -345,7 +345,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.png",
+        img: "/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.webp",
         productId: 13,
         category: "4",       
         brand: "1",
@@ -358,12 +358,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.png",
-                "/ProductDetails/Herbs/ChamomileAndMint/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/ChamomileAndMint/ChamomileAndMint.webp",
+                "/ProductDetails/Herbs/ChamomileAndMint/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/ChamomileAndMint/2.png",
+            flowerImg: "/ProductDetails/Herbs/ChamomileAndMint/2.webp",
             desc:'product.13.details.desc',
             ingredients: 'product.13.details.Ingredients',
             usageInstructions: 'product.13.details.usageInstructions',
@@ -371,7 +371,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/WildThyme/WildThyme.png",
+        img: "/ProductDetails/Herbs/WildThyme/WildThyme.webp",
         productId: 14,
         category: "4",       
         brand: "1",
@@ -384,19 +384,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/WildThyme/WildThyme.png",
-                "/ProductDetails/Herbs/WildThyme/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/WildThyme/WildThyme.webp",
+                "/ProductDetails/Herbs/WildThyme/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/WildThyme/2.png",
+            flowerImg: "/ProductDetails/Herbs/WildThyme/2.webp",
             desc:'product.14.details.desc',
             ingredients: 'product.14.details.Ingredients',
             usageInstructions: 'product.14.details.usageInstructions',
             poductSpecifications: 'product.14.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/Ginger/Ginger.png",
+        img: "/ProductDetails/Herbs/Ginger/Ginger.webp",
         productId: 15,
         category: "4",       
         brand: "1",
@@ -409,19 +409,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Ginger/Ginger.png",
-                "/ProductDetails/Herbs/Ginger/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Ginger/Ginger.webp",
+                "/ProductDetails/Herbs/Ginger/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Ginger/2.png",
+            flowerImg: "/ProductDetails/Herbs/Ginger/2.webp",
             desc:'product.15.details.desc',
             ingredients: 'product.15.details.Ingredients',
             usageInstructions: 'product.15.details.usageInstructions',
             poductSpecifications: 'product.15.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.png",
+        img: "/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.webp",
         productId: 16,
         category: "4",       
         brand: "1",
@@ -434,19 +434,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.png",
-                "/ProductDetails/Herbs/NaturalZhourat/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/NaturalZhourat/NaturalZhourat.webp",
+                "/ProductDetails/Herbs/NaturalZhourat/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/NaturalZhourat/2.png",
+            flowerImg: "/ProductDetails/Herbs/NaturalZhourat/2.webp",
             desc:'product.16.details.desc',
             ingredients: 'product.16.details.Ingredients',
             usageInstructions: 'product.16.details.usageInstructions',
             poductSpecifications: 'product.16.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/MountainZhourat/MountainZhourat.png",
+        img: "/ProductDetails/Herbs/MountainZhourat/MountainZhourat.webp",
         productId: 17,
         category: "4",       
         brand: "1",
@@ -459,19 +459,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/MountainZhourat/MountainZhourat.png",
-                "/ProductDetails/Herbs/MountainZhourat/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/MountainZhourat/MountainZhourat.webp",
+                "/ProductDetails/Herbs/MountainZhourat/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/MountainZhourat/2.png",
+            flowerImg: "/ProductDetails/Herbs/MountainZhourat/2.webp",
             desc:'product.17.details.desc',
             ingredients: 'product.17.details.Ingredients',
             usageInstructions: 'product.17.details.usageInstructions',
             poductSpecifications: 'product.17.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithGinger.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithGinger.webp",
         productId: 18,
         category: "3",       
         brand: "1",
@@ -484,18 +484,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithGinger.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithGinger.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.18.details.desc',
             ingredients: 'product.18.details.Ingredients',
             usageInstructions: 'product.18.details.usageInstructions',
             poductSpecifications: 'product.18.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithGingerAndLemon.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithGingerAndLemon.webp",
         productId: 19,
         category: "3",       
         brand: "1",
@@ -508,18 +508,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithGingerAndLemon.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithGingerAndLemon.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.19.details.desc',
             ingredients: 'product.19.details.Ingredients',
             usageInstructions: 'product.19.details.usageInstructions',
             poductSpecifications: 'product.19.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWitthLemon/GreenTeaWitthLemon.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWitthLemon/GreenTeaWitthLemon.webp",
         productId: 20,
         category: "3",       
         brand: "1",
@@ -532,19 +532,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWitthLemon/GreenTeaWitthLemon.png",
-                "/ProductDetails/GreenTea/GreenTeaWitthLemon/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWitthLemon/GreenTeaWitthLemon.webp",
+                "/ProductDetails/GreenTea/GreenTeaWitthLemon/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeaWitthLemon/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeaWitthLemon/2.webp",
             desc:'product.20.details.desc',
             ingredients: 'product.20.details.Ingredients',
             usageInstructions: 'product.20.details.usageInstructions',
             poductSpecifications: 'product.20.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithLemonBalm.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithLemonBalm.webp",
         productId: 21,
         category: "3",       
         brand: "1",
@@ -557,18 +557,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithLemonBalm.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithLemonBalm.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.21.details.desc',
             ingredients: 'product.21.details.Ingredients',
             usageInstructions: 'product.21.details.usageInstructions',
             poductSpecifications: 'product.21.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithMint.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithMint.webp",
         productId: 22,
         category: "3",       
         brand: "1",
@@ -581,18 +581,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithMint.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithMint.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.22.details.desc',
             ingredients: 'product.22.details.Ingredients',
             usageInstructions: 'product.22.details.usageInstructions',
             poductSpecifications: 'product.22.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithGinseng/GreenTeaWithGinseng.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithGinseng/GreenTeaWithGinseng.webp",
         productId: 23,
         category: "3",       
         brand: "1",
@@ -605,19 +605,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithGinseng/GreenTeaWithGinseng.png",
-                "/ProductDetails/GreenTea/GreenTeaWithGinseng/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithGinseng/GreenTeaWithGinseng.webp",
+                "/ProductDetails/GreenTea/GreenTeaWithGinseng/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeaWithGinseng/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeaWithGinseng/2.webp",
             desc:'product.23.details.desc',
             ingredients: 'product.23.details.Ingredients',
             usageInstructions: 'product.23.details.usageInstructions',
             poductSpecifications: 'product.23.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/GreenTeaWithCinnamonAndGinger.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/GreenTeaWithCinnamonAndGinger.webp",
         productId: 24,
         category: "3",       
         brand: "1",
@@ -630,19 +630,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/GreenTeaWithCinnamonAndGinger.png",
-                "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/GreenTeaWithCinnamonAndGinger.webp",
+                "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeaWithCinnamonAndGinger/2.webp",
             desc:'product.24.details.desc',
             ingredients: 'product.24.details.Ingredients',
             usageInstructions: 'product.24.details.usageInstructions',
             poductSpecifications: 'product.24.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeaWithNaturalCardamom.png",
+        img: "/ProductDetails/GreenTea/GreenTeaWithNaturalCardamom.webp",
         productId: 25,
         category: "3",       
         brand: "1",
@@ -655,18 +655,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeaWithNaturalCardamom.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeaWithNaturalCardamom.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/flower.png",
+            flowerImg: "/ProductDetails/flower.webp",
             desc:'product.25.details.desc',
             ingredients: 'product.25.details.Ingredients',
             usageInstructions: 'product.25.details.usageInstructions',
             poductSpecifications: 'product.25.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.png",
+        img: "/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.webp",
         productId: 84,
         category: "3",       
         brand: "1",
@@ -679,18 +679,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.png",
-                "/ProductDetails/GreenTea/GreenTeawithPeach/1.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeawithPeach/GreenTeawithPeach.webp",
+                "/ProductDetails/GreenTea/GreenTeawithPeach/1.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeawithPeach/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeawithPeach/2.webp",
             desc:'product.84.details.desc',
             ingredients: 'product.84.details.Ingredients',
             usageInstructions: 'product.84.details.usageInstructions',
             poductSpecifications: 'product.84.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeawithStrawberry/GreenTeawithStrawberry.png",
+        img: "/ProductDetails/GreenTea/GreenTeawithStrawberry/GreenTeawithStrawberry.webp",
         productId: 86,
         category: "3",       
         brand: "1",
@@ -703,18 +703,18 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeawithStrawberry/GreenTeawithStrawberry.png",
-                "/ProductDetails/GreenTea/GreenTeawithStrawberry/1.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeawithStrawberry/GreenTeawithStrawberry.webp",
+                "/ProductDetails/GreenTea/GreenTeawithStrawberry/1.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeawithStrawberry/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeawithStrawberry/2.webp",
             desc:'product.86.details.desc',
             ingredients: 'product.86.details.Ingredients',
             usageInstructions: 'product.86.details.usageInstructions',
             poductSpecifications: 'product.86.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/GreenTea/GreenTeawithHoney/GreenTeawithHoney.png",
+        img: "/ProductDetails/GreenTea/GreenTeawithHoney/GreenTeawithHoney.webp",
         productId: 87,
         category: "3",       
         brand: "1",
@@ -727,11 +727,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/GreenTea/GreenTeawithHoney/GreenTeawithHoney.png",
-                "/ProductDetails/GreenTea/GreenTeawithHoney/1.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/GreenTea/GreenTeawithHoney/GreenTeawithHoney.webp",
+                "/ProductDetails/GreenTea/GreenTeawithHoney/1.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/GreenTea/GreenTeawithHoney/2.png",
+            flowerImg: "/ProductDetails/GreenTea/GreenTeawithHoney/2.webp",
             desc:'product.87.details.desc',
             ingredients: 'product.87.details.Ingredients',
             usageInstructions: 'product.87.details.usageInstructions',
@@ -739,7 +739,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.png",
+        img: "/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.webp",
         productId: 26,
         category: "4",       
         brand: "1",
@@ -752,19 +752,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.png",
-                "/ProductDetails/Herbs/CinnamomAndGinger/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/CinnamomAndGinger/CinnamomAndGinger.webp",
+                "/ProductDetails/Herbs/CinnamomAndGinger/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/CinnamomAndGinger/2.png",
+            flowerImg: "/ProductDetails/Herbs/CinnamomAndGinger/2.webp",
             desc:'product.26.details.desc',
             ingredients: 'product.26.details.Ingredients',
             usageInstructions: 'product.26.details.usageInstructions',
             poductSpecifications: 'product.26.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.png",
+        img: "/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.webp",
         productId: 27,
         category: "4",       
         brand: "1",
@@ -777,19 +777,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.png",
-                "/ProductDetails/Herbs/HibiscusWithJouriFlowers/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/HibiscusWithJouriFlowers/HibiscusWithJouriFlowers.webp",
+                "/ProductDetails/Herbs/HibiscusWithJouriFlowers/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/HibiscusWithJouriFlowers/2.png",
+            flowerImg: "/ProductDetails/Herbs/HibiscusWithJouriFlowers/2.webp",
             desc:'product.27.details.desc',
             ingredients: 'product.27.details.Ingredients',
             usageInstructions: 'product.27.details.usageInstructions',
             poductSpecifications: 'product.27.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/Cumin/Cumin.png",
+        img: "/ProductDetails/Herbs/Cumin/Cumin.webp",
         productId: 28,
         category: "4",       
         brand: "1",
@@ -802,19 +802,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Cumin/Cumin.png",
-                "/ProductDetails/Herbs/Cumin/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Cumin/Cumin.webp",
+                "/ProductDetails/Herbs/Cumin/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Cumin/2.png",
+            flowerImg: "/ProductDetails/Herbs/Cumin/2.webp",
             desc:'product.28.details.desc',
             ingredients: 'product.28.details.Ingredients',
             usageInstructions: 'product.28.details.usageInstructions',
             poductSpecifications: 'product.28.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.png",
+        img: "/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.webp",
         productId: 29,
         category: "4",       
         brand: "1",
@@ -827,19 +827,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.png",
-                "/ProductDetails/Herbs/CuminAndLemon/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/CuminAndLemon/CuminAndLemon.webp",
+                "/ProductDetails/Herbs/CuminAndLemon/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/CuminAndLemon/2.png",
+            flowerImg: "/ProductDetails/Herbs/CuminAndLemon/2.webp",
             desc:'product.29.details.desc',
             ingredients: 'product.29.details.Ingredients',
             usageInstructions: 'product.29.details.usageInstructions',
             poductSpecifications: 'product.29.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/LemonBalm/LemonBalm.png",
+        img: "/ProductDetails/Herbs/LemonBalm/LemonBalm.webp",
         productId: 30,
         category: "4",       
         brand: "1",
@@ -852,19 +852,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/LemonBalm/LemonBalm.png",
-                "/ProductDetails/Herbs/LemonBalm/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/LemonBalm/LemonBalm.webp",
+                "/ProductDetails/Herbs/LemonBalm/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/LemonBalm/2.png",
+            flowerImg: "/ProductDetails/Herbs/LemonBalm/2.webp",
             desc:'product.30.details.desc',
             ingredients: 'product.30.details.Ingredients',
             usageInstructions: 'product.30.details.usageInstructions',
             poductSpecifications: 'product.30.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.png",
+        img: "/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.webp",
         productId: 57,
         category: "4",       
         brand: "1",
@@ -877,19 +877,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.png",
-                "/ProductDetails/Herbs/GingerAndLemon/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/GingerAndLemon/GingerAndLemon.webp",
+                "/ProductDetails/Herbs/GingerAndLemon/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/GingerAndLemon/2.png",
+            flowerImg: "/ProductDetails/Herbs/GingerAndLemon/2.webp",
             desc:'product.57.details.desc',
             ingredients: 'product.57.details.Ingredients',
             usageInstructions: 'product.57.details.usageInstructions',
             poductSpecifications: 'product.57.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Herbs/Hyssop/Hyssop.png",
+        img: "/ProductDetails/Herbs/Hyssop/Hyssop.webp",
         productId: 58,
         category: "4",       
         brand: "1",
@@ -902,12 +902,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Hyssop/Hyssop.png",
-                "/ProductDetails/Herbs/Hyssop/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Hyssop/Hyssop.webp",
+                "/ProductDetails/Herbs/Hyssop/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Hyssop/2.png",
+            flowerImg: "/ProductDetails/Herbs/Hyssop/2.webp",
             desc:'product.58.details.desc',
             ingredients: 'product.58.details.Ingredients',
             usageInstructions: 'product.58.details.usageInstructions',
@@ -915,7 +915,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/Sage/Sage.png",
+        img: "/ProductDetails/Herbs/Sage/Sage.webp",
         productId: 88,
         category: "4",       
         brand: "1",
@@ -928,12 +928,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/Sage/Sage.png",
-                "/ProductDetails/Herbs/Sage/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/Sage/Sage.webp",
+                "/ProductDetails/Herbs/Sage/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/Sage/2.png",
+            flowerImg: "/ProductDetails/Herbs/Sage/2.webp",
             desc:'product.88.details.desc',
             ingredients: 'product.88.details.Ingredients',
             usageInstructions: 'product.88.details.usageInstructions',
@@ -941,7 +941,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Herbs/GingerwithHoney&Lemon/GingerwithHoney&Lemon.png",
+        img: "/ProductDetails/Herbs/GingerwithHoney&Lemon/GingerwithHoney&Lemon.webp",
         productId: 85,
         category: "4",       
         brand: "1",
@@ -954,12 +954,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Herbs/GingerwithHoney&Lemon/GingerwithHoney&Lemon.png",
-                "/ProductDetails/Herbs/GingerwithHoney&Lemon/1.png",
-                "/ProductDetails/22.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Herbs/GingerwithHoney&Lemon/GingerwithHoney&Lemon.webp",
+                "/ProductDetails/Herbs/GingerwithHoney&Lemon/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Herbs/GingerwithHoney&Lemon/2.png",
+            flowerImg: "/ProductDetails/Herbs/GingerwithHoney&Lemon/2.webp",
             desc:'product.85.details.desc',
             ingredients: 'product.85.details.Ingredients',
             usageInstructions: 'product.85.details.usageInstructions',
@@ -967,7 +967,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
+        img: "/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.webp",
         productId: 33,
         category: "5",       
         brand: "1",
@@ -980,19 +980,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.png",
-                "/ProductDetails/Medical/ImmuneSupport/1.png",
-                "/ProductDetails/Medical/ImmuneSupport/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.webp",
+                "/ProductDetails/Medical/ImmuneSupport/1.webp",
+                "/ProductDetails/Medical/ImmuneSupport/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/ImmuneSupport/2.png",
+            flowerImg: "/ProductDetails/Medical/ImmuneSupport/2.webp",
             desc:'product.33.details.desc',
             ingredients: 'product.33.details.Ingredients',
             usageInstructions: 'product.33.details.usageInstructions',
             poductSpecifications: 'product.33.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.png",
+        img: "/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.webp",
         productId: 34,
         category: "5",       
         brand: "1",
@@ -1005,19 +1005,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.png",
-                "/ProductDetails/Medical/HelpsHypertension/1.png",
-                "/ProductDetails/Medical/HelpsHypertension/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/HelpsHypertension/HelpsHypertension.webp",
+                "/ProductDetails/Medical/HelpsHypertension/1.webp",
+                "/ProductDetails/Medical/HelpsHypertension/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/HelpsHypertension/2.png",
+            flowerImg: "/ProductDetails/Medical/HelpsHypertension/2.webp",
             desc:'product.34.details.desc',
             ingredients: 'product.34.details.Ingredients',
             usageInstructions: 'product.34.details.usageInstructions',
             poductSpecifications: 'product.34.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.png",
+        img: "/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.webp",
         productId: 35,
         category: "5",       
         brand: "1",
@@ -1030,19 +1030,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.png",
-                "/ProductDetails/Medical/HotFlashesAndMenopause/1.png",
-                "/ProductDetails/Medical/HotFlashesAndMenopause/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/HotFlashesAndMenopause/HotFlashesAndMenopause.webp",
+                "/ProductDetails/Medical/HotFlashesAndMenopause/1.webp",
+                "/ProductDetails/Medical/HotFlashesAndMenopause/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/HotFlashesAndMenopause/2.png",
+            flowerImg: "/ProductDetails/Medical/HotFlashesAndMenopause/2.webp",
             desc:'product.35.details.desc',
             ingredients: 'product.35.details.Ingredients',
             usageInstructions: 'product.35.details.usageInstructions',
             poductSpecifications: 'product.35.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/MixtureColon/MixtureColon.png",
+        img: "/ProductDetails/Medical/MixtureColon/MixtureColon.webp",
         productId: 36,
         category: "5",       
         brand: "1",
@@ -1055,19 +1055,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/MixtureColon/MixtureColon.png",
-                "/ProductDetails/Medical/MixtureColon/1.png",
-                "/ProductDetails/Medical/MixtureColon/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/MixtureColon/MixtureColon.webp",
+                "/ProductDetails/Medical/MixtureColon/1.webp",
+                "/ProductDetails/Medical/MixtureColon/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/MixtureColon/2.png",
+            flowerImg: "/ProductDetails/Medical/MixtureColon/2.webp",
             desc:'product.36.details.desc',
             ingredients: 'product.36.details.Ingredients',
             usageInstructions: 'product.36.details.usageInstructions',
             poductSpecifications: 'product.36.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Lithotripsy/Lithotripsy.png",
+        img: "/ProductDetails/Medical/Lithotripsy/Lithotripsy.webp",
         productId: 37,
         category: "5",       
         brand: "1",
@@ -1080,19 +1080,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Lithotripsy/Lithotripsy.png",
-                "/ProductDetails/Medical/Lithotripsy/1.png",
-                "/ProductDetails/Medical/Lithotripsy/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Lithotripsy/Lithotripsy.webp",
+                "/ProductDetails/Medical/Lithotripsy/1.webp",
+                "/ProductDetails/Medical/Lithotripsy/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Lithotripsy/2.png",
+            flowerImg: "/ProductDetails/Medical/Lithotripsy/2.webp",
             desc:'product.37.details.desc',
             ingredients: 'product.37.details.Ingredients',
             usageInstructions: 'product.37.details.usageInstructions',
             poductSpecifications: 'product.37.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Gases/Gases.png",
+        img: "/ProductDetails/Medical/Gases/Gases.webp",
         productId: 38,
         category: "5",       
         brand: "1",
@@ -1105,19 +1105,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Gases/Gases.png",
-                "/ProductDetails/Medical/Gases/1.png",
-                "/ProductDetails/Medical/Gases/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Gases/Gases.webp",
+                "/ProductDetails/Medical/Gases/1.webp",
+                "/ProductDetails/Medical/Gases/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Gases/2.png",
+            flowerImg: "/ProductDetails/Medical/Gases/2.webp",
             desc:'product.38.details.desc',
             ingredients: 'product.38.details.Ingredients',
             usageInstructions: 'product.38.details.usageInstructions',
             poductSpecifications: 'product.38.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Energy/Energy.png",
+        img: "/ProductDetails/Medical/Energy/Energy.webp",
         productId: 39,
         category: "5",       
         brand: "1",
@@ -1130,19 +1130,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Energy/Energy.png",
-                "/ProductDetails/Medical/Energy/1.png",
-                "/ProductDetails/Medical/Energy/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Energy/Energy.webp",
+                "/ProductDetails/Medical/Energy/1.webp",
+                "/ProductDetails/Medical/Energy/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Energy/2.png",
+            flowerImg: "/ProductDetails/Medical/Energy/2.webp",
             desc:'product.39.details.desc',
             ingredients: 'product.39.details.Ingredients',
             usageInstructions: 'product.39.details.usageInstructions',
             poductSpecifications: 'product.39.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Headache/Headache.png",
+        img: "/ProductDetails/Medical/Headache/Headache.webp",
         productId: 40,
         category: "5",       
         brand: "1",
@@ -1155,19 +1155,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Headache/Headache.png",
-                "/ProductDetails/Medical/Headache/1.png",
-                "/ProductDetails/Medical/Headache/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Headache/Headache.webp",
+                "/ProductDetails/Medical/Headache/1.webp",
+                "/ProductDetails/Medical/Headache/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Headache/2.png",
+            flowerImg: "/ProductDetails/Medical/Headache/2.webp",
             desc:'product.40.details.desc',
             ingredients: 'product.40.details.Ingredients',
             usageInstructions: 'product.40.details.usageInstructions',
             poductSpecifications: 'product.40.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Sugar/Sugar.png",
+        img: "/ProductDetails/Medical/Sugar/Sugar.webp",
         productId: 41,
         category: "5",       
         brand: "1",
@@ -1180,12 +1180,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Sugar/Sugar.png",
-                "/ProductDetails/Medical/Sugar/1.png",
-                "/ProductDetails/Medical/Sugar/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Sugar/Sugar.webp",
+                "/ProductDetails/Medical/Sugar/1.webp",
+                "/ProductDetails/Medical/Sugar/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Sugar/2.png",
+            flowerImg: "/ProductDetails/Medical/Sugar/2.webp",
             desc:'product.41.details.desc',
             ingredients: 'product.41.details.Ingredients',
             usageInstructions: 'product.41.details.usageInstructions',
@@ -1193,7 +1193,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Medical/Memory/Memory.png",
+        img: "/ProductDetails/Medical/Memory/Memory.webp",
         productId: 42,
         category: "5",       
         brand: "1",
@@ -1206,19 +1206,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Memory/Memory.png",
-                "/ProductDetails/Medical/Memory/1.png",
-                "/ProductDetails/Medical/Memory/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Memory/Memory.webp",
+                "/ProductDetails/Medical/Memory/1.webp",
+                "/ProductDetails/Medical/Memory/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Memory/2.png",
+            flowerImg: "/ProductDetails/Medical/Memory/2.webp",
             desc:'product.42.details.desc',
             ingredients: 'product.42.details.Ingredients',
             usageInstructions: 'product.42.details.usageInstructions',
             poductSpecifications: 'product.42.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Ulcer/Ulcer.png",
+        img: "/ProductDetails/Medical/Ulcer/Ulcer.webp",
         productId: 43,
         category: "5",       
         brand: "1",
@@ -1231,19 +1231,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Ulcer/Ulcer.png",
-                "/ProductDetails/Medical/Ulcer/1.png",
-                "/ProductDetails/Medical/Ulcer/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Ulcer/Ulcer.webp",
+                "/ProductDetails/Medical/Ulcer/1.webp",
+                "/ProductDetails/Medical/Ulcer/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Ulcer/2.png",
+            flowerImg: "/ProductDetails/Medical/Ulcer/2.webp",
             desc:'product.43.details.desc',
             ingredients: 'product.43.details.Ingredients',
             usageInstructions: 'product.43.details.usageInstructions',
             poductSpecifications: 'product.43.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/coughs/coughs.png",
+        img: "/ProductDetails/Medical/coughs/coughs.webp",
         productId: 44,
         category: "5",       
         brand: "1",
@@ -1256,19 +1256,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/coughs/coughs.png",
-                "/ProductDetails/Medical/coughs/1.png",
-                "/ProductDetails/Medical/coughs/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/coughs/coughs.webp",
+                "/ProductDetails/Medical/coughs/1.webp",
+                "/ProductDetails/Medical/coughs/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/coughs/2.png",
+            flowerImg: "/ProductDetails/Medical/coughs/2.webp",
             desc:'product.44.details.desc',
             ingredients: 'product.44.details.Ingredients',
             usageInstructions: 'product.44.details.usageInstructions',
             poductSpecifications: 'product.44.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Rheumatism/Rheumatism.png",
+        img: "/ProductDetails/Medical/Rheumatism/Rheumatism.webp",
         productId: 45,
         category: "5",       
         brand: "1",
@@ -1281,19 +1281,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Rheumatism/Rheumatism.png",
-                "/ProductDetails/Medical/Rheumatism/1.png",
-                "/ProductDetails/Medical/Rheumatism/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Rheumatism/Rheumatism.webp",
+                "/ProductDetails/Medical/Rheumatism/1.webp",
+                "/ProductDetails/Medical/Rheumatism/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Rheumatism/2.png",
+            flowerImg: "/ProductDetails/Medical/Rheumatism/2.webp",
             desc:'product.45.details.desc',
             ingredients: 'product.45.details.Ingredients',
             usageInstructions: 'product.45.details.usageInstructions',
             poductSpecifications: 'product.45.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/ExtraCold/ExtraCold.png",
+        img: "/ProductDetails/Medical/ExtraCold/ExtraCold.webp",
         productId: 46,
         category: "5",       
         brand: "1",
@@ -1306,19 +1306,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/ExtraCold/ExtraCold.png",
-                "/ProductDetails/Medical/ExtraCold/1.png",
-                "/ProductDetails/Medical/ExtraCold/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/ExtraCold/ExtraCold.webp",
+                "/ProductDetails/Medical/ExtraCold/1.webp",
+                "/ProductDetails/Medical/ExtraCold/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/ExtraCold/2.png",
+            flowerImg: "/ProductDetails/Medical/ExtraCold/2.webp",
             desc:'product.46.details.desc',
             ingredients: 'product.46.details.Ingredients',
             usageInstructions: 'product.46.details.usageInstructions',
             poductSpecifications: 'product.46.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Cold/Cold.png",
+        img: "/ProductDetails/Medical/Cold/Cold.webp",
         productId: 47,
         category: "5",       
         brand: "1",
@@ -1331,19 +1331,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Cold/Cold.png",
-                "/ProductDetails/Medical/Cold/1.png",
-                "/ProductDetails/Medical/Cold/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Cold/Cold.webp",
+                "/ProductDetails/Medical/Cold/1.webp",
+                "/ProductDetails/Medical/Cold/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Cold/2.png",
+            flowerImg: "/ProductDetails/Medical/Cold/2.webp",
             desc:'product.47.details.desc',
             ingredients: 'product.47.details.Ingredients',
             usageInstructions: 'product.47.details.usageInstructions',
             poductSpecifications: 'product.47.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Fitness/Fitness.png",
+        img: "/ProductDetails/Medical/Fitness/Fitness.webp",
         productId: 48,
         category: "5",       
         brand: "1",
@@ -1356,19 +1356,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Fitness/Fitness.png",
-                "/ProductDetails/Medical/Fitness/1.png",
-                "/ProductDetails/Medical/Fitness/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Fitness/Fitness.webp",
+                "/ProductDetails/Medical/Fitness/1.webp",
+                "/ProductDetails/Medical/Fitness/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Fitness/2.png",
+            flowerImg: "/ProductDetails/Medical/Fitness/2.webp",
             desc:'product.48.details.desc',
             ingredients: 'product.48.details.Ingredients',
             usageInstructions: 'product.48.details.usageInstructions',
             poductSpecifications: 'product.48.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.png",
+        img: "/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.webp",
         productId: 49,
         category: "5",
         brand: "1",
@@ -1381,19 +1381,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.png",
-                "/ProductDetails/Medical/Hyperuricemia/1.png",
-                "/ProductDetails/Medical/Hyperuricemia/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Hyperuricemia/Hyperuricemia.webp",
+                "/ProductDetails/Medical/Hyperuricemia/1.webp",
+                "/ProductDetails/Medical/Hyperuricemia/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Hyperuricemia/2.png",
+            flowerImg: "/ProductDetails/Medical/Hyperuricemia/2.webp",
             desc:'product.49.details.desc',
             ingredients: 'product.49.details.Ingredients',
             usageInstructions: 'product.49.details.usageInstructions',
             poductSpecifications: 'product.49.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/migraine/migraine.png",
+        img: "/ProductDetails/Medical/migraine/migraine.webp",
         productId: 50,
         category: "5",       
         brand: "1",
@@ -1406,19 +1406,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/migraine/migraine.png",
-                "/ProductDetails/Medical/migraine/1.png",
-                "/ProductDetails/Medical/migraine/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/migraine/migraine.webp",
+                "/ProductDetails/Medical/migraine/1.webp",
+                "/ProductDetails/Medical/migraine/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/migraine/2.png",
+            flowerImg: "/ProductDetails/Medical/migraine/2.webp",
             desc:'product.50.details.desc',
             ingredients: 'product.50.details.Ingredients',
             usageInstructions: 'product.50.details.usageInstructions',
             poductSpecifications: 'product.50.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Calming/Calming.png",
+        img: "/ProductDetails/Medical/Calming/Calming.webp",
         productId: 51,
         category: "5",       
         brand: "1",
@@ -1431,19 +1431,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Calming/Calming.png",
-                "/ProductDetails/Medical/Calming/1.png",
-                "/ProductDetails/Medical/Calming/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Calming/Calming.webp",
+                "/ProductDetails/Medical/Calming/1.webp",
+                "/ProductDetails/Medical/Calming/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Calming/2.png",
+            flowerImg: "/ProductDetails/Medical/Calming/2.webp",
             desc:'product.51.details.desc',
             ingredients: 'product.51.details.Ingredients',
             usageInstructions: 'product.51.details.usageInstructions',
             poductSpecifications: 'product.51.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.png",
+        img: "/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.webp",
         productId: 52,
         category: "5",       
         brand: "1",
@@ -1456,19 +1456,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.png",
-                "/ProductDetails/Medical/ExtraLaxative/1.png",
-                "/ProductDetails/Medical/ExtraLaxative/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/ExtraLaxative/ExtraLaxative.webp",
+                "/ProductDetails/Medical/ExtraLaxative/1.webp",
+                "/ProductDetails/Medical/ExtraLaxative/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/ExtraLaxative/2.png",
+            flowerImg: "/ProductDetails/Medical/ExtraLaxative/2.webp",
             desc:'product.52.details.desc',
             ingredients: 'product.52.details.Ingredients',
             usageInstructions: 'product.52.details.usageInstructions',
             poductSpecifications: 'product.52.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Laxative/Laxative.png",
+        img: "/ProductDetails/Medical/Laxative/Laxative.webp",
         productId: 53,
         category: "5",       
         brand: "1",
@@ -1481,19 +1481,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Laxative/Laxative.png",
-                "/ProductDetails/Medical/Laxative/1.png",
-                "/ProductDetails/Medical/Laxative/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Laxative/Laxative.webp",
+                "/ProductDetails/Medical/Laxative/1.webp",
+                "/ProductDetails/Medical/Laxative/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Laxative/2.png",
+            flowerImg: "/ProductDetails/Medical/Laxative/2.webp",
             desc:'product.53.details.desc',
             ingredients: 'product.53.details.Ingredients',
             usageInstructions: 'product.53.details.usageInstructions',
             poductSpecifications: 'product.53.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.png",
+        img: "/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.webp",
         productId: 54,
         category: "5",       
         brand: "1",
@@ -1506,19 +1506,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.png",
-                "/ProductDetails/Medical/Hypocholesterolemia/1.png",
-                "/ProductDetails/Medical/Hypocholesterolemia/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Hypocholesterolemia/Hypocholesterolemia.webp",
+                "/ProductDetails/Medical/Hypocholesterolemia/1.webp",
+                "/ProductDetails/Medical/Hypocholesterolemia/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Hypocholesterolemia/2.png",
+            flowerImg: "/ProductDetails/Medical/Hypocholesterolemia/2.webp",
             desc:'product.54.details.desc',
             ingredients: 'product.54.details.Ingredients',
             usageInstructions: 'product.54.details.usageInstructions',
             poductSpecifications: 'product.54.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/Appetite/Appetite.png",
+        img: "/ProductDetails/Medical/Appetite/Appetite.webp",
         productId: 55,
         category: "5",       
         brand: "1",
@@ -1531,19 +1531,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/Appetite/Appetite.png",
-                "/ProductDetails/Medical/Appetite/1.png",
-                "/ProductDetails/Medical/Appetite/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/Appetite/Appetite.webp",
+                "/ProductDetails/Medical/Appetite/1.webp",
+                "/ProductDetails/Medical/Appetite/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/Appetite/2.png",
+            flowerImg: "/ProductDetails/Medical/Appetite/2.webp",
             desc:'product.55.details.desc',
             ingredients: 'product.55.details.Ingredients',
             usageInstructions: 'product.55.details.usageInstructions',
             poductSpecifications: 'product.55.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Medical/milkSecretion/milkSecretion.png",
+        img: "/ProductDetails/Medical/milkSecretion/milkSecretion.webp",
         productId: 56,
         category: "5",       
         brand: "1",
@@ -1556,19 +1556,19 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Medical/milkSecretion/milkSecretion.png",
-                "/ProductDetails/Medical/milkSecretion/1.png",
-                "/ProductDetails/Medical/milkSecretion/3.png",
-                "/ProductDetails/Herbs/100.png",
+                "/ProductDetails/Medical/milkSecretion/milkSecretion.webp",
+                "/ProductDetails/Medical/milkSecretion/1.webp",
+                "/ProductDetails/Medical/milkSecretion/3.webp",
+                "/ProductDetails/Herbs/100.webp",
             ],
-            flowerImg: "/ProductDetails/Medical/milkSecretion/2.png",
+            flowerImg: "/ProductDetails/Medical/milkSecretion/2.webp",
             desc:'product.56.details.desc',
             ingredients: 'product.56.details.Ingredients',
             usageInstructions: 'product.56.details.usageInstructions',
             poductSpecifications: 'product.56.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/HotDrinks/milo/milo.png",
+        img: "/ProductDetails/HotDrinks/milo/milo.webp",
         productId: 59,
         category: "8",       
         brand: "1",
@@ -1580,7 +1580,7 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/HotDrinks/milo/milo.png",
+                "/ProductDetails/HotDrinks/milo/milo.webp",
             ],
             flowerImg: "",
             desc:'product.59.details.desc',
@@ -1589,7 +1589,7 @@ export const ProductsData = [
             poductSpecifications: 'product.59.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/HotDrinks/3in1/3in1.png",
+        img: "/ProductDetails/HotDrinks/3in1/3in1.webp",
         productId: 63,
         category: "8",       
         brand: "1",
@@ -1601,12 +1601,12 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/HotDrinks/3in1/3in1.png",
-                "/ProductDetails/HotDrinks/3in1/1.png",
-                "/ProductDetails/HotDrinks/3in1/2.png",
+                "/ProductDetails/HotDrinks/3in1/3in1.webp",
+                "/ProductDetails/HotDrinks/3in1/1.webp",
+                "/ProductDetails/HotDrinks/3in1/2.webp",
 
             ],
-            flowerImg: "/ProductDetails/HotDrinks/3in1/3.png",
+            flowerImg: "/ProductDetails/HotDrinks/3in1/3.webp",
             desc:'product.63.details.desc',
             ingredients: 'product.63.details.Ingredients',
             usageInstructions: 'product.63.details.usageInstructions',
@@ -1614,7 +1614,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Tea/orange/orange90.png",
+        img: "/ProductDetails/Tea/orange/orange90.webp",
         productId: 60,
         category: "2",       
         brand: "1",
@@ -1626,10 +1626,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Tea/orange/orange90.png",
-                "/ProductDetails/Tea/orange/orange200.png",
-                "/ProductDetails/Tea/orange/orange400.png",
-                "/ProductDetails/Tea/1.png"
+                "/ProductDetails/Tea/orange/orange90.webp",
+                "/ProductDetails/Tea/orange/orange200.webp",
+                "/ProductDetails/Tea/orange/orange400.webp",
+                "/ProductDetails/Tea/1.webp"
             ],
             flowerImg: "",
             desc:'product.60.details.desc',
@@ -1638,7 +1638,7 @@ export const ProductsData = [
             poductSpecifications: 'product.60.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Tea/black/black400.png",
+        img: "/ProductDetails/Tea/black/black400.webp",
         productId: 61,
         category: "2",       
         brand: "1",
@@ -1650,8 +1650,8 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Tea/black/black400.png",
-                "/ProductDetails/Tea/1.png"
+                "/ProductDetails/Tea/black/black400.webp",
+                "/ProductDetails/Tea/1.webp"
             ],
             flowerImg: "",
             desc:'product.61.details.desc',
@@ -1660,7 +1660,7 @@ export const ProductsData = [
             poductSpecifications: 'product.61.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Tea/blackBag/black20.png",
+        img: "/ProductDetails/Tea/blackBag/black20.webp",
         productId: 62,
         category: "2",       
         brand: "1",
@@ -1672,8 +1672,8 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Tea/blackBag/black20.png",
-                "/ProductDetails/Tea/blackBag/black25.png",
+                "/ProductDetails/Tea/blackBag/black20.webp",
+                "/ProductDetails/Tea/blackBag/black25.webp",
             ],
             flowerImg: "",
             desc:'product.62.details.desc',
@@ -1682,7 +1682,7 @@ export const ProductsData = [
             poductSpecifications: 'product.62.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/fruit/fruit.png",
+        img: "/ProductDetails/Juice/fruit/fruit.webp",
         productId: 64,
         category: "6",       
         brand: "7",
@@ -1694,17 +1694,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/fruit/fruit.png",
-                "/ProductDetails/Juice/fruit/1.png",
+                "/ProductDetails/Juice/fruit/fruit.webp",
+                "/ProductDetails/Juice/fruit/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/fruit/2.png",
+            flowerImg: "/ProductDetails/Juice/fruit/2.webp",
             desc:'product.64.details.desc',
             ingredients: 'product.64.details.Ingredients',
             usageInstructions: 'product.64.details.usageInstructions',
             poductSpecifications: 'product.64.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Orange/Orange.png",
+        img: "/ProductDetails/Juice/Orange/Orange.webp",
         productId: 65,
         category: "6",       
         brand: "7",
@@ -1716,17 +1716,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Orange/Orange.png",
-                "/ProductDetails/Juice/Orange/1.png",
+                "/ProductDetails/Juice/Orange/Orange.webp",
+                "/ProductDetails/Juice/Orange/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Orange/2.png",
+            flowerImg: "/ProductDetails/Juice/Orange/2.webp",
             desc:'product.65.details.desc',
             ingredients: 'product.65.details.Ingredients',
             usageInstructions: 'product.65.details.usageInstructions',
             poductSpecifications: 'product.65.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Pineapple/Pineapple.png",
+        img: "/ProductDetails/Juice/Pineapple/Pineapple.webp",
         productId: 66,
         category: "6",       
         brand: "7",
@@ -1738,17 +1738,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Pineapple/Pineapple.png",
-                "/ProductDetails/Juice/Pineapple/1.png",
+                "/ProductDetails/Juice/Pineapple/Pineapple.webp",
+                "/ProductDetails/Juice/Pineapple/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Pineapple/2.png",
+            flowerImg: "/ProductDetails/Juice/Pineapple/2.webp",
             desc:'product.66.details.desc',
             ingredients: 'product.66.details.Ingredients',
             usageInstructions: 'product.66.details.usageInstructions',
             poductSpecifications: 'product.66.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Orange&Carrot/Orange&Carrot.png",
+        img: "/ProductDetails/Juice/Orange&Carrot/Orange&Carrot.webp",
         productId: 67,
         category: "6",       
         brand: "7",
@@ -1760,17 +1760,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Orange&Carrot/Orange&Carrot.png",
-                "/ProductDetails/Juice/Orange&Carrot/1.png",
+                "/ProductDetails/Juice/Orange&Carrot/Orange&Carrot.webp",
+                "/ProductDetails/Juice/Orange&Carrot/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Orange&Carrot/2.png",
+            flowerImg: "/ProductDetails/Juice/Orange&Carrot/2.webp",
             desc:'product.67.details.desc',
             ingredients: 'product.67.details.Ingredients',
             usageInstructions: 'product.67.details.usageInstructions',
             poductSpecifications: 'product.67.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Tamarind/Tamarind.png",
+        img: "/ProductDetails/Juice/Tamarind/Tamarind.webp",
         productId: 68,
         category: "6",       
         brand: "7",
@@ -1782,17 +1782,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Tamarind/Tamarind.png",
-                "/ProductDetails/Juice/Tamarind/1.png",
+                "/ProductDetails/Juice/Tamarind/Tamarind.webp",
+                "/ProductDetails/Juice/Tamarind/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Tamarind/2.png",
+            flowerImg: "/ProductDetails/Juice/Tamarind/2.webp",
             desc:'product.68.details.desc',
             ingredients: 'product.68.details.Ingredients',
             usageInstructions: 'product.68.details.usageInstructions',
             poductSpecifications: 'product.68.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Apple/Apple.png",
+        img: "/ProductDetails/Juice/Apple/Apple.webp",
         productId: 69,
         category: "6",       
         brand: "7",
@@ -1804,17 +1804,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Apple/Apple.png",
-                "/ProductDetails/Juice/Apple/1.png",
+                "/ProductDetails/Juice/Apple/Apple.webp",
+                "/ProductDetails/Juice/Apple/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Apple/2.png",
+            flowerImg: "/ProductDetails/Juice/Apple/2.webp",
             desc:'product.69.details.desc',
             ingredients: 'product.69.details.Ingredients',
             usageInstructions: 'product.69.details.usageInstructions',
             poductSpecifications: 'product.69.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Berry/Berry.png",
+        img: "/ProductDetails/Juice/Berry/Berry.webp",
         productId: 70,
         category: "6",       
         brand: "7",
@@ -1826,17 +1826,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Berry/Berry.png",
-                "/ProductDetails/Juice/Berry/1.png",
+                "/ProductDetails/Juice/Berry/Berry.webp",
+                "/ProductDetails/Juice/Berry/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Berry/2.png",
+            flowerImg: "/ProductDetails/Juice/Berry/2.webp",
             desc:'product.70.details.desc',
             ingredients: 'product.70.details.Ingredients',
             usageInstructions: 'product.70.details.usageInstructions',
             poductSpecifications: 'product.70.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Jallab/Jallab.png",
+        img: "/ProductDetails/Juice/Jallab/Jallab.webp",
         productId: 71,
         category: "6",       
         brand: "7",
@@ -1848,17 +1848,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Jallab/Jallab.png",
-                "/ProductDetails/Juice/Jallab/1.png",
+                "/ProductDetails/Juice/Jallab/Jallab.webp",
+                "/ProductDetails/Juice/Jallab/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Jallab/2.png",
+            flowerImg: "/ProductDetails/Juice/Jallab/2.webp",
             desc:'product.71.details.desc',
             ingredients: 'product.71.details.Ingredients',
             usageInstructions: 'product.71.details.usageInstructions',
             poductSpecifications: 'product.71.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Lemon&Mint/Lemon&Mint.png",
+        img: "/ProductDetails/Juice/Lemon&Mint/Lemon&Mint.webp",
         productId: 72,
         category: "6",       
         brand: "7",
@@ -1870,17 +1870,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Lemon&Mint/Lemon&Mint.png",
-                "/ProductDetails/Juice/Lemon&Mint/1.png",
+                "/ProductDetails/Juice/Lemon&Mint/Lemon&Mint.webp",
+                "/ProductDetails/Juice/Lemon&Mint/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Lemon&Mint/2.png",
+            flowerImg: "/ProductDetails/Juice/Lemon&Mint/2.webp",
             desc:'product.72.details.desc',
             ingredients: 'product.72.details.Ingredients',
             usageInstructions: 'product.72.details.usageInstructions',
             poductSpecifications: 'product.72.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Strawberry/Strawberry.png",
+        img: "/ProductDetails/Juice/Strawberry/Strawberry.webp",
         productId: 73,
         category: "6",       
         brand: "7",
@@ -1892,17 +1892,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Strawberry/Strawberry.png",
-                "/ProductDetails/Juice/Strawberry/1.png",
+                "/ProductDetails/Juice/Strawberry/Strawberry.webp",
+                "/ProductDetails/Juice/Strawberry/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Strawberry/2.png",
+            flowerImg: "/ProductDetails/Juice/Strawberry/2.webp",
             desc:'product.73.details.desc',
             ingredients: 'product.73.details.Ingredients',
             usageInstructions: 'product.73.details.usageInstructions',
             poductSpecifications: 'product.73.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Guava/Guava.png",
+        img: "/ProductDetails/Juice/Guava/Guava.webp",
         productId: 74,
         category: "6",       
         brand: "7",
@@ -1914,17 +1914,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Guava/Guava.png",
-                "/ProductDetails/Juice/Guava/1.png",
+                "/ProductDetails/Juice/Guava/Guava.webp",
+                "/ProductDetails/Juice/Guava/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Guava/2.png",
+            flowerImg: "/ProductDetails/Juice/Guava/2.webp",
             desc:'product.74.details.desc',
             ingredients: 'product.74.details.Ingredients',
             usageInstructions: 'product.74.details.usageInstructions',
             poductSpecifications: 'product.74.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Mango/Mango.png",
+        img: "/ProductDetails/Juice/Mango/Mango.webp",
         productId: 75,
         category: "6",       
         brand: "7",
@@ -1936,17 +1936,17 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Mango/Mango.png",
-                "/ProductDetails/Juice/Mango/1.png",
+                "/ProductDetails/Juice/Mango/Mango.webp",
+                "/ProductDetails/Juice/Mango/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Mango/2.png",
+            flowerImg: "/ProductDetails/Juice/Mango/2.webp",
             desc:'product.75.details.desc',
             ingredients: 'product.75.details.Ingredients',
             usageInstructions: 'product.75.details.usageInstructions',
             poductSpecifications: 'product.75.details.poductSpecifications'
         }
     },{
-        img: "/ProductDetails/Juice/Lemon/Lemon.png",
+        img: "/ProductDetails/Juice/Lemon/Lemon.webp",
         productId: 76,
         category: "6",
         brand: "7",
@@ -1958,10 +1958,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Juice/Lemon/Lemon.png",
-                "/ProductDetails/Juice/Lemon/1.png",
+                "/ProductDetails/Juice/Lemon/Lemon.webp",
+                "/ProductDetails/Juice/Lemon/1.webp",
             ],
-            flowerImg: "/ProductDetails/Juice/Lemon/2.png",
+            flowerImg: "/ProductDetails/Juice/Lemon/2.webp",
             desc:'product.76.details.desc',
             ingredients: 'product.76.details.Ingredients',
             usageInstructions: 'product.76.details.usageInstructions',
@@ -1969,7 +1969,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/InstantCoffee/InstantCoffee.png",
+        img: "/ProductDetails/Coffee/InstantCoffee/InstantCoffee.webp",
         productId: 77,
         category: "7",       
         brand: "1",
@@ -1981,11 +1981,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/InstantCoffee/InstantCoffee.png",
-                "/ProductDetails/Coffee/InstantCoffee/1.png",
-                "/ProductDetails/Coffee/InstantCoffee/2.png",
+                "/ProductDetails/Coffee/InstantCoffee/InstantCoffee.webp",
+                "/ProductDetails/Coffee/InstantCoffee/1.webp",
+                "/ProductDetails/Coffee/InstantCoffee/2.webp",
             ],
-            flowerImg: "/ProductDetails/Coffee/InstantCoffee/3.png",
+            flowerImg: "/ProductDetails/Coffee/InstantCoffee/3.webp",
             desc:'product.77.details.desc',
             ingredients: 'product.77.details.Ingredients',
             usageInstructions: 'product.77.details.usageInstructions',
@@ -1993,7 +1993,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.png",
+        img: "/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.webp",
         productId: 78,
         category: "7",       
         brand: "1",
@@ -2005,11 +2005,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.png",
-                "/ProductDetails/Coffee/InstantCoffeeCardamom/1.png",
-                "/ProductDetails/Coffee/InstantCoffeeCardamom/2.png",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom/InstantCoffeeCardamom.webp",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom/1.webp",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom/2.webp",
             ],
-            flowerImg: "/ProductDetails/Coffee/InstantCoffeeCardamom/3.png",
+            flowerImg: "/ProductDetails/Coffee/InstantCoffeeCardamom/3.webp",
             desc:'product.78.details.desc',
             ingredients: 'product.78.details.Ingredients',
             usageInstructions: 'product.78.details.usageInstructions',
@@ -2017,7 +2017,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/InstantCoffeeCardamom2g/InstantCoffeeCardamom.png",
+        img: "/ProductDetails/Coffee/InstantCoffeeCardamom2g/InstantCoffeeCardamom.webp",
         productId: 79,
         category: "7",       
         brand: "1",
@@ -2029,11 +2029,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/InstantCoffeeCardamom.png",
-                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/1.png",
-                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/2.png",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/InstantCoffeeCardamom.webp",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/1.webp",
+                "/ProductDetails/Coffee/InstantCoffeeCardamom2g/2.webp",
             ],
-            flowerImg: "/ProductDetails/Coffee/InstantCoffeeCardamom2g/3.png",
+            flowerImg: "/ProductDetails/Coffee/InstantCoffeeCardamom2g/3.webp",
             desc:'product.79.details.desc',
             ingredients: 'product.79.details.Ingredients',
             usageInstructions: 'product.79.details.usageInstructions',
@@ -2041,7 +2041,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/InstantCoffee2g/InstantCoffee.png",
+        img: "/ProductDetails/Coffee/InstantCoffee2g/InstantCoffee.webp",
         productId: 80,
         category: "7",       
         brand: "1",
@@ -2053,11 +2053,11 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/InstantCoffee2g/InstantCoffee.png",
-                "/ProductDetails/Coffee/InstantCoffee2g/1.png",
-                "/ProductDetails/Coffee/InstantCoffee2g/2.png",
+                "/ProductDetails/Coffee/InstantCoffee2g/InstantCoffee.webp",
+                "/ProductDetails/Coffee/InstantCoffee2g/1.webp",
+                "/ProductDetails/Coffee/InstantCoffee2g/2.webp",
             ],
-            flowerImg: "/ProductDetails/Coffee/InstantCoffee2g/3.png",
+            flowerImg: "/ProductDetails/Coffee/InstantCoffee2g/3.webp",
             desc:'product.80.details.desc',
             ingredients: 'product.80.details.Ingredients',
             usageInstructions: 'product.80.details.usageInstructions',
@@ -2065,7 +2065,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/HotDrinks/cappccinoVanilla/cappccinoVanilla.png",
+        img: "/ProductDetails/HotDrinks/cappccinoVanilla/cappccinoVanilla.webp",
         productId: 81,
         category: "8",       
         brand: "1",
@@ -2077,10 +2077,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/HotDrinks/cappccinoVanilla/cappccinoVanilla.png",
-                "/ProductDetails/HotDrinks/cappccinoVanilla/1.png",
+                "/ProductDetails/HotDrinks/cappccinoVanilla/cappccinoVanilla.webp",
+                "/ProductDetails/HotDrinks/cappccinoVanilla/1.webp",
             ],
-            flowerImg: "/ProductDetails/HotDrinks/cappccinoVanilla/2.png",
+            flowerImg: "/ProductDetails/HotDrinks/cappccinoVanilla/2.webp",
             desc:'product.81.details.desc',
             ingredients: 'product.81.details.Ingredients',
             usageInstructions: 'product.81.details.usageInstructions',
@@ -2088,7 +2088,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/HotDrinks/cappuccinoChocolate/cappuccinoChocolate.png",
+        img: "/ProductDetails/HotDrinks/cappuccinoChocolate/cappuccinoChocolate.webp",
         productId: 82,
         category: "8",       
         brand: "1",
@@ -2100,10 +2100,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/HotDrinks/cappuccinoChocolate/cappuccinoChocolate.png",
-                "/ProductDetails/HotDrinks/cappuccinoChocolate/1.png",
+                "/ProductDetails/HotDrinks/cappuccinoChocolate/cappuccinoChocolate.webp",
+                "/ProductDetails/HotDrinks/cappuccinoChocolate/1.webp",
             ],
-            flowerImg: "/ProductDetails/HotDrinks/cappuccinoChocolate/2.png",
+            flowerImg: "/ProductDetails/HotDrinks/cappuccinoChocolate/2.webp",
             desc:'product.82.details.desc',
             ingredients: 'product.82.details.Ingredients',
             usageInstructions: 'product.82.details.usageInstructions',
@@ -2111,7 +2111,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/HotDrinks/cappuccinoHazelnuts/cappuccinoHazelnuts.png",
+        img: "/ProductDetails/HotDrinks/cappuccinoHazelnuts/cappuccinoHazelnuts.webp",
         productId: 83,
         category: "8",       
         brand: "1",
@@ -2123,14 +2123,129 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/HotDrinks/cappuccinoHazelnuts/cappuccinoHazelnuts.png",
-                "/ProductDetails/HotDrinks/cappuccinoHazelnuts/1.png",
+                "/ProductDetails/HotDrinks/cappuccinoHazelnuts/cappuccinoHazelnuts.webp",
+                "/ProductDetails/HotDrinks/cappuccinoHazelnuts/1.webp",
             ],
-            flowerImg: "/ProductDetails/HotDrinks/cappuccinoHazelnuts/2.png",
+            flowerImg: "/ProductDetails/HotDrinks/cappuccinoHazelnuts/2.webp",
             desc:'product.83.details.desc',
             ingredients: 'product.83.details.Ingredients',
             usageInstructions: 'product.83.details.usageInstructions',
             poductSpecifications: 'product.83.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Milk/Milk.webp",
+        productId: 89,
+        category: "10",       
+        brand: "8",
+        productName: "product.89.name", 
+        productDesc: "product.89.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Milk/Milk.webp",
+                "/ProductDetails/Milk/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Milk/2.webp",
+            desc:'product.89.details.desc',
+            ingredients: 'product.89.details.Ingredients',
+            usageInstructions: 'product.89.details.usageInstructions',
+            poductSpecifications: 'product.89.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Coffee/ClassicMixtureWithCardamom/ClassicMixtureWithCardamom.webp",
+        productId: 90,
+        category: "7",       
+        brand: "1",
+        productName: "product.90.name", 
+        productDesc: "product.90.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/ClassicMixtureWithCardamom/ClassicMixtureWithCardamom.webp",
+                "/ProductDetails/Coffee/ClassicMixtureWithCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/ClassicMixtureWithCardamom/2.webp",
+            desc:'product.90.details.desc',
+            ingredients: 'product.90.details.Ingredients',
+            usageInstructions: 'product.90.details.usageInstructions',
+            poductSpecifications: 'product.90.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Coffee/ExtraMixtureWithCardamom/ExtraMixtureWithCardamom.webp",
+        productId: 91,
+        category: "7",       
+        brand: "1",
+        productName: "product.91.name", 
+        productDesc: "product.91.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/ExtraMixtureWithCardamom/ExtraMixtureWithCardamom.webp",
+                "/ProductDetails/Coffee/ExtraMixtureWithCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/ExtraMixtureWithCardamom/2.webp",
+            desc:'product.91.details.desc',
+            ingredients: 'product.91.details.Ingredients',
+            usageInstructions: 'product.91.details.usageInstructions',
+            poductSpecifications: 'product.91.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
+        productId: 92,
+        category: "7",       
+        brand: "1",
+        productName: "product.92.name", 
+        productDesc: "product.92.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
+                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/2.webp",
+            desc:'product.92.details.desc',
+            ingredients: 'product.92.details.Ingredients',
+            usageInstructions: 'product.92.details.usageInstructions',
+            poductSpecifications: 'product.92.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
+        productId: 93,
+        category: "7",       
+        brand: "1",
+        productName: "product.93.name", 
+        productDesc: "product.93.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
+                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/2.webp",
+            desc:'product.93.details.desc',
+            ingredients: 'product.93.details.Ingredients',
+            usageInstructions: 'product.93.details.usageInstructions',
+            poductSpecifications: 'product.93.details.poductSpecifications'
         }
     }
 

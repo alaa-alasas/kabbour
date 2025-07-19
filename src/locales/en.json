@@ -117,73 +117,73 @@
   "centers": [
     {
       "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "location": "Al-Malihah - after Al-Nasim checkpoint - Shebaa Road - entrance of Asil Company",
+      "phone": "+963 11 5661112"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Tartous Center",
+      "location": "Industrial area, Beit Kumuna - Food section, opposite Al-Rihabah wall",
+      "phone": "+963 43 2554355"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Latakia Center",
+      "location": "500 meters after Al-Maziraa Bridge",
+      "phone": "+963 41 8772229"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Dreikish Center",
+      "location": "200m west of Martyrs' Roundabout, Al-Diqqara, opposite Al-Yamamah Poultry",
+      "phone": "-"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Homs Center",
+      "location": "Bab Amr - Al-Sultaniya - Jobar - Direction of Al-Matin Company - Ain Al-Zarqa area",
+      "phone": "-"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Al-Hawash Center",
+      "location": "Near the gas station on Al-Aam Road - Bemo Bank",
+      "phone": "+963 31 7443980"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Hama Center",
+      "location": "Al-Hawrani Estate - Globe Roundabout - Opposite Al-Hawrani Hospital",
+      "phone": "+963 33 2520782"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Al-Salamiyah Center",
+      "location": "Sa'an Street - Next to the National Guard School",
+      "phone": "+963 33 8835547"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Al-Suwayda Center",
+      "location": "Atayl - Main Street - Next to Amer Gas Station",
+      "phone": "+963 16 357656"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Masyaf Center",
+      "location": "Masyaf - Near Al-Waraqa Cafeteria",
+      "phone": "+963 33 7719982"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Nabk Center",
+      "location": "Eastern Neighborhood - Badr Mosque Junction - Abu Mustafa Bahooh Building",
+      "phone": "+963 43 7245271"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Qatna Center",
+      "location": "First of Al-Ashara Housing - Ali Ghazi Talib School",
+      "phone": "+963 11 6892889"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Daraa Center",
+      "location": "Al-Busayr - Southern Neighborhood",
+      "phone": "+963 15 5444322"
     },
     {
-      "name": "Damascus Center",
-      "location": "Yabroud, Rural Damascus, Syria",
-      "phone": "+963 11 9493 / 9381"
+      "name": "Aleppo Center",
+      "location": "Al-Mashhad - Al-Ittassi Pharmacy",
+      "phone": "-"
     }
   ],
   "productDetails": "Product Details",
@@ -3305,6 +3305,39 @@
           {
             "title": "Type",
             "desc": "Herbs"
+          }
+        ]
+      }
+    },
+    "89":{
+      "name": "Milk Powder",
+      "desc": "Discover our high-quality milk powder, finely ground to dissolve quickly and easily in water, delivering the fresh taste and purity of milk in every cup.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Our milk powder is carefully selected to provide a rich and balanced blend of proteins and calcium",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Fine powder that dissolves instantly in hot or cold water",
+          "Rich in essential nutrients including vitamins and minerals",
+          "Perfect for daily use in drinking, cooking, baking, and both hot and cold beverages",
+          "Long shelf life while preserving original quality and taste"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "20g, 120g, 250g, 350g, 700g, 900g"
+          },
+          {
+            "title": "Type",
+            "desc": "Milk"
           }
         ]
       }
