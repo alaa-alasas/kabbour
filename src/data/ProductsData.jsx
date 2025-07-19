@@ -2247,6 +2247,52 @@ export const ProductsData = [
             usageInstructions: 'product.93.details.usageInstructions',
             poductSpecifications: 'product.93.details.poductSpecifications'
         }
+    },
+    {
+        img: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
+        productId: 94,
+        category: "7",       
+        brand: "1",
+        productName: "product.94.name", 
+        productDesc: "product.94.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
+                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/2.webp",
+            desc:'product.94.details.desc',
+            ingredients: 'product.94.details.Ingredients',
+            usageInstructions: 'product.94.details.usageInstructions',
+            poductSpecifications: 'product.94.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/SpecialSilverMixtureWithCardamom.webp",
+        productId: 95,
+        category: "7",       
+        brand: "1",
+        productName: "product.95.name", 
+        productDesc: "product.95.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/SpecialSilverMixtureWithCardamom.webp",
+                "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/2.webp",
+            desc:'product.95.details.desc',
+            ingredients: 'product.95.details.Ingredients',
+            usageInstructions: 'product.95.details.usageInstructions',
+            poductSpecifications: 'product.95.details.poductSpecifications'
+        }
     }
 
 ];
