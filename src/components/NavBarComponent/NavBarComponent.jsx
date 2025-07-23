@@ -7,12 +7,15 @@ import { IoSunny } from "react-icons/io5";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { ThemeModeContext } from '../../context/ThemeModeContext';
 import { RiMoonClearFill } from "react-icons/ri";
+import { useProductFilter } from '../../context/FilterProductContext';
 
 const NavBarComponent = ({img,navData}) => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu visibility
   const [scrolling, setScrolling] = useState(false); // State to track scroll position for navbar styling
   const { t } = useTranslation();
   const { mode, toggleMode } = useContext(ThemeModeContext);
+  const { resetFilters } = useProductFilter();
+  
 // ===========================
 // Handle scroll event to add "scrolled" class to the navbar
 // ===========================
@@ -39,12 +42,17 @@ useEffect(() => {
         {
           navData.map((item,index) => (
             <li key={index}>
-              <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")} onClick={() =>  setIsOpen(!isOpen)}>
+              <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")} onClick={() =>  {setIsOpen(!isOpen); resetFilters(); }}>
                 {t(item.title)}
               </NavLink>
             </li>
           ))
         }
+        <li>
+          <a className=''>
+
+          </a>
+        </li>
         <li className="mobileLanguageWrapper">
            <LanguageDropdown isMobile={true} closeNav={() =>  setIsOpen(!isOpen)}/>
         </li>

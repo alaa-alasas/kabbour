@@ -21,8 +21,15 @@ export const FilterProductProvider = ({ children }) => {
     });
   };
 
+  const resetFilters = () => {
+    setFilters({
+      'product-type': [],
+      'trademark': []
+    });
+  };
+
   return (
-    <FilterProductContext.Provider value={{ filters, updateFilter }}>
+    <FilterProductContext.Provider value={{ filters, updateFilter, resetFilters }}>
       {children}
     </FilterProductContext.Provider>
   );

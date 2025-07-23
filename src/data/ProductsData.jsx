@@ -50,7 +50,7 @@ export const ProductsData = [
         img: "/ProductDetails/Mate/taragui/taragui.webp",
         productId: 3,
         category: "1",
-        brand: "",
+        brand: "5",
         productName: "product.3.name",
         productDesc: "product.3.desc",
         images:[
@@ -69,52 +69,52 @@ export const ProductsData = [
             poductSpecifications: 'product.3.details.poductSpecifications'
         }
     },
-    // {
-    //     img: "/ProductDetails/Mate/amanda/amanda.webp",
-    //     productId: 4,
-    //     category: "1",
-    //     brand: "6",
-    //     productName: "product.4.name",
-    //     productDesc: "product.4.desc",
-    //     images:[
-    //         "/ProductDetails/productDetails1",
-    //         "/ProductDetails/productDetails2",
-    //     ],
-    //     details:{
-    //         images: [ 
-    //             "/ProductDetails/Mate/amanda/amanda.webp",
-    //             "/ProductDetails/Mate/amanda/2.webp",
-    //         ],
-    //         flowerImg: "/ProductDetails/amandaLogo.webp",
-    //         desc:'product.4.details.desc',
-    //         ingredients: 'product.4.details.Ingredients',
-    //         usageInstructions: 'product.4.details.usageInstructions',
-    //         poductSpecifications: 'product.4.details.poductSpecifications'
-    //     }
-    // },
-    // {
-    //     img: "/ProductDetails/Mate/sabrosa/sabrosa.webp",
-    //     productId: 31,
-    //     category: "1",
-    //     brand: "3",
-    //     productName: "product.31.name",
-    //     productDesc: "product.31.desc",
-    //     images:[
-    //         "/ProductDetails/productDetails1",
-    //         "/ProductDetails/productDetails2",
-    //     ],
-    //     details:{
-    //         images: [ 
-    //             "/ProductDetails/Mate/sabrosa/sabrosa.webp",
-    //             "/ProductDetails/Mate/sabrosa/2.webp",
-    //         ],
-    //         flowerImg: "/ProductDetails/sabrosaLogo.webp",
-    //         desc:'product.31.details.desc',
-    //         ingredients: 'product.31.details.Ingredients',
-    //         usageInstructions: 'product.31.details.usageInstructions',
-    //         poductSpecifications: 'product.31.details.poductSpecifications'
-    //     }
-    // },
+    {
+        img: "/ProductDetails/Mate/amanda/amanda.webp",
+        productId: 4,
+        category: "1",
+        brand: "6",
+        productName: "product.4.name",
+        productDesc: "product.4.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Mate/amanda/amanda.webp",
+                "/ProductDetails/Mate/amanda/2.webp",
+            ],
+            flowerImg: "/ProductDetails/Mate/amanda/amandaLogo.webp",
+            desc:'product.4.details.desc',
+            ingredients: 'product.4.details.Ingredients',
+            usageInstructions: 'product.4.details.usageInstructions',
+            poductSpecifications: 'product.4.details.poductSpecifications'
+        }
+    },
+    {
+        img: "/ProductDetails/Mate/sabrosa/sabrosa.webp",
+        productId: 31,
+        category: "1",
+        brand: "3",
+        productName: "product.31.name",
+        productDesc: "product.31.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Mate/sabrosa/sabrosa.webp",
+                "/ProductDetails/Mate/sabrosa/2.webp",
+            ],
+            flowerImg: "/ProductDetails/Mate/sabrosa/sabrosaLogo.webp",
+            desc:'product.31.details.desc',
+            ingredients: 'product.31.details.Ingredients',
+            usageInstructions: 'product.31.details.usageInstructions',
+            poductSpecifications: 'product.31.details.poductSpecifications'
+        }
+    },
     // {
     //     img: "/ProductDetails/Mate/sakhra/sakhra.webp",
     //     productId: 32,
@@ -967,6 +967,32 @@ export const ProductsData = [
         }
     },
     {
+        img: "/ProductDetails/Herbs/Pomegranate/Pomegranate.webp",
+        productId: 95,
+        category: "4",       
+        brand: "1",
+        productName: "product.95.name", 
+        productDesc: "product.95.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+            "/ProductDetails/productDetails3",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Herbs/Pomegranate/Pomegranate.webp",
+                "/ProductDetails/Herbs/Pomegranate/1.webp",
+                "/ProductDetails/22.webp",
+                "/ProductDetails/Herbs/100.webp",
+            ],
+            flowerImg: "/ProductDetails/Herbs/Pomegranate/2.webp",
+            desc:'product.95.details.desc',
+            ingredients: 'product.95.details.Ingredients',
+            usageInstructions: 'product.95.details.usageInstructions',
+            poductSpecifications: 'product.95.details.poductSpecifications'
+        }
+    },
+    {
         img: "/ProductDetails/Medical/ImmuneSupport/ImmuneSupport.webp",
         productId: 33,
         category: "5",       
@@ -1581,8 +1607,9 @@ export const ProductsData = [
         details:{
             images: [ 
                 "/ProductDetails/HotDrinks/milo/milo.webp",
+                "/ProductDetails/HotDrinks/milo/1.webp",
             ],
-            flowerImg: "",
+            flowerImg: "/ProductDetails/HotDrinks/milo/2.webp",
             desc:'product.59.details.desc',
             ingredients: 'product.59.details.Ingredients',
             usageInstructions: 'product.59.details.usageInstructions',
@@ -2134,6 +2161,29 @@ export const ProductsData = [
         }
     },
     {
+        img: "/ProductDetails/HotDrinks/Sahlab/Sahlab.webp",
+        productId: 96,
+        category: "8",       
+        brand: "1",
+        productName: "product.96.name", 
+        productDesc: "product.96.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/HotDrinks/Sahlab/Sahlab.webp",
+                "/ProductDetails/HotDrinks/Sahlab/1.webp",
+            ],
+            flowerImg: "/ProductDetails/HotDrinks/Sahlab/2.webp",
+            desc:'product.96.details.desc',
+            ingredients: 'product.96.details.Ingredients',
+            usageInstructions: 'product.96.details.usageInstructions',
+            poductSpecifications: 'product.96.details.poductSpecifications'
+        }
+    },
+    {
         img: "/ProductDetails/Milk/Milk.webp",
         productId: 89,
         category: "10",       
@@ -2226,7 +2276,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
+        img: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
         productId: 93,
         category: "7",       
         brand: "1",
@@ -2238,10 +2288,10 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/ExtraMixtureWithOutCardamom.webp",
-                "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/1.webp",
+                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
+                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/1.webp",
             ],
-            flowerImg: "/ProductDetails/Coffee/ExtraMixtureWithOutCardamom/2.webp",
+            flowerImg: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/2.webp",
             desc:'product.93.details.desc',
             ingredients: 'product.93.details.Ingredients',
             usageInstructions: 'product.93.details.usageInstructions',
@@ -2249,7 +2299,7 @@ export const ProductsData = [
         }
     },
     {
-        img: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
+        img: "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/SpecialSilverMixtureWithCardamom.webp",
         productId: 94,
         category: "7",       
         brand: "1",
@@ -2261,37 +2311,14 @@ export const ProductsData = [
         ],
         details:{
             images: [ 
-                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/SpecialGoldMixtureWithCardamom.webp",
-                "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/1.webp",
-            ],
-            flowerImg: "/ProductDetails/Coffee/SpecialGoldMixtureWithCardamom/2.webp",
-            desc:'product.94.details.desc',
-            ingredients: 'product.94.details.Ingredients',
-            usageInstructions: 'product.94.details.usageInstructions',
-            poductSpecifications: 'product.94.details.poductSpecifications'
-        }
-    },
-    {
-        img: "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/SpecialSilverMixtureWithCardamom.webp",
-        productId: 95,
-        category: "7",       
-        brand: "1",
-        productName: "product.95.name", 
-        productDesc: "product.95.desc",
-        images:[
-            "/ProductDetails/productDetails1",
-            "/ProductDetails/productDetails2",
-        ],
-        details:{
-            images: [ 
                 "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/SpecialSilverMixtureWithCardamom.webp",
                 "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/1.webp",
             ],
             flowerImg: "/ProductDetails/Coffee/SpecialSilverMixtureWithCardamom/2.webp",
-            desc:'product.95.details.desc',
-            ingredients: 'product.95.details.Ingredients',
-            usageInstructions: 'product.95.details.usageInstructions',
-            poductSpecifications: 'product.95.details.poductSpecifications'
+            desc:'product.94.details.desc',
+            ingredients: 'product.94.details.Ingredients',
+            usageInstructions: 'product.94.details.usageInstructions',
+            poductSpecifications: 'product.94.details.poductSpecifications'
         }
     }
 

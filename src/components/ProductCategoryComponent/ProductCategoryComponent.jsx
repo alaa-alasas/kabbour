@@ -8,9 +8,10 @@ import { useProductFilter } from "../../context/FilterProductContext";
 const ProductCategoryComponent = () => {
     const { t } = useTranslation(); 
     const navigate = useNavigate();
-    const { updateFilter } = useProductFilter();
+    const { updateFilter, resetFilters } = useProductFilter();
 
     const handleCategoryClick = (categor) => {
+       resetFilters();
       const filters = {
         'product-type': [categor]
       };

@@ -5,6 +5,7 @@
     padding: 1px; 
     max-width: 316px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
  /* Increase shadow on hover effect */

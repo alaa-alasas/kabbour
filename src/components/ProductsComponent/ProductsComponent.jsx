@@ -45,7 +45,7 @@ const ProductsComponent = ({category, productId}) => {
         {
           category?  ProductsData.filter(a => a.category == category && a.productId != productId).slice(0, cardsPerRow).map((item,index) => (
             <ProductCardComponent 
-            key={index} 
+            key={item.productId} 
             img={item.img} 
             productId={item.productId}
             productName={t(item.productName)} 
@@ -53,7 +53,7 @@ const ProductsComponent = ({category, productId}) => {
             delay={index}/>
           )) : ProductsData.slice(0, cardsPerRow).map((item,index) => (
             <ProductCardComponent 
-            key={index} 
+            key={item.productId} 
             img={item.img} 
             productId={item.productId}
             productName={t(item.productName)} 

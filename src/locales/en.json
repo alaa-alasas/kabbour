@@ -189,10 +189,10 @@
   "productDetails": "Product Details",
   "product": {
     "1": {
-      "name": "kaharta",
+      "name": "Kharta",
       "desc": "We have long-standing expertise in yerba mate packaging, This specialization has led to the creation of our own brand, Kharta Al khadra, which has become a symbol of quality and trust in the market.",
       "details":{
-        "descTitle": "Description",
+        "descTitle": "",
         "desc" : [
           "",
           ""
@@ -208,8 +208,8 @@
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "200,250,500 g"
+              "title": "Available Net weights",
+              "desc": "25g, 50g, 125g, 150g, 200g, 250g, 500g"
           },
           {
               "title": "Type",
@@ -222,7 +222,7 @@
       "name": "Pipore",
       "desc": "We are an agent and representative for Pipore brand, one of the leading imported yerba mate labels in the Syrian market, known for its high quality and diverse blends. our strong relationships with suppliers and partners in Argentina led to have secured the official rights to package and distribute this brand in Syria, a testament to the trust our international partners place in our expertise and capabilities.",
       "details":{
-        "descTitle": "Description",
+        "descTitle": "",
         "desc" : [
           "",
           ""
@@ -238,8 +238,8 @@
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "200,250,500 g"
+              "title": "Available Net weights",
+              "desc": "250g, 500g"
           },
           {
               "title": "Type",
@@ -252,7 +252,7 @@
       "name": "Taragui",
       "desc": "We are honoured to hold the exclusive license for the Taragüi brand, one of the most renowned yerba mate names worldwide. This partnership reflects global recognition of our expertise and market presence, granting us the official rights to package and distribute Taragüi products in Syria, while maintaining the original quality under the direct supervision of the parent company.",
       "details":{
-        "descTitle": "Description",
+        "descTitle": "",
         "desc" : [
           "",
           ""
@@ -268,8 +268,8 @@
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "250,500 g"
+              "title": "Available Net weights",
+              "desc": "250g"
           },
           {
               "title": "Type",
@@ -280,52 +280,29 @@
     },
     "4": {
       "name": "Amanda",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "Enjoy the unmatched flavor of Amanda, a distinctive yerba mate blend created to satisfy every taste.",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Produced under an official license from the renowned Amanda brand, we guarantee premium quality and traditional excellence in every pack.",
+          "Available in a variety of sizes, Amanda brings the true spirit of mate to your home – a perfect balance of heritage and modern taste. Experience tradition, reimagined for you!"
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+          
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
-          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+          
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "- 44g"
-          },
-          {
-              "title": "Bags",
-              "desc": "20"
+              "title": "Available Net weights",
+              "desc": "250g, 500g"
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Yerba Mate"
           }
         ]
       }
@@ -731,7 +708,7 @@
       }
     },
     "16": {
-      "name": "Natural Zhourat",
+      "name": "Damascene Zhourat",
       "desc": "A calming mix of wild flowers and herbs, perfect for relaxation and gentle wellness.",
       "details":{
         "descTitle": "Description",
@@ -747,7 +724,7 @@
         ],
         "usageInstructionsTitle": "usage Instructions",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Herbal Blend) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "To Preserve the whole delicate flavor, put a bag of campo (Damascene Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
@@ -1272,52 +1249,29 @@
     },
     "31": {
       "name": "Sabrosa",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+      "desc": "Discover Sabrosa, a premium yerba mate blend that embodies tradition while embracing modern taste. Crafted from carefully selected leaves, Sabrosa delivers a smooth, balanced flavor that turns every sip into a moment of pleasure.",
       "details":{
         "descTitle": "Description",
         "desc" : [
-          "The beverage Zhurat considered as the best which protects against colds, flu and cough that increases during the cold weather.",
-          "In addition to that, it also helps to expel toxins from the body, it strengthens the immune system, And also relieves headaches, And removes bloating and helps in the process of digestion."
+          "Designed for those who appreciate quality and authenticity, our blend reflects the rich heritage of mate culture with a contemporary twist.",
+          "Available in a variety of sizes, Sabrosa is more than just a drink—it’s a shared experience that brings people together. Taste the tradition, feel the difference!"
         ],
-        "IngredientsTitle": "Ingredients",
+        "IngredientsTitle": "",
         "Ingredients": [
-          "Damask Rose",
-          "Lemon Balm",
-          "Peppermint",
-          "Yerba Mate",
-          "Primrose",
-          "Chamomile",
-          "Green Tea"
+         
         ],
-        "usageInstructionsTitle": "usageInstructions",
+        "usageInstructionsTitle": "",
         "usageInstructions": [
-          "To Preserve the whole delicate flavor, put a bag of campo (Natural Zhourat) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
-          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+          
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "- 44g"
-          },
-          {
-              "title": "Bags",
-              "desc": "20"
+              "title": "Available Net weights",
+              "desc": "250g, 500g"
           },
           {
               "title": "Type",
-              "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
+              "desc": "Yerba Mate"
           }
         ]
       }
@@ -2335,7 +2289,7 @@
       "name": "Cocoa with Milk ",
       "desc": "the flavor of childhood with creamy cocoa with milk, a delicious blend of smooth cocoa and rich milk.A perfect drink for winter nights or relaxing moments, offering a soothing warmth in every sip.",
       "details":{
-        "descTitle": "Description",
+        "descTitle": "",
         "desc" : [
           "",
           ""
@@ -2349,10 +2303,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "10"
@@ -2985,7 +2935,7 @@
       }
     },
     "79": {
-      "name": "Instant Coffee 2g",
+      "name": "Instant Coffee with Cardamom 2g",
       "desc": "Experience the true taste of coffee with instant coffee for those who crave bold flavor and convenience.",
       "details":{
         "descTitle": "Description",
@@ -3014,7 +2964,7 @@
       }
     },
     "80": {
-      "name": "Instant Coffee with Cardamom 2g",
+      "name": "Instant Coffee 2g",
       "desc": "Experience the true taste of coffee with instant coffee for those who crave bold flavor and convenience.",
       "details":{
         "descTitle": "Description",
@@ -3341,6 +3291,227 @@
           }
         ]
       }
+    },
+    "90":{
+      "name": "Coffee Classic Mixture With Cardamom",
+      "desc": "100% pure coffee, free from any additives, expertly roasted, and selected from the finest beans grown in authentic farms.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Every sip takes you on a journey of natural aroma and balanced flavor, it’s a pure experience for true flavor lovers.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "100% natural coffee beans, with no artificial additives",
+          "Expertly roasted to preserve the original taste",
+          "Rich, balanced, and clean flavor from the first sip to the last drop"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "100g, 200g, 500g"
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "91":{
+      "name": "Coffee Extra Mixture With Cardamom",
+      "desc": "100% pure coffee, free from any additives, expertly roasted, and selected from the finest beans grown in authentic farms.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Every sip takes you on a journey of natural aroma and balanced flavor, it’s a pure experience for true flavor lovers.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "100% natural coffee beans, with no artificial additives",
+          "Expertly roasted to preserve the original taste",
+          "Rich, balanced, and clean flavor from the first sip to the last drop"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "100g, 200g, 500g"
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "92":{
+      "name": "Coffee Extra Mixture With Out Cardamom",
+      "desc": "100% pure coffee, free from any additives, expertly roasted, and selected from the finest beans grown in authentic farms.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Every sip takes you on a journey of natural aroma and balanced flavor, it’s a pure experience for true flavor lovers.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "100% natural coffee beans, with no artificial additives",
+          "Expertly roasted to preserve the original taste",
+          "Rich, balanced, and clean flavor from the first sip to the last drop"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "100g, 200g, 500g"
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "93":{
+      "name": "Coffee Special Gold Mixture With Cardamom",
+      "desc": "100% pure coffee, free from any additives, expertly roasted, and selected from the finest beans grown in authentic farms.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Every sip takes you on a journey of natural aroma and balanced flavor, it’s a pure experience for true flavor lovers.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "100% natural coffee beans, with no artificial additives",
+          "Expertly roasted to preserve the original taste",
+          "Rich, balanced, and clean flavor from the first sip to the last drop"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "100g, 200g, 500g"
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "94":{
+      "name": "Coffee Special Silver Mixture With Cardamom",
+      "desc": "100% pure coffee, free from any additives, expertly roasted, and selected from the finest beans grown in authentic farms.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Every sip takes you on a journey of natural aroma and balanced flavor, it’s a pure experience for true flavor lovers.",
+          ""
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "100% natural coffee beans, with no artificial additives",
+          "Expertly roasted to preserve the original taste",
+          "Rich, balanced, and clean flavor from the first sip to the last drop"
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Net Weight",
+            "desc": "100g, 200g, 500g"
+          },
+          {
+            "title": "Type",
+            "desc": "Coffee"
+          }
+        ]
+      }
+    },
+    "95":{
+      "name": "Pomegranate Herbs",
+      "desc": "Discover the refreshing taste of our Pomegranate Herbal Tea, crafted from premium herbs and infused with the sweet, tangy essence of pomegranate.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each tea bag is individually sealed to preserve its rich aroma and distinctive flavor, ensuring freshness in every cup.",
+          "Perfect for any time of day, this blend offers a soothing, fruity experience you’ll love."
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Rich in antioxidants that help boost the immune system.",
+          "Supports digestion and soothes the stomach.",
+          "Promotes hydration and provides a refreshing natural energy."
+        ],
+        "usageInstructionsTitle": "Method of use:",
+        "usageInstructions": [
+          "To preserve the whole delicate flavor, put a bag of campo (Pomegranate ) in a 250 ml cup, then pour boiling water and leave it for 3 minutes.",
+          "If you want a stronger taste, leave the bag in the water for 4 minutes."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Bags",
+            "desc": "20"
+          },
+          {
+            "title": "Type",
+            "desc": "Herbs"
+          }
+        ]
+      }
+    },
+    "96":{
+      "name": "Premium Instant Sahlab",
+      "desc": "Experience the comforting taste of our premium sahlab mix, a traditional delight crafted for modern convenience.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Enriched with creamy texture and aromatic flavors, it comes in unique varieties like Vanilla and Coconut, bringing a touch of luxury to your cup.",
+          "Packaged in convenient sachets for easy preparation anytime, anywhere. Savor the warmth, taste the tradition!"
+        ],
+        "IngredientsTitle": "",
+        "Ingredients": [
+        ],
+        "usageInstructionsTitle": "",
+        "usageInstructions": [
+          "",
+          ""
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Bags",
+            "desc": "10"
+          },
+          {
+            "title": "Type",
+            "desc": "Hot Drink"
+          }
+        ]
+      }
     }
   },
   "event": {
@@ -3488,7 +3659,7 @@
         },
         {
           "id" : "5",
-          "name": "Cruz de Malta"
+          "name": "Taragui"
         },
         {
           "id" : "6",
@@ -3609,7 +3780,7 @@
       "desc": "In 2016, our product line expanded to include licensed medical mixtures approved by the Syrian Ministry of Health. These mixtures were developed under scientific supervision using numerous medical references."
     },
     "phase7": {
-      "desc": "Coffee was added to Kbour Company's product family in 2021."
+      "desc": "Coffee was added to Kabour Company's product family in 2021."
     }
   },
   "MateBenifitTitle": "Mate",

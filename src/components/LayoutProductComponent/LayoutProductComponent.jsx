@@ -108,7 +108,7 @@ const LayoutProductComponent = ({  }) => {
         <div className="product-cards mb-64">
           {paginatedProducts.map((product, index) => (
             <ProductCardComponent
-              key={index}
+              key={product.productId}
               img={product.img}
               productId={product.productId}
               productDesc={t(product.productDesc)}
