@@ -30,6 +30,7 @@
   "subHeroTitle": "Kabour International Group",
   "subHeroDesc": "A leading company in the production, manufacturing, and distribution of yerba mate across Syria and the Arab world. It operates factories in both Argentina and Syria, follows the highest hygiene standards, and uses advanced technology to produce the finest quality beverage.",
   "BrandTitle":"Our Brands",
+  "YouMayAlsoLikeTitle": "You may also like",
   "ProductsCollectionsTitle": "Products Collections",
   "AboutTitle":"About Our Company",
   "StudiesOnMateTitle" : "Studies on mate",
@@ -40,17 +41,20 @@
     "factory": {
       "argentina": {
         "alt": "Kabour International Group – Our Factory in Syria",
-        "title": "Kabour International Group – Our Factory in Syria",
+        "title": "Kabour International Group",
+        "subTitle": "Our Factory in Syria",
         "desc": "Kabour International Group is a family-owned company began its journey in 1960 as the first importer and specialist in importing yerba mate from Argentina to the Syrian market. With decades of experience and a solid reputation, Kabour became widely known for selecting the finest types of yerba mate, catering to diverse consumer tastes. Through this longstanding expertise, the company earned the trust of international suppliers and solidified its position as a leading name in the yerba mate sector in Syria. We have secured official agencies and packing licenses in Syria from leading brands such as Piporí and Taragüi. In 1985 the factory has been established for preparing and packaging yerba mate In Syria (Yabroud – Rural Damascus). This specialization has led to the creation of our own brand, Khareta Al khadra, which has become a symbol of quality and trust in the market."
       },
       "syria": {
         "alt": "Grupo Kabour – Our Factory in Argentina",
-        "title": "Grupo Kabour – Our Factory in Argentina",
+        "title": "Grupo Kabour",
+        "subTitle": "Our Factory in Argentina",
         "desc": "In 2007 the company started to expand the strategic business and established a big factory in Argentina with our own farms for planting yerba mate, drying, blending then exporting to Syria and packaging according to each kind. It is now one of the leading companies in Argentina which keep the best quality with suitable prices for the exported Yerba Mate to Syria."
       },
       "campo": {
         "alt": "Campo Company",
         "title": "Campo Company",
+        "subTitle": "",
         "desc": "Meanwhile, Campo Company expanded its operations to offer a broad range of products. It entered the field of importing and packing black tea, followed by the establishment of a dedicated facility for green tea, herbal blends, and medicinal infusions. Campo's commitment to scientific research and high-quality standards has made its herbal and wellness products reliable and effective. As part of its growth, Campo also launched a line of roasted coffee packed in vacuum-sealed bags and built a state-of-the-art coffee processing facility equipped with advanced machinery. The company further extended its portfolio to include instant hot drinks and powdered milk, providing a rich and diverse selection to meet the needs of Syrian consumers. This clear distinction—Kabour as the expert in yerba mate and Campo as the innovator behind a wider beverage range—reflects a well-integrated strategy that combines specialization with innovation, always aiming to deliver the highest quality in every product category."
       }
     }
@@ -328,10 +332,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": "- 44g"
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -364,10 +364,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -400,10 +396,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -436,10 +428,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -472,10 +460,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -508,10 +492,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -544,10 +524,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -580,10 +556,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": "44g"
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -616,10 +588,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -627,10 +595,6 @@
           {
               "title": "Type",
               "desc": "Herbs"
-          },
-          {
-              "title": "center",
-              "desc": "center"
           }
         ]
       }
@@ -656,10 +620,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -692,10 +652,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -728,10 +684,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": "- 44g"
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -764,10 +716,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -800,10 +748,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": "- 44g"
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -836,10 +780,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -872,10 +812,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -908,10 +844,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -944,10 +876,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -980,10 +908,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1016,10 +940,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1052,10 +972,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1088,10 +1004,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1124,10 +1036,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1160,10 +1068,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1196,10 +1100,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1232,10 +1132,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1312,18 +1208,6 @@
           {
               "title": "Type",
               "desc": "Hot Drink"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
-          },
-          {
-              "title": "center",
-              "desc": "center"
           }
         ]
       }
@@ -1351,10 +1235,6 @@
 
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1388,10 +1268,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1426,10 +1302,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1463,10 +1335,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1501,10 +1369,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1538,10 +1402,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1576,10 +1436,6 @@
 
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1614,10 +1470,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1650,10 +1502,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1686,10 +1534,6 @@
         "usageInstructions": [         
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1723,10 +1567,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1761,10 +1601,6 @@
         
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1798,10 +1634,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1836,10 +1668,6 @@
 
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1872,10 +1700,6 @@
         "usageInstructions": [          
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1910,10 +1734,6 @@
           "The Green coffee and the green tea reduce the appetite and rinse the free radicals and increase lipolysis; this lowers the LDL, TG, TCH levels. It has a mild diuretic, tonic and antioxidant effects (due to the hibiscus, green tea, green coffee existence). It also helps in dyspeptic complaints. This mixture can be used along with campo laxative mixture when patient is suffering sever or chronic constipation."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1945,10 +1765,6 @@
         "usageInstructions": [    
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -1982,10 +1798,6 @@
           
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2018,10 +1830,6 @@
         "usageInstructions": [          
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2054,10 +1862,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2089,10 +1893,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2126,10 +1926,6 @@
           "This mixture helps to increase the excretion of cholesterol with bile, and it also has a laxative effect if taken with sufficient amounts of water. It also has a diuretic effect that accelerates the removal of toxins from the body."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2163,10 +1959,6 @@
 
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2198,10 +1990,6 @@
         "usageInstructions": [
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2234,10 +2022,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2270,10 +2054,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-           {
-              "title": "Net Weight",
-              "desc": ""
-          },
           {
               "title": "Bags",
               "desc": "20"
@@ -2334,8 +2114,8 @@
         ],
         "poductSpecifications": [
            {
-              "title": "Net Weight",
-              "desc": "90,200,400 g"
+              "title": "Available Net weights",
+              "desc": "90g, 200g, 400g"
           },
           {
               "title": "Type",
@@ -2364,12 +2144,8 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
-            "desc": "400 g"
-          },
-          {
-            "title": "Bags",
-            "desc": "20,25"
+            "title": "Available Net weights",
+            "desc": "400g"
           },
           {
             "title": "Type",
@@ -2400,10 +2176,6 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
-            "desc": ""
-          },
-          {
             "title": "Bags",
             "desc": "20,25"
           },
@@ -2432,10 +2204,6 @@
           
         ],
         "poductSpecifications": [
-          {
-            "title": "Net Weight",
-            "desc": ""
-          },
           {
             "title": "Bags",
             "desc": "24"
@@ -2467,7 +2235,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2500,7 +2268,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2533,7 +2301,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2566,7 +2334,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2599,7 +2367,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2632,7 +2400,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2665,7 +2433,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2698,7 +2466,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2731,7 +2499,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2764,7 +2532,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2797,7 +2565,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2830,7 +2598,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2863,7 +2631,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": ""
+            "desc": "480g"
           },
           {
             "title": "Bags",
@@ -2896,7 +2664,7 @@
         "poductSpecifications": [
           {
             "title": "Net Weight",
-            "desc": "50,100,200,250g"
+            "desc": "50g, 100g, 200g, 250g"
           },
           {
             "title": "Type",
@@ -2924,7 +2692,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "250g"
           },
           {
@@ -2953,7 +2721,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g"
           },
           {
@@ -2982,7 +2750,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g"
           },
           {
@@ -3016,7 +2784,7 @@
           },
           {
             "title": "Type",
-            "desc": "Coffee"
+            "desc": "Hot Drink"
           }
         ]
       }
@@ -3045,7 +2813,7 @@
           },
           {
             "title": "Type",
-            "desc": "Coffee"
+            "desc": "Hot Drink"
           }
         ]
       }
@@ -3074,7 +2842,7 @@
           },
           {
             "title": "Type",
-            "desc": "Coffee"
+            "desc": "Hot Drink"
           }
         ]
       }
@@ -3100,10 +2868,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-          {
-            "title": "Net Weight",
-            "desc": ""
-          },
           {
             "title": "Bags",
             "desc": "20"
@@ -3137,10 +2901,6 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
-            "desc": ""
-          },
-          {
             "title": "Bags",
             "desc": "20"
           },
@@ -3172,10 +2932,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-          {
-            "title": "Net Weight",
-            "desc": ""
-          },
           {
             "title": "Bags",
             "desc": "20"
@@ -3209,10 +2965,6 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
-            "desc": ""
-          },
-          {
             "title": "Bags",
             "desc": "20"
           },
@@ -3224,7 +2976,7 @@
       }
     },
     "88": {
-      "name": "Sage ",
+      "name": "Sage",
       "desc": "Known for its calming and hormone-balancing properties, sage tea has a warm, earthy flavor and therapeutic benefits. ",
       "details":{
         "descTitle": "Description",
@@ -3244,10 +2996,6 @@
           "If you want a stronger taste, leave the bag in the water for 4 minutes."
         ],
         "poductSpecifications": [
-          {
-            "title": "Net Weight",
-            "desc": ""
-          },
           {
             "title": "Bags",
             "desc": "20"
@@ -3282,7 +3030,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "20g, 120g, 250g, 350g, 700g, 900g"
           },
           {
@@ -3314,7 +3062,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g, 200g, 500g"
           },
           {
@@ -3346,7 +3094,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g, 200g, 500g"
           },
           {
@@ -3378,7 +3126,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g, 200g, 500g"
           },
           {
@@ -3410,7 +3158,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g, 200g, 500g"
           },
           {
@@ -3442,7 +3190,7 @@
         ],
         "poductSpecifications": [
           {
-            "title": "Net Weight",
+            "title": "Available Net weights",
             "desc": "100g, 200g, 500g"
           },
           {
@@ -3509,6 +3257,39 @@
           {
             "title": "Type",
             "desc": "Hot Drink"
+          }
+        ]
+      }
+    },
+    "97":{
+      "name": "Black Tea 100 Bag",
+      "desc": "Enjoy a cup of premium black tea preserved inside a tea bag, each individually sealed within a special envelope that locks in freshness and flavor for maximum taste retention.",
+      "details":{
+        "descTitle": "Description",
+        "desc" : [
+          "Each tea bag is carefully protected to deliver a rich, aromatic flavor that reflects the tea’s authenticity and quality.",
+          "Our black tea features a bold and deep taste, with a fragrant aroma that embraces you with every sip — all while ensuring the flavor stays fresh from packing to brewing."
+        ],
+        "IngredientsTitle": "Benefits",
+        "Ingredients": [
+          "Carefully selected high-quality tea leaves",
+          "Special envelope preserves freshness and flavor",
+          "Convenient and quick-to-brew tea bags",
+          "Balanced flavor"
+        ],
+        "usageInstructionsTitle": "Method of use",
+        "usageInstructions": [
+          "To prepare a greate cup of tea use one tea bag for each cup, add freshly boiled water brew the tea bag about 1-2 minutes.",
+          "Before serving, add suger or honey according to your desire, enjoy your tea."
+        ],
+        "poductSpecifications": [
+          {
+            "title": "Bags",
+            "desc": "100"
+          },
+          {
+            "title": "Type",
+            "desc": "Tea"
           }
         ]
       }

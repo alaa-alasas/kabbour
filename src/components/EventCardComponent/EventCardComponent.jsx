@@ -38,18 +38,20 @@ const EventCardComponent = ({ img, images, eventName, eventLocation, eventDate, 
         data-aos-delay={delay * 400}>
         <div className='event-card'>
           <img src={img} alt={eventName} className='event-img' />
-          <h5>{eventName}</h5>
+          <h5>{eventName.slice(0, 50)}.....</h5>
           <div className='event-info-row'>
             <FaLocationDot />
             <span>{eventLocation}</span>
           </div>
-          <div className='event-info-row'>
-            <FaCalendarDays />
-            <span>{eventDate}</span>
-          </div>
-          <div className="event-info-row">
-            <IoMdPhotos />
-            <span>{images.length} </span>
+          <div className="last-row">
+            <div className='event-info-row'>
+              <FaCalendarDays />
+              <span>{eventDate}</span>
+            </div>
+            <div className="event-info-row">
+              <IoMdPhotos />
+              <span>{images.length} </span>
+            </div>
           </div>
         </div>
       </div>

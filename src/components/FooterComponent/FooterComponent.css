@@ -173,7 +173,7 @@ form label{
     padding: 10px;
     border: 2px solid var(--gold26);
     border-radius: 8px;
-    color: #fff;
+    color: var(--white-color);
     font-size: 20px;
 }
   

@@ -14,7 +14,7 @@
   --black17: #191917;
   --black01: #1D1D1B;
   --black15: #11110F;
-  
+  --black16: #000000CC;
   --gold26: #D39326;
   --gold10: #D393261A;
   --gold20: rgba(211, 147, 38, 0.5);
@@ -42,6 +42,7 @@
   --black15: #F1F1F3;
   --black01: #E8E8E8;
   --black17: #DDDDE2;
+  --black16: #FFFFFFCC;
   --grey-black: #1D1D1B;
 }
 

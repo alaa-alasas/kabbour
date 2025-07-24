@@ -46,7 +46,7 @@ const AboutComponent = () => {
 
           return (
                     <div className='card-about-factory' key={index} data-aos="flip-right">
-                      <div className='left-side'>
+                      <div className='left-side' onClick={() => openVideoModal(item.url)}>
                         <img src={item.src} alt={t(item.alt)} className='factory-image'/>
                         <button 
                                 className='video-link' 
@@ -57,7 +57,14 @@ const AboutComponent = () => {
                             </button>
                       </div>
                       <div className='right-side'>
-                        <h4>{t(item.title)}</h4>
+                        <div>
+                          <h4>{t(item.title)}</h4>
+                          {
+                            t(item.subTitle) &&
+                            <h5>{t(item.subTitle)}</h5>
+                          }
+                        </div>
+                        
                         <p>{displayedDesc}</p>
                         {t(item.desc).split(' ').length > 30 && (
                             <BtnComponent

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
-const ProductsComponent = ({category, productId}) => {
+const ProductsComponent = ({category, productId, title}) => {
     const { t } = useTranslation();
     const navigate = useNavigate(); // Initialize the useNavigate hook
     const [cardsPerRow, setCardsPerRow] = useState(0);
@@ -38,7 +38,7 @@ const ProductsComponent = ({category, productId}) => {
   return (
     <section className='products-section px-64 mb-64'>
       <div className='title-section-products'>
-          <TitleComponent title={t("OurProductsTitle")} />
+          <TitleComponent title={title} />
           <BtnComponent title={t("SeeMore")} handleClick={handleClick} />
       </div>
       <div className='product-cards'>

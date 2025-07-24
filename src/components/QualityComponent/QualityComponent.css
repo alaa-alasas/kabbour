@@ -26,14 +26,15 @@
     height: 358px;
     max-width: 770px;
     border-radius: 28px;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    transform-style: preserve-3d;
 }
 
 /* ===========================
    Hover effect for the login button
    =========================== */
 .quality-sec .card-quality-sec .left-side .factory-image:hover {
-    transform: scale(1.1);
+    transform: translateZ(80px) scale(1.03);
 }
 
 
@@ -61,7 +62,7 @@
 }
 
 .quality-sec .card-quality-sec .right-side a {
-    color: var(--grfaey03);
+    color: var(--grey03);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;

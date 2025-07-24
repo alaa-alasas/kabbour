@@ -48,6 +48,16 @@ nav.scrolled {
     line-height: 21px;
 }
 
+.nav-menu li button{
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-color);
+    line-height: 21px;
+    cursor: pointer;
+}
+
 /* ===========================
    Active link styling
    =========================== */

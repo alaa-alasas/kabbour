@@ -6,6 +6,7 @@
     transition: all 0.3s ease;
     max-width: 316px;
     min-height: 260px;
+    cursor: pointer;
 }
 
  /* Increase shadow on hover effect */
@@ -29,6 +30,7 @@
 .event-card .event-img{
     width: 100%;
     max-width: 300px;
+    height: 190px;
     border-radius: 8px;
     transition: transform 0.3s ease; 
 }
@@ -44,7 +46,8 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 33.6px;
-    letter-spacing: 0;
+    height: 67.2px;
+    -webkit-box-orient: vertical;
 }
 
 .event-card .event-info-row{
@@ -64,7 +67,12 @@
     letter-spacing: 0;
 }
 
-
+.event-card .last-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
 
 .modal-content {  
     padding: 40px;

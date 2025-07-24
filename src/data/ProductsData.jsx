@@ -1686,7 +1686,8 @@ export const ProductsData = [
             usageInstructions: 'product.61.details.usageInstructions',
             poductSpecifications: 'product.61.details.poductSpecifications'
         }
-    },{
+    },
+    {
         img: "/ProductDetails/Tea/blackBag/black20.webp",
         productId: 62,
         category: "2",       
@@ -1708,7 +1709,31 @@ export const ProductsData = [
             usageInstructions: 'product.62.details.usageInstructions',
             poductSpecifications: 'product.62.details.poductSpecifications'
         }
-    },{
+    },
+    {
+        img: "/ProductDetails/Tea/blackBag100/blackBag100.webp",
+        productId: 97,
+        category: "2",       
+        brand: "1",
+        productName: "product.97.name", 
+        productDesc: "product.97.desc",
+        images:[
+            "/ProductDetails/productDetails1",
+            "/ProductDetails/productDetails2",
+        ],
+        details:{
+            images: [ 
+                "/ProductDetails/Tea/blackBag100/blackBag100.webp",
+                "/ProductDetails/Tea/blackBag100/1.webp",
+            ],
+            flowerImg: "/ProductDetails/Tea/blackBag100/2.webp",
+            desc:'product.97.details.desc',
+            ingredients: 'product.97.details.Ingredients',
+            usageInstructions: 'product.97.details.usageInstructions',
+            poductSpecifications: 'product.97.details.poductSpecifications'
+        }
+    }
+    ,{
         img: "/ProductDetails/Juice/fruit/fruit.webp",
         productId: 64,
         category: "6",       

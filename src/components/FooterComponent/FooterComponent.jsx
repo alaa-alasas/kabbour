@@ -107,7 +107,7 @@ const FooterComponent = () => {
         </div>
 
         {/* قسم نموذج الاتصال */}
-        <div className="footer-col">
+        <div className="footer-col" id='contact-form'>
           <h4 className="title-footer">{t("contactUs.title")}</h4>
           <form onSubmit={handleSubmit} id="contactUs">
             <div>

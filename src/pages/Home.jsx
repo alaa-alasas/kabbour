@@ -8,10 +8,11 @@ import StudyCardsComponent from '../components/StudyCardsComponent/StudyCardsCom
 import ProductsComponent from '../components/ProductsComponent/ProductsComponent'
 import EventsComponent from '../components/EventsComponent/EventsComponent'
 import InfoAboutComponent from '../components/InfoAboutComponent/InfoAboutComponent'
+import { useTranslation } from 'react-i18next'
 
 
 const Home = () => {
-
+  const { t } = useTranslation();
   return (
     <div className='Responsive'>
       <HeroComponent />
@@ -21,7 +22,7 @@ const Home = () => {
       <QualityComponent />
       <BrandSliderComponent />
       <StudyCardsComponent />
-      <ProductsComponent title={"Our Products"}/>
+      <ProductsComponent title={t("OurProductsTitle")}/>
       <EventsComponent />
     </div>
   )

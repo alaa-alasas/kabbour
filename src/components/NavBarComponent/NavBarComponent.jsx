@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import './NavBarComponent.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
 import { IoSunny } from "react-icons/io5";
@@ -15,20 +15,44 @@ const NavBarComponent = ({img,navData}) => {
   const { t } = useTranslation();
   const { mode, toggleMode } = useContext(ThemeModeContext);
   const { resetFilters } = useProductFilter();
-  
-// ===========================
-// Handle scroll event to add "scrolled" class to the navbar
-// ===========================
-useEffect(() => {
-  const handleScroll = () => {
-    setScrolling(window.scrollY > 50); // Add "scrolled" class if scrolled more than 50px
+  const navigate = useNavigate();
+  const location = useLocation(); 
+
+  const scrollToSection = (sectionId) => {
+    const currentPath = location.pathname; 
+    const element = document.getElementById(sectionId);
+
+    if (element) {
+      // Element exists on current page — just scroll
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // Element not found (maybe on another route), navigate and scroll
+      const targetUrl = `${currentPath}#${sectionId}`;
+      navigate(targetUrl);
+
+      // Wait for navigation/render, then scroll
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
   };
 
-  window.addEventListener("scroll", handleScroll); // Add scroll event listener
-  return () => {
-    window.removeEventListener("scroll", handleScroll); // Clean up event listener on unmount
-  };
-}, []);
+  // ===========================
+  // Handle scroll event to add "scrolled" class to the navbar
+  // ===========================
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolling(window.scrollY > 50); // Add "scrolled" class if scrolled more than 50px
+    };
+
+    window.addEventListener("scroll", handleScroll); // Add scroll event listener
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Clean up event listener on unmount
+    };
+  }, []);
 
 
   return (
@@ -49,9 +73,13 @@ useEffect(() => {
           ))
         }
         <li>
-          <a className=''>
-
-          </a>
+          <button 
+            type="button"
+            onClick={() => scrollToSection('contact-form')}
+            className="nav-link"
+          >
+            {t('nav.contact')}
+          </button>
         </li>
         <li className="mobileLanguageWrapper">
            <LanguageDropdown isMobile={true} closeNav={() =>  setIsOpen(!isOpen)}/>
